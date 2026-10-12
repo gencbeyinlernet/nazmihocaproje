@@ -28,4 +28,4 @@ Videolar henüz üretilmedi veya bölümlere ayrı ayrı bağlanmadı. Şimdilik
 
 ## Kurum logosu
 
-Kullanıcının sağladığı özgün logo `assets/rize-mem-logo.jpg` olarak eklendiğinde başlık ve sertifikada otomatik görünür; orantıları korunur. Dosya gelene kadar başlıkta geçici kurum adı işareti kalır. Logo bağlantısı temsilî bir test görseliyle doğrulandı; özgün logo bu çalışma alanında henüz bulunmuyor.
+Kullanıcının yüklediği özgün `logo.jpg` başlıkta ve sertifikada doğrudan kullanılır. Görselin renkleri ve orantıları korunur; mobilde ve yazdırmada uygun boyutta gösterilir.
