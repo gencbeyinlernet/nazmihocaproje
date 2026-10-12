@@ -25,3 +25,7 @@ Herhangi bir statik web sunucusunda da çalışır. `index.html` dosyasını do�
 Videolar henüz üretilmedi veya bölümlere ayrı ayrı bağlanmadı. Şimdilik verilen ortak Drive klasörü açılır. Kullanıcı izlediğini işaretler; otomatik video izleme doğrulaması yoktur. Hikâyeler video senaryolarının ilk anlatı taslaklarıdır; sahne planı ve seslendirme metni ayrı bir üretim aşamasıdır.
 
 İlerleme ve sertifika adı yalnızca tarayıcının localStorage alanında tutulur. Sunucu, kullanıcı hesabı, cihazlar arası eşitleme ve resmi sertifika doğrulaması yoktur. Google Fonts isteğe bağlıdır; erişilemezse yerel sans-serif font kullanılır. Yayına alma daha sonraki aşamadır.
+
+## Kurum logosu
+
+Kullanıcının sağladığı özgün logo `assets/rize-mem-logo.jpg` olarak eklendiğinde başlık ve sertifikada otomatik görünür; orantıları korunur. Dosya gelene kadar başlıkta geçici kurum adı işareti kalır. Logo bağlantısı temsilî bir test görseliyle doğrulandı; özgün logo bu çalışma alanında henüz bulunmuyor.
