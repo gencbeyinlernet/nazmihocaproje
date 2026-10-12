@@ -1,6 +1,6 @@
 # Merak Bahçesi
 
-Çocuklar için beş bölümden oluşan Türkçe öğrenme platformu. Her bölüm: özgün metne bağlı ayrı hikâye → Google Drive video klasörü → beş soruluk sınav. Sınavda her doğru yanıt 20 puandır. Tüm sorular cevaplandığında sonraki bölüm açılır; tekrar denemede en yüksek puan saklanır. Beş bölümün sonunda rozet ve yazdırılabilir katılım sertifikası açılır.
+Çocuklar için sekiz bölümden oluşan Türkçe öğrenme platformu. Her bölüm: özgün metne bağlı ayrı hikâye → Google Drive video klasörü → konu oyunu → beş soruluk sınav. Oyun bitirilmeden sınava geçilemez; oyunlar sınav puanını etkilemez. Sınavda her doğru yanıt 20 puandır. Tüm sorular cevaplandığında sonraki bölüm açılır; tekrar denemede en yüksek puan saklanır. Sekiz bölümün sonunda rozet ve yazdırılabilir katılım sertifikası açılır.
 
 ## Çalıştırma
 
@@ -16,7 +16,10 @@ Herhangi bir statik web sunucusunda da çalışır. `index.html` dosyasını do�
 ## İçerik
 
 - `assets/source.txt`: Kullanıcının özgün metni; hikâyelerden ayrı tutulur.
-- `assets/app.js`: Beş hikâye, 25 soru, video klasör bağlantısı ve uygulama akışı.
+- `assets/app.js`: İlk beş bölüm ve uygulama akışı.
+- `assets/activities.js`: Üç ek bölüm ve sekiz konu oyunu; toplam 40 soru.
+- Oyun türleri: kavram eşleştirme, sıralama ve sınıflandırma. Mobil ve klavyeyle oynanır, zaman sınırı yoktur.
+- Önceki beş bölümlük sürümde kaydedilen puanlar korunur; ek bölümler tamamlanınca sertifika yeniden açılır.
 - `assets/style.css`: Mobil tasarım, klavye odağı ve sertifika yazdırma stili.
 
 Videolar henüz üretilmedi veya bölümlere ayrı ayrı bağlanmadı. Şimdilik verilen ortak Drive klasörü açılır. Kullanıcı izlediğini işaretler; otomatik video izleme doğrulaması yoktur. Hikâyeler video senaryolarının ilk anlatı taslaklarıdır; sahne planı ve seslendirme metni ayrı bir üretim aşamasıdır.
