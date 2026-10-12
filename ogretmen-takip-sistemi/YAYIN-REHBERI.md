@@ -8,7 +8,7 @@ Kimin kullanacağını, hangi amaçla hazırlanacağını ve hangi alanları ist
 
 Örnek:
 
-> “Burak TURGUT Öğretmen Takip Sistemi adında, öğretmenin dijital çantası gibi bir site hazırla. Görevler, ders programı, hazırlık planları, kişisel evraklar, önemli tarihler ve notlar olsun. Öğrenci bilgileri veya öğrenci evrakları olmasın. Mobil uyumlu olsun ve GitHub Pages üzerinde ücretsiz çalışacak HTML, CSS ve JavaScript kullan.”
+> “Burak TURGUT Öğretmen Takip ve Bilgi Kaynak Sistemi adında, öğretmenin dijital çantası gibi bir site hazırla. Görevler, ders programı, hazırlık planları, kişisel evraklar, önemli tarihler ve notlar olsun. Öğrenci bilgileri veya öğrenci evrakları olmasın. Mobil uyumlu olsun ve GitHub Pages üzerinde ücretsiz çalışacak HTML, CSS ve JavaScript kullan.”
 
 Görsel önerisi: Bu isteğin ChatGPT’ye yazıldığı ekran ve yanında sitenin bölüm kartları.
 

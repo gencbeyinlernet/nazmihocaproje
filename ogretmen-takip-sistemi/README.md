@@ -1,4 +1,4 @@
-# Burak TURGUT Öğretmen Takip Sistemi
+# Burak TURGUT · Öğretmen Takip ve Bilgi Kaynak Sistemi
 
 Öğretmenin dijital çantası: görevler, haftalık ders programı, hazırlık planları ve kontrol listeleri, kişisel evraklar, önemli tarihler, notlar ve eğitim bağlantıları. Öğrenci bilgisi ve öğrenci evrakı için alan içermez.
 
@@ -25,3 +25,7 @@ GitHub Free hesabında herkese açık bir depo ve GitHub Pages kullanılabilir. 
 Bağımsız bir depo açıldığında `index.html` kökte, `assets` klasörü yanında olmalıdır. Settings → Pages → Deploy from a branch → main → / (root) → Save. Ayrıntılı paylaşım rehberi: `YAYIN-REHBERI.md`.
 
 Bu çalışma için ilk test yayını mevcut nazmihocaproje Pages sitesindeki `/ogretmen-takip-sistemi/` klasörü altında hazırlanmıştır; ana Merak Bahçesi uygulamasına dokunulmaz.
+
+## Örnek içerikler
+
+İlk açılışta 5 görev, 19 ders/çalışma saati, 3 hazırlık planı, 3 tarih, 3 not, 4 kaynak bağlantısı ve 3 indirilebilir metin şablonu eklenir. Başlıklar örnek olarak işaretlenir; tarihler resmî takvim değildir. Mevcut kayıtlar korunur, çakışan ders hücreleri değiştirilmez. Örnekler yalnızca bir kez eklenir ve silinen kayıtlar sayfa yenilenince geri gelmez.
