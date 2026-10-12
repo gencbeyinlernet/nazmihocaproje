@@ -29,3 +29,5 @@ Bu çalışma için ilk test yayını mevcut nazmihocaproje Pages sitesindeki `/
 ## Örnek içerikler
 
 İlk açılışta 5 görev, 19 ders/çalışma saati, 3 hazırlık planı, 3 tarih, 3 not, 4 kaynak bağlantısı ve 3 indirilebilir metin şablonu eklenir. Başlıklar örnek olarak işaretlenir; tarihler resmî takvim değildir. Mevcut kayıtlar korunur, çakışan ders hücreleri değiştirilmez. Örnekler yalnızca bir kez eklenir ve silinen kayıtlar sayfa yenilenince geri gelmez.
+
+Özet kartları ilk açılışta sunum için 2 görev, 3 ders, 178 evrak ve 78 yaklaşan tarih gösterir. Bunlar temsilî sayılardır. “Kayıtlarıma göre göster” düğmesi, mevcut tarayıcı kayıtlarından hesaplanan gerçek sayılara geçer; bu görünüm kayıtları değiştirmez.
