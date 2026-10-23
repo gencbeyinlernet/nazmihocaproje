@@ -22,9 +22,9 @@ Her kart konu, hikâye adı ve kahramanları gösterir. Açıldığında kısa b
 
 ## Görsel ve seslendirme atölyesi
 
-4. sınıf için üç görselli içerik hazır: **Bir Selamın Açtığı Kapı**, **Dilek Kutusundaki İyilik** ve özgün saray metnine bağlı ek çalışma **Bir Saray, Bir Soru**. İlk ikisi kitaptaki konu kartlarına bağlıdır. Her içerik 7 × 8 = 56 saniye olarak planlanmıştır; toplam 21 ayrı özgün görsel bulunur.
+4. sınıf için üç görselli içerik hazır: **Bir Selamın Açtığı Kapı**, **Dilek Kutusundaki İyilik** ve özgün saray metnine bağlı ek çalışma **Bir Saray, Bir Soru**. Her görsele ait 21 ayrı Türkçe örnek ses dosyası da vardır. İlk ikisi kitaptaki konu kartlarına bağlıdır. Her içerik 7 × 8 = 56 saniye olarak planlanmıştır; toplam 21 ayrı özgün görsel bulunur.
 
-Öğretmen, sahneleri ileri/geri seçebilir; konuşmacıyı, repliği ve hareket tarifini okuyabilir. Görseller, seslendirme metni ve SRT altyazı taslağı indirilebilir. Önizleme resimleri 8 saniyede bir değiştirir; animasyon veya MP4 üretmez. Kullanıcı seslendirmeyi daha sonra hazırlayacaktır. Cihazdan seçilen ses yalnızca açık sayfada denenir, sunucuya yüklenmez ve yenilemede silinir. Kalıcı yayın için sahnenin `audioUrl`/`videoUrl` alanı düzenlenmelidir.
+Öğretmen, sahneleri ileri/geri seçebilir; konuşmacıyı, repliği ve hareket tarifini okuyabilir. Görseller, seslendirme metni ve SRT altyazı taslağı indirilebilir. Varsayılan “Görsel + seslendirme” oynatımı her görselin kendi kaydını dinletir, kayıt bittiğinde sonraki görsele geçer. Konuşmayı 8. saniyede kesmez. Mevcut örnek kayıtlar tam 8 saniyedir; toplam 56 saniyedir. “Sessiz görsel önizleme” ayrı bir seçenektir. Animasyon veya MP4 üretilmez. Sesler ücretsiz Piper Türkçe motoruyla oluşturulmuş örnek anlatıcı kayıtlarıdır; OpenAI.fm kaydı veya karakterlere özel oyuncu kaydı olarak sunulmaz. Kullanıcı bunları sonradan değiştirebilir. Cihazdan seçilen ses yalnızca açık sayfada denenir, sunucuya yüklenmez ve yenilemede silinir. Kalıcı yayın için sahnenin `audioUrl`/`videoUrl` alanı düzenlenmelidir.
 
 Üretim şeması: [URETIM-ALTYAPISI.md](URETIM-ALTYAPISI.md). Tam senaryolar: `video-ornekleri/7-sahne-*/SENARYO.md`.
 
@@ -32,6 +32,8 @@ Her kart konu, hikâye adı ve kahramanları gösterir. Açıldığında kısa b
 
 - `assets/productions.js`, `studio.js`, `studio.css`: yedi sahnelik görsel, replik ve seslendirme önizlemesi.
 - `assets/scenes/`: 21 ayrı sahne görseli.
+- `assets/audio/`: 21 ayrı WAV seslendirme, kaynak/model kartı ve eşleştirme dökümü.
+- `scripts/generate-voices.py`: isteğe bağlı çevrimdışı ses üretim aracı; siteyi kullanmak için kurulmaz.
 - `assets/catalog.js`: 4–12 sınıf, ünite ve sıralı konu verileri. 7. sınıfın kaynak listesi beklenir.
 - `assets/portal.js`, `portal.css`: sınıf seçimi ve öğretmen içerik oynatıcısı.
 - `assets/privacy.js`, `privacy.css`: içerikten önce gizlilik/kullanım ekranı. İzin mercii Rize İl Millî Eğitim Müdürlüğüdür.

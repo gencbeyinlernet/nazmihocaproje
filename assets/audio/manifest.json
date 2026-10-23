@@ -1,0 +1,219 @@
+{
+  "engine": "Piper TTS 1.8.0",
+  "voice": "tr_TR-fettah-medium",
+  "datasetLicense": "CC0 (model card)",
+  "voiceSource": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-tr_TR-fettah-medium.tar.bz2",
+  "notes": "Örnek yapay zekâ anlatıcı sesi. Her sahne 8 saniye; konuşma kesilmeden kısa sessizlik eklenir. OpenAI.fm veya gerçek karakter kaydı değildir.",
+  "scenes": [
+    {
+      "id": "selam-01",
+      "speaker": "Anlatıcı",
+      "text": "Yeni bir gün başlıyor. Ece, ilk kez geldiği sınıfını arıyor.",
+      "audioUrl": "assets/audio/selam/01.wav",
+      "seconds": 8,
+      "rawSeconds": 4.818,
+      "tempo": 1,
+      "sha256": "0d85d6523e7b865e016e172e927818ef981efb5ae99def4c091daaf580023c9a"
+    },
+    {
+      "id": "selam-02",
+      "speaker": "Ali",
+      "text": "Selamünaleyküm Ece! Hoş geldin. İstersen sınıfımıza birlikte gidelim.",
+      "audioUrl": "assets/audio/selam/02.wav",
+      "seconds": 8,
+      "rawSeconds": 5.759,
+      "tempo": 1,
+      "sha256": "a491a11818581941534537dc1b6e9c9a6f66c680471075cec261ca64d6fdd5ad"
+    },
+    {
+      "id": "selam-03",
+      "speaker": "Ece",
+      "text": "Aleykümselam Ali! Selamlaşınca kendimi daha rahat hissettim.",
+      "audioUrl": "assets/audio/selam/03.wav",
+      "seconds": 8,
+      "rawSeconds": 4.911,
+      "tempo": 1,
+      "sha256": "9e183f966330071810a7beaa2309d4693aede67c152947d649cb7bc97e010993"
+    },
+    {
+      "id": "selam-04",
+      "speaker": "Ece",
+      "text": "Öğretmenim, selam verirken birbirimize ne diliyoruz?",
+      "audioUrl": "assets/audio/selam/04.wav",
+      "seconds": 8,
+      "rawSeconds": 4.191,
+      "tempo": 1,
+      "sha256": "3c12ee6ab185b403dc6e1a8e5f4e1aa0481fb19af93ba559d78e5aec1eb0b747"
+    },
+    {
+      "id": "selam-05",
+      "speaker": "Öğretmen",
+      "text": "Birbirimize esenlik ve iyilik diliyoruz. Güzel sözlerimiz, güzel davranışlarla tamamlanır.",
+      "audioUrl": "assets/audio/selam/05.wav",
+      "seconds": 8,
+      "rawSeconds": 7.221,
+      "tempo": 1,
+      "sha256": "aa7bfd6d3f4e08cb2e17a91c81feb764f0e998aad55f211d31f7c363374b1d25"
+    },
+    {
+      "id": "selam-06",
+      "speaker": "Ali",
+      "text": "Arkadaşımıza yardım edelim. Selamımızı bir iyilikle tamamlayalım.",
+      "audioUrl": "assets/audio/selam/06.wav",
+      "seconds": 8,
+      "rawSeconds": 5.283,
+      "tempo": 1,
+      "sha256": "6f3e8f1347e2fd64aa1616fa0946794d3b5b4dbe7a1b0af775cdbf00d7840bdc"
+    },
+    {
+      "id": "selam-07",
+      "speaker": "Ece",
+      "text": "Bir selam, yeni bir dostluğun başlangıcı olabilir. Sen bugün kime selam vereceksin?",
+      "audioUrl": "assets/audio/selam/07.wav",
+      "seconds": 8,
+      "rawSeconds": 6.269,
+      "tempo": 1,
+      "sha256": "58d56aa4d33ad40e82142b5f78ada959dd4e6acd2e32196aa5ceb08fcaf09d4c"
+    },
+    {
+      "id": "dilek-01",
+      "speaker": "Anlatıcı",
+      "text": "Ece ve Ali, sınıflarında bir iyi dilek kutusu hazırlıyor.",
+      "audioUrl": "assets/audio/dilek/01.wav",
+      "seconds": 8,
+      "rawSeconds": 5.016,
+      "tempo": 1,
+      "sha256": "48aff8104ba0ddc58c6f7d9175a20d2a06e9df902eb62e7e836646fdb521f527"
+    },
+    {
+      "id": "dilek-02",
+      "speaker": "Ece",
+      "text": "Bir arkadaşımız bugün yanımızda değil. Ona güzel dileklerimizi iletebiliriz.",
+      "audioUrl": "assets/audio/dilek/02.wav",
+      "seconds": 8,
+      "rawSeconds": 5.979,
+      "tempo": 1,
+      "sha256": "892efd27252bedc8c4ee83139fc74d593374e24e63ea8b0ab3164ebf15443891"
+    },
+    {
+      "id": "dilek-03",
+      "speaker": "Ali",
+      "text": "Allah’ım, arkadaşımıza sağlık ve iyilik ver. Ona güzel bir destek olabilelim.",
+      "audioUrl": "assets/audio/dilek/03.wav",
+      "seconds": 8,
+      "rawSeconds": 6.397,
+      "tempo": 1,
+      "sha256": "b1baa7265c9a7e1e4bc7ea7e3939645da74dcf7ba6032882c495b65f980f370d"
+    },
+    {
+      "id": "dilek-04",
+      "speaker": "Öğretmen",
+      "text": "Dua, Allah’a yönelmek ve yardım dilemektir. Dualarımızda şükür ve iyi dileklerimiz de olabilir.",
+      "audioUrl": "assets/audio/dilek/04.wav",
+      "seconds": 8,
+      "rawSeconds": 7.419,
+      "tempo": 1,
+      "sha256": "5f93096ce0f1bad333d66ae91d745e46a48c5f3a8b425a61c66868fc50c3e947"
+    },
+    {
+      "id": "dilek-05",
+      "speaker": "Ece",
+      "text": "Dua ederken yardım etmeyi de unutmayalım. Ders notlarımızı onunla paylaşabiliriz.",
+      "audioUrl": "assets/audio/dilek/05.wav",
+      "seconds": 8,
+      "rawSeconds": 6.385,
+      "tempo": 1,
+      "sha256": "b73f38087407dcf115e2aa68e9e8e7d8a8e9f3453e3ed38e624ed43b51a3258d"
+    },
+    {
+      "id": "dilek-06",
+      "speaker": "Ali",
+      "text": "Arkadaşımızı yalnız bırakmayalım. Güzel bir dileği bir iyilikle destekleyelim.",
+      "audioUrl": "assets/audio/dilek/06.wav",
+      "seconds": 8,
+      "rawSeconds": 5.677,
+      "tempo": 1,
+      "sha256": "6b2139a1c5879f1c328c76c16e8d3871e1ef8757b1bd94ef869a14ceb0d2cd69"
+    },
+    {
+      "id": "dilek-07",
+      "speaker": "Anlatıcı",
+      "text": "Bugün biri için hangi güzel dilekte bulunmak ve hangi iyiliği yapmak istersin?",
+      "audioUrl": "assets/audio/dilek/07.wav",
+      "seconds": 8,
+      "rawSeconds": 5.875,
+      "tempo": 1,
+      "sha256": "02e2da099204f7fd87b4bbdba574860ff6e1fb603c02dabe8b943811fadc403a"
+    },
+    {
+      "id": "saray-01",
+      "speaker": "Anlatıcı",
+      "text": "Ece ile Ali, bir düşünme oyununda büyük bir saray hayal ediyor.",
+      "audioUrl": "assets/audio/saray/01.wav",
+      "seconds": 8,
+      "rawSeconds": 5.19,
+      "tempo": 1,
+      "sha256": "a32f0bd8ec5665a20849fe80e3cc0684ec734e32bd33a25ba33ce6dc3c3ddf2d"
+    },
+    {
+      "id": "saray-02",
+      "speaker": "Ece",
+      "text": "Yiyecekler, giyecekler, su… İhtiyacımız olan birçok şey özenle hazırlanmış.",
+      "audioUrl": "assets/audio/saray/02.wav",
+      "seconds": 8,
+      "rawSeconds": 5.968,
+      "tempo": 1,
+      "sha256": "d3c8e0e9a9fe988238f729ed977364acfcd39d232b2674e0a88bcf40ef6e3c35"
+    },
+    {
+      "id": "saray-03",
+      "speaker": "Ali",
+      "text": "Bahçıvan çiçekleri suluyor. Herkes bir görev üstlenmiş gibi görünüyor.",
+      "audioUrl": "assets/audio/saray/03.wav",
+      "seconds": 8,
+      "rawSeconds": 5.433,
+      "tempo": 1,
+      "sha256": "cfd2d620833da2b557d527b4af02e3003b6ea9574d7cf1fdb893f68c60fd8844"
+    },
+    {
+      "id": "saray-04",
+      "speaker": "Ece",
+      "text": "Peki, bu saray niçin hazırlandı? Bizden hangi sorumluluklar bekleniyor olabilir?",
+      "audioUrl": "assets/audio/saray/04.wav",
+      "seconds": 8,
+      "rawSeconds": 6.827,
+      "tempo": 1,
+      "sha256": "53572f922f71ca7e5cb9a249064bb8c16b9c472c648a8970cc1def1162563973"
+    },
+    {
+      "id": "saray-05",
+      "speaker": "Rehber",
+      "text": "Kurallarımızı ve görevlerimizi birlikte öğrenelim. Böylece birbirimize ve düzenimize özen gösterebiliriz.",
+      "audioUrl": "assets/audio/saray/05.wav",
+      "seconds": 8,
+      "rawSeconds": 8.278,
+      "tempo": 1.0892,
+      "sha256": "0084ff33d91293bcc526a8ad03aa34b3c6c5aa641bbe0b2ccfd7edf84bdf41fa"
+    },
+    {
+      "id": "saray-06",
+      "speaker": "Anlatıcı",
+      "text": "Bu örnek; amaç, görev ve görevlerin bildirilmesi arasındaki bağlantıyı düşündürür.",
+      "audioUrl": "assets/audio/saray/06.wav",
+      "seconds": 8,
+      "rawSeconds": 6.908,
+      "tempo": 1,
+      "sha256": "e841146fbaf13f269fbd6626a8b6517c17bb10ffaedd5076282e0569ad43c58a"
+    },
+    {
+      "id": "saray-07",
+      "speaker": "Anlatıcı",
+      "text": "İslam’da peygamberler, Allah’ın mesajlarını insanlara iletir. Sen hangi sorumluluklarını düşünüyorsun?",
+      "audioUrl": "assets/audio/saray/07.wav",
+      "seconds": 8,
+      "rawSeconds": 8.278,
+      "tempo": 1.0892,
+      "sha256": "c59307ae2a5e6d93b4ff8be50239a43e5539a2f7dec2cf6788fd698e487ba889"
+    }
+  ]
+}

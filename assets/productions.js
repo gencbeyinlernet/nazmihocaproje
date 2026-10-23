@@ -1,5 +1,5 @@
 'use strict';
-// Visual storyboards only. Blank media URLs mean voice/video files are not supplied yet.
+// Seven-scene image stories. Synthetic demo audio is replaceable; video URLs remain empty.
 window.MERAK_PRODUCTIONS = [
   {
     "id": "selam",
@@ -29,8 +29,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Yeni bir gün başlıyor. Ece, ilk kez geldiği sınıfını arıyor.",
         "visual": "Okul girişinde Ece küçük krem çantasıyla durur; Ali onu sıcak bir gülümsemeyle fark eder.",
         "motion": "Geniş okul görüntüsünden çocuklara doğru çok yavaş yaklaş. Yapraklar hafifçe hareket etsin; Ece etrafına merakla baksın.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/selam/01.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "selam-02",
@@ -45,8 +48,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Selamünaleyküm Ece! Hoş geldin. İstersen sınıfımıza birlikte gidelim.",
         "visual": "Okulun aynı kapısında Ali, Ece’ye dostça el sallayarak selam verir.",
         "motion": "Orta planda Ali’nin doğal el sallamasını ve konuşurken yüz hareketlerini göster. Ece gülümseyerek dinlesin.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/selam/02.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "selam-03",
@@ -61,8 +67,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Aleykümselam Ali! Selamlaşınca kendimi daha rahat hissettim.",
         "visual": "Ece, Ali’nin selamına gülümseyerek karşılık verir; okul bahçesinde yan yana yürümeye hazırlanırlar.",
         "motion": "Kamerayı Ece’nin yüzüne hafifçe yaklaştır. Doğal bir gülümseme ve küçük baş hareketi kullan; sonra iki çocuk aynı yöne baksın.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/selam/03.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "selam-04",
@@ -77,8 +86,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Öğretmenim, selam verirken birbirimize ne diliyoruz?",
         "visual": "Aydınlık sınıfta Ece, öğretmenine el kaldırıp soru sorar; Ali yanında dinler.",
         "motion": "Sabit orta plan. Ece elini sakince kaldırsın ve sorusunu sorsun; öğretmen dikkatle dinlesin.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/selam/04.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "selam-05",
@@ -93,8 +105,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Birbirimize esenlik ve iyilik diliyoruz. Güzel sözlerimiz, güzel davranışlarla tamamlanır.",
         "visual": "Güler yüzlü öğretmen, Ece ve Ali’ye selamlaşmanın anlamını anlatır; sınıf sakin ve aydınlıktır.",
         "motion": "Öğretmen yumuşak bir el hareketiyle konuşsun. Çocuklar göz teması kurarak dinlesin; hızlı kesme kullanma.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/selam/05.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "selam-06",
@@ -109,8 +124,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Arkadaşımıza yardım edelim. Selamımızı bir iyilikle tamamlayalım.",
         "visual": "Ece ve Ali, yere birkaç defteri düşen bir sınıf arkadaşına yardım eder.",
         "motion": "Düşen birkaç defterden yardım eden ellere ve çocukların yüzlerine yavaşça geç. Hareketler sakin, anlaşılır ve doğal olsun.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/selam/06.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "selam-07",
@@ -125,10 +143,14 @@ window.MERAK_PRODUCTIONS = [
         "text": "Bir selam, yeni bir dostluğun başlangıcı olabilir. Sen bugün kime selam vereceksin?",
         "visual": "Ece ve Ali, yardım ettikleri arkadaşlarıyla okul bahçesinde birlikte gülümser.",
         "motion": "Çocuklardan başlayıp bahçeyi gösteren hafif bir geri açılma yap. Ece konuşsun; son iki saniyede sakin bir kapanış karesi tut.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/selam/07.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       }
-    ]
+    ],
+    "audioStatus": "synthetic-demo"
   },
   {
     "id": "dilek",
@@ -158,8 +180,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Ece ve Ali, sınıflarında bir iyi dilek kutusu hazırlıyor.",
         "visual": "Ece ve Ali, sınıf masasındaki küçük karton kutuyu renkli düz kâğıt şekilleriyle süsler.",
         "motion": "Kâğıt şekillerden çocuklara doğru yavaş bir kamera hareketi yap. Ece bir kâğıt yıldızı kutuya yerleştirsin.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/dilek/01.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "dilek-02",
@@ -174,8 +199,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Bir arkadaşımız bugün yanımızda değil. Ona güzel dileklerimizi iletebiliriz.",
         "visual": "Ece, okul bahçesindeki bankta boş bir dilek kartını Ali’ye gösterir.",
         "motion": "Ece kartı hafifçe kaldırsın ve Ali’ye dönerek konuşsun. Ali dikkatle dinlesin; duygu sıcak ve umutlu kalsın.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/dilek/02.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "dilek-03",
@@ -190,8 +218,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Allah’ım, arkadaşımıza sağlık ve iyilik ver. Ona güzel bir destek olabilelim.",
         "visual": "Ali, sınıf masasında sakin bir ifadeyle dua eder; Ece yanında saygıyla dinler.",
         "motion": "Sabit, saygılı bir orta plan kullan. Ali sakin biçimde konuşsun; elleri doğal olarak masada dursun. Doğaüstü ışık veya figür gösterme.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/dilek/03.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "dilek-04",
@@ -206,8 +237,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Dua, Allah’a yönelmek ve yardım dilemektir. Dualarımızda şükür ve iyi dileklerimiz de olabilir.",
         "visual": "Aynı öğretmen, çocukların yanındaki dilek kutusuna bakarak dua üzerine açıklama yapar.",
         "motion": "Öğretmen çocuklarla göz hizasında sakin bir açıklama yapsın. Kutuyu ve çocukların dinleyen yüzlerini aynı planda tut.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/dilek/04.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "dilek-05",
@@ -222,8 +256,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Dua ederken yardım etmeyi de unutmayalım. Ders notlarımızı onunla paylaşabiliriz.",
         "visual": "Ece ve Ali, bir arkadaşları için ders notlarını ve boş bir iyi dilek kartını bir dosyada toparlar.",
         "motion": "Masadaki defter ve dosyadan çocukların yüzlerine hafifçe yaklaş. Ece dosyayı düzenlerken konuşsun.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/dilek/05.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "dilek-06",
@@ -238,8 +275,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Arkadaşımızı yalnız bırakmayalım. Güzel bir dileği bir iyilikle destekleyelim.",
         "visual": "Okul bahçesinde çocuklar, okula dönen arkadaşlarına hazırladıkları dosyayı dostça uzatır.",
         "motion": "Çocukların dosyayı uzatması ve arkadaşlarının mutlu karşılığını orta planda göster. Abartılı tepki veya hızlı hareket kullanma.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/dilek/06.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "dilek-07",
@@ -254,10 +294,14 @@ window.MERAK_PRODUCTIONS = [
         "text": "Bugün biri için hangi güzel dilekte bulunmak ve hangi iyiliği yapmak istersin?",
         "visual": "Ece ve Ali, sınıftaki iyi dilek kutusunun yanında umutla gülümser; masada boş kartlar durur.",
         "motion": "Kutudan çocuklara doğru yumuşak bir yükselme yap. Çocuklar kameraya kısa ve doğal bir bakış versin; sonunda iki saniye bekle.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/dilek/07.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       }
-    ]
+    ],
+    "audioStatus": "synthetic-demo"
   },
   {
     "id": "saray",
@@ -287,8 +331,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Ece ile Ali, bir düşünme oyununda büyük bir saray hayal ediyor.",
         "visual": "Ece ve Ali, hayalî bir sarayın aydınlık ve çiçekli avlusunun girişinde durur.",
         "motion": "Sarayın dışından avluya doğru yavaşça yaklaş. Çocuklar etrafına merakla baksın; görüntüyü bir düşünme oyunu olarak sakin tut.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/saray/01.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "saray-02",
@@ -303,8 +350,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Yiyecekler, giyecekler, su… İhtiyacımız olan birçok şey özenle hazırlanmış.",
         "visual": "Sarayın aydınlık odasında meyve, ekmek, su ve düzgünce katlanmış giysiler görülür; Ece bunları Ali’ye gösterir.",
         "motion": "Masanın üzerindeki yiyeceklerden Ece’nin işaret ettiği giysilere doğru yumuşak bir kaydırma yap.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/saray/02.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "saray-03",
@@ -319,8 +369,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Bahçıvan çiçekleri suluyor. Herkes bir görev üstlenmiş gibi görünüyor.",
         "visual": "Aynı saray avlusunda sıradan bir bahçıvan çiçekleri sular; çocuklar bahçe yolundan onu izler.",
         "motion": "Çiçekleri sulayan bahçıvandan Ali’nin düşünceli yüzüne yavaş bir geçiş yap. Ali konuşurken Ece dinlesin.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/saray/03.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "saray-04",
@@ -335,8 +388,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Peki, bu saray niçin hazırlandı? Bizden hangi sorumluluklar bekleniyor olabilir?",
         "visual": "Ece ile Ali, avludaki bir bankta oturup merakla konuşur; yanlarında boş bir keşif defteri durur.",
         "motion": "Orta planda Ece’nin sorusuna odaklan. Ece küçük bir el hareketi yapsın; Ali düşünerek dinlesin.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/saray/04.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "saray-05",
@@ -351,8 +407,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Kurallarımızı ve görevlerimizi birlikte öğrenelim. Böylece birbirimize ve düzenimize özen gösterebiliriz.",
         "visual": "Bej ceketli sıradan bir saray görevlisi, çocuklara bahçeyi tanıtır; elinde yazısız kapalı bir kitapçık vardır.",
         "motion": "Görevli dostça bir el hareketiyle avluyu göstersin. Çocuklar sakin biçimde dinlesin. Bu kişi dinî bir şahsiyet olarak temsil edilmesin.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/saray/05.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "saray-06",
@@ -367,8 +426,11 @@ window.MERAK_PRODUCTIONS = [
         "text": "Bu örnek; amaç, görev ve görevlerin bildirilmesi arasındaki bağlantıyı düşündürür.",
         "visual": "Ece ile Ali, masadaki boş kavram kartlarını keşif defterinin çevresinde sıraya dizer.",
         "motion": "Boş kartların sıralanışına yakın plandan başla; ardından iki çocuğu birlikte gösterecek kadar geri açıl. Kartlara yazı üretme.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/saray/06.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       },
       {
         "id": "saray-07",
@@ -383,9 +445,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "İslam’da peygamberler, Allah’ın mesajlarını insanlara iletir. Sen hangi sorumluluklarını düşünüyorsun?",
         "visual": "Ece ile Ali, saray bahçesinde açık keşif defterine bakar; ikisi de sakin ve düşüncelidir.",
         "motion": "Çocukların defterinden yüzlerine yavaşça yüksel. Allah’ı veya peygamberleri görsel olarak temsil etme; son kareyi yumuşakça tut.",
-        "audioUrl": "",
-        "videoUrl": ""
+        "audioUrl": "assets/audio/saray/07.wav",
+        "videoUrl": "",
+        "audioDuration": 8,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
       }
-    ]
+    ],
+    "audioStatus": "synthetic-demo"
   }
 ];
