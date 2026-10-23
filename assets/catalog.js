@@ -40,7 +40,7 @@ window.MERAK_CATALOG = [
             ],
             "question": "Bugün kullandığın bir dinî ifadenin anlamını anlat.",
             "videoUrl": "",
-            "duration": 60,
+            "duration": 56,
             "reviewed": false
           },
           {
@@ -63,7 +63,7 @@ window.MERAK_CATALOG = [
             ],
             "question": "Bir arkadaşına güzel dilekte bulunurken ona nasıl destek olabilirsin?",
             "videoUrl": "",
-            "duration": 60,
+            "duration": 56,
             "reviewed": false
           },
           {
