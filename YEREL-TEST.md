@@ -20,8 +20,8 @@ Windows terminalinde `py -3 BASLAT.py` veya `python BASLAT.py` kullanılabilir. 
 - Öğretmenin önceki/sonraki konu düğmeleri, ünite filtresi ve arama.
 - Tarayıcıyı daraltarak veya telefona benzer ekran boyutunda mobil tasarım.
 - İlk metnin sekiz haftalık senaryoları ve değişmeden korunan kaynak metin.
-- Ana sayfadaki “Görselli atölyeyi aç” bağlantısı veya `/sahne-atolyesi/`: üç hikâye, her biri yedi görsel ve yedi örnek Türkçe seslendirme, konuşmacılar ve replikler.
-- “Sesli hikâyeyi başlat” ile görsel + ses oynatımı, ayrı sessiz 56 saniyelik önizleme, metin/altyazı indirme ve cihazdan ses denemesi. Deneme sesi yalnızca açık sekmede kalır; yenileyince kaldırılır.
+- Ana sayfadaki “Görselli atölyeyi aç” bağlantısı veya `/sahne-atolyesi/`: üç hikâye, her biri yedi görsel, her repliğe ait hedef karakter sesi, konuşmacılar ve replikler.
+- Varsayılan sessiz 56 saniyelik önizleme; eski sesleri özellikle açınca görsel + ses oynatımı, metin/altyazı indirme ve cihazdan ses denemesi. Deneme sesi yalnızca açık sekmede kalır; yenileyince kaldırılır.
 
 Videolar henüz üretilmediğinden “Video henüz yüklenmedi” yazması beklenir. Soru/özel cevap sunucusu bağlı olmadığından gerçek soru gönderme kapalıdır. 7. sınıfın konu sırası, dosyanın okunabilir küçük kopyası beklenir. Bu durumlar yerel sunucu hatası değildir.
 

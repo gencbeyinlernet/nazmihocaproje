@@ -4,7 +4,7 @@
 
 Kullanıcının özgün saray metninden ayrı uyarlama · Ek düşünme çalışması
 
-Bu metin özgün bir video uyarlamasıdır. Her sahnenin görseli ve örnek yapay zekâ anlatıcı sesi hazırdır. Video henüz üretilmemiştir. Örnek sesler daha sonra değiştirilebilir.
+Bu metin özgün bir video uyarlamasıdır. Her sahnenin görseli hazırdır. Eski tek anlatıcılı kayıtlar reddedilmiştir; yeni karakter sesleri beklenmektedir. Video henüz üretilmemiştir. Örnek sesler daha sonra değiştirilebilir.
 
 ## Sahne 1 · 0–8 saniye
 

@@ -3,7 +3,7 @@
   "voice": "tr_TR-fettah-medium",
   "datasetLicense": "CC0 (model card)",
   "voiceSource": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-tr_TR-fettah-medium.tar.bz2",
-  "notes": "Örnek yapay zekâ anlatıcı sesi. Her sahne 8 saniye; konuşma kesilmeden kısa sessizlik eklenir. OpenAI.fm veya gerçek karakter kaydı değildir.",
+  "notes": "Eski tek anlatıcılı kayıtlar kalite ve karakter uyumu nedeniyle reddedildi; yeni kayıtlar SESLENDIRME-PLANI.md dosyasına göre hazırlanacak.",
   "scenes": [
     {
       "id": "selam-01",
@@ -215,5 +215,6 @@
       "tempo": 1.0892,
       "sha256": "c59307ae2a5e6d93b4ff8be50239a43e5539a2f7dec2cf6788fd698e487ba889"
     }
-  ]
+  ],
+  "approval": "rejected"
 }

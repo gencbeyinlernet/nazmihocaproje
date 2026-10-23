@@ -1,5 +1,42 @@
 'use strict';
-// Seven-scene image stories. Synthetic demo audio is replaceable; video URLs remain empty.
+// Target voice profiles are plans, not generated character recordings. Rejected audio remains archived.
+window.MERAK_VOICE_PROFILES = {
+  "ece": {
+    "name": "Ece",
+    "label": "Kız çocuk · 9–10 yaş",
+    "kind": "child",
+    "gender": "female",
+    "instructions": "9–10 yaşlarında kurgusal bir kız çocuk sesi. Akıcı, anlaşılır ve doğal Türkiye Türkçesi kullan. Meraklı, içten ve sakin konuş; kelimeleri tane tane söyle. Yapmacık bebek konuşması, aşırı tiz ton ve robotik heceleme kullanma. Gerçek bir kişiyi taklit etme."
+  },
+  "ali": {
+    "name": "Ali",
+    "label": "Erkek çocuk · 9–10 yaş",
+    "kind": "child",
+    "gender": "male",
+    "instructions": "9–10 yaşlarında kurgusal bir erkek çocuk sesi. Akıcı ve doğal Türkiye Türkçesi kullan. Arkadaşça, rahat ve canlı konuş; vurgu ile duraklamaları cümle anlamına göre yap. Yapmacık bebek konuşması veya yetişkin erkek tonuyla okuma. Gerçek bir kişiyi taklit etme."
+  },
+  "ogretmen": {
+    "name": "Öğretmen",
+    "label": "Yetişkin kadın · öğretmen",
+    "kind": "adult",
+    "gender": "female",
+    "instructions": "Yetişkin kadın öğretmen sesi. Duru ve akıcı Türkiye Türkçesiyle, güven veren, sabırlı ve sıcak bir tonda konuş. Çocuğa açıklama yapar gibi anlaşılır bir tempo kullan. Sözcükleri mekanik biçimde bölme ve aşırı dramatize etme. Gerçek bir kişiyi taklit etme."
+  },
+  "anlatici": {
+    "name": "Anlatıcı",
+    "label": "Yetişkin erkek · anlatıcı",
+    "kind": "adult",
+    "gender": "male",
+    "instructions": "Yetişkin erkek anlatıcı sesi. Akıcı, doğal ve anlaşılır Türkiye Türkçesiyle kısa bir çocuk hikâyesi anlat. Sıcak, dengeli ve merak uyandıran bir ton kullan. Cümle sonlarını doğal bitir; acele etme ve robotik heceleme kullanma. Gerçek bir kişiyi taklit etme."
+  },
+  "rehber": {
+    "name": "Rehber",
+    "label": "Yetişkin erkek · rehber",
+    "kind": "adult",
+    "gender": "male",
+    "instructions": "Anlatıcıdan farklı, yetişkin erkek rehber sesi. Akıcı Türkiye Türkçesiyle dostça, açıklayıcı ve sakin konuş. Çocuklarla konuşan bir rehber gibi doğal vurgu ve kısa duraklamalar kullan. Buyurgan veya mekanik ton kullanma. Gerçek bir kişiyi taklit etme."
+  }
+};
 window.MERAK_PRODUCTIONS = [
   {
     "id": "selam",
@@ -33,7 +70,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "anlatici",
+        "audioApproval": "rejected"
       },
       {
         "id": "selam-02",
@@ -52,7 +91,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ali",
+        "audioApproval": "rejected"
       },
       {
         "id": "selam-03",
@@ -71,7 +112,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ece",
+        "audioApproval": "rejected"
       },
       {
         "id": "selam-04",
@@ -90,7 +133,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ece",
+        "audioApproval": "rejected"
       },
       {
         "id": "selam-05",
@@ -109,7 +154,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ogretmen",
+        "audioApproval": "rejected"
       },
       {
         "id": "selam-06",
@@ -128,7 +175,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ali",
+        "audioApproval": "rejected"
       },
       {
         "id": "selam-07",
@@ -147,10 +196,12 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ece",
+        "audioApproval": "rejected"
       }
     ],
-    "audioStatus": "synthetic-demo"
+    "audioStatus": "replacement-needed"
   },
   {
     "id": "dilek",
@@ -184,7 +235,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "anlatici",
+        "audioApproval": "rejected"
       },
       {
         "id": "dilek-02",
@@ -203,7 +256,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ece",
+        "audioApproval": "rejected"
       },
       {
         "id": "dilek-03",
@@ -222,7 +277,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ali",
+        "audioApproval": "rejected"
       },
       {
         "id": "dilek-04",
@@ -241,7 +298,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ogretmen",
+        "audioApproval": "rejected"
       },
       {
         "id": "dilek-05",
@@ -260,7 +319,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ece",
+        "audioApproval": "rejected"
       },
       {
         "id": "dilek-06",
@@ -279,7 +340,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ali",
+        "audioApproval": "rejected"
       },
       {
         "id": "dilek-07",
@@ -298,10 +361,12 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "anlatici",
+        "audioApproval": "rejected"
       }
     ],
-    "audioStatus": "synthetic-demo"
+    "audioStatus": "replacement-needed"
   },
   {
     "id": "saray",
@@ -335,7 +400,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "anlatici",
+        "audioApproval": "rejected"
       },
       {
         "id": "saray-02",
@@ -354,7 +421,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ece",
+        "audioApproval": "rejected"
       },
       {
         "id": "saray-03",
@@ -373,7 +442,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ali",
+        "audioApproval": "rejected"
       },
       {
         "id": "saray-04",
@@ -392,7 +463,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "ece",
+        "audioApproval": "rejected"
       },
       {
         "id": "saray-05",
@@ -411,7 +484,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "rehber",
+        "audioApproval": "rejected"
       },
       {
         "id": "saray-06",
@@ -430,7 +505,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "anlatici",
+        "audioApproval": "rejected"
       },
       {
         "id": "saray-07",
@@ -449,9 +526,11 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "audioDuration": 8,
         "audioKind": "synthetic-demo",
-        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)"
+        "audioVoice": "Piper Türkçe · fettah (örnek anlatıcı)",
+        "voiceProfileId": "anlatici",
+        "audioApproval": "rejected"
       }
     ],
-    "audioStatus": "synthetic-demo"
+    "audioStatus": "replacement-needed"
   }
 ];

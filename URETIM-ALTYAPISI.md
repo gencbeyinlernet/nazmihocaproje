@@ -1,17 +1,15 @@
-# Görsel ve seslendirme üretim altyapısı
+# Görsel ve karakter sesi altyapısı
 
-Her içerik 7 sahne × 8 saniye olarak planlanmıştır: toplam **56 saniye**. Şu an üç örneğin **21 görseli ve 21 ayrı Türkçe ses kaydı** vardır; video dosyası üretilmez.
+Üç örnek hikâye, her biri 7 sahne × 8 saniye olarak planlanmıştır. Toplam 21 ayrı görsel hazırdır. **Eski tek anlatıcılı kayıtlar kullanıcı tarafından reddedildi; yeni doğal Türkçe karakter sesleri henüz hazır değildir.**
 
-İlk örnekler: 4. sınıf 1.1 “Bir Selamın Açtığı Kapı”, 4. sınıf 1.2 “Dilek Kutusundaki İyilik” ve özgün saray metnine bağlı ek çalışma “Bir Saray, Bir Soru”. İlk iki içerik kitap sırasındaki yerinde kalır; saray çalışması kitaptan alıntı veya yeni bir müfredat konusu gibi gösterilmez. Diğer sınıf/konularda görsel veya ses hazırmış gibi durum gösterilmez.
+4. sınıf 1.1 “Bir Selamın Açtığı Kapı”, 1.2 “Dilek Kutusundaki İyilik” kitap sırasındaki yerlerinde kalır. “Bir Saray, Bir Soru”, kullanıcının özgün metninden ayrı ek uyarlamadır. İlk kaynak metin `assets/source.txt` içinde değiştirilmeden korunur.
 
-`assets/productions.js` sahne, görsel, konuşmacı, replik, hareket tarifi ve ses dosyası bağlantılarını tutar. Görseller `assets/scenes/<içerik>/<01..07>.png`, sesler `assets/audio/<içerik>/<01..07>.wav` altındadır. Kullanılan kurum logosu kullanıcının sağladığı gerçek logodur. `videoUrl` alanları boştur.
+`assets/productions.js` beş hedef ses profili ve 21 sahnenin görsel, konuşmacı, replik, hareket, `voiceProfileId` ve ses durumunu içerir. Ece kız çocuk, Ali erkek çocuk, öğretmen kadın; anlatıcı ve rehber farklı yetişkin erkek sesleriyle planlanır. Bunlar ses tarifidir; hazır karakter kaydı olarak sunulmaz. Tam görev dosyası [SESLENDIRME-PLANI.md](SESLENDIRME-PLANI.md), makine tarafından okunabilen eşleştirme `ses-planlari/karakter-sesleri.json` içindedir.
 
-`sahne-atolyesi/` varsayılan olarak **Görsel + seslendirme** oynatır. Her sahnenin gerçek ses dosyası açılır; `ended` olayı gelmeden sonraki görsele geçilmez. Duraklatma, devam etme, önceki/sonraki sahne ve başa dönme kullanılabilir. Ses yüklenemez veya tarayıcı oynatmayı engellerse oynatım durur; ses varmış gibi sessiz devam edilmez. Ayrı **Sessiz görsel önizleme** seçeneği, 8 saniyede bir görüntü değiştirir.
+Eski WAV dosyaları silinmez. Sahnenin `audioApproval` değeri `rejected` ise varsayılan ses kaynağı olarak seçilmez ve hazır ses sayısına eklenmez. Site sessiz görsel önizlemesiyle açılır. Eski kayıtları dinleme seçeneği açıkça kullanıcı tarafından işaretlenmelidir; bu, dosyanın onaylandığı veya yenilendiği anlamına gelmez. Seçim sayfa yenilenince sıfırlanır.
 
-Mevcut örnek WAV dosyaları tam 8 saniyedir. Kullanıcının deneme sesi daha uzunsa görsel, konuşmayı kesmeden ses tamamlanana kadar kalır. Deneme sesi yalnızca açık sayfada kullanılır, sunucuya yüklenmez, yenilemede kaldırılır ve yayımlanan örnek ses geri gelir. Kalıcı yayın için sahnenin `audioUrl` alanı değiştirilmelidir.
+Yeni dosya geldiğinde `audioUrl`, ölçülen `audioDuration`, gerçek `audioVoice` ve inceleme sonrası `audioApproval: "approved"` alanları güncellenir. Her sahne ayrı replik kaydı kullanır; aynı karakterin farklı cümlelerinde tek bir ses dosyası tekrarlanmaz. Aynı karakter sesi hikâyeler boyunca korunur.
 
-Örnek sesler ücretsiz, çevrimdışı Piper Türkçe motoruyla oluşturulmuştur; **OpenAI.fm sesi veya karaktere özel oyuncu kaydı değildir**. Tek anlatıcı, repliklerdeki rolleri okur. Kaynak/model kartı ve ses dosyası dökümü: [assets/audio/README.md](assets/audio/README.md). Kullanıcı örnekleri sonradan kendi kayıtlarıyla değiştirebilir. Ses üretimi için bir API anahtarı veya sitede çalışan ücretli hizmet yoktur.
+Sesli oynatım `ended` olayını bekler; uzun konuşmayı 8. saniyede kesmez. Varsayılan sessiz görsel önizlemesi 8 saniyede bir ilerler. Bilgisayardan seçilen deneme sesi yalnızca açık sayfada kalır, sunucuya yüklenmez ve yenilemede kaldırılır. Ses dosyası yokken veya oynatma engellendiğinde ses varmış gibi devam edilmez.
 
-Replikler yaşa uygun özgün uyarlamalardır; ayet/hadis veya özgün metnin doğrudan alıntısı olarak sunulmaz. İlk özgün metin `assets/source.txt` içinde değişmeden korunur. Gerçek sesler değiştiğinde süreler yeniden ölçülür; SRT taslağı 8 saniyelik örneklere aittir.
-
-Genişletme: kitap sırasıyla yeni hikâyeyi hazırlayıp 7 ayrı görsel ve bunların 7 ayrı sesini aynı şemaya ekle. Klipler ileride gelirse `videoUrl` bağlanabilir. Görsel veya ses eklenmesi bir konuyu video izlenmiş/tamamlanmış yapmaz.
+Bu ortamdan OpenAI.fm, OpenAI, ElevenLabs ve Microsoft ses hizmetlerine erişim kapalıdır. Bu nedenle yeni kaliteli kayıtların üretimi tamamlanamamıştır. Siteye bir API anahtarı eklenmez. Mevcut sistem ses dosyalarını ücretsiz statik yayından oynatır; video/MP4 üretilmez. `videoUrl` alanları boştur.
