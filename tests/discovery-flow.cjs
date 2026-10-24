@@ -24,9 +24,8 @@ const server = http.createServer((req, res) => {
     await p.clock.install();
     const current = () => p.locator('[data-slide-count]').innerText();
     await p.goto(base);
-    await p.clock.runFor(15000);
-    assert.equal(await current(), '1 / 5', 'No automatic movement before consent');
-    await p.check('#terms-check'); await p.click('#terms-accept');
+    assert(!await p.locator('#terms-dialog').isVisible());
+
     await p.clock.runFor(7100); assert.equal(await current(), '2 / 5');
     const left = await p.locator('#class-sidebar').boundingBox(), rail = await p.locator('#discovery-rail').boundingBox(), center = await p.locator('.topic-carousel').boundingBox();
     assert(left.x + left.width <= center.x && center.x + center.width <= rail.x);
@@ -94,6 +93,6 @@ const server = http.createServer((req, res) => {
       }
     }
     assert.deepEqual(errors, []); assert.deepEqual(missing, []);
-    console.log('PASS: left/center/right layout, top-right question dialog and focus, contextual slides, 7-second autoplay, manual arrows/dots/keyboard/swipe, pause on hover/modal/consent/reduced motion, single/empty slide cases, and 6 responsive widths.');
+    console.log('PASS: left/center/right layout, top-right question dialog and focus, contextual slides, 7-second autoplay, manual arrows/dots/keyboard/swipe, pause on hover/modal/reduced motion, single/empty slide cases, and 6 responsive widths.');
   } finally { await browser.close(); server.close(); }
 })().catch(e => { console.error(e); server.close(); process.exit(1); });

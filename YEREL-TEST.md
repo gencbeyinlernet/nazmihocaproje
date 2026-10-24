@@ -8,7 +8,10 @@ Mac/Linux için proje klasöründe `python3 BASLAT.py`; Windows terminalinde `py
 
 ## Kontrol edilecekler
 
-- İlk açılışta ortak kullanım koşulları ve onay ekranı.
+- Siteye onay, kullanıcı adı veya şifre olmadan doğrudan erişim; “Herkese açık · Paylaşılabilir” bilgisi.
+- Ana ekranda Sınıfını seç → Konunu seç → İçeriği aç akışı.
+- Derse hazırlan sayfasında sınıf, ünite, konu, düzenlenebilir ders hedefi ve açıklamalar; büyük yazılı sunum, plan indirme ve Yazdır / PDF.
+- İçeriği paylaş düğmesinde paylaşım/kopyalama veya seçilebilir bağlantı alternatifi.
 - Ana sayfanın ortasında hazır hikâyelerin kaydırmalı gösterisi, altında Ortaokul, Lise ve Üniversite seçenekleri.
 - İlk slaytta “Saraydan Dünyaya: Büyük Keşif”; tüm sınıflarda ve eğitim düzeylerinde aynı ortak başlangıç bağlantısı.
 - İkinci slaytta “İğneden Kâinata: Bir Sorunun İzinde”; dört bölüm ve 28 sahnede konuşmaya uygun görsel ve efekt değişimi.
@@ -28,7 +31,7 @@ Mac/Linux için proje klasöründe `python3 BASLAT.py`; Windows terminalinde `py
 - “Öğretmen görünümü” bağlantısında indirilebilir senaryo, seslendirme planı ve altyazı taslağı.
 - Sağ üstteki “Soru sor” düğmesinin soru penceresini açması; altında diğer menüler. Mobilde diğer menüler açılır başlıktadır.
 - Slaytların 7 saniyede otomatik geçmesi; durdurma/başlatma, oklar, seçim noktaları, klavye okları ve telefonda yatay kaydırma. Hareket azaltma tercihinde otomatik geçiş kapalıdır.
-- Tam kullanım koşullarının isteğe bağlı açılması; onay zorunluluğunun korunması.
+- Paylaşım ve gizlilik bilgisinin isteğe bağlı açılması; hiçbir onay zorunluluğu bulunmaması.
 - Dar ekranlarda taşmayan mobil arayüz.
 - İlk özgün metnin sekiz haftalık çalışması ve değiştirilmeden korunan kaynak metin.
 

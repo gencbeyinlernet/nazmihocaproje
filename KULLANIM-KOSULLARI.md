@@ -1,13 +1,25 @@
-# Gizlilik ve içerik kullanım koşulları
+# Paylaşım ve gizlilik
 
-İzin mercii: **Rize İl Millî Eğitim Müdürlüğü**. Sürüm: 22 Ekim 2026.
+Merak Bahçesi · Rize İl Millî Eğitim Müdürlüğü çalışması. Güncelleme: 24 Ekim 2026.
 
-Özgün senaryo, hikâye, video ve görseller kurumun yazılı izni olmadan yeniden yayınlanamaz, çoğaltılamaz, dağıtılamaz veya ticari amaçla kullanılamaz. Kaynak göstermek tek başına izin değildir. Mevzuattan doğan kullanım hakları ve üçüncü taraf hakları saklıdır. Kitapların hak sahipliği, proje uyarlamalarının hak sahipliğinden ayrı değerlendirilir.
+## Herkese açık ve paylaşılabilir
 
-Onay ekranı içerikten önce açılır. Onay tarayıcıda sürüm ve tarih ile tutulur; sunucuda kimlik doğrulanmış sözleşme veya teknik kopyalama koruması değildir. Açık bir GitHub deposundaki dosyalar bu ekran atlanarak da erişilebilir. Gizli içerik için özel depolama ve sunucu yetkilendirmesi gerekir.
+Platform herkes tarafından kullanıcı adı, şifre veya üyelik olmadan kullanılabilir. İçeriğe girmek için sözleşme kabulü veya onay gerekmez.
 
-Yerel kayıtlar: kullanım onayı, son incelenen konu, ortak hikâyede okundu olarak işaretlenen duraklar, görselli hikâyede incelenen ve son açılan sahneler, eski öğrenme etkinliğinin ilerlemesi ve sertifika adı; soru hizmeti bağlandığında özel takip kodu. Soruya kimlik, iletişim veya üçüncü kişilerin özel bilgileri eklenmemelidir. Soru ve cevaplar herkese açık paylaşılmaz. Canlı soru hizmeti açılmadan kurumun veri işleme/saklama süreçleri ve gerekli aydınlatması kesinleştirilmelidir. Bu sürümde hizmet bağlantısı yoktur; gerçek sorular gönderilmez ve soru formunun metni otomatik saklanmaz.
+Platformun özgün hikâye, senaryo, görsel ve etkinliklerini sınıfta sunabilir, kopyalayabilir, bağlantılarıyla veya materyal olarak paylaşabilir ve yeniden yayınlayabilirsiniz. Ayrıca izin almanız gerekmez. Kaynak olarak Merak Bahçesi ve Rize İl Millî Eğitim Müdürlüğünü belirtebilirsiniz.
 
-Google Drive bağlantıları isteğe bağlı açılır. Reklam/analiz takipçisi veya otomatik dış yazı tipi isteği yoktur. Kullanıcı, koşullar ekranındaki yerel kayıt silme düğmesiyle cihazdaki proje kayıtlarını silebilir. Bu işlem sunucudaki soru kayıtlarını silmez.
+Ders kitaplarının konu sırası ve sayfa referansları kaynak gösterilir. Kitapların tam PDF’leri bu sitede yayınlanmaz. Üçüncü taraf kitapların ve dış hizmetlerin kendi koşulları geçerlidir. Hikâyeler özgün uyarlamalardır; kullanıcının verdiği iki kaynak metnin tamamı ayrıca değiştirilmeden korunur.
 
-Bu metin yayın için hazırlanmış bir taslaktır; kurumun değerlendirmesi yerine geçmez. Ekranda aynı koşullar okunabilir biçimde sunulur.
+## Bu cihazdaki bilgiler
+
+Okunan duraklar, incelenen sahneler, son açılan içerik ve önceki öğrenme etkinliğinin ilerlemesi tarayıcıda saklanır. Önceki sertifikaya yazılmış ad da bu cihazda bulunabilir. Kayıtlar diğer cihazlara otomatik taşınmaz. Öğretmenin düzenlediği ders planı sayfada geçici tutulur; indirildiğinde kendi cihazında dosya olur. Hesap veya sunucu kaydı yapılmaz.
+
+Paylaşım ve gizlilik penceresindeki “Bu cihazdaki öğrenme kayıtlarını sil” düğmesi yerel ilerleme ve varsa soru takip kodunu siler. Site üyelik veya yeniden onay istemeden açılmaya devam eder. Bu işlem gelecekteki soru sunucusunun kayıtlarını silmez.
+
+## Soru ve cevap alanı
+
+Paylaşılabilir eğitim içerikleri ile kişisel sorular birbirinden ayrıdır. Soruya ad, okul, telefon, e-posta veya başkalarının özel bilgileri yazılmamalıdır. Soru hizmeti açıldığında yanıt yalnızca özel takip koduyla görülebilir; sorular herkese yayınlanmaz. Hizmet şu anda bağlı değildir; gerçek gönderim ve sorgu kapalıdır. Form metni otomatik saklanmaz. Özel soru yönetimi için sunucu yetkilendirmesi korunur; herkese açık öğrenme sayfalarında giriş ekranı bulunmaz.
+
+## Dış hizmetler
+
+Google Drive gibi bağlantılar yalnızca kullanıcı tıkladığında açılır. Bu sürümde reklam, analiz takipçisi veya dış yazı tipi isteği yoktur. Paylaşım düğmesi cihazın paylaşım menüsünü açar veya bağlantıyı kopyalar; kullanıcı paylaşacağı yeri kendisi seçer.

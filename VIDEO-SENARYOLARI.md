@@ -10,7 +10,7 @@ Hedef grup: 13–18 yaş. Her hafta tek konu, 60–90 saniyelik bir video ve yak
 - Açık zemin, dengeli renkler, yavaş ve anlaşılır Türkçe seslendirme; en fazla iki-üç satırlık okunabilir altyazı kullanılır.
 - Allah veya gayb için görsel bir kişileştirme yapılmaz; kavramlar yazı, doğa ve gündelik nesnelerle anlatılır.
 - İnanç veya düşünce grupları küçümseyici karakterlerle temsil edilmez. Sorular kaynak metnin anlaşılmasına yöneliktir.
-- Konu başlığı ve hafta numarası ilk planda, izinsiz çoğaltma/paylaşım için yazılı izin gerektiği bilgisi kapanışta yer alır. Kurum logosunun oranları korunur.
+- Konu başlığı ve hafta numarası ilk planda, içeriğin herkese açık ve paylaşılabilir olduğu bilgisi kapanışta yer alır. Kurum logosunun oranları korunur.
 - Hedef süreler planlamadır; sesli prova sonrası sahne süreleri gerekirse ayarlanır. Özgün alıntılar kısaltılarak veya anlamı değiştirilerek okunmaz.
 
 ## Haftalık sıra

@@ -5,6 +5,7 @@ Rize İl Millî Eğitim Müdürlüğü çalışması için Türkçe ve mobil uyu
 ## Sayfalar
 
 - Ana sayfa: https://gencbeyinlernet.github.io/nazmihocaproje/
+- Üyeliksiz ders hazırlığı ve sunum: https://gencbeyinlernet.github.io/nazmihocaproje/ders-hazirla/
 - Herkes için ortak ilk hikâye: https://gencbeyinlernet.github.io/nazmihocaproje/ortak-hikaye/
 - Ana sayfadaki ikinci görselli hikâye: https://gencbeyinlernet.github.io/nazmihocaproje/igneden-kainata/
 - Ortaokul (5–8): https://gencbeyinlernet.github.io/nazmihocaproje/ortaokul/
@@ -15,6 +16,20 @@ Rize İl Millî Eğitim Müdürlüğü çalışması için Türkçe ve mobil uyu
 - İlk özgün metnin sekiz haftalık çalışması: `metin-atolyesi/`.
 
 24 Ekim 2026 tarihli kullanıcı isteğiyle **4. sınıf aktif katalogdan, sınıf seçicisinden, soru formundan ve sahne atölyesinden kaldırıldı**. Önceki çalışmalar `arsiv/4-sinif/` altında korunur. Eski 4. sınıf ve ilkokul bağlantıları 5. sınıfa yönlenir; uygulama arşiv dosyalarını yüklemez.
+
+## Herkese açık, sade öğrenme ve ders hazırlığı
+
+Kullanıcının güncel isteğiyle platform **üyelik, kullanıcı adı, şifre ve zorunlu onay olmadan** açılır. Özgün hikâye, senaryo, görsel ve etkinlikler paylaşılabilir; ayrıca izin istenmez. Önceki yazılı izin ve girişte kabul zorunluluğu kaldırılmıştır. [Paylaşım ve gizlilik](KULLANIM-KOSULLARI.md) bilgisi isteğe bağlı açılır. Öğrencilerin özel soruları paylaşılabilir materyal sayılmaz.
+
+Ana ekranın belirgin yolu **Sınıfını seç → Konunu seç → İçeriği aç** şeklindedir. Hazır görselli içerik oynatıcıya, hazır okuma sınıfın konu penceresine açılır. Hazır içerik olmayan sınıfta sınıf sayfasına gidilir; içerik varmış gibi gösterilmez. Ortak ilk hikâye ve ikinci hikâye, merkezi slayt alanında ilk iki sıradadır. Eğitim düzeyi kartları, soldaki kategorili sınıf menüsü ve mobilde sola açılan düğme korunur.
+
+Zümrüt, turkuaz, mor ve altın renkleri; açık cam görünümlü kartlar, sade geometrik kitap/yıldız motifleri ve büyük okunabilir yazılar kullanılır. Üniversite sayfasının olgun okuma düzeni korunur. Dış yazı tipi veya takipçi çağrısı yoktur. Sağ üstte soru, diğer menüler içinde ders hazırlığı ve içerik paylaşımı bulunur. Paylaşım düğmesinde cihazın paylaşım menüsü, bağlantı kopyalama ve kopyalama başarısızsa seçilebilir bağlantı seçenekleri vardır.
+
+### Öğretmen için ders hazırlığı
+
+`ders-hazirla/` sayfasında sınıf, ünite ve konu seçilir. Başlıklar ve sayfa bilgileri yüklenen kitapların sırasındadır. **Kazanım / ders hedefiniz** alanı öğretmenin düzenlediği ders hedefidir; otomatik bir resmî kazanım kodu veya onaylanmış kazanım eşlemesi iddia edilmez. Öğretmen bilgilendirme, düşünme sorusu ve etkinliği de düzenler. Konu değiştirip geri dönünce sayfa açık kaldığı sürece taslak korunur.
+
+“Sınıfta sun” ile büyük yazılı sunum açılır. Hazır hikâyenin yedi görseli ve konuşmaları sunuma eklenir; görseli olmayan hazır konularda okuma hikâyesi kullanılır. Henüz platform hikâyesi bulunmayan konuda öğretmen kendi açıklamasını yazarak sunum oluşturabilir. İleri/Geri, klavye okları ve destekleyen tarayıcılarda tam ekran vardır. Tam ekran açılamazsa aynı pencerede sunum sürer. “Planı indir” metin dosyası, “Yazdır / PDF” tarayıcının yazdırma ekranını açar. Taslaklar sunucuya veya tarayıcı depolamasına otomatik kaydedilmez; site içeriklerini değiştirmez. Üyelik ve öğretmen girişi gerekmez.
 
 ## Hazır içerikler
 
@@ -52,7 +67,7 @@ Ana sayfanın ortasında ortak ilk hikâyeyle başlayan slayt gösterisi, altın
 
 Geniş ekranda sınıflar soldaki sabit menüde Ortaokul ve Lise başlıkları altında listelenir; Üniversite ayrı bir kategoridir. Seçili sınıf belirgin görünür. Mobil ve tablette üstteki “Sınıflar” düğmesi aynı menüyü açar. Sınıf seçimi, kapatma düğmesi, dış alana dokunma veya Escape ile kapanır; klavye odağı menü içinde kalır ve kapanınca düğmeye döner. Hikâye sesi ya da öğretmen önizlemesi menü açılırken duraklatılır.
 
-Sağ sütunun en üstünde “Soru sor”, altında hikâyeler, metin atölyesi, yerel test ve kullanım koşulları bağlantıları vardır. Soru formu ayrı bir pencerede açılır; mevcut özel takip kodu ve eğitimci akışı korunur. Mobilde soru düğmesi üstte kalır, diğer menüler isteğe bağlı açılır. Slaytlar 7 saniyede otomatik geçer; oklar, seçim noktaları, klavye okları ve dokunmatik yatay kaydırma ile elle seçilebilir. Elle seçim veya klavye odağı otomatik geçişi durdurur; düğmeyle yeniden başlatılır. Fare üzerindeyken, sekme gizliyken, onay beklenirken ve bir pencere/menü açıkken otomatik geçiş bekler. Hareket azaltma tercihi varsa otomatik geçiş kapalı başlar. Tek içerikte geçiş denetimleri gösterilmez.
+Sağ sütunun en üstünde “Soru sor”, altında hikâyeler, metin atölyesi, yerel test ve kullanım koşulları bağlantıları vardır. Soru formu ayrı bir pencerede açılır; mevcut özel takip kodu akışı korunur; giriş formu gösterilmez. Mobilde soru düğmesi üstte kalır, diğer menüler isteğe bağlı açılır. Slaytlar 7 saniyede otomatik geçer; oklar, seçim noktaları, klavye okları ve dokunmatik yatay kaydırma ile elle seçilebilir. Elle seçim veya klavye odağı otomatik geçişi durdurur; düğmeyle yeniden başlatılır. Fare üzerindeyken, sekme gizliyken, bir pencere/menü açıkken otomatik geçiş bekler. Hareket azaltma tercihi varsa otomatik geçiş kapalı başlar. Tek içerikte geçiş denetimleri gösterilmez.
 
 Lisede daha olgun renkler, ünite/konu araması, kısa okuma ve düşünme soruları kullanılır. Üniversite alanında profesyonel okuma düzeniyle üç özgün tartışma planı ve indirilebilir çalışma notları vardır. **Üniversite kaynakları henüz eklenmemiştir; bu planlar kaynaklandırılmış üniversite dersleri olarak sunulmaz.** Notlar sayfada geçici tutulur; kullanıcı isterse metin dosyası olarak indirir.
 
@@ -62,15 +77,15 @@ Teknik senaryo, hareket tarifi, ses dosyası deneme ve indirme araçları öğre
 
 Öğrenci ortak ilk hikâyeden başlayabilir; ardından eğitim düzeyini ve sınıfını seçer. Sınıf sayfası hazır hikâyelerden birini belirgin bir başlangıç düğmesiyle önerir. Görselli içerik öğrenci oynatıcısında açılır; yalnızca görsel, konuşmacı/replik ve ilerleme düğmeleri görünür. Görseli olmayan hazır hikâyeler kısa bilgi → hikâye şeklinde ilerler. Gerçek video eklenene kadar öğrenciye boş bir video adımı gösterilmez. Sesler daha sonra bağlanır; kayıt bitmeden otomatik ilerlenmez.
 
-Öğretmen görünümünde bütün kitap konu planları ve önceki ayrıntılı inceleme araçları korunur. Ortak soru/cevap alanı sağ üstteki “Soru sor” düğmesiyle açılır. Kullanım koşulları başlangıçta kısa özet ve açılabilir tam metinle gösterilir; mevcut onay zorunluluğu değişmez.
+Öğretmen görünümünde bütün kitap konu planları ve önceki ayrıntılı inceleme araçları korunur. Ortak soru/cevap alanı sağ üstteki “Soru sor” düğmesiyle açılır. Paylaşım ve gizlilik bilgisi isteğe bağlı açılır; başlangıçta onay istenmez.
 
 5. sınıf hikâyelerinin sahne görselleri ve ikinci hikâyenin dört anlatım görseli özgün yapay zekâ üretimidir. Açıklama ve hikâyeler, öğretmen/içerik sorumlusu incelemesi bekleyen özgün uyarlamalardır; kitap metni, ayet veya hadis alıntısı gibi sunulmaz. Kitapların tam PDF’leri depoya eklenmez. Kullanıcının ilk `assets/source.txt` ve ikinci `assets/ikinci-hikaye-kaynak.txt` metinleri değişmeden korunur. Gerçek kurum logosu `logo.jpg` dosyasıdır.
 
 ## Gizlilik ve soru alanı
 
-Başlangıçta [KULLANIM-KOSULLARI.md](KULLANIM-KOSULLARI.md) için onay istenir. İzin mercii Rize İl Millî Eğitim Müdürlüğüdür. Onay tarayıcıda tutulur; kimlik doğrulanmış sunucu sözleşmesi veya teknik kopyalama koruması değildir. Kamuya açık GitHub dosyalarına doğrudan erişilebilir.
+[Paylaşım ve gizlilik](KULLANIM-KOSULLARI.md) metni herkese açık kullanım ve paylaşım iznini anlatır. Bu bilgilendirme içeriklere erişimi engellemez, onay kaydı oluşturmaz.
 
-Soru/görüş, takip koduyla özel cevap ve yetkili eğitimci ekranları vardır. **Soru sunucusu henüz bağlı değildir; gerçek gönderme ve sorgu kapalıdır.** Kurulum: [backend/QUESTIONS-SETUP.md](backend/QUESTIONS-SETUP.md). Sunucu anahtarı veya şifre GitHub’a yazılmaz. Cihazdan seçilen deneme sesi yalnızca açık sayfada kalır; sunucuya yüklenmez ve yenilemede kaldırılır.
+Soru/görüş ve takip koduyla özel cevap arayüzü vardır; herkese açık sayfalarda eğitimci girişi veya şifre alanı yoktur. **Soru sunucusu henüz bağlı değildir; gerçek gönderme ve sorgu kapalıdır.** Gelecekteki özel soru yönetiminin sunucu yetkilendirmesi korunur. Kurulum: [backend/QUESTIONS-SETUP.md](backend/QUESTIONS-SETUP.md). Sunucu anahtarı veya şifre GitHub’a yazılmaz. Cihazdan seçilen deneme sesi yalnızca açık sayfada kalır; sunucuya yüklenmez ve yenilemede kaldırılır.
 
 ## Yerel test ve dosyalar
 
@@ -90,7 +105,9 @@ Soru/görüş, takip koduyla özel cevap ve yetkili eğitimci ekranları vardır
 - `assets/portal-authoring.js`: öğretmenin tüm konu planlarını incelediği görünüm.
 - `assets/studio.js`: sade öğrenci hikâye oynatıcısı.
 - `assets/studio-authoring.js`, `studio.css`: öğretmen için görsel/replik/ses ve üretim araçları.
-- `assets/privacy.js`, `privacy.css`: ortak onay ekranı.
+- `assets/privacy.js`, `privacy.css`: erişimi engellemeyen paylaşım ve gizlilik bilgisi.
+- `assets/glass.css`, `public-theme.js`: renkli cam teması, açık kullanım ve paylaşım araçları.
+- `assets/lesson-prep.js`: üyelik gerektirmeyen ders planı ve sunum hazırlığı.
 - `assets/questions.js`, `question-service.js`, `backend/`: özel soru/cevap altyapısı.
 - `scripts/package-local.py`: arşivi dışarıda tutarak güncel yerel paketi oluşturur.
 - `tests/`: tarayıcı testleri; uygulamayı çalıştırmak için test araçları gerekmez.
