@@ -5,6 +5,7 @@ Rize İl Millî Eğitim Müdürlüğü çalışması için Türkçe ve mobil uyu
 ## Sayfalar
 
 - Ana sayfa: https://gencbeyinlernet.github.io/nazmihocaproje/
+- Herkes için ortak ilk hikâye: https://gencbeyinlernet.github.io/nazmihocaproje/ortak-hikaye/
 - Ortaokul (5–8): https://gencbeyinlernet.github.io/nazmihocaproje/ortaokul/
 - Lise (9–12): https://gencbeyinlernet.github.io/nazmihocaproje/lise/
 - Üniversite: https://gencbeyinlernet.github.io/nazmihocaproje/universite/
@@ -15,6 +16,12 @@ Rize İl Millî Eğitim Müdürlüğü çalışması için Türkçe ve mobil uyu
 24 Ekim 2026 tarihli kullanıcı isteğiyle **4. sınıf aktif katalogdan, sınıf seçicisinden, soru formundan ve sahne atölyesinden kaldırıldı**. Önceki çalışmalar `arsiv/4-sinif/` altında korunur. Eski 4. sınıf ve ilkokul bağlantıları 5. sınıfa yönlenir; uygulama arşiv dosyalarını yüklemez.
 
 ## Hazır içerikler
+
+**Ortak ilk hikâye: “Saraydan Dünyaya: Büyük Keşif”.** Ana sayfanın orta slayt alanında ilk sıradadır; ortaokul, lise, üniversite ve bütün sınıf sayfalarında ortak başlangıç bağlantısı bulunur. Elif, Deniz ve Derya Öğretmen ile sekiz bağlantılı durak, kullanıcının verdiği metindeki saray → amaç ve görev → elçi ve rehberlik → Dünya ve doğa → robot → sonuç akışını işler. Bu, kitapların konu sırasından ayrı bir ortak başlangıçtır.
+
+Okuma hikâyesi, her durakta düşünme sorusu ve isteğe bağlı çalışma hazırdır. Üretim planında **8 durak × 7 sahne × 8 saniye = 56 sahne / 448 saniyelik hedef** vardır. Her sahnenin konuşmacısı, repliği ve görsel tarifi [ORTAK-HIKAYE.md](ORTAK-HIKAYE.md) içinde ve indirilebilir seslendirme planında yer alır. Ortak hikâyenin sahne görselleri, sesleri ve videosu henüz üretilmedi; kapak ayrı bir SVG çizimidir. Okuma sayfası bu dosyalar hazırmış gibi oynatmaz.
+
+Kaynak metnin **tamamı `assets/source.txt` üzerinden aynen gösterilir ve indirilebilir**; özgün hikâye uyarlaması ondan ayrı sunulur. Okuma ilerlemesi `merak-common-story-v1` anahtarında tutulur. Bir sayfayı açmak veya İleri ile geçmek okunmuş saymaz; “Okudum” düğmesi açıkça işaretler. Sekiz durak işaretlenmeden tamamlanma gösterilmez. Bu durum mevcut sınıf, sınav, video, rozet veya sertifika kayıtlarını değiştirmez.
 
 Aktif katalog 5–12. sınıflarda 35 ünite ve 163 konu planı içerir. Başlıklar ve sayfa referansları yüklenen kitapların sırasındadır. Kaynak dökümü: [KAYNAKLAR.md](KAYNAKLAR.md). 7. sınıf dosyası aktarım sınırını aştığından o sınıfın ayrı sayfasında konu sırası beklenir; tahminî başlık eklenmez.
 
@@ -30,7 +37,7 @@ Her hikâye **7 sahne × 8 saniye = 56 saniye** olarak planlanır. Toplam 21 ayr
 
 ## Yaşa göre sade görünüm
 
-Ana sayfanın ortasında hazır görselli hikâyelerin slayt gösterisi, altında üç eğitim düzeyi bulunur. Sınıf sayfalarının slaytları yalnızca seçili sınıf ve ünitenin hazır içeriklerini gösterir. Ortaokulda sınıf → belirgin “Hikâyeye başla” düğmesi → büyük görsel ve replik → Geri/İleri akışı vardır. Hazırlanmamış konular ve kaynak bilgileri kapalı ayrıntılardadır. Tamamlanma, yedi görsel ziyaret edilip öğrenci “Bitirdim” dediğinde kaydedilir; video izlenmiş veya sınav geçilmiş sayılmaz. Mevcut okuma ilerlemesi ve tamamlanan kartların yeşil durumu korunur.
+Ana sayfanın ortasında ortak ilk hikâyeyle başlayan slayt gösterisi, altında üç eğitim düzeyi bulunur. Sınıf sayfalarının slaytları yalnızca seçili sınıf ve ünitenin hazır içeriklerini gösterir; ortak ilk hikâye bunların üzerinde ayrı bir bağlantıdır. Ortaokulda sınıf → belirgin “Hikâyeye başla” düğmesi → büyük görsel ve replik → Geri/İleri akışı vardır. Hazırlanmamış konular ve kaynak bilgileri kapalı ayrıntılardadır. Sınıf hikâyesinin tamamlanması, yedi görsel ziyaret edilip öğrenci “Bitirdim” dediğinde kaydedilir; video izlenmiş veya sınav geçilmiş sayılmaz. Mevcut okuma ilerlemesi ve tamamlanan kartların yeşil durumu korunur.
 
 Geniş ekranda sınıflar soldaki sabit menüde Ortaokul ve Lise başlıkları altında listelenir; Üniversite ayrı bir kategoridir. Seçili sınıf belirgin görünür. Mobil ve tablette üstteki “Sınıflar” düğmesi aynı menüyü açar. Sınıf seçimi, kapatma düğmesi, dış alana dokunma veya Escape ile kapanır; klavye odağı menü içinde kalır ve kapanınca düğmeye döner. Hikâye sesi ya da öğretmen önizlemesi menü açılırken duraklatılır.
 
@@ -42,11 +49,11 @@ Teknik senaryo, hareket tarifi, ses dosyası deneme ve indirme araçları öğre
 
 ## Çalışma akışı
 
-Öğrenci önce eğitim düzeyini, sonra sınıfını seçer. Sınıf sayfası hazır hikâyelerden birini belirgin bir başlangıç düğmesiyle önerir. Görselli içerik öğrenci oynatıcısında açılır; yalnızca görsel, konuşmacı/replik ve ilerleme düğmeleri görünür. Görseli olmayan hazır hikâyeler kısa bilgi → hikâye şeklinde ilerler. Gerçek video eklenene kadar öğrenciye boş bir video adımı gösterilmez. Sesler daha sonra bağlanır; kayıt bitmeden otomatik ilerlenmez.
+Öğrenci ortak ilk hikâyeden başlayabilir; ardından eğitim düzeyini ve sınıfını seçer. Sınıf sayfası hazır hikâyelerden birini belirgin bir başlangıç düğmesiyle önerir. Görselli içerik öğrenci oynatıcısında açılır; yalnızca görsel, konuşmacı/replik ve ilerleme düğmeleri görünür. Görseli olmayan hazır hikâyeler kısa bilgi → hikâye şeklinde ilerler. Gerçek video eklenene kadar öğrenciye boş bir video adımı gösterilmez. Sesler daha sonra bağlanır; kayıt bitmeden otomatik ilerlenmez.
 
 Öğretmen görünümünde bütün kitap konu planları ve önceki ayrıntılı inceleme araçları korunur. Ortak soru/cevap alanı sağ üstteki “Soru sor” düğmesiyle açılır. Kullanım koşulları başlangıçta kısa özet ve açılabilir tam metinle gösterilir; mevcut onay zorunluluğu değişmez.
 
-Görseller özgün yapay zekâ üretimidir. Açıklama ve hikâyeler, öğretmen/içerik sorumlusu incelemesi bekleyen özgün uyarlamalardır; kitap metni, ayet veya hadis alıntısı gibi sunulmaz. Kitapların tam PDF’leri depoya eklenmez. İlk kullanıcının `assets/source.txt` metni değişmeden korunur. Gerçek kurum logosu `logo.jpg` dosyasıdır.
+5. sınıf hikâyelerinin sahne görselleri özgün yapay zekâ üretimidir. Açıklama ve hikâyeler, öğretmen/içerik sorumlusu incelemesi bekleyen özgün uyarlamalardır; kitap metni, ayet veya hadis alıntısı gibi sunulmaz. Kitapların tam PDF’leri depoya eklenmez. İlk kullanıcının `assets/source.txt` metni değişmeden korunur. Gerçek kurum logosu `logo.jpg` dosyasıdır.
 
 ## Gizlilik ve soru alanı
 
@@ -64,6 +71,8 @@ Soru/görüş, takip koduyla özel cevap ve yetkili eğitimci ekranları vardır
 - `assets/portal.js`, `portal.css`, `audiences.css`: eğitim düzeyleri, yaşa uygun sınıf görünümü ve gezinme.
 - `assets/navigation.js`, `navigation.css`: ortak sınıf menüsü ve mobil açılır panel.
 - `assets/discovery.js`, `discovery.css`: sağ menü, soru penceresi ve otomatik/manuel slayt gösterisi.
+- `assets/common-story-data.js`, `common-story.js`, `common-story.css`: sekiz duraklı ortak hikâye, 56 sahnenin planı ve okuma ilerlemesi.
+- `assets/common-palace.svg`: ortak hikâyenin kapak çizimi.
 - `assets/university.js`: kaynak seçimi bekleyen üç özgün üniversite tartışma planı.
 - `assets/portal-authoring.js`: öğretmenin tüm konu planlarını incelediği görünüm.
 - `assets/studio.js`: sade öğrenci hikâye oynatıcısı.

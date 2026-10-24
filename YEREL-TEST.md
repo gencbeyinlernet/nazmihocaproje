@@ -10,6 +10,9 @@ Mac/Linux için proje klasöründe `python3 BASLAT.py`; Windows terminalinde `py
 
 - İlk açılışta ortak kullanım koşulları ve onay ekranı.
 - Ana sayfanın ortasında hazır hikâyelerin kaydırmalı gösterisi, altında Ortaokul, Lise ve Üniversite seçenekleri.
+- İlk slaytta “Saraydan Dünyaya: Büyük Keşif”; tüm sınıflarda ve eğitim düzeylerinde aynı ortak başlangıç bağlantısı.
+- Ortak hikâyenin sekiz durağında Geri/İleri, “Okudum” ile kayıt ve tamamlanınca eğitim düzeyine geçiş. Yalnızca sayfa değiştirmek tamamlanma sayılmaz.
+- Özgün metnin tamamının aynen okunması/indirilmesi ve öğretmen bölümünden 56 sahnenin seslendirme planının indirilmesi.
 - Geniş ekranda solda kategorili sınıf menüsü; mobilde “Sınıflar” düğmesiyle açılan menü ve seçili sınıf vurgusu. Menü sınıf seçince, kapatma düğmesiyle, dışına dokunarak veya Escape ile kapanır.
 - Ortaokulda 5–8, lisede 9–12 sınıf seçimi; 4. sınıf kartı yoktur. Eski 4. sınıf/ilkokul adresleri 5. sınıfa yönlenir.
 - 5. sınıfın ilk üç konu kartındaki görselli atölye bağlantıları.

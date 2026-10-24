@@ -1,0 +1,731 @@
+'use strict';
+// Original common story adaptation. The full source remains unchanged in source.txt.
+window.MERAK_COMMON_STORY = {
+  "id": "saraydan-dunyaya",
+  "title": "Saraydan Dünyaya: Büyük Keşif",
+  "subtitle": "Herkes için ortak ilk hikâye",
+  "summary": "Bir sarayın kapısında başlayan yolculuk, Dünya’ya ve insanın sorumluluğuna uzanıyor. Elif, Deniz ve Derya Öğretmen ile amaç, düzen ve ilahî rehberlik üzerine birlikte düşünelim.",
+  "cover": "assets/common-palace.svg",
+  "source": "assets/source.txt",
+  "characters": [
+    {
+      "name": "Elif",
+      "role": "Merak eden öğrenci",
+      "voice": "Doğal, anlaşılır kız çocuk sesi; ses dosyası daha sonra eklenecek."
+    },
+    {
+      "name": "Deniz",
+      "role": "Bağlantıları araştıran öğrenci",
+      "voice": "Doğal, anlaşılır erkek çocuk sesi; ses dosyası daha sonra eklenecek."
+    },
+    {
+      "name": "Derya Öğretmen",
+      "role": "Yol gösteren eğitimci",
+      "voice": "Sakin ve sıcak yetişkin kadın sesi; ses dosyası daha sonra eklenecek."
+    },
+    {
+      "name": "Anlatıcı",
+      "role": "Durakları birbirine bağlayan anlatım",
+      "voice": "Akıcı Türkçe yetişkin anlatıcı sesi; ses dosyası daha sonra eklenecek."
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ilk-soru",
+      "number": 1,
+      "title": "Bir soruyla açılan defter",
+      "art": "saray",
+      "goal": "Amaç ve yaratılış üzerine birlikte düşünmek.",
+      "paragraphs": [
+        "Elif ile Deniz, okulun kütüphanesinde büyük bir keşif defteri buldu. Kapağında tek bir soru vardı: “Bunca güzelliğin içinde bizim yerimiz ne?” Derya Öğretmen, defteri masaya açtı. “Bugün hep birlikte aynı hikâyeden başlayacağız,” dedi. “Yaşımız ve sınıfımız farklı olabilir. Merakımız bizi aynı masada buluşturabilir.”",
+        "Defterin ilk sayfasında bir saray resmi, son sayfasında ise Dünya vardı. Deniz, aradaki boş sayfalara baktı. “Bu ikisi nasıl birbirine bağlanacak?” diye sordu. Öğretmen, kendilerine verilen metnin evrenin yaratılışı, hayatın amacı, sorumluluk ve ilahî rehberlik üzerine sorular sorduğunu anlattı. İslam inancına göre Allah’ın insanı yaratıp ilgisiz bırakmadığını; insanın hayatında anlam, sorumluluk ve rehberlik bulunduğunu konuşacaklardı.",
+        "Elif, defterin kenarına “Dikkatle bak, sorunu açıkça sor, bağlantıyı kur” yazdı. Öğretmen, farklı düşünceleri anlamaya çalışırken insanları incitmeden konuşmalarını istedi. “Önce metnin ne söylediğini anlayalım. Sonra örneklerini ve ulaştığı sonucu birlikte düşünelim.” Sayfayı çevirdiklerinde sarayın kapısı hayallerinde yavaşça açıldı."
+      ],
+      "quote": "Öyle mi?",
+      "question": "Bir şeyin nasıl var olduğunu sormakla niçin var olduğunu sormak arasında nasıl bir fark var?",
+      "practice": "Bir kâğıda bu hikâyede merak ettiğin bir soruyu yaz. Son durakta soruna yeniden bak.",
+      "scenes": [
+        {
+          "id": "ortak-01-01",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Elif ile Deniz, keşif defterinin başında buluştu. İlk sayfada büyük bir soru vardı: Hayatımızın anlamı neydi?",
+          "visual": "Kütüphane masasında bir defter; kapağında yazı yerine saray ve Dünya simgeleri.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-01-02",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Hepimiz farklı sınıflardayız. Ama aynı gökyüzüne bakıyor, aynı dünyada yaşıyoruz. Bu hikâyeyi birlikte keşfedebiliriz.",
+          "visual": "Elif defteri açar; farklı yaşları temsil eden kitaplar masanın çevresinde durur.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-01-03",
+          "seconds": 8,
+          "speaker": "Deniz",
+          "text": "Defterin başında bir saray, sonunda Dünya var. Bu iki resmin arasındaki bağlantıyı bulmak istiyorum.",
+          "visual": "Deniz, defterde saray ile Dünya arasındaki boş sayfalara işaret eder.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-01-04",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "Metnimiz yaratılış, amaç, sorumluluk ve rehberlik üzerine sorular soruyor. Önce ne söylendiğini dikkatle anlayalım.",
+          "visual": "Öğretmen dört kavramı temsil eden resimli kartları masaya koyar.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-01-05",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Bir şeyin nasıl var olduğunu merak ediyorum. Ama niçin var olduğunu da düşünmek istiyorum.",
+          "visual": "Elif iki ayrı soru kartını saray çiziminin yanına yerleştirir.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-01-06",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "İslam inancına göre insanın hayatı anlamlıdır. Allah insanı yaratıp ilgisiz bırakmaz; ona yol gösterir.",
+          "visual": "Öğretmen ve öğrenciler aydınlık kütüphanede konuşur; ilahî varlık tasvir edilmez.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-01-07",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Sorularını deftere yazdılar. Sayfa çevrildi, hayallerindeki sarayın kapısı açıldı. Yolculuk artık başlıyordu.",
+          "visual": "Defterdeki saray çizimine yaklaşılır; bir sonraki durağa görsel geçiş planı.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        }
+      ]
+    },
+    {
+      "id": "saray",
+      "number": 2,
+      "title": "Sarayda hazırlanan sofra",
+      "art": "saray",
+      "goal": "Sunulan imkânları ve ihtiyaçları fark etmek.",
+      "paragraphs": [
+        "Sarayın geniş avlusunda temiz su akan bir çeşme vardı. İçeride yiyecekler hazırlanmış, giyecekler düzenlenmiş, dinlenmek için odalar ayrılmıştı. Bahçeyi koruyan, sofraya yardım eden ve konukları karşılayan görevliler kendi işleriyle ilgileniyordu. Elif, “Burada yalnızca güzel bir bina yok; ihtiyaçlarımız düşünülmüş,” dedi. Deniz de deftere su, yiyecek, barınma ve yardım başlıklarını yazdı.",
+        "Bir görevli onlara sofrayı gösterdi. Deniz bir ekmek alırken Elif, masada başka konukların da bulunduğunu fark etti. “Ben bütün ekmekleri alsam diğerlerine kalmaz,” dedi. Bu küçük gözlem, sarayın ihtişamından daha büyük bir soruya dönüştü: Bir imkândan yararlanmak, onu düşünmeden tüketmek anlamına gelir miydi? Kendileri için hazırlanmış olanlar, başkalarına karşı davranışlarını da düşündürüyordu.",
+        "Öğretmen, kaynak metindeki sarayın bir düşünme örneği olduğunu hatırlattı. “Bu benzetmede önce hangi ihtiyaçların karşılandığını görüyoruz. Sonra yazarın neden amaç ve görev sorularına geçtiğini izleyeceğiz.” Elif, defterine “Fark etmek, teşekkür etmek, paylaşmak” yazdı. Saraydan ayrılmadan önce çeşmenin başına döndüler; açık bırakılmış musluğu kapatmayı unutmadılar."
+      ],
+      "quote": "-Sizden hiçbir beklentisi olmasın…",
+      "question": "Sarayda karşılanan ihtiyaçları görmek, kendi davranışların hakkında sana hangi soruları düşündürüyor?",
+      "practice": "Günlük hayatında yararlandığın üç imkânı yaz. Her birinin yanına onu özenle kullanmanın bir yolunu ekle.",
+      "scenes": [
+        {
+          "id": "ortak-02-01",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Sarayda su, yiyecek, giyecek ve dinlenecek odalar hazırlanmıştı. Her köşede başka bir ihtiyaç düşünülmüştü.",
+          "visual": "Geniş saray avlusu, çeşme ve sade bir sofra; Elif ile Deniz çevreyi inceler.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-02-02",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Burada yalnızca güzel bir bina yok. Susadığımızda su, acıktığımızda yiyecek bulabiliyoruz. İhtiyaçlarımız düşünülmüş.",
+          "visual": "Elif çeşme ile sofrayı gösterir; ortam sıcak ve davetkârdır.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-02-03",
+          "seconds": 8,
+          "speaker": "Deniz",
+          "text": "Bahçeye bakan, sofraya yardım eden görevliler de var. Bu hazırlıkların hepsini defterimize yazalım.",
+          "visual": "Deniz, bahçıvanı ve sofra hazırlayan yetişkinleri gözlemleyerek not alır.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-02-04",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Bütün ekmekleri ben alırsam başkalarına kalmaz. Bir imkândan yararlanmak, onu sınırsızca tüketmek demek mi?",
+          "visual": "Elif ekmek sepetini başka konuklarla paylaşır.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-02-05",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "Kaynak metin bu sarayı bir benzetme olarak kuruyor. Sunulan imkânlardan, amaç ve görev sorularına geçiyor.",
+          "visual": "Öğretmen saray çiziminin yanına ihtiyaç ve amaç simgeleri koyar.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-02-06",
+          "seconds": 8,
+          "speaker": "Deniz",
+          "text": "Öyleyse yalnızca bana ne verildiğini sormayacağım. Bu imkânları nasıl kullandığımı da düşüneceğim.",
+          "visual": "Deniz deftere bir ekmek ve paylaşan eller simgesi çizer.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-02-07",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Elif çeşmenin musluğunu kapattı. İkisi de aynı soruyu düşündü: Bu hazırlığın içinde bizim sorumluluğumuz neydi?",
+          "visual": "Çeşme kapanır; defterin yeni sayfasında yol ayrımı simgesi görünür.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        }
+      ]
+    },
+    {
+      "id": "amac",
+      "number": 3,
+      "title": "Amaç, görev ve özgür seçim",
+      "art": "pusula",
+      "goal": "Amaç ile sorumluluğu ayırt etmek.",
+      "paragraphs": [
+        "Ertesi sayfada sarayın bahçesine çizilmiş küçük yollar vardı. Yollardan biri çiçeklerin arasından, diğeri ortak kullanılan çeşmenin yanından geçiyordu. Deniz, “Her yerde istediğimiz gibi davranabilir miyiz?” diye sordu. Elif, çiçeklerin üzerine basan birinin güzelliği herkesten eksilteceğini düşündü. Özgür olmakla başkalarının hakkını gözetmek arasında bir bağlantı bulmaya başlamışlardı.",
+        "Öğretmen iki kart açtı: “Amaç: Niçin?” ve “Sorumluluk: Nasıl davranmalıyım?” Sarayın neden hazırlandığını sormakla konukların neye dikkat etmesi gerektiğini sormak aynı şey değildi. Ama bu sorular birbirine bağlıydı. Bir imkânın ne için sunulduğunu düşündükçe onu nasıl kullanacaklarını da daha dikkatli değerlendirebiliyorlardı.",
+        "Elif, “Görev denince yalnızca zor bir iş düşünüyordum. Paylaşmak ve zarar vermemek de sorumluluk olabilir,” dedi. Öğretmen, kaynak metnin insanın amaçsız ve başıboş bırakıldığı düşüncesini sorguladığını anlattı. İslam inancında insanın seçimlerinden sorumlu olduğunu, iyiliğin ve adaletin bu seçimlerde anlam kazandığını konuştular. Defterin bir köşesine şu soruyu bıraktılar: “Sorumluluklarımı nasıl öğrenirim?”"
+      ],
+      "quote": "-Size hiçbir görev yüklemesin…",
+      "question": "Bir davranışta özgür olman, o davranışın başkalarına etkisini düşünmeni neden gerektirir?",
+      "practice": "“Neden yapılıyor?” ve “Benden nasıl bir davranış bekleniyor?” başlıklarına birer günlük hayat örneği yaz.",
+      "scenes": [
+        {
+          "id": "ortak-03-01",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Bahçedeki yollar bir soruyu daha açtı. Özgürce hareket etmekle başkalarının hakkını gözetmek nasıl birlikte düşünülürdü?",
+          "visual": "Saray bahçesinde iki yol; çiçekler ve ortak çeşme görünür.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-03-02",
+          "seconds": 8,
+          "speaker": "Deniz",
+          "text": "Çiçeklerin üzerine basarsam benim için kısa bir yol olur. Ama bahçenin güzelliğine başkaları da ortak.",
+          "visual": "Deniz çiçeklerin kenarında durur, döşenmiş yola bakar.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-03-03",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "İstediğim bir şeyi yapabiliyor olmam, onun doğru olduğu anlamına gelmeyebilir. Sonucunu da düşünmeliyim.",
+          "visual": "Elif, çiçeklerin etrafından dolaşan yolu seçer.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-03-04",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "Amaç, niçin sorusuyla ilgilidir. Sorumluluk ise nasıl davranmamız gerektiğini düşündürür. İkisi birbirine bağlıdır.",
+          "visual": "Öğretmen iki ayrı kavram kartını defter üzerine yerleştirir.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-03-05",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Paylaşmak, başkasının hakkını korumak ve zarar vermemek de sorumluluk. Görev yalnızca zor bir iş değil.",
+          "visual": "Elif bir arkadaşına su uzatır; diğer konukların geçişine yer bırakır.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-03-06",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "İslam inancında insan amaçsız değildir ve seçimlerinden sorumludur. İyilik ile adalet, davranışlarımızda karşılık bulur.",
+          "visual": "Öğretmen, öğrencilerle bahçedeki ortak alanı konuşur.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-03-07",
+          "seconds": 8,
+          "speaker": "Deniz",
+          "text": "Peki, sorumluluğumu nasıl öğreneceğim? Defterin sonraki sayfasında bu sorunun izini sürmek istiyorum.",
+          "visual": "Deniz bir zarf simgesi bulunan sayfayı açar.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        }
+      ]
+    },
+    {
+      "id": "mesaj",
+      "number": 4,
+      "title": "Yol gösteren mesaj",
+      "art": "mesaj",
+      "goal": "Kural, elçi, tebliğ ve rehberlik bağlantısını anlamak.",
+      "paragraphs": [
+        "Sarayın görevlileri yaptıkları işi biliyordu. Bahçıvan nerede çalışacağını, sofrayı hazırlayan kişi hangi ihtiyaçlara yardım edeceğini öğrenmişti. Konuklar ise avludaki yeni bir düzenlemeyi henüz duymamıştı. Bir haberci, sarayın insan olan yöneticisinin açıklamasını getirdi: Ortak alanlar korunacak, ihtiyaç sahipleri gözetilecek ve herkese adaletle davranılacaktı. Bu, hikâyenin sarayında geçen hayalî bir mesajdı.",
+        "“Bir görev söylenmeden onu nasıl bilebiliriz?” diye sordu Deniz. Öğretmen, kaynak metinde elçinin bir görevi iletme bağlamında anıldığını açıkladı. “Tebliğ, bildirmek demektir. Benzetmede bir mesajın konuklara ulaşmasını düşünüyoruz. İslam inancında ise Allah’ın peygamberler ve vahiy yoluyla insanlara rehberlik ettiğini öğreniyoruz.” Kur’an’ın bu rehberlikteki yerini ve peygamberlerin insanlara örnek oluşunu konuştular.",
+        "Elif, deftere “Mesaj → Anlama → Davranış” zincirini çizdi. Yalnızca bir mesajı duymakla o mesajı dikkatle anlayıp hayatına yansıtmak aynı şey değildi. Öğretmen, sarayın ve yöneticisinin Allah’ın kendisi olmadığını; benzetmenin yalnızca belirli bir bağlantıyı düşündürmek için kullanıldığını hatırlattı. Artık sayfanın kenarındaki Dünya resmine geçmeye hazırdılar."
+      ],
+      "quote": "-Size görevinizi tebliğ edecek bir elçi göndermesin veya gönderemesin…",
+      "question": "Bir mesajı duymak, anlamak ve ona göre davranmak neden ayrı adımlardır?",
+      "practice": "“Tebliğ”, “elçi” ve “rehberlik” için kendi cümlelerinle kısa açıklamalar yaz.",
+      "scenes": [
+        {
+          "id": "ortak-04-01",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Saraydaki görevliler yapacaklarını biliyordu. Yeni bir açıklamanın ise konuklara da duyurulması gerekiyordu.",
+          "visual": "Bahçıvan ve sofra görevlisi çalışırken konuklar avluda toplanır.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-04-02",
+          "seconds": 8,
+          "speaker": "Deniz",
+          "text": "Bir görev varsa, onu öğrenmeye de ihtiyaç var. Konuklara hiç açıklama yapılmadığını düşünmek tuhaf geliyor.",
+          "visual": "Deniz, henüz açılmamış bir mesaj zarfına bakar.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-04-03",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Mesajın yalnızca söylenmesi yetmez. Neyi anlattığını dikkatle dinlemek, anlamak ve davranışıma yansıtmak isterim.",
+          "visual": "Elif üç aşamalı bir bağlantı şeması çizer.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-04-04",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "Tebliğ, bildirmek demektir. Metindeki elçi, görevi iletme bağlantısını düşünmemize yardım ediyor.",
+          "visual": "Öğretmen, zarf ve konuşma simgelerini defterde ilişkilendirir.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-04-05",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "İslam inancında Allah, peygamberler ve vahiy yoluyla insanlara rehberlik eder. Kur’an bu rehberliğin temel kaynağıdır.",
+          "visual": "Öğretmen kapalı bir Kur’an-ı Kerim’in bulunduğu okuma masasında açıklama yapar; peygamber tasviri yoktur.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-04-06",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Saraydaki hayalî haberciyle, öğrendiğimiz dinî kavramları birbirine karıştırmadan aradaki bağlantıyı kurabiliriz.",
+          "visual": "Elif saray örneği ile rehberlik kavramını ayrı kutularda gösterir.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-04-07",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Mesajın anlamını konuştular. Şimdi saray çiziminin yanında duran Dünya, onları daha büyük bir düşünceye çağırıyordu.",
+          "visual": "Defterde saray ile Dünya arasında bir yol çizilir.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        }
+      ]
+    },
+    {
+      "id": "dunya",
+      "number": 5,
+      "title": "Dünya: büyük bir saray",
+      "art": "dunya",
+      "goal": "Nimet, şükür ve özenli kullanım üzerine düşünmek.",
+      "paragraphs": [
+        "Defterin yeni sayfasında saray yerine Dünya vardı. Sabah ışığı bir tarlaya vuruyor, ağaçların dallarında meyveler büyüyor, sofraya gelen besinlerin yolculuğu başlıyordu. Elif, sarayda yazdıkları ihtiyaç listesini yeniden açtı. Su, yiyecek, barınma ve yardım… Bu kez aynı ihtiyaçları kendi hayatlarında, çok daha geniş bir bağlantı içinde görüyorlardı.",
+        "Deniz metindeki benzetmeleri sıraladı: Dünya bir saray; ay ve yıldızlar kandil; Güneş ise lamba, soba ve ocak gibi anlatılıyordu. Öğretmen, bunların birer anlatım benzetmesi olduğunu açıkladı. Güneş’in gerçekten bir ocak olmadığını, bu sözlerle ışık ve ısının hayatımızdaki yerinin düşünüldüğünü konuştular. Hikâye, doğadaki süreçleri öğrenmeye ve çevreye daha dikkatli bakmaya davet ediyordu.",
+        "Elif elindeki elmaya baktı. “Bunu yalnızca yemek değil; suyu, toprağı, güneşi ve emeği de fark etmek istiyorum,” dedi. İslam inancında nimetleri fark etmenin şükürle, şükrün de davranışla ilişkisini konuştular. İsraf etmemek, paylaşmak ve canlılara özen göstermek günlük hayatlarında yapabilecekleri işlerdi. Dünya’yı bir emanet gibi düşünmek, sarayda başladıkları sorumluluk sorusunu büyütmüştü."
+      ],
+      "quote": "ayı yıldızları birer kandil",
+      "question": "Bir nimeti fark etmek ve ona şükretmek, günlük davranışlarında nasıl görünür?",
+      "practice": "Bir besinin sofrana gelene kadar bağlantılı olduğu üç şeyi çiz. Sonuna israfı azaltmak için bir davranış ekle.",
+      "scenes": [
+        {
+          "id": "ortak-05-01",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Saray çizimi yerini Dünya’ya bıraktı. Tarlalar, ağaçlar ve su, ilk duraktaki ihtiyaç listesini yeniden hatırlattı.",
+          "visual": "Dünya küresi çevresinde tarla, ağaç ve su simgeleri belirir.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-05-02",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Suya ve yiyeceğe her gün ihtiyaç duyuyorum. Ama bazen bunların hayatımdaki yerini fark etmeden geçiyorum.",
+          "visual": "Elif su bardağı ve elmayı yan yana inceler.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-05-03",
+          "seconds": 8,
+          "speaker": "Deniz",
+          "text": "Metin Dünya’yı saraya, ay ve yıldızları kandile benzetiyor. Güneş için de ışık ve ısı örnekleri var.",
+          "visual": "Deniz, Dünya ile saray çizimlerini eşleştirir.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-05-04",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "Bunlar benzetmelerdir. Güneş’in gerçek bir ocak olduğunu söylemiyoruz; ışığın ve ısının hayatla bağlantısını düşünüyoruz.",
+          "visual": "Öğretmen Güneş’ten bitkiye uzanan sade bir ışık ve ısı şeması çizer.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-05-05",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Bir elmanın yanında suyu, toprağı, güneşi ve emeği de hatırlamak istiyorum. Fark etmek, davranışımı değiştirebilir.",
+          "visual": "Elif, elmanın çevresine su, toprak, Güneş ve emek simgeleri ekler.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-05-06",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "İslam inancında nimetleri fark etmek şükürle ilişkilidir. Şükür, paylaşmakta ve israftan kaçınmakta da karşılık bulabilir.",
+          "visual": "Öğrenciler sofrada ihtiyacı kadar yiyecek alır ve paylaşır.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-05-07",
+          "seconds": 8,
+          "speaker": "Deniz",
+          "text": "Dünya’yı bir emanet gibi düşünürsem, onu nasıl kullandığımı da sorgularım. Sorumluluk sorumuz şimdi daha büyük.",
+          "visual": "Dünya küresinin etrafında bitki, su ve koruyan eller simgeleri görünür.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        }
+      ]
+    },
+    {
+      "id": "duzen",
+      "number": 6,
+      "title": "Doğanın düzeni, insanın seçimi",
+      "art": "duzen",
+      "goal": "Doğadaki süreçlerle ahlaki seçimi birbirine karıştırmadan ilişkilendirmek.",
+      "paragraphs": [
+        "Gece olduğunda Elif ile Deniz pencereden gökyüzüne baktı. Sabah yeniden aydınlanacak, bahçedeki ağaç mevsimine göre değişecek, su doğadaki yolculuğunu sürdürecekti. Öğretmen, doğadaki düzeni gözlemlemenin öğrenmenin başlangıcı olduğunu söyledi. Bir ağacın nasıl büyüdüğünü veya gündüz ile gecenin nasıl oluştuğunu araştırmak, dikkatle bakmanın başka bir yoluydu.",
+        "Deniz, “Peki, biz de bir ağaç gibi mi davranıyoruz?” diye sordu. Öğretmen, doğadaki süreçlerle insanın ahlaki kararlarının aynı türden şeyler olmadığını anlattı. Bir dal, arkadaşının hakkını korumayı seçmez; insan ise doğruyu öğrenebilir, davranışını değerlendirebilir ve kararlarının sonucunu düşünebilir. Metnin insanın görevini ayrıca sorgulaması, onların dikkatini bu noktaya çekmişti.",
+        "Elif, yerde duran bir kâğıdı alıp kutuya attı. Bu küçük işi yapmak zorunda olduğu için değil, doğru bulduğu için seçtiğini söyledi. İslam inancında Allah’ın insana akıl ve irade vermesini, sorumluluğun da bu imkânlarla ilişkisini konuştular. Defterde artık iki ayrı kutu vardı: “Doğayı anla” ve “Davranışını değerlendir”. İki kutu da aynı dikkatli bakışın parçasıydı."
+      ],
+      "quote": "yerli yerinde, zamanında, görevlerini eksiksiz kusursuz yapsın da;",
+      "question": "Doğada gerçekleşen bir süreç ile senin verdiğin ahlaki bir karar arasındaki fark nedir?",
+      "practice": "Bir doğa gözlemi ve bir ahlaki seçim örneği yaz. Bunları neden iki ayrı başlıkta düşündüğünü açıkla.",
+      "scenes": [
+        {
+          "id": "ortak-06-01",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Gece ve gündüz, suyun yolculuğu ve ağaçların büyümesi… Defter şimdi doğayı dikkatle gözlemlemeye davet ediyordu.",
+          "visual": "Pencereden gökyüzü ve bahçedeki ağaç görünür; gece-gündüz geçişi planlanır.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-06-02",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Bir ağacın nasıl büyüdüğünü araştırabilirim. Gözlemledikçe hem yeni bilgiler öğreniyor hem de daha çok soru soruyorum.",
+          "visual": "Elif ağacın farklı mevsimlerdeki gözlem çizimlerini karşılaştırır.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-06-03",
+          "seconds": 8,
+          "speaker": "Deniz",
+          "text": "Ama ağacın büyümesiyle benim bir arkadaşıma yardım etmeyi seçmem aynı şey değil. Aradaki farkı konuşalım mı?",
+          "visual": "Deniz doğa süreci ve yardım davranışı için iki ayrı kart açar.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-06-04",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "Doğadaki süreçler ile ahlaki kararlar aynı türden değildir. İnsan, davranışını değerlendirebilir ve nasıl davranacağını seçebilir.",
+          "visual": "Öğretmen, gözlem ve seçim kartlarını ayrı tutarak ilişkilendirir.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-06-05",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Yerdeki kâğıdı görmezden gelebilirdim. Çevreyi temiz tutmayı doğru bulduğum için onu kutuya atmayı seçtim.",
+          "visual": "Elif yerdeki kâğıdı uygun atık kutusuna bırakır.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-06-06",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "İslam inancında insana verilen akıl ve irade, sorumlulukla ilişkilidir. Rehberlik, seçimlerimizi düşünmemize yardım eder.",
+          "visual": "Öğretmen, akıl, seçim ve sorumluluğu simgeleyen sade bir şema çizer.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-06-07",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Doğayı anlamakla davranışını değerlendirmeyi ayırdılar. Sonraki sayfada, insanın yaptığı küçük bir robot onları bekliyordu.",
+          "visual": "İki ayrı kavram kutusunun yanına küçük bir eğitim robotu çizilir.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        }
+      ]
+    },
+    {
+      "id": "robot",
+      "number": 7,
+      "title": "Robotun açtığı son soru",
+      "art": "robot",
+      "goal": "Benzetmenin ne anlattığını ve sınırlarını düşünmek.",
+      "paragraphs": [
+        "Deniz, teknoloji atölyesinde yaptığı küçük robotu masaya getirdi. Robot belirlenen çizgiyi izliyor, önüne bir engel çıkınca duruyordu. Elif, onun bu hareketleri nasıl yaptığını sordu. Deniz, yazdığı komutları ve kullandığı parçaları anlattı. Öğretmen, kaynak metnin sonunda insanın yaptığı robot örneğinin yer aldığını hatırlattı.",
+        "“Bu benzetme, insan ile yaratıcısı arasındaki farkı düşündürmek için kullanılıyor,” dedi öğretmen. Robotun belirli bir işi hızlı yapabilmesiyle hayatın anlamını bilmek aynı soru değildi. Bir hesap makinesinin işlemi insandan hızlı yapması da onu insanın bütün bilgisinden ve değerlerinden üstün kılmazdı. Kaynak metindeki düşünceyi, her teknoloji için yapılmış teknik bir ölçüm gibi okumadan kendi bağlamında ele aldılar.",
+        "Elif deftere “İnsanın bilgisi sınırlıdır” yazdı. İslam inancında Allah’ın ilminin ve kudretinin insanınki gibi sınırlı olmadığını konuştular. Öğretmen, Allah’ı insan veya makine gibi hayal etmeyeceklerini vurguladı. Benzetme, Yaratıcı ile yaratılanı aynılaştırmak için değil, aralarındaki farkı düşündürmek için ele alınmıştı. Deniz robotu kapattı. Şimdi metnin başından sonuna uzanan bütün bağlantıları birleştirebilirlerdi."
+      ],
+      "quote": "Aynen öyle de yaratanı Allah olan insan da elbette Allah’tan daha akıllı, daha mantıklı olamaz, daha iyi düşünemez.",
+      "question": "Bir benzetmeyi anlamak için yalnızca benzerlikleri değil, sınırlarını da konuşmak neden önemlidir?",
+      "practice": "Robot örneğinin metinde hangi düşünceyi anlattığını yaz. Ardından benzetmenin gerçek bir varlığın bütün özelliklerini kapsamadığına bir örnek ver.",
+      "scenes": [
+        {
+          "id": "ortak-07-01",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Deniz küçük robotunu masaya koydu. Robot çizgiyi izliyor, önündeki engeli fark edince duruyordu.",
+          "visual": "Masa üzerinde çizgi izleyen basit bir eğitim robotu; Elif ile Deniz gözlemler.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-07-02",
+          "seconds": 8,
+          "speaker": "Deniz",
+          "text": "Onun için komutlar yazdım, parçalarını birleştirdim. Şimdi belirli işleri nasıl yaptığını sana gösterebilirim.",
+          "visual": "Deniz robotun parçalarını ve komut kartlarını gösterir.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-07-03",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Bir cihaz bir işi çok hızlı yapabilir. Ama hız ile hayatın anlamını düşünmek aynı soru değil.",
+          "visual": "Elif, hız simgesi ile düşünme simgesini ayrı kartlara yerleştirir.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-07-04",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "Metindeki robot bir benzetme örneğidir. Onu, bütün teknolojiler için yapılmış teknik bir ölçüm gibi okumayalım.",
+          "visual": "Öğretmen robot örneğinin çevresine belirli bir benzetme çerçevesi çizer.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-07-05",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "O hâlde hangi bağlantının anlatıldığını soralım. Benzetmenin her ayrıntısının aynı olması gerekmiyor.",
+          "visual": "Elif, örnek ile sonuç arasında tek bir bağlantı oku çizer.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-07-06",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "İslam inancında Allah’ın ilmi ve kudreti insanınki gibi sınırlı değildir. Allah’ı insan veya makine gibi tasvir etmeyiz.",
+          "visual": "Öğretmen yalnızca yazılı kavram kartlarıyla açıklar; ilahî varlık görüntülenmez.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-07-07",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Robot kapandı, keşif defteri açık kaldı. Saraydan bugüne uzanan soruları tek bir haritada birleştirmenin zamanı gelmişti.",
+          "visual": "Robot kenara alınır; büyük bir düşünce haritası için defter açılır.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        }
+      ]
+    },
+    {
+      "id": "baglanti",
+      "number": 8,
+      "title": "Bütün yolların buluştuğu sayfa",
+      "art": "harita",
+      "goal": "Amaç, sorumluluk ve ilahî rehberlik bağlantısını birleştirmek.",
+      "paragraphs": [
+        "Elif ile Deniz, sekiz durağın kartlarını büyük bir masaya dizdi. İlk kartta bir soru, ikincide saray ve sofra vardı. Sonra amaç, sorumluluk, mesaj, Dünya, doğa ve robot kartları geliyordu. Deniz, “Bunlar ayrı ayrı örneklerdi; şimdi aynı metnin düşünce yolunu görüyoruz,” dedi. Elif, ilk durakta yazdığı soruyu yeniden okudu: “Hayatımızın içinde bize düşen ne?”",
+        "Öğretmen, metnin sorguladığı düşünceyi ve verdiği cevabı yeniden ayırmalarını istedi. Metin, Yaratıcının evreni yaratıp insanı amaçsız ve rehbersiz bıraktığı iddiasına karşı sorular kuruyordu. İslam inancında Allah’ın yaratmasının hikmetli olduğunu, insanın sorumluluk taşıdığını ve peygamberler ile vahiy yoluyla rehberlik aldığını ifade ediyordu. Saray, Dünya ve robot örnekleri bu düşünceyi anlatmak için kullanılan benzetmelerdi.",
+        "Elif bu kez deftere yalnızca bir kavram yazmadı: “Suyu dikkatli kullanacağım, öğrendiğim bilgiyi sorgulayarak anlayacağım, insanlarla saygıyla konuşacağım.” Deniz de kendi sorusunu ve seçtiği bir sorumluluğu ekledi. Her sorunun bir günde bitmesi gerekmiyordu; öğrenme devam edecekti. Ortak hikâyeleri burada tamamlanıyor, kendi sınıflarının konularına giden yeni yollar açılıyordu.",
+        "Derya Öğretmen defteri kapatmadan önce kaynak metni bir kez daha açtı. “Hikâyede okuduklarımız özgün bir anlatım. Verilen metnin tamamını ise sözcüklerini değiştirmeden burada koruyoruz. İsterseniz şimdi birlikte okuyalım.” Elif ile Deniz, sarayda başlayan yolculuğun artık kendi hayatlarında da sorular ve davranışlar olarak devam ettiğini düşündü."
+      ],
+      "quote": "Haşa ve kella! (Asla öyle değil)",
+      "question": "Bu metnin ilk sorusu ile ulaştığı sonuç arasındaki düşünce yolunu kendi cümlelerinle nasıl anlatırsın?",
+      "practice": "Saray → Amaç ve sorumluluk → Mesaj ve rehberlik → Dünya ve doğa → Robot → Sonuç sırasıyla bir harita kur. Her bağlantıyı bir cümleyle açıkla.",
+      "scenes": [
+        {
+          "id": "ortak-08-01",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Keşif kartları aynı masada buluştu. Saray, amaç, mesaj, Dünya, doğa ve robot artık birbirine bağlanıyordu.",
+          "visual": "Bütün durakların simgeleri büyük bir masa üzerinde sıralanır.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-08-02",
+          "seconds": 8,
+          "speaker": "Deniz",
+          "text": "İlk başta ayrı örnekler görüyordum. Şimdi metnin aynı soruyu farklı benzetmelerle adım adım açtığını fark ediyorum.",
+          "visual": "Deniz kartlar arasında bağlantı okları çizer.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-08-03",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Metin, insanın amaçsız ve rehbersiz bırakıldığı düşüncesini sorguluyor. Saray örneğinden başlayan sorular buraya uzanıyor.",
+          "visual": "Elif, ilk soru kartını son kavram haritasının yanına koyar.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-08-04",
+          "seconds": 8,
+          "speaker": "Derya Öğretmen",
+          "text": "İslam inancında yaratılış hikmetlidir; insan sorumludur. Peygamberler ve vahiy, insanın hayatında ilahî rehberliği anlatır.",
+          "visual": "Öğretmen amaç, sorumluluk ve rehberliği gösteren üç kartı ilişkilendirir.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-08-05",
+          "seconds": 8,
+          "speaker": "Elif",
+          "text": "Ben de bu düşüncenin hayatımdaki karşılığını arayacağım. Suyu dikkatli kullanmak, paylaşmak ve saygıyla konuşmakla başlayabilirim.",
+          "visual": "Elif, günlük hayatında seçtiği üç davranışı defterine yazar.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-08-06",
+          "seconds": 8,
+          "speaker": "Deniz",
+          "text": "Bütün sorularımız bugün bitmedi. Ama sorumu nasıl soracağımı ve öğrendiğimi nasıl düşüneceğimi daha iyi biliyorum.",
+          "visual": "Deniz ilk sorusunu yeniden okur ve yanına yeni bir soru ekler.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        },
+        {
+          "id": "ortak-08-07",
+          "seconds": 8,
+          "speaker": "Anlatıcı",
+          "text": "Ortak hikâye tamamlandı. Kaynak metin aynen yerinde duruyor. Şimdi herkes kendi sınıfındaki öğrenme yoluna devam edebilir.",
+          "visual": "Defterin yanında ortaokul, lise ve üniversite yollarını gösteren sade kartlar açılır.",
+          "audioUrl": "",
+          "imageUrl": "",
+          "audioApproval": "pending"
+        }
+      ]
+    }
+  ]
+};

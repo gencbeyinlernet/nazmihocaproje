@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
   if (!file.startsWith(root + path.sep)) { res.writeHead(403); res.end(); return; }
   try {
     if (fs.statSync(file).isDirectory()) file = path.join(file, 'index.html');
-    res.setHeader('Content-Type', ({ '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.png': 'image/png', '.jpg': 'image/jpeg' })[path.extname(file)] || 'text/plain');
+    res.setHeader('Content-Type', ({ '.html': 'text/html', '.svg': 'image/svg+xml', '.js': 'text/javascript', '.css': 'text/css', '.png': 'image/png', '.jpg': 'image/jpeg' })[path.extname(file)] || 'text/plain');
     res.end(fs.readFileSync(file));
   } catch { res.writeHead(404); res.end(); }
 });
@@ -25,33 +25,33 @@ const server = http.createServer((req, res) => {
     const current = () => p.locator('[data-slide-count]').innerText();
     await p.goto(base);
     await p.clock.runFor(15000);
-    assert.equal(await current(), '1 / 3', 'No automatic movement before consent');
+    assert.equal(await current(), '1 / 4', 'No automatic movement before consent');
     await p.check('#terms-check'); await p.click('#terms-accept');
-    await p.clock.runFor(7100); assert.equal(await current(), '2 / 3');
+    await p.clock.runFor(7100); assert.equal(await current(), '2 / 4');
     const left = await p.locator('#class-sidebar').boundingBox(), rail = await p.locator('#discovery-rail').boundingBox(), center = await p.locator('.topic-carousel').boundingBox();
     assert(left.x + left.width <= center.x && center.x + center.width <= rail.x);
     assert.equal(rail.x + rail.width, 1440);
     assert.equal(await p.locator('#discovery-rail').evaluate(e => e.firstElementChild.className), 'question-invite');
-    await p.click('[data-slide-prev]'); assert.equal(await current(), '1 / 3');
-    await p.clock.runFor(15000); assert.equal(await current(), '1 / 3', 'Manual browsing stops automatic movement');
-    await p.click('[data-slide-to="2"]'); assert.equal(await current(), '3 / 3');
-    await p.click('[data-slide-next]'); assert.equal(await current(), '1 / 3');
-    await p.keyboard.press('ArrowLeft'); assert.equal(await current(), '3 / 3');
+    await p.click('[data-slide-prev]'); assert.equal(await current(), '1 / 4');
+    await p.clock.runFor(15000); assert.equal(await current(), '1 / 4', 'Manual browsing stops automatic movement');
+    await p.click('[data-slide-to="2"]'); assert.equal(await current(), '3 / 4');
+    await p.click('[data-slide-next]'); assert.equal(await current(), '4 / 4');
+    await p.keyboard.press('ArrowLeft'); assert.equal(await current(), '3 / 4');
     await p.click('[data-slide-to="0"]');
     await p.click('[data-slide-auto]'); await p.mouse.move(0, 0);
-    await p.clock.runFor(7100); assert.equal(await current(), '2 / 3');
-    await p.locator('.topic-carousel').hover(); await p.clock.runFor(15000); assert.equal(await current(), '2 / 3');
-    await p.mouse.move(0, 0); await p.clock.runFor(7100); assert.equal(await current(), '3 / 3');
+    await p.clock.runFor(7100); assert.equal(await current(), '2 / 4');
+    await p.locator('.topic-carousel').hover(); await p.clock.runFor(15000); assert.equal(await current(), '2 / 4');
+    await p.mouse.move(0, 0); await p.clock.runFor(7100); assert.equal(await current(), '3 / 4');
     await p.click('#open-question-area');
     assert(await p.locator('#question-dialog').isVisible()); assert(await p.locator('#ask-form').isVisible());
     assert(await p.locator('#ask-form [type=submit]').isDisabled());
-    await p.clock.runFor(15000); assert.equal(await current(), '3 / 3', 'Modal pauses the slideshow');
+    await p.clock.runFor(15000); assert.equal(await current(), '3 / 4', 'Modal pauses the slideshow');
     await p.keyboard.press('Escape');
     await p.waitForFunction(() => document.activeElement.id === 'open-question-area');
-    await p.clock.runFor(7100); assert.equal(await current(), '1 / 3');
+    await p.clock.runFor(7100); assert.equal(await current(), '4 / 4');
     await p.emulateMedia({ reducedMotion: 'reduce' });
     await p.waitForFunction(() => document.querySelector('.topic-carousel').dataset.autoplay === 'false');
-    await p.clock.runFor(15000); assert.equal(await current(), '1 / 3');
+    await p.clock.runFor(15000); assert.equal(await current(), '4 / 4');
     assert.equal(await p.locator('.topic-carousel').getAttribute('data-autoplay'), 'false');
     await p.goto(base + 'siniflar/5-sinif/');
     assert.equal(await p.locator('.spotlight-slide').count(), 3);
@@ -80,8 +80,8 @@ const server = http.createServer((req, res) => {
     const track = p.locator('.spotlight-track');
     await track.dispatchEvent('pointerdown', { pointerId: 1, pointerType: 'touch', isPrimary: true, clientX: 290, clientY: 400 });
     await track.dispatchEvent('pointerup', { pointerId: 1, pointerType: 'touch', isPrimary: true, clientX: 100, clientY: 410 });
-    assert.equal(await current(), '2 / 3');
-    await p.click('[data-slide-next]'); assert.equal(await current(), '3 / 3', 'Buttons keep working after a swipe');
+    assert.equal(await current(), '2 / 4');
+    await p.click('[data-slide-next]'); assert.equal(await current(), '3 / 4', 'Buttons keep working after a swipe');
     await p.click('#open-question-area');
     for (let i = 0; i < 20; i++) { await p.keyboard.press('Tab'); assert(await p.evaluate(() => !!document.activeElement.closest('#question-dialog'))); }
     await p.click('#close-question-area');
