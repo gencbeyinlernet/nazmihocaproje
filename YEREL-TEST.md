@@ -9,7 +9,7 @@ Mac/Linux için proje klasöründe `python3 BASLAT.py`; Windows terminalinde `py
 ## Kontrol edilecekler
 
 - İlk açılışta ortak kullanım koşulları ve onay ekranı.
-- Ana sayfada Ortaokul, Lise ve Üniversite olmak üzere üç açık seçenek.
+- Ana sayfanın ortasında hazır hikâyelerin kaydırmalı gösterisi, altında Ortaokul, Lise ve Üniversite seçenekleri.
 - Geniş ekranda solda kategorili sınıf menüsü; mobilde “Sınıflar” düğmesiyle açılan menü ve seçili sınıf vurgusu. Menü sınıf seçince, kapatma düğmesiyle, dışına dokunarak veya Escape ile kapanır.
 - Ortaokulda 5–8, lisede 9–12 sınıf seçimi; 4. sınıf kartı yoktur. Eski 4. sınıf/ilkokul adresleri 5. sınıfa yönlenir.
 - 5. sınıfın ilk üç konu kartındaki görselli atölye bağlantıları.
@@ -18,7 +18,9 @@ Mac/Linux için proje klasöründe `python3 BASLAT.py`; Windows terminalinde `py
 - Öğretmen görünümünde 8 saniyelik sahnelerle sessiz 56 saniyelik önizleme, önceki/sonraki sahne ve üretim araçları.
 - Üniversitede üç özgün çalışma taslağı, tartışma soruları ve çalışma notu indirme; kaynakların henüz eklenmediği bilgisi.
 - “Öğretmen görünümü” bağlantısında indirilebilir senaryo, seslendirme planı ve altyazı taslağı.
-- “Bir sorum var” alanının ve tam kullanım koşullarının isteğe bağlı açılması; onay zorunluluğunun korunması.
+- Sağ üstteki “Soru sor” düğmesinin soru penceresini açması; altında diğer menüler. Mobilde diğer menüler açılır başlıktadır.
+- Slaytların 7 saniyede otomatik geçmesi; durdurma/başlatma, oklar, seçim noktaları, klavye okları ve telefonda yatay kaydırma. Hareket azaltma tercihinde otomatik geçiş kapalıdır.
+- Tam kullanım koşullarının isteğe bağlı açılması; onay zorunluluğunun korunması.
 - Dar ekranlarda taşmayan mobil arayüz.
 - İlk özgün metnin sekiz haftalık çalışması ve değiştirilmeden korunan kaynak metin.
 

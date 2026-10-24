@@ -3,7 +3,7 @@
  const base=new URL('../',document.currentScript.src),productions=window.MERAK_PRODUCTIONS,url=p=>new URL(p,base).href;
  const teacher=new URLSearchParams(location.search).get('gorunum')==='ogretmen';
  document.body.dataset.view=teacher?'teacher':'student';document.body.dataset.audience='middle';
- if(teacher){const bar=document.createElement('div');bar.className='teacher-mode-bar';bar.innerHTML=`<span>Öğretmen görünümü · Senaryo ve ses araçları</span><a href="${location.pathname+location.hash}">Öğrenci görünümüne dön →</a>`;document.querySelector('.studio-layout').before(bar);const script=document.createElement('script');script.src=url('assets/studio-authoring.js?v=20261024-classnav');document.body.append(script);return;}
+ if(teacher){const bar=document.createElement('div');bar.className='teacher-mode-bar';bar.innerHTML=`<span>Öğretmen görünümü · Senaryo ve ses araçları</span><a href="${location.pathname+location.hash}">Öğrenci görünümüne dön →</a>`;document.querySelector('.studio-layout').before(bar);const script=document.createElement('script');script.src=url('assets/studio-authoring.js?v=20261024-discovery');document.body.append(script);return;}
  const root=document.querySelector('#studio-workspace'),escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const approved=s=>{if(s.audioApproval!=='approved'||!s.audioUrl)return null;try{const u=new URL(s.audioUrl,base);return u.protocol==='https:'||u.protocol==='http:'&&u.origin===base.origin?u.href:null;}catch{return null;}};
  let production=productions[0],index=0,started=false,narrating=false,generation=0;const visited=new Map();

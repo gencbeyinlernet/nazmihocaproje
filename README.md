@@ -30,9 +30,11 @@ Her hikâye **7 sahne × 8 saniye = 56 saniye** olarak planlanır. Toplam 21 ayr
 
 ## Yaşa göre sade görünüm
 
-Ana sayfa yalnızca üç eğitim düzeyi gösterir. Ortaokulda sınıf → tek belirgin “Hikâyeye başla” düğmesi → büyük görsel ve replik → Geri/İleri akışı vardır. Hazırlanmamış konular ve kaynak bilgileri kapalı ayrıntılardadır. Tamamlanma, yedi görsel ziyaret edilip öğrenci “Bitirdim” dediğinde kaydedilir; video izlenmiş veya sınav geçilmiş sayılmaz. Mevcut okuma ilerlemesi ve tamamlanan kartların yeşil durumu korunur.
+Ana sayfanın ortasında hazır görselli hikâyelerin slayt gösterisi, altında üç eğitim düzeyi bulunur. Sınıf sayfalarının slaytları yalnızca seçili sınıf ve ünitenin hazır içeriklerini gösterir. Ortaokulda sınıf → belirgin “Hikâyeye başla” düğmesi → büyük görsel ve replik → Geri/İleri akışı vardır. Hazırlanmamış konular ve kaynak bilgileri kapalı ayrıntılardadır. Tamamlanma, yedi görsel ziyaret edilip öğrenci “Bitirdim” dediğinde kaydedilir; video izlenmiş veya sınav geçilmiş sayılmaz. Mevcut okuma ilerlemesi ve tamamlanan kartların yeşil durumu korunur.
 
 Geniş ekranda sınıflar soldaki sabit menüde Ortaokul ve Lise başlıkları altında listelenir; Üniversite ayrı bir kategoridir. Seçili sınıf belirgin görünür. Mobil ve tablette üstteki “Sınıflar” düğmesi aynı menüyü açar. Sınıf seçimi, kapatma düğmesi, dış alana dokunma veya Escape ile kapanır; klavye odağı menü içinde kalır ve kapanınca düğmeye döner. Hikâye sesi ya da öğretmen önizlemesi menü açılırken duraklatılır.
+
+Sağ sütunun en üstünde “Soru sor”, altında hikâyeler, metin atölyesi, yerel test ve kullanım koşulları bağlantıları vardır. Soru formu ayrı bir pencerede açılır; mevcut özel takip kodu ve eğitimci akışı korunur. Mobilde soru düğmesi üstte kalır, diğer menüler isteğe bağlı açılır. Slaytlar 7 saniyede otomatik geçer; oklar, seçim noktaları, klavye okları ve dokunmatik yatay kaydırma ile elle seçilebilir. Elle seçim veya klavye odağı otomatik geçişi durdurur; düğmeyle yeniden başlatılır. Fare üzerindeyken, sekme gizliyken, onay beklenirken ve bir pencere/menü açıkken otomatik geçiş bekler. Hareket azaltma tercihi varsa otomatik geçiş kapalı başlar. Tek içerikte geçiş denetimleri gösterilmez.
 
 Lisede daha olgun renkler, ünite/konu araması, kısa okuma ve düşünme soruları kullanılır. Üniversite alanında profesyonel okuma düzeniyle üç özgün tartışma planı ve indirilebilir çalışma notları vardır. **Üniversite kaynakları henüz eklenmemiştir; bu planlar kaynaklandırılmış üniversite dersleri olarak sunulmaz.** Notlar sayfada geçici tutulur; kullanıcı isterse metin dosyası olarak indirir.
 
@@ -42,7 +44,7 @@ Teknik senaryo, hareket tarifi, ses dosyası deneme ve indirme araçları öğre
 
 Öğrenci önce eğitim düzeyini, sonra sınıfını seçer. Sınıf sayfası hazır hikâyelerden birini belirgin bir başlangıç düğmesiyle önerir. Görselli içerik öğrenci oynatıcısında açılır; yalnızca görsel, konuşmacı/replik ve ilerleme düğmeleri görünür. Görseli olmayan hazır hikâyeler kısa bilgi → hikâye şeklinde ilerler. Gerçek video eklenene kadar öğrenciye boş bir video adımı gösterilmez. Sesler daha sonra bağlanır; kayıt bitmeden otomatik ilerlenmez.
 
-Öğretmen görünümünde bütün kitap konu planları ve önceki ayrıntılı inceleme araçları korunur. Ortak soru/cevap alanı “Bir sorum var” altında isteğe bağlı açılır. Kullanım koşulları başlangıçta kısa özet ve açılabilir tam metinle gösterilir; mevcut onay zorunluluğu değişmez.
+Öğretmen görünümünde bütün kitap konu planları ve önceki ayrıntılı inceleme araçları korunur. Ortak soru/cevap alanı sağ üstteki “Soru sor” düğmesiyle açılır. Kullanım koşulları başlangıçta kısa özet ve açılabilir tam metinle gösterilir; mevcut onay zorunluluğu değişmez.
 
 Görseller özgün yapay zekâ üretimidir. Açıklama ve hikâyeler, öğretmen/içerik sorumlusu incelemesi bekleyen özgün uyarlamalardır; kitap metni, ayet veya hadis alıntısı gibi sunulmaz. Kitapların tam PDF’leri depoya eklenmez. İlk kullanıcının `assets/source.txt` metni değişmeden korunur. Gerçek kurum logosu `logo.jpg` dosyasıdır.
 
@@ -61,6 +63,7 @@ Soru/görüş, takip koduyla özel cevap ve yetkili eğitimci ekranları vardır
 - `assets/scenes/`: yeni sahne görselleri.
 - `assets/portal.js`, `portal.css`, `audiences.css`: eğitim düzeyleri, yaşa uygun sınıf görünümü ve gezinme.
 - `assets/navigation.js`, `navigation.css`: ortak sınıf menüsü ve mobil açılır panel.
+- `assets/discovery.js`, `discovery.css`: sağ menü, soru penceresi ve otomatik/manuel slayt gösterisi.
 - `assets/university.js`: kaynak seçimi bekleyen üç özgün üniversite tartışma planı.
 - `assets/portal-authoring.js`: öğretmenin tüm konu planlarını incelediği görünüm.
 - `assets/studio.js`: sade öğrenci hikâye oynatıcısı.
