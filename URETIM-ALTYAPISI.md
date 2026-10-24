@@ -8,6 +8,10 @@ Kullanıcı isteğiyle aktif çalışma 5. sınıftan başlar; ses kayıtları e
 
 Kullanıcı sesi yüklediğinde ilgili sahnenin `audioUrl`, ölçülen `audioDuration`, gerçek `audioVoice` ve `audioApproval: "approved"` alanları güncellenir. Her sahne ayrı replik kaydı kullanır; bir karakterin farklı repliklerinde aynı dosya tekrarlanmaz. `SESLENDIRME-PLANI.md` ve `ses-planlari/karakter-sesleri.json`, sahne/karakter/dosya eşleştirmesini içerir.
 
-Oynatıcı onaylı ses veya cihazdan seçilmiş deneme sesi varsa sesli çalışabilir; `ended` olayını bekler ve uzun kaydı 8. saniyede kesmez. Ses bulunmaz veya oynatılamazsa durur ve bilgi verir. Varsayılan sessiz önizleme 8 saniyede bir ilerler. Deneme dosyası yalnızca açık sayfada kalır, sunucuya yüklenmez ve yenilemede kaldırılır. Video/MP4 üretilmez; görsel eklenmesi bir konuyu video izlenmiş yapmaz.
+Oynatıcı onaylı ses veya cihazdan seçilmiş deneme sesi varsa sesli çalışabilir; `ended` olayını bekler ve uzun kaydı 8. saniyede kesmez. Ses bulunmaz veya oynatılamazsa durur ve bilgi verir. Öğrenci görünümü elle Geri/İleri ile ilerler ve tüm görseller ziyaret edilip “Bitirdim” denince okuma ilerlemesini kaydeder. `?gorunum=ogretmen` ile açılan üretim görünümünde sessiz önizleme 8 saniyede bir ilerler. Deneme dosyası yalnızca açık sayfada kalır, sunucuya yüklenmez ve yenilemede kaldırılır. Video/MP4 üretilmez; görsel eklenmesi bir konuyu video izlenmiş yapmaz.
 
 Replikler yaş düzeyine uygun özgün uyarlamalardır. Kitap başlıkları ve sırası korunur; tam kitap metinleri veya PDF’leri yayımlanmaz. Kullanıcının ilk özgün metni `assets/source.txt` içinde değişmeden korunur. Kurum logosu kullanıcının sağladığı gerçek `logo.jpg` dosyasıdır.
+
+## Görünüm ayrımı
+
+`assets/studio.js` sade öğrenci oynatıcısıdır; üretim araçları `assets/studio-authoring.js` içinde, yalnızca öğretmen görünümü seçildiğinde yüklenir. Sınıfların sade akışı `portal.js`, tüm planları inceleme görünümü `portal-authoring.js` ile çalışır. Görünüm seçimi bir yetkilendirme mekanizması değildir. Ortaokul, lise ve üniversite girişleri ayrıdır; üniversite tartışma taslakları kaynak seçimi bekler ve sınıf kataloğunun kitap sırasını değiştirmez.

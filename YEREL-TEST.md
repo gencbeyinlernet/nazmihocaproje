@@ -9,11 +9,15 @@ Mac/Linux için proje klasöründe `python3 BASLAT.py`; Windows terminalinde `py
 ## Kontrol edilecekler
 
 - İlk açılışta ortak kullanım koşulları ve onay ekranı.
-- 5–12. sınıf seçimi; 4. sınıf kartı yoktur. Eski 4. sınıf/ilkokul adresleri 5. sınıfa yönlenir.
+- Ana sayfada Ortaokul, Lise ve Üniversite olmak üzere üç açık seçenek.
+- Ortaokulda 5–8, lisede 9–12 sınıf seçimi; 4. sınıf kartı yoktur. Eski 4. sınıf/ilkokul adresleri 5. sınıfa yönlenir.
 - 5. sınıfın ilk üç konu kartındaki görselli atölye bağlantıları.
 - Atölyede üç hikâye, her hikâyede yedi ayrı görsel ve sahneye göre konuşmacı/replik.
-- 8 saniyelik sahnelerle sessiz 56 saniyelik önizleme, önceki/sonraki sahne ve başa dönme.
-- İndirilebilir senaryo, seslendirme planı ve altyazı taslağı.
+- Öğrencide “Hikâyeye başla”, büyük görsel/replik ve Geri/İleri; en sonda “Bitirdim” ile tamamlanma rengi.
+- Öğretmen görünümünde 8 saniyelik sahnelerle sessiz 56 saniyelik önizleme, önceki/sonraki sahne ve üretim araçları.
+- Üniversitede üç özgün çalışma taslağı, tartışma soruları ve çalışma notu indirme; kaynakların henüz eklenmediği bilgisi.
+- “Öğretmen görünümü” bağlantısında indirilebilir senaryo, seslendirme planı ve altyazı taslağı.
+- “Bir sorum var” alanının ve tam kullanım koşullarının isteğe bağlı açılması; onay zorunluluğunun korunması.
 - Dar ekranlarda taşmayan mobil arayüz.
 - İlk özgün metnin sekiz haftalık çalışması ve değiştirilmeden korunan kaynak metin.
 
