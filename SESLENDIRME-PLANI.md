@@ -1,201 +1,183 @@
-# Karakterlere göre yeni seslendirme planı
+# 5. sınıf · Sonradan eklenecek seslendirmeler
 
-Mevcut tek anlatıcılı Piper denemeleri kullanıcı tarafından ses kalitesi ve karakter uyumu nedeniyle reddedildi. Yeni kaliteli kayıtlar henüz üretilmedi. Aşağıdakiler ses tarifidir; hazır ses veya çocuk kaydı olarak sunulmaz.
+Kullanıcı ses dosyalarını çalışmanın sonunda yükleyecek. Şu anda ses üretimi veya eski kayıt kullanımı yapılmaz. Her sahnenin repliği ve hedef karakteri hazırdır; aşağıdaki dosya adları eşleştirmeyi kolaylaştırır.
 
-## Ece · Kız çocuk · 9–10 yaş
+## Gökyüzü Kulübünün İlk Buluşması
 
-9–10 yaşlarında kurgusal bir kız çocuk sesi. Akıcı, anlaşılır ve doğal Türkiye Türkçesi kullan. Meraklı, içten ve sakin konuş; kelimeleri tane tane söyle. Yapmacık bebek konuşması, aşırı tiz ton ve robotik heceleme kullanma. Gerçek bir kişiyi taklit etme.
+5. sınıf · 1. ünite · Konu 1.1 · Kitap s. 14
 
-## Ali · Erkek çocuk · 9–10 yaş
-
-9–10 yaşlarında kurgusal bir erkek çocuk sesi. Akıcı ve doğal Türkiye Türkçesi kullan. Arkadaşça, rahat ve canlı konuş; vurgu ile duraklamaları cümle anlamına göre yap. Yapmacık bebek konuşması veya yetişkin erkek tonuyla okuma. Gerçek bir kişiyi taklit etme.
-
-## Öğretmen · Yetişkin kadın · öğretmen
-
-Yetişkin kadın öğretmen sesi. Duru ve akıcı Türkiye Türkçesiyle, güven veren, sabırlı ve sıcak bir tonda konuş. Çocuğa açıklama yapar gibi anlaşılır bir tempo kullan. Sözcükleri mekanik biçimde bölme ve aşırı dramatize etme. Gerçek bir kişiyi taklit etme.
-
-## Anlatıcı · Yetişkin erkek · anlatıcı
-
-Yetişkin erkek anlatıcı sesi. Akıcı, doğal ve anlaşılır Türkiye Türkçesiyle kısa bir çocuk hikâyesi anlat. Sıcak, dengeli ve merak uyandıran bir ton kullan. Cümle sonlarını doğal bitir; acele etme ve robotik heceleme kullanma. Gerçek bir kişiyi taklit etme.
-
-## Rehber · Yetişkin erkek · rehber
-
-Anlatıcıdan farklı, yetişkin erkek rehber sesi. Akıcı Türkiye Türkçesiyle dostça, açıklayıcı ve sakin konuş. Çocuklarla konuşan bir rehber gibi doğal vurgu ve kısa duraklamalar kullan. Buyurgan veya mekanik ton kullanma. Gerçek bir kişiyi taklit etme.
-
-## Sahne ve kayıt eşleşmeleri
-
-Her replik ayrı dosya olarak hazırlanır. Aynı karakterin sesi üç hikâye boyunca korunur; tek bir ses dosyası farklı repliklerde tekrar kullanılmaz. Metinler aynen korunur. Hedef 8 saniyedir; okunurluk için gerekiyorsa süre uzar ve oynatıcı kayıt tamamlanmadan ilerlemez.
-
-### selam-01 · Anlatıcı
+### gozlem-kulubu-01 · Anlatıcı
 
 **Ses:** Yetişkin erkek · anlatıcı
 
-**Metin:** Yeni bir gün başlıyor. Ece, ilk kez geldiği sınıfını arıyor.
+**Metin:** Zehra ve Ömer, Gökyüzü Kulübünün ilk gözlem gününde okul bahçesine çıkıyor.
 
-**Dosya adı:** `selam-01-anlatici.wav`
+**Dosya:** `gozlem-kulubu-01-anlatici.mp3` (WAV da kabul edilir.)
 
-### selam-02 · Ali
+### gozlem-kulubu-02 · Zehra
 
-**Ses:** Erkek çocuk · 9–10 yaş
+**Ses:** Kız çocuk · 10–11 yaş
 
-**Metin:** Selamünaleyküm Ece! Hoş geldin. İstersen sınıfımıza birlikte gidelim.
+**Metin:** Bu çiçek güneş ışığıyla büyüyor. Arılar da çiçeklerle nasıl bir ilişki kuruyor?
 
-**Dosya adı:** `selam-02-ali.wav`
+**Dosya:** `gozlem-kulubu-02-zehra.mp3` (WAV da kabul edilir.)
 
-### selam-03 · Ece
+### gozlem-kulubu-03 · Ömer
 
-**Ses:** Kız çocuk · 9–10 yaş
+**Ses:** Erkek çocuk · 10–11 yaş
 
-**Metin:** Aleykümselam Ali! Selamlaşınca kendimi daha rahat hissettim.
+**Metin:** Arı nektar toplarken çiçekler arasında polen taşıyabiliyor. Canlılar birbirine bağlı.
 
-**Dosya adı:** `selam-03-ece.wav`
+**Dosya:** `gozlem-kulubu-03-omer.mp3` (WAV da kabul edilir.)
 
-### selam-04 · Ece
-
-**Ses:** Kız çocuk · 9–10 yaş
-
-**Metin:** Öğretmenim, selam verirken birbirimize ne diliyoruz?
-
-**Dosya adı:** `selam-04-ece.wav`
-
-### selam-05 · Öğretmen
+### gozlem-kulubu-04 · Öğretmen
 
 **Ses:** Yetişkin kadın · öğretmen
 
-**Metin:** Birbirimize esenlik ve iyilik diliyoruz. Güzel sözlerimiz, güzel davranışlarla tamamlanır.
+**Metin:** Gökyüzündeki hareketlerde ve doğada düzen gözlemleriz. Bunları dikkatle inceleyebiliriz.
 
-**Dosya adı:** `selam-05-ogretmen.wav`
+**Dosya:** `gozlem-kulubu-04-ogretmen.mp3` (WAV da kabul edilir.)
 
-### selam-06 · Ali
+### gozlem-kulubu-05 · Zehra
 
-**Ses:** Erkek çocuk · 9–10 yaş
+**Ses:** Kız çocuk · 10–11 yaş
 
-**Metin:** Arkadaşımıza yardım edelim. Selamımızı bir iyilikle tamamlayalım.
+**Metin:** Yağmur toprağı besliyor, bitkiler büyüyor. Birçok olay birbirini tamamlıyor.
 
-**Dosya adı:** `selam-06-ali.wav`
+**Dosya:** `gozlem-kulubu-05-zehra.mp3` (WAV da kabul edilir.)
 
-### selam-07 · Ece
-
-**Ses:** Kız çocuk · 9–10 yaş
-
-**Metin:** Bir selam, yeni bir dostluğun başlangıcı olabilir. Sen bugün kime selam vereceksin?
-
-**Dosya adı:** `selam-07-ece.wav`
-
-### dilek-01 · Anlatıcı
-
-**Ses:** Yetişkin erkek · anlatıcı
-
-**Metin:** Ece ve Ali, sınıflarında bir iyi dilek kutusu hazırlıyor.
-
-**Dosya adı:** `dilek-01-anlatici.wav`
-
-### dilek-02 · Ece
-
-**Ses:** Kız çocuk · 9–10 yaş
-
-**Metin:** Bir arkadaşımız bugün yanımızda değil. Ona güzel dileklerimizi iletebiliriz.
-
-**Dosya adı:** `dilek-02-ece.wav`
-
-### dilek-03 · Ali
-
-**Ses:** Erkek çocuk · 9–10 yaş
-
-**Metin:** Allah’ım, arkadaşımıza sağlık ve iyilik ver. Ona güzel bir destek olabilelim.
-
-**Dosya adı:** `dilek-03-ali.wav`
-
-### dilek-04 · Öğretmen
+### gozlem-kulubu-06 · Öğretmen
 
 **Ses:** Yetişkin kadın · öğretmen
 
-**Metin:** Dua, Allah’a yönelmek ve yardım dilemektir. Dualarımızda şükür ve iyi dileklerimiz de olabilir.
+**Metin:** İslam, evrendeki düzen üzerine düşünmemizi ister. Bu gözlemler bize Allah’ın yaratışını hatırlatır.
 
-**Dosya adı:** `dilek-04-ogretmen.wav`
+**Dosya:** `gozlem-kulubu-06-ogretmen.mp3` (WAV da kabul edilir.)
 
-### dilek-05 · Ece
+### gozlem-kulubu-07 · Ömer
 
-**Ses:** Kız çocuk · 9–10 yaş
+**Ses:** Erkek çocuk · 10–11 yaş
 
-**Metin:** Dua ederken yardım etmeyi de unutmayalım. Ders notlarımızı onunla paylaşabiliriz.
+**Metin:** Gördüklerimizi defterimize yazalım. Sonra Allah’ın varlığı ve birliğini birlikte düşünelim.
 
-**Dosya adı:** `dilek-05-ece.wav`
+**Dosya:** `gozlem-kulubu-07-omer.mp3` (WAV da kabul edilir.)
 
-### dilek-06 · Ali
+## Birliğin Anlamını Ararken
 
-**Ses:** Erkek çocuk · 9–10 yaş
+5. sınıf · 1. ünite · Konu 1.2 · Kitap s. 20
 
-**Metin:** Arkadaşımızı yalnız bırakmayalım. Güzel bir dileği bir iyilikle destekleyelim.
-
-**Dosya adı:** `dilek-06-ali.wav`
-
-### dilek-07 · Anlatıcı
+### birligin-anlami-01 · Anlatıcı
 
 **Ses:** Yetişkin erkek · anlatıcı
 
-**Metin:** Bugün biri için hangi güzel dilekte bulunmak ve hangi iyiliği yapmak istersin?
+**Metin:** Zehra ve Ömer, gözlemlerinin ardından Allah’ın varlığı ve birliği üzerine konuşuyor.
 
-**Dosya adı:** `dilek-07-anlatici.wav`
+**Dosya:** `birligin-anlami-01-anlatici.mp3` (WAV da kabul edilir.)
 
-### saray-01 · Anlatıcı
+### birligin-anlami-02 · Ömer
+
+**Ses:** Erkek çocuk · 10–11 yaş
+
+**Metin:** Doğadaki düzen hakkında düşündük. Peki, İslam’da Allah’ın birliğine inanmak ne demek?
+
+**Dosya:** `birligin-anlami-02-omer.mp3` (WAV da kabul edilir.)
+
+### birligin-anlami-03 · Öğretmen
+
+**Ses:** Yetişkin kadın · öğretmen
+
+**Metin:** Allah’ın birliğine inanmak tevhit demektir. İslam’a göre Allah’ın eşi ve benzeri yoktur.
+
+**Dosya:** `birligin-anlami-03-ogretmen.mp3` (WAV da kabul edilir.)
+
+### birligin-anlami-04 · Zehra
+
+**Ses:** Kız çocuk · 10–11 yaş
+
+**Metin:** Allah’ı çevremizde gördüğümüz varlıklar gibi düşünmememiz gerektiğini anlıyorum.
+
+**Dosya:** `birligin-anlami-04-zehra.mp3` (WAV da kabul edilir.)
+
+### birligin-anlami-05 · Öğretmen
+
+**Ses:** Yetişkin kadın · öğretmen
+
+**Metin:** Allah yaratandır. O’nu insanlara, hayvanlara veya başka bir varlığa benzetmeyiz.
+
+**Dosya:** `birligin-anlami-05-ogretmen.mp3` (WAV da kabul edilir.)
+
+### birligin-anlami-06 · Ömer
+
+**Ses:** Erkek çocuk · 10–11 yaş
+
+**Metin:** Tevhit kavramını kendi cümlelerimizle yazalım. Sorularımızı da birlikte konuşalım.
+
+**Dosya:** `birligin-anlami-06-omer.mp3` (WAV da kabul edilir.)
+
+### birligin-anlami-07 · Zehra
+
+**Ses:** Kız çocuk · 10–11 yaş
+
+**Metin:** Allah’ın birliğini öğrendik. Şimdi O’nun güzel isimlerini ve anlamlarını merak ediyorum.
+
+**Dosya:** `birligin-anlami-07-zehra.mp3` (WAV da kabul edilir.)
+
+## İsimlerin Açtığı Pencere
+
+5. sınıf · 1. ünite · Konu 1.3 · Kitap s. 29
+
+### guzel-isimler-01 · Anlatıcı
 
 **Ses:** Yetişkin erkek · anlatıcı
 
-**Metin:** Ece ile Ali, bir düşünme oyununda büyük bir saray hayal ediyor.
+**Metin:** Kulübün yeni buluşmasında Zehra ile Ömer, Allah’ın güzel isimlerini araştırıyor.
 
-**Dosya adı:** `saray-01-anlatici.wav`
+**Dosya:** `guzel-isimler-01-anlatici.mp3` (WAV da kabul edilir.)
 
-### saray-02 · Ece
+### guzel-isimler-02 · Zehra
 
-**Ses:** Kız çocuk · 9–10 yaş
+**Ses:** Kız çocuk · 10–11 yaş
 
-**Metin:** Yiyecekler, giyecekler, su… İhtiyacımız olan birçok şey özenle hazırlanmış.
+**Metin:** Allah’ın güzel isimlerine esmayıhüsna deniyor. Bu isimler bize neler anlatıyor?
 
-**Dosya adı:** `saray-02-ece.wav`
+**Dosya:** `guzel-isimler-02-zehra.mp3` (WAV da kabul edilir.)
 
-### saray-03 · Ali
+### guzel-isimler-03 · Öğretmen
 
-**Ses:** Erkek çocuk · 9–10 yaş
+**Ses:** Yetişkin kadın · öğretmen
 
-**Metin:** Bahçıvan çiçekleri suluyor. Herkes bir görev üstlenmiş gibi görünüyor.
+**Metin:** Bu isimler Allah’ı tanımamıza yardımcı olur. Her birinin anlamını dikkatle öğrenelim.
 
-**Dosya adı:** `saray-03-ali.wav`
+**Dosya:** `guzel-isimler-03-ogretmen.mp3` (WAV da kabul edilir.)
 
-### saray-04 · Ece
+### guzel-isimler-04 · Ömer
 
-**Ses:** Kız çocuk · 9–10 yaş
+**Ses:** Erkek çocuk · 10–11 yaş
 
-**Metin:** Peki, bu saray niçin hazırlandı? Bizden hangi sorumluluklar bekleniyor olabilir?
+**Metin:** Bir canlının ihtiyacını fark edip yardım ettiğimizde merhamet üzerine düşünebiliriz.
 
-**Dosya adı:** `saray-04-ece.wav`
+**Dosya:** `guzel-isimler-04-omer.mp3` (WAV da kabul edilir.)
 
-### saray-05 · Rehber
+### guzel-isimler-05 · Öğretmen
 
-**Ses:** Yetişkin erkek · rehber
+**Ses:** Yetişkin kadın · öğretmen
 
-**Metin:** Kurallarımızı ve görevlerimizi birlikte öğrenelim. Böylece birbirimize ve düzenimize özen gösterebiliriz.
+**Metin:** Allah’ın merhametini, bilmesini, görmesini ve işitmesini anlatan isimleri sırayla inceleyeceğiz.
 
-**Dosya adı:** `saray-05-rehber.wav`
+**Dosya:** `guzel-isimler-05-ogretmen.mp3` (WAV da kabul edilir.)
 
-### saray-06 · Anlatıcı
+### guzel-isimler-06 · Zehra
+
+**Ses:** Kız çocuk · 10–11 yaş
+
+**Metin:** İsimleri yalnızca ezberlemek yerine anlamlarını öğrenmek istiyorum. Sorularımı defterime yazacağım.
+
+**Dosya:** `guzel-isimler-06-zehra.mp3` (WAV da kabul edilir.)
+
+### guzel-isimler-07 · Anlatıcı
 
 **Ses:** Yetişkin erkek · anlatıcı
 
-**Metin:** Bu örnek; amaç, görev ve görevlerin bildirilmesi arasındaki bağlantıyı düşündürür.
+**Metin:** Bir sonraki buluşmada Rahman ve Rahîm isimlerinin anlamını konuşacaklar.
 
-**Dosya adı:** `saray-06-anlatici.wav`
-
-### saray-07 · Anlatıcı
-
-**Ses:** Yetişkin erkek · anlatıcı
-
-**Metin:** İslam’da peygamberler, Allah’ın mesajlarını insanlara iletir. Sen hangi sorumluluklarını düşünüyorsun?
-
-**Dosya adı:** `saray-07-anlatici.wav`
-
-## Kayıtlar geldiğinde
-
-Her sahnenin `audioUrl`, `audioDuration` ve `audioVoice` alanlarını gerçek dosyayla güncelle; dinleme kontrolünden sonra `audioApproval` değerini `approved` yap. `voiceProfileId`, hedef karakteri belirtir. `ses-planlari/karakter-sesleri.json`, tüm talimatları ve 21 dosya eşleşmesini içerir. Eski dosyalar silinmez; varsayılan oynatımda kullanılmaz.
-
-Kontrol: Türkçe telaffuz ve doğal duraklamalar, karakterin yaşına/cinsiyetine uygun ses, kesilmeyen konuşma, dengeli ses seviyesi ve hikâyeler boyunca aynı karakter sesi.
+**Dosya:** `guzel-isimler-07-anlatici.mp3` (WAV da kabul edilir.)

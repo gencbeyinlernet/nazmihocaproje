@@ -1,75 +1,53 @@
-# Merak Bahçesi · Sınıf düzeylerine göre din kültürü eğitimi
+# Merak Bahçesi · 5–12. sınıflar
 
-Rize İl Millî Eğitim Müdürlüğü bünyesindeki çalışma için Türkçe, mobil uyumlu statik platform. Öğretmen takip sistemi ayrı `okultakipburakhoca` deposunda kalır.
+Rize İl Millî Eğitim Müdürlüğü çalışması için Türkçe ve mobil uyumlu din kültürü platformu. Öğretmen takip sistemi ayrı `okultakipburakhoca` deposundadır.
 
-## Yayın ve sayfalar
+## Sayfalar
 
 - Ana sayfa: https://gencbeyinlernet.github.io/nazmihocaproje/
-- Ayrı sınıf sayfaları: `siniflar/4-sinif/` … `siniflar/12-sinif/`.
-- İlkokul bağlantısı: `siniflar/ilkokul/`, yüklenen 4. sınıf kaynağını gösterir. 1–3. sınıflar için kaynak varmış gibi içerik eklenmez.
-- İlk özgün metnin bağlantılı sekiz haftalık çalışması: `metin-atolyesi/`.
-- Görselli sahne atölyesi: https://gencbeyinlernet.github.io/nazmihocaproje/sahne-atolyesi/.
+- Başlangıç: https://gencbeyinlernet.github.io/nazmihocaproje/siniflar/5-sinif/
+- Görselli hikâyeler: https://gencbeyinlernet.github.io/nazmihocaproje/sahne-atolyesi/
+- Diğer sınıflar: `siniflar/6-sinif/` … `siniflar/12-sinif/`.
+- İlk özgün metnin sekiz haftalık çalışması: `metin-atolyesi/`.
 
-## Kaynak ve üretim durumu
+24 Ekim 2026 tarihli kullanıcı isteğiyle **4. sınıf aktif katalogdan, sınıf seçicisinden, soru formundan ve sahne atölyesinden kaldırıldı**. Önceki çalışmalar `arsiv/4-sinif/` altında korunur. Eski 4. sınıf ve ilkokul bağlantıları 5. sınıfa yönlenir; uygulama arşiv dosyalarını yüklemez.
 
-Sekiz okunabilir kitap için 40 ünite, 182 konu planı ve 24 özgün hikâye taslağı vardır. Konu başlıkları ve basılı sayfa referansları kitapların içindekiler sırasındadır. 10. sınıf kitabının dosya adında 9 yazsa da kapak/ISBN bilgisi esas alınmıştır. Kaynak dökümü: [KAYNAKLAR.md](KAYNAKLAR.md).
+## Hazır içerikler
 
-**7.pdf, 32 MiB dosya aktarım sınırını aştığı için okunamadı.** 7. sınıfın ayrı sayfası hazırdır; konu sırası tahmin edilerek doldurulmamıştır. Daha küçük PDF veya içindekiler sayfaları gelince kaynak tamamlanabilir.
+Aktif katalog 5–12. sınıflarda 35 ünite ve 163 konu planı içerir. Başlıklar ve sayfa referansları yüklenen kitapların sırasındadır. Kaynak dökümü: [KAYNAKLAR.md](KAYNAKLAR.md). 7. sınıf dosyası aktarım sınırını aştığından o sınıfın ayrı sayfasında konu sırası beklenir; tahminî başlık eklenmez.
 
-Hikâyeler ve kısa açıklamalar kitap metni değildir; öğretmen ve içerik sorumlusu incelemesi bekleyen özgün uyarlamalardır. Kitapların tam PDF'leri, görselleri veya soru bankaları depoya yüklenmez. Video dosyaları henüz üretilmemiştir. Boş video alanları “hazır” veya “izlendi” gibi gösterilmez.
+5. sınıf “Allah İnancı” ünitesinin ilk üç konusu görselli hikâyelere bağlanır:
 
-Her kart konu, hikâye adı ve kahramanları gösterir. Açıldığında kısa bilgi → hikâye → video adımları vardır. Öğretmen, önceki/sonraki konuyla kitap sırasını izleyebilir; konu/ünite araması da kullanılabilir. Hikâye ve videoyu aynı anda üretmek yerine önce taslak değerlendirilir, sonra ilgili gerçek `videoUrl` bağlanır. Haftalık çalışma düzenini öğretmen belirler; sınıf sayfalarında takvime bağlı yayın kilidi yoktur.
+1. **Evrendeki Mükemmel Düzen** · “Gökyüzü Kulübünün İlk Buluşması” · s. 14.
+2. **Allah’ın Varlığı ve Birliği** · “Birliğin Anlamını Ararken” · s. 20.
+3. **Allah’ın Güzel İsimleri** · “İsimlerin Açtığı Pencere” · s. 29.
 
-## Görsel ve seslendirme atölyesi
+Her hikâye **7 sahne × 8 saniye = 56 saniye** olarak planlanır. Toplam 21 ayrı görsel, her görsele ait konuşmacı ve replik, ilerideki hareket tarifi, indirilebilir senaryo ve SRT taslağı bulunur. Zehra ve Ömer’in gözlem kulübü, üç konuyu sırayla birbirine bağlar. Diğer konular görselleri veya sesi hazırmış gibi gösterilmez.
 
-4. sınıf için üç görselli içerik hazır: **Bir Selamın Açtığı Kapı**, **Dilek Kutusundaki İyilik** ve özgün saray metnine bağlı ek çalışma **Bir Saray, Bir Soru**. Eski 21 Türkçe tek anlatıcılı ses dosyası arşivde korunur; ses kalitesi ve karakter uyumu nedeniyle reddedilmiştir. Yeni karakter kayıtları henüz hazır değildir. İlk ikisi kitaptaki konu kartlarına bağlıdır. Her içerik 7 × 8 = 56 saniye olarak planlanmıştır; toplam 21 ayrı özgün görsel bulunur.
+**Ses dosyalarını kullanıcı çalışmanın sonunda yükleyecek.** Şu an aktif içeriklerde ses veya video dosyası yoktur; önizleme sessizdir. Eski ses denemeleri kullanılmaz. Her repliğin hedef karakter sesi ve dosya adı [SESLENDIRME-PLANI.md](SESLENDIRME-PLANI.md) ve `ses-planlari/karakter-sesleri.json` içinde hazırdır.
 
-Öğretmen, sahneleri ileri/geri seçebilir; konuşmacıyı, repliği ve hareket tarifini okuyabilir. Görseller, seslendirme metni ve SRT altyazı taslağı indirilebilir. Varsayılan oynatım sessiz görsel önizlemesidir. Ece için kız çocuk, Ali için erkek çocuk, öğretmen için kadın, anlatıcı ve rehber için ayrı erkek ses tarifleri hazırlanmıştır. 21 replik bu beş ses profiline eşlenir. [SESLENDIRME-PLANI.md](SESLENDIRME-PLANI.md) ve `ses-planlari/karakter-sesleri.json` yeni kayıtlar için talimatları ve dosya adlarını içerir; bunlar üretilmiş ses gibi gösterilmez.
+## Çalışma akışı
 
-Eski tek anlatıcılı denemeler yalnızca “Eski deneme kayıtlarını bu sekmede dinlemek için aç” seçeneğiyle açılır. Yeni bir kayıt sahneye bağlanıp `audioApproval: "approved"` olarak işaretlendiğinde sesli oynatım bu dosyayı kullanır. Oynatıcı kayıt bitmeden sonraki görsele geçmez; uzun konuşmayı 8. saniyede kesmez. Cihazdan seçilen deneme sesi açık sayfada kalır, sunucuya yüklenmez ve yenilemede silinir. Animasyon/MP4 üretilmez.
+Öğretmen sınıf ve konuyu seçer. Kartta hikâye, konu ve kahramanları görür; içeride kısa bilgi, hikâye ve ileride eklenecek video adımları vardır. Görselli örneklerin kartlarından atölyeye geçilir; yedi sahne ileri/geri seçilebilir veya sessiz 56 saniyelik önizleme başlatılabilir. Replikler ve görseller indirilebilir. Sesler geldiğinde her sahne kendi kaydını oynatır, kayıt bitmeden ilerlemez; uzun konuşma 8. saniyede kesilmez.
 
-Üretim şeması: [URETIM-ALTYAPISI.md](URETIM-ALTYAPISI.md). Tam senaryolar: `video-ornekleri/7-sahne-*/SENARYO.md`.
+Görseller özgün yapay zekâ üretimidir. Açıklama ve hikâyeler, öğretmen/içerik sorumlusu incelemesi bekleyen özgün uyarlamalardır; kitap metni, ayet veya hadis alıntısı gibi sunulmaz. Kitapların tam PDF’leri depoya eklenmez. İlk kullanıcının `assets/source.txt` metni değişmeden korunur. Gerçek kurum logosu `logo.jpg` dosyasıdır.
 
-## İçerik ve dosyalar
+## Gizlilik ve soru alanı
 
-- `assets/productions.js`, `studio.js`, `studio.css`: yedi sahnelik görsel, replik ve seslendirme önizlemesi.
-- `assets/scenes/`: 21 ayrı sahne görseli.
-- `assets/audio/`: 21 eski WAV denemesi, reddedilme durumu, kaynak/model kartı ve eşleştirme dökümü.
-- `scripts/generate-voices.py`: önceki motorun tekrar kullanılmasını önleyen açıklama; eski motorla yeniden üretim kapalıdır.
-- `assets/catalog.js`: 4–12 sınıf, ünite ve sıralı konu verileri. 7. sınıfın kaynak listesi beklenir.
-- `assets/portal.js`, `portal.css`: sınıf seçimi ve öğretmen içerik oynatıcısı.
-- `assets/privacy.js`, `privacy.css`: içerikten önce gizlilik/kullanım ekranı. İzin mercii Rize İl Millî Eğitim Müdürlüğüdür.
-- `assets/questions.js`, `question-service.js`: öğrenci sorusu, özel kodla cevap ve yetkili eğitimci ekranı.
-- `backend/questions.sql`: gerçek soru hizmeti için sunucu yetkileri ve RPC'ler.
-- `assets/weekly.js`, `VIDEO-SENARYOLARI.md`: ilk metne bağlı sekiz haftanın tam sahne ve seslendirme taslakları.
-- `assets/source.txt`: ilk kullanıcının özgün metni, değişmeden korunur.
-- `logo.jpg`: kullanıcının yüklediği kurum logosu; doğrudan kullanılır.
+Başlangıçta [KULLANIM-KOSULLARI.md](KULLANIM-KOSULLARI.md) için onay istenir. İzin mercii Rize İl Millî Eğitim Müdürlüğüdür. Onay tarayıcıda tutulur; kimlik doğrulanmış sunucu sözleşmesi veya teknik kopyalama koruması değildir. Kamuya açık GitHub dosyalarına doğrudan erişilebilir.
 
-Eski bölüm ilerlemeleri metin atölyesine taşınırken yeni hafta sırasına göre eşlenir; önceki puanlar ve sertifika adı korunur. Videolar gelmeden yeni video izleme/değerlendirme tamamlaması yapılamaz. Ortak Drive klasörü bir hafta videosu yerine geçmez.
+Soru/görüş, takip koduyla özel cevap ve yetkili eğitimci ekranları vardır. **Soru sunucusu henüz bağlı değildir; gerçek gönderme ve sorgu kapalıdır.** Kurulum: [backend/QUESTIONS-SETUP.md](backend/QUESTIONS-SETUP.md). Sunucu anahtarı veya şifre GitHub’a yazılmaz. Cihazdan seçilen deneme sesi yalnızca açık sayfada kalır; sunucuya yüklenmez ve yenilemede kaldırılır.
 
-## Gizlilik ve kullanım
+## Yerel test ve dosyalar
 
-[KULLANIM-KOSULLARI.md](KULLANIM-KOSULLARI.md) metninin onayı başlangıçta istenir. Onay tarayıcıda sürüm ve tarihle tutulur. Bu, kimlik doğrulanmış sunucu sözleşmesi veya teknik kopyalama koruması değildir. Herkese açık GitHub dosyaları onay ekranı atlanarak da erişilebilir.
+[Yerel test paketini indir](indir/merak-bahcesi-yerel-test.zip). ZIP’i çıkarıp Windows’ta `BASLAT-WINDOWS.bat`, Mac/Linux’ta `python3 BASLAT.py` çalıştır. Python 3 gerekir; paket kurulumu ve derleme gerekmez. Ayrıntılar: [YEREL-TEST.md](YEREL-TEST.md).
 
-Son okunan içerik, eski ilerleme/sertifika adı ve kullanım onayı cihazda saklanır. Öğrenci soru metni otomatik kaydedilmez. Reklam/analiz takipçisi ve haricî yazı tipi isteği yoktur. Google Drive yalnızca kullanıcı bağlantıya tıkladığında açılır.
-
-## Öğrenciden soru ve özel cevap
-
-“Sizin merak ettiğiniz ne var?” alanında sınıf/konu seçimi, soru/görüş formu, özel takip koduyla cevap ve yetkili eğitimci ekranı vardır. Ad, okul veya iletişim bilgisi istenmez. Yanıt SMS/e-posta olarak gönderilmez; öğrenci özel koduyla sitede görüntüler.
-
-**Sunucu bağlantısı henüz yoktur. Gerçek soru gönderimi ve cevap sorgusu şu anda devre dışıdır.** Bağlamak için [backend/QUESTIONS-SETUP.md](backend/QUESTIONS-SETUP.md). Canlı hizmet açılmadan kurumun aydınlatma, saklama ve kötüye kullanım önleme süreçleri tamamlanmalıdır. Şifre veya yetkili servis anahtarı GitHub'a yazılmaz.
-
-## Yerelde çalıştırma
-
-Görselleri içeren yerel paket: [indir/merak-bahcesi-yerel-test.zip](indir/merak-bahcesi-yerel-test.zip).
-
-Windows’ta **BASLAT-WINDOWS.bat** dosyasına çift tıkla; Python 3 kuruluysa doğru klasör açılır. Ayrıntılı adımlar: [YEREL-TEST.md](YEREL-TEST.md).
-
-
-Paket kurulumu ve derleme gerekmez:
-
-```sh
-python3 -m http.server 3000 --bind 127.0.0.1
-```
-
-Windows'ta `python3` yerine `python` kullanılabilir. HTTP üzerinden servis edin. Site GitHub Pages `main` / kök klasöründen yayınlanır. Testler `tests/` dizinindedir; test araçları uygulamanın çalışması için gerekli değildir.
+- `assets/catalog.js`: aktif 5–12 katalog, ünite ve konu sırası.
+- `assets/productions.js`: üç 5. sınıf senaryosu, 21 sahne ve dört hedef ses profili.
+- `assets/scenes/`: yeni sahne görselleri.
+- `assets/portal.js`, `portal.css`: sınıf ve konu gezintisi.
+- `assets/studio.js`, `studio.css`: görsel/replik ve ses oynatım altyapısı.
+- `assets/privacy.js`, `privacy.css`: ortak onay ekranı.
+- `assets/questions.js`, `question-service.js`, `backend/`: özel soru/cevap altyapısı.
+- `scripts/package-local.py`: arşivi dışarıda tutarak güncel yerel paketi oluşturur.
+- `tests/`: tarayıcı testleri; uygulamayı çalıştırmak için test araçları gerekmez.

@@ -1,41 +1,10 @@
 # Kaynak kitaplar ve içerik sırası
 
-Sınıf düzeyleri 4–12 arasında ayrı sayfalara ayrılmıştır. 4. sınıf ilkokul, 5–8 ortaokul, 9–12 lise grubundadır. 1–3. sınıflar için kaynak veya DKAB programı varmış gibi içerik eklenmez.
+Aktif sınıf düzeyleri 5–12 arasındadır. 5–8 ortaokul, 9–12 lise grubundadır. Kullanıcının 24 Ekim 2026 tarihli isteğiyle 4. sınıf kaynakları ve çalışmaları arsiv/4-sinif/ altına taşındı; uygulama artık 5. sınıftan başlar.
 
 Sekiz kitabın kapakları ve içindekiler sayfaları incelendi. `7.pdf` dosyası 32 MiB aktarım sınırını aştığı için okunamadı; 7. sınıf sayfası hazırdır, sırası doğrulanmış konu listesi henüz eklenmemiştir. Daha küçük PDF veya içindekiler sayfaları gerekir.
 
 Dosya adında 9. sınıf yazan `...185826_706.pdf`, kapak ve ISBN bilgisine göre 10. sınıf kitabıdır. PDF’lerin tamamı, kitap görselleri ve soruları depoya yüklenmez. Konu başlıkları ve kitap sayfa referanslarıyla kaynak gösterilir; hikâyeler ve kısa açıklamalar özgün, içerik incelemesi bekleyen taslaklardır.
-
-## 4. sınıf
-
-MEB, 4. Sınıf Din Kültürü ve Ahlak Bilgisi (2026). ISBN 978-975-11-7795-7. Dosya: `4.pdf`.
-
-| Kod | Ünite / konu | Basılı sayfa | Durum |
-| --- | --- | --- | --- |
-| 1 | **Günlük Hayattaki Dinî İfadeler** | — | Ünite |
-| 1.1 | Günlük Konuşmalarda Dinî İfadeler | 12 | Özgün taslak |
-| 1.2 | Dilek ve Dualarda Geçen Dinî İfadeler | 25 | Özgün taslak |
-| 1.3 | Bir Dua Tanıyorum: Sübhaneke Duası ve Anlamı | 27 | Planlanıyor |
-| 2 | **İslam’ı Tanıyalım** | — | Ünite |
-| 2.1 | İslam’ın İnanç Esasları | 34 | Planlanıyor |
-| 2.2 | İslam’ın Şartları | 40 | Planlanıyor |
-| 2.3 | Kur’an-ı Kerim | 46 | Planlanıyor |
-| 2.4 | Bir Dua Tanıyorum: Amentü Duası ve Anlamı | 51 | Planlanıyor |
-| 3 | **Güzel Ahlak** | — | Ünite |
-| 3.1 | Din Güzel Ahlaktır | 58 | Planlanıyor |
-| 3.2 | İnsani İlişkilerin Temeli: Sevgi ve Saygı | 60 | Planlanıyor |
-| 3.3 | Bir Sure Tanıyorum: Fatiha Suresi ve Anlamı | 72 | Planlanıyor |
-| 4 | **Hz. Muhammed’i Tanıyalım** | — | Ünite |
-| 4.1 | Hz. Muhammed’in (sav) Doğduğu Çevre | 80 | Planlanıyor |
-| 4.2 | Hz. Muhammed’in (sav) Ailesi | 85 | Planlanıyor |
-| 4.3 | Hz. Muhammed’in (sav) Doğumu, Çocukluk ve Gençlik Yılları | 87 | Planlanıyor |
-| 4.4 | Hz. Muhammed’in (sav) Mekke ve Medine Yılları | 94 | Planlanıyor |
-| 4.5 | Bir Dua Tanıyorum: Salli ve Barik Duaları ve Anlamları | 99 | Planlanıyor |
-| 5 | **Din ve Temizlik** | — | Ünite |
-| 5.1 | İslam Dini ve Temizlik | 108 | Planlanıyor |
-| 5.2 | Bedenimi ve Giysilerimi Temiz Tutarım | 115 | Planlanıyor |
-| 5.3 | Evimi ve Okulumu Temiz Tutarım | 115 | Planlanıyor |
-| 5.4 | Çevremi Temiz Tutarım | 117 | Planlanıyor |
 
 ## 5. sınıf
 
@@ -46,7 +15,7 @@ MEB, 5. Sınıf Din Kültürü ve Ahlak Bilgisi (2026). ISBN 978-975-11-8025-4. 
 | 1 | **Allah İnancı** | — | Ünite |
 | 1.1 | Evrendeki Mükemmel Düzen | 14 | Özgün taslak |
 | 1.2 | Allah’ın Varlığı ve Birliği | 20 | Özgün taslak |
-| 1.3 | Allah’ın Güzel İsimleri | 29 | Planlanıyor |
+| 1.3 | Allah’ın Güzel İsimleri | 29 | Özgün taslak ve 7 görsel |
 | 1.3.1 | Allah Rahman ve Rahîm’dir | 30 | Planlanıyor |
 | 1.3.2 | Allah Her Şeyi Bilir | 32 | Planlanıyor |
 | 1.3.3 | Allah Her Şeyi Görür ve İşitir | 33 | Planlanıyor |

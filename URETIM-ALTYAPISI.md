@@ -1,15 +1,13 @@
-# Görsel ve karakter sesi altyapısı
+# 5. sınıftan başlayan görsel ve ses altyapısı
 
-Üç örnek hikâye, her biri 7 sahne × 8 saniye olarak planlanmıştır. Toplam 21 ayrı görsel hazırdır. **Eski tek anlatıcılı kayıtlar kullanıcı tarafından reddedildi; yeni doğal Türkçe karakter sesleri henüz hazır değildir.**
+Kullanıcı isteğiyle aktif çalışma 5. sınıftan başlar; ses kayıtları en son eklenecektir. 4. sınıfın önceki verileri, görselleri ve reddedilen sesleri `arsiv/4-sinif/` altında korunur ve uygulama tarafından yüklenmez.
 
-4. sınıf 1.1 “Bir Selamın Açtığı Kapı”, 1.2 “Dilek Kutusundaki İyilik” kitap sırasındaki yerlerinde kalır. “Bir Saray, Bir Soru”, kullanıcının özgün metninden ayrı ek uyarlamadır. İlk kaynak metin `assets/source.txt` içinde değiştirilmeden korunur.
+5. sınıf kitabının sırasındaki ilk üç konuya ait üç bağlantılı senaryo vardır: Evrendeki Mükemmel Düzen (s. 14), Allah’ın Varlığı ve Birliği (s. 20), Allah’ın Güzel İsimleri (s. 29). Her içerik 7 sahne × 8 saniye = 56 saniyedir. Toplam 21 yeni görsel, her sahneye ait konuşmacı, replik ve ilerideki hareket tarifi bulunur. Ses/video alanları boştur; görseller sessiz önizlenir.
 
-`assets/productions.js` beş hedef ses profili ve 21 sahnenin görsel, konuşmacı, replik, hareket, `voiceProfileId` ve ses durumunu içerir. Ece kız çocuk, Ali erkek çocuk, öğretmen kadın; anlatıcı ve rehber farklı yetişkin erkek sesleriyle planlanır. Bunlar ses tarifidir; hazır karakter kaydı olarak sunulmaz. Tam görev dosyası [SESLENDIRME-PLANI.md](SESLENDIRME-PLANI.md), makine tarafından okunabilen eşleştirme `ses-planlari/karakter-sesleri.json` içindedir.
+`assets/productions.js` aktif senaryoları ve Zehra, Ömer, öğretmen, anlatıcı ses profillerini tutar. Profiller ses tarifidir; oluşturulmuş kayıt gibi gösterilmez. `assets/scenes/<hikâye>/<01..07>.png` ayrı görsellerdir. Senaryo ve altyazı taslakları `video-ornekleri/7-sahne-*/` altındadır.
 
-Eski WAV dosyaları silinmez. Sahnenin `audioApproval` değeri `rejected` ise varsayılan ses kaynağı olarak seçilmez ve hazır ses sayısına eklenmez. Site sessiz görsel önizlemesiyle açılır. Eski kayıtları dinleme seçeneği açıkça kullanıcı tarafından işaretlenmelidir; bu, dosyanın onaylandığı veya yenilendiği anlamına gelmez. Seçim sayfa yenilenince sıfırlanır.
+Kullanıcı sesi yüklediğinde ilgili sahnenin `audioUrl`, ölçülen `audioDuration`, gerçek `audioVoice` ve `audioApproval: "approved"` alanları güncellenir. Her sahne ayrı replik kaydı kullanır; bir karakterin farklı repliklerinde aynı dosya tekrarlanmaz. `SESLENDIRME-PLANI.md` ve `ses-planlari/karakter-sesleri.json`, sahne/karakter/dosya eşleştirmesini içerir.
 
-Yeni dosya geldiğinde `audioUrl`, ölçülen `audioDuration`, gerçek `audioVoice` ve inceleme sonrası `audioApproval: "approved"` alanları güncellenir. Her sahne ayrı replik kaydı kullanır; aynı karakterin farklı cümlelerinde tek bir ses dosyası tekrarlanmaz. Aynı karakter sesi hikâyeler boyunca korunur.
+Oynatıcı onaylı ses veya cihazdan seçilmiş deneme sesi varsa sesli çalışabilir; `ended` olayını bekler ve uzun kaydı 8. saniyede kesmez. Ses bulunmaz veya oynatılamazsa durur ve bilgi verir. Varsayılan sessiz önizleme 8 saniyede bir ilerler. Deneme dosyası yalnızca açık sayfada kalır, sunucuya yüklenmez ve yenilemede kaldırılır. Video/MP4 üretilmez; görsel eklenmesi bir konuyu video izlenmiş yapmaz.
 
-Sesli oynatım `ended` olayını bekler; uzun konuşmayı 8. saniyede kesmez. Varsayılan sessiz görsel önizlemesi 8 saniyede bir ilerler. Bilgisayardan seçilen deneme sesi yalnızca açık sayfada kalır, sunucuya yüklenmez ve yenilemede kaldırılır. Ses dosyası yokken veya oynatma engellendiğinde ses varmış gibi devam edilmez.
-
-Bu ortamdan OpenAI.fm, OpenAI, ElevenLabs ve Microsoft ses hizmetlerine erişim kapalıdır. Bu nedenle yeni kaliteli kayıtların üretimi tamamlanamamıştır. Siteye bir API anahtarı eklenmez. Mevcut sistem ses dosyalarını ücretsiz statik yayından oynatır; video/MP4 üretilmez. `videoUrl` alanları boştur.
+Replikler yaş düzeyine uygun özgün uyarlamalardır. Kitap başlıkları ve sırası korunur; tam kitap metinleri veya PDF’leri yayımlanmaz. Kullanıcının ilk özgün metni `assets/source.txt` içinde değişmeden korunur. Kurum logosu kullanıcının sağladığı gerçek `logo.jpg` dosyasıdır.
