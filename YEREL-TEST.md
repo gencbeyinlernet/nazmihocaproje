@@ -11,6 +11,9 @@ Mac/Linux için proje klasöründe `python3 BASLAT.py`; Windows terminalinde `py
 - İlk açılışta ortak kullanım koşulları ve onay ekranı.
 - Ana sayfanın ortasında hazır hikâyelerin kaydırmalı gösterisi, altında Ortaokul, Lise ve Üniversite seçenekleri.
 - İlk slaytta “Saraydan Dünyaya: Büyük Keşif”; tüm sınıflarda ve eğitim düzeylerinde aynı ortak başlangıç bağlantısı.
+- İkinci slaytta “İğneden Kâinata: Bir Sorunun İzinde”; dört bölüm ve 28 sahnede konuşmaya uygun görsel ve efekt değişimi.
+- İkinci hikâyede otomatik/manuel ilerleme, parmakla kaydırma ve efekt kapatma; hareket azaltma tercihinde efektler kapalıdır. Düğmeler konuşmayı kapatmaz.
+- İkinci özgün metnin tamamı ve 28 sahnenin indirilebilir seslendirme planı; ses kayıtları sonradan eklenecektir.
 - Ortak hikâyenin sekiz durağında Geri/İleri, “Okudum” ile kayıt ve tamamlanınca eğitim düzeyine geçiş. Yalnızca sayfa değiştirmek tamamlanma sayılmaz.
 - Özgün metnin tamamının aynen okunması/indirilmesi ve öğretmen bölümünden 56 sahnenin seslendirme planının indirilmesi.
 - Geniş ekranda solda kategorili sınıf menüsü; mobilde “Sınıflar” düğmesiyle açılan menü ve seçili sınıf vurgusu. Menü sınıf seçince, kapatma düğmesiyle, dışına dokunarak veya Escape ile kapanır.
