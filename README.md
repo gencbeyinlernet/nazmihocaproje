@@ -32,6 +32,8 @@ Her hikâye **7 sahne × 8 saniye = 56 saniye** olarak planlanır. Toplam 21 ayr
 
 Ana sayfa yalnızca üç eğitim düzeyi gösterir. Ortaokulda sınıf → tek belirgin “Hikâyeye başla” düğmesi → büyük görsel ve replik → Geri/İleri akışı vardır. Hazırlanmamış konular ve kaynak bilgileri kapalı ayrıntılardadır. Tamamlanma, yedi görsel ziyaret edilip öğrenci “Bitirdim” dediğinde kaydedilir; video izlenmiş veya sınav geçilmiş sayılmaz. Mevcut okuma ilerlemesi ve tamamlanan kartların yeşil durumu korunur.
 
+Geniş ekranda sınıflar soldaki sabit menüde Ortaokul ve Lise başlıkları altında listelenir; Üniversite ayrı bir kategoridir. Seçili sınıf belirgin görünür. Mobil ve tablette üstteki “Sınıflar” düğmesi aynı menüyü açar. Sınıf seçimi, kapatma düğmesi, dış alana dokunma veya Escape ile kapanır; klavye odağı menü içinde kalır ve kapanınca düğmeye döner. Hikâye sesi ya da öğretmen önizlemesi menü açılırken duraklatılır.
+
 Lisede daha olgun renkler, ünite/konu araması, kısa okuma ve düşünme soruları kullanılır. Üniversite alanında profesyonel okuma düzeniyle üç özgün tartışma planı ve indirilebilir çalışma notları vardır. **Üniversite kaynakları henüz eklenmemiştir; bu planlar kaynaklandırılmış üniversite dersleri olarak sunulmaz.** Notlar sayfada geçici tutulur; kullanıcı isterse metin dosyası olarak indirir.
 
 Teknik senaryo, hareket tarifi, ses dosyası deneme ve indirme araçları öğrenci ekranında görünmez. Atölyede `?gorunum=ogretmen`, sınıf sayfasında aynı parametre öğretmen görünümünü açar. Bu bir görünüm seçimidir; yönetici girişi veya yetkilendirme değildir. Araçlar site kaynağını değiştirmez, sunucuya dosya yüklemez.
@@ -58,6 +60,7 @@ Soru/görüş, takip koduyla özel cevap ve yetkili eğitimci ekranları vardır
 - `assets/productions.js`: üç 5. sınıf senaryosu, 21 sahne ve dört hedef ses profili.
 - `assets/scenes/`: yeni sahne görselleri.
 - `assets/portal.js`, `portal.css`, `audiences.css`: eğitim düzeyleri, yaşa uygun sınıf görünümü ve gezinme.
+- `assets/navigation.js`, `navigation.css`: ortak sınıf menüsü ve mobil açılır panel.
 - `assets/university.js`: kaynak seçimi bekleyen üç özgün üniversite tartışma planı.
 - `assets/portal-authoring.js`: öğretmenin tüm konu planlarını incelediği görünüm.
 - `assets/studio.js`: sade öğrenci hikâye oynatıcısı.

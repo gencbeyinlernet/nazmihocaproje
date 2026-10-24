@@ -10,6 +10,7 @@ Mac/Linux için proje klasöründe `python3 BASLAT.py`; Windows terminalinde `py
 
 - İlk açılışta ortak kullanım koşulları ve onay ekranı.
 - Ana sayfada Ortaokul, Lise ve Üniversite olmak üzere üç açık seçenek.
+- Geniş ekranda solda kategorili sınıf menüsü; mobilde “Sınıflar” düğmesiyle açılan menü ve seçili sınıf vurgusu. Menü sınıf seçince, kapatma düğmesiyle, dışına dokunarak veya Escape ile kapanır.
 - Ortaokulda 5–8, lisede 9–12 sınıf seçimi; 4. sınıf kartı yoktur. Eski 4. sınıf/ilkokul adresleri 5. sınıfa yönlenir.
 - 5. sınıfın ilk üç konu kartındaki görselli atölye bağlantıları.
 - Atölyede üç hikâye, her hikâyede yedi ayrı görsel ve sahneye göre konuşmacı/replik.
