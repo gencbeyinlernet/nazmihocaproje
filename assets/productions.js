@@ -1,33 +1,33 @@
 'use strict';
-// Active grade-five storyboards. Audio will be supplied by the user at the end.
+// Replaceable synthetic Turkish examples. Target age/gender descriptions are voice briefs, not claims about demo actors.
 window.MERAK_VOICE_PROFILES = {
   "zehra": {
     "name": "Zehra",
     "label": "Kız çocuk · 10–11 yaş",
     "kind": "child",
     "gender": "female",
-    "instructions": "10–11 yaşlarında bir kız karakterin doğal, akıcı Türkiye Türkçesi. Meraklı ve içten ton; anlaşılır kelimeler ve doğal duraklamalar. Aynı karakter sesi hikâyeler boyunca korunacak. Ses dosyası çalışmanın sonunda eklenecek."
+    "instructions": "10–11 yaşlarında bir kız karakterin doğal, akıcı Türkiye Türkçesi. Meraklı ve içten ton; anlaşılır kelimeler ve doğal duraklamalar. Aynı karakter sesi hikâyeler boyunca korunacak. Geçici Türkçe örnek ses bağlıdır; hedef karakter kaydıyla değiştirilebilir."
   },
   "omer": {
     "name": "Ömer",
     "label": "Erkek çocuk · 10–11 yaş",
     "kind": "child",
     "gender": "male",
-    "instructions": "10–11 yaşlarında bir erkek karakterin doğal, akıcı Türkiye Türkçesi. Arkadaşça, canlı ve anlaşılır ton; cümle anlamına uygun vurgular. Aynı karakter sesi hikâyeler boyunca korunacak. Ses dosyası çalışmanın sonunda eklenecek."
+    "instructions": "10–11 yaşlarında bir erkek karakterin doğal, akıcı Türkiye Türkçesi. Arkadaşça, canlı ve anlaşılır ton; cümle anlamına uygun vurgular. Aynı karakter sesi hikâyeler boyunca korunacak. Geçici Türkçe örnek ses bağlıdır; hedef karakter kaydıyla değiştirilebilir."
   },
   "ogretmen": {
     "name": "Öğretmen",
     "label": "Yetişkin kadın · öğretmen",
     "kind": "adult",
     "gender": "female",
-    "instructions": "Kadın öğretmen sesi. Akıcı Türkiye Türkçesi, sıcak ve sabırlı açıklama tonu, anlaşılır tempo. Ses dosyası çalışmanın sonunda eklenecek."
+    "instructions": "Kadın öğretmen sesi. Akıcı Türkiye Türkçesi, sıcak ve sabırlı açıklama tonu, anlaşılır tempo. Geçici Türkçe örnek ses bağlıdır; hedef karakter kaydıyla değiştirilebilir."
   },
   "anlatici": {
     "name": "Anlatıcı",
     "label": "Yetişkin erkek · anlatıcı",
     "kind": "adult",
     "gender": "male",
-    "instructions": "Erkek anlatıcı sesi. Akıcı Türkiye Türkçesi, dengeli ve merak uyandıran bir hikâye anlatımı; doğal cümle sonları. Ses dosyası çalışmanın sonunda eklenecek."
+    "instructions": "Erkek anlatıcı sesi. Akıcı Türkiye Türkçesi, dengeli ve merak uyandıran bir hikâye anlatımı; doğal cümle sonları. Geçici Türkçe örnek ses bağlıdır; hedef karakter kaydıyla değiştirilebilir."
   }
 };
 window.MERAK_PRODUCTIONS = [
@@ -45,7 +45,7 @@ window.MERAK_PRODUCTIONS = [
       "Ömer"
     ],
     "status": "storyboard",
-    "audioStatus": "deferred",
+    "audioStatus": "replaceable-demo",
     "scenes": [
       {
         "id": "gozlem-kulubu-01",
@@ -60,10 +60,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Zehra ve Ömer, Gökyüzü Kulübünün ilk gözlem gününde okul bahçesine çıkıyor.",
         "visual": "Zehra ve Ömer, okul bahçesindeki çiçek tarhının yanında gözlem defterleriyle durur; öğretmen arkalarında, küçük teleskop kenardadır.",
         "motion": "Bahçeden çocuklara yavaşça yaklaş; yapraklar hafifçe hareket etsin.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-01.mp3",
         "videoUrl": "",
         "voiceProfileId": "anlatici",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.52,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · fettah"
       },
       {
         "id": "gozlem-kulubu-02",
@@ -78,10 +81,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Bu çiçek güneş ışığıyla büyüyor. Arılar da çiçeklerle nasıl bir ilişki kuruyor?",
         "visual": "Zehra, çiçekli tarhı işaret ederek Ömer’e soru sorar; elinde gözlem defteri vardır. Öğretmen arkalarında durur.",
         "motion": "Çiçeklerden Zehra’nın meraklı yüzüne yavaşça açıl; Ömer dikkatle dinlesin.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-02.mp3",
         "videoUrl": "",
         "voiceProfileId": "zehra",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.352,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · dfki"
       },
       {
         "id": "gozlem-kulubu-03",
@@ -96,10 +102,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Arı nektar toplarken çiçekler arasında polen taşıyabiliyor. Canlılar birbirine bağlı.",
         "visual": "Ömer, çiçekli tarhın önünde gözlemini Zehra’ya anlatır; birkaç doğal arı çiçeklerin çevresindedir.",
         "motion": "Ömer küçük bir el hareketiyle çiçekleri işaret etsin; Zehra dikkatle dinlesin.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-03.mp3",
         "videoUrl": "",
         "voiceProfileId": "omer",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.688,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · fettah"
       },
       {
         "id": "gozlem-kulubu-04",
@@ -114,10 +123,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Gökyüzündeki hareketlerde ve doğada düzen gözlemleriz. Bunları dikkatle inceleyebiliriz.",
         "visual": "Öğretmen, Zehra ve Ömer’le bahçedeki küçük teleskobun ve yazısız gökyüzü gözlem araçlarının yanında konuşur.",
         "motion": "Sabit orta plan kullan; öğretmen sakin açıklama yapsın, çocuklar dinlesin.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-04.mp3",
         "videoUrl": "",
         "voiceProfileId": "ogretmen",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 6.456,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · dfki"
       },
       {
         "id": "gozlem-kulubu-05",
@@ -132,10 +144,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Yağmur toprağı besliyor, bitkiler büyüyor. Birçok olay birbirini tamamlıyor.",
         "visual": "Yağmur sonrası aynı bahçede yapraklarda su damlaları vardır; Zehra ve Ömer ıslak toprağı gözlemler.",
         "motion": "Yapraktaki damladan çocuklara yavaşça kaydır; atmosfer taze ve sakin kalsın.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-05.mp3",
         "videoUrl": "",
         "voiceProfileId": "zehra",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.304,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · dfki"
       },
       {
         "id": "gozlem-kulubu-06",
@@ -150,10 +165,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "İslam, evrendeki düzen üzerine düşünmemizi ister. Bu gözlemler bize Allah’ın yaratışını hatırlatır.",
         "visual": "Öğretmen ve çocuklar okul bahçesindeki ahşap masada gözlem defterini birlikte inceler.",
         "motion": "Defterden yüzlere yavaşça yüksel; yalnızca sıradan okul ortamı göster.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-06.mp3",
         "videoUrl": "",
         "voiceProfileId": "ogretmen",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 7.008,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · dfki"
       },
       {
         "id": "gozlem-kulubu-07",
@@ -168,10 +186,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Gördüklerimizi defterimize yazalım. Sonra Allah’ın varlığı ve birliğini birlikte düşünelim.",
         "visual": "Ömer ve Zehra, okul bahçesindeki masada boş sayfalı gözlem defterlerini yan yana açıp konuşur.",
         "motion": "Defterlere yumuşakça yaklaş; çocuklar birbirine bakıp düşünceli biçimde gülümsesin.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-07.mp3",
         "videoUrl": "",
         "voiceProfileId": "omer",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.784,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · fettah"
       }
     ]
   },
@@ -189,7 +210,7 @@ window.MERAK_PRODUCTIONS = [
       "Ömer"
     ],
     "status": "storyboard",
-    "audioStatus": "deferred",
+    "audioStatus": "replaceable-demo",
     "scenes": [
       {
         "id": "birligin-anlami-01",
@@ -204,10 +225,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Zehra ve Ömer, gözlemlerinin ardından Allah’ın varlığı ve birliği üzerine konuşuyor.",
         "visual": "Aydınlık okul sınıfında Zehra ve Ömer, bahçe gözlemlerinden bitki çizimleri içeren yazısız defterlerini açar.",
         "motion": "Defterlerden çocukların yüzlerine yavaşça açıl; doğal sınıf atmosferi kullan.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-01.mp3",
         "videoUrl": "",
         "voiceProfileId": "anlatici",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 6.552,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · fettah"
       },
       {
         "id": "birligin-anlami-02",
@@ -222,10 +246,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Doğadaki düzen hakkında düşündük. Peki, İslam’da Allah’ın birliğine inanmak ne demek?",
         "visual": "Ömer sınıf masasından kadın öğretmenine merakla soru sorar; Zehra yanında dinler.",
         "motion": "Ömer konuşurken küçük bir el hareketi yapsın; öğretmen göz teması kursun.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-02.mp3",
         "videoUrl": "",
         "voiceProfileId": "omer",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.736,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · fettah"
       },
       {
         "id": "birligin-anlami-03",
@@ -240,10 +267,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Allah’ın birliğine inanmak tevhit demektir. İslam’a göre Allah’ın eşi ve benzeri yoktur.",
         "visual": "Kadın öğretmen, aydınlık sınıfta iki çocuğa sakin bir açıklama yapar; masada yalnızca sıradan ders araçları bulunur.",
         "motion": "Sabit orta plan; öğretmen sakin anlatırken çocuklar dikkatle dinlesin.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-03.mp3",
         "videoUrl": "",
         "voiceProfileId": "ogretmen",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 6.36,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · dfki"
       },
       {
         "id": "birligin-anlami-04",
@@ -258,10 +288,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Allah’ı çevremizde gördüğümüz varlıklar gibi düşünmememiz gerektiğini anlıyorum.",
         "visual": "Zehra, açık gözlem defterinin başında öğretmeniyle düşünceli biçimde konuşur; Ömer yanında oturur.",
         "motion": "Zehra’nın düşünceli yüzüne hafifçe yaklaş; ders araçları arka planda kalsın.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-04.mp3",
         "videoUrl": "",
         "voiceProfileId": "zehra",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 4.92,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · dfki"
       },
       {
         "id": "birligin-anlami-05",
@@ -276,10 +309,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Allah yaratandır. O’nu insanlara, hayvanlara veya başka bir varlığa benzetmeyiz.",
         "visual": "Öğretmen, sınıftaki pencere kenarındaki bitkinin yanında çocuklarla konuşur; yalnızca sıradan doğal çevre görünür.",
         "motion": "Pencere bitkisinden öğretmene ve dinleyen çocuklara yavaşça açıl; soyut figür üretme.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-05.mp3",
         "videoUrl": "",
         "voiceProfileId": "ogretmen",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.832,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · dfki"
       },
       {
         "id": "birligin-anlami-06",
@@ -294,10 +330,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Tevhit kavramını kendi cümlelerimizle yazalım. Sorularımızı da birlikte konuşalım.",
         "visual": "Ömer ve Zehra sınıf masasındaki yazısız defterlerine kendi notlarını hazırlarken birbirine bakar.",
         "motion": "Kalemlerin olduğu masadan çocuklara yavaşça yüksel; görüntüye okunabilir yazı ekleme.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-06.mp3",
         "videoUrl": "",
         "voiceProfileId": "omer",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.256,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · fettah"
       },
       {
         "id": "birligin-anlami-07",
@@ -312,10 +351,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Allah’ın birliğini öğrendik. Şimdi O’nun güzel isimlerini ve anlamlarını merak ediyorum.",
         "visual": "Zehra ve Ömer sınıfın kitap köşesinde bir sonraki buluşma için yazısız araştırma defterini seçer.",
         "motion": "Kitap köşesinde doğal küçük el hareketleri; son karede çocukların merakı hissedilsin.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-07.mp3",
         "videoUrl": "",
         "voiceProfileId": "zehra",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.736,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · dfki"
       }
     ]
   },
@@ -333,7 +375,7 @@ window.MERAK_PRODUCTIONS = [
       "Ömer"
     ],
     "status": "storyboard",
-    "audioStatus": "deferred",
+    "audioStatus": "replaceable-demo",
     "scenes": [
       {
         "id": "guzel-isimler-01",
@@ -348,10 +390,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Kulübün yeni buluşmasında Zehra ile Ömer, Allah’ın güzel isimlerini araştırıyor.",
         "visual": "Zehra ve Ömer aydınlık sınıf masasında sade kapaklı araştırma kitapları ve boş kartlarla çalışmaya hazırlanır.",
         "motion": "Masanın üzerindeki sade kitaplardan çocuklara yavaşça yaklaş.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-01.mp3",
         "videoUrl": "",
         "voiceProfileId": "anlatici",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.592,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · fettah"
       },
       {
         "id": "guzel-isimler-02",
@@ -366,10 +411,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Allah’ın güzel isimlerine esmayıhüsna deniyor. Bu isimler bize neler anlatıyor?",
         "visual": "Zehra elindeki boş araştırma kartını öğretmenine gösterip soru sorar; Ömer yanında dikkatle dinler.",
         "motion": "Zehra kartı hafifçe kaldırsın; öğretmen çocuğu dikkatle dinlesin.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-02.mp3",
         "videoUrl": "",
         "voiceProfileId": "zehra",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.376,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · dfki"
       },
       {
         "id": "guzel-isimler-03",
@@ -384,10 +432,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Bu isimler Allah’ı tanımamıza yardımcı olur. Her birinin anlamını dikkatle öğrenelim.",
         "visual": "Kadın öğretmen, okul sınıfında Zehra ve Ömer’le araştırma kitaplarını birlikte inceler.",
         "motion": "Öğretmenin sakin açıklamasını ve çocukların dinleyen yüzlerini aynı planda tut.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-03.mp3",
         "videoUrl": "",
         "voiceProfileId": "ogretmen",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.832,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · dfki"
       },
       {
         "id": "guzel-isimler-04",
@@ -402,10 +453,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Bir canlının ihtiyacını fark edip yardım ettiğimizde merhamet üzerine düşünebiliriz.",
         "visual": "Okul bahçesinde Ömer ve Zehra küçük bir kedi için yere temiz su kabı bırakır; öğretmen uzakta gözetir.",
         "motion": "Çocuklar su kabını sakince yere bıraksın; kedi doğal biçimde yaklaşsın.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-04.mp3",
         "videoUrl": "",
         "voiceProfileId": "omer",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.952,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · fettah"
       },
       {
         "id": "guzel-isimler-05",
@@ -420,10 +474,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Allah’ın merhametini, bilmesini, görmesini ve işitmesini anlatan isimleri sırayla inceleyeceğiz.",
         "visual": "Sınıfa dönmüş çocuklar, öğretmenle masadaki farklı renkli boş kavram kartlarını sıraya dizer.",
         "motion": "Öğretmenin el hareketiyle kartlara yönel; yüzlere yavaşça açıl, yazı üretme.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-05.mp3",
         "videoUrl": "",
         "voiceProfileId": "ogretmen",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 7.2,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · dfki"
       },
       {
         "id": "guzel-isimler-06",
@@ -438,10 +495,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "İsimleri yalnızca ezberlemek yerine anlamlarını öğrenmek istiyorum. Sorularımı defterime yazacağım.",
         "visual": "Zehra sınıf masasındaki açık, yazısız defterinin başında düşünür; Ömer kartları düzenler.",
         "motion": "Kalemi ve düşünceli yüzü göster; yumuşak yakın plan, okunabilir yazı kullanma.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-06.mp3",
         "videoUrl": "",
         "voiceProfileId": "zehra",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 6.504,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · dfki"
       },
       {
         "id": "guzel-isimler-07",
@@ -456,10 +516,13 @@ window.MERAK_PRODUCTIONS = [
         "text": "Bir sonraki buluşmada Rahman ve Rahîm isimlerinin anlamını konuşacaklar.",
         "visual": "Zehra ve Ömer araştırma defterlerini kapatıp okul bahçesine birlikte yürür; sıcak bir gün sonu ışığı vardır.",
         "motion": "Çocukları geniş planda sakin bir yürüyüşle takip et; hikâyeyi yumuşakça bitir.",
-        "audioUrl": "",
+        "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-07.mp3",
         "videoUrl": "",
         "voiceProfileId": "anlatici",
-        "audioApproval": "pending"
+        "audioApproval": "demo",
+        "audioDuration": 5.4,
+        "audioKind": "synthetic-demo",
+        "audioVoice": "Türkçe örnek anlatım · fettah"
       }
     ]
   }

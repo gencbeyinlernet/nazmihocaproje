@@ -1,113 +1,73 @@
-# Merak Bahçesi · Ortaokul, Lise ve Üniversite
+# Merak Bahçesi
 
-Rize İl Millî Eğitim Müdürlüğü çalışması için Türkçe ve mobil uyumlu din kültürü platformu. Öğretmen takip sistemi ayrı `okultakipburakhoca` deposundadır.
+Rize İl Millî Eğitim Müdürlüğü çalışması için Türkçe, herkese açık, mobil uyumlu din kültürü ve değerler eğitimi platformu. Öğretmen takip sistemi ayrı `okultakipburakhoca` deposundadır.
 
-## Sayfalar
+## Aç ve dinle
 
-- Ana sayfa: https://gencbeyinlernet.github.io/nazmihocaproje/
-- Üyeliksiz ders hazırlığı ve sunum: https://gencbeyinlernet.github.io/nazmihocaproje/ders-hazirla/
-- Herkes için ortak ilk hikâye: https://gencbeyinlernet.github.io/nazmihocaproje/ortak-hikaye/
-- Ana sayfadaki ikinci görselli hikâye: https://gencbeyinlernet.github.io/nazmihocaproje/igneden-kainata/
-- Ortaokul (5–8): https://gencbeyinlernet.github.io/nazmihocaproje/ortaokul/
-- Lise (9–12): https://gencbeyinlernet.github.io/nazmihocaproje/lise/
-- Üniversite: https://gencbeyinlernet.github.io/nazmihocaproje/universite/
-- Görselli hikâyeler: https://gencbeyinlernet.github.io/nazmihocaproje/sahne-atolyesi/
-- Diğer sınıflar: `siniflar/6-sinif/` … `siniflar/12-sinif/`.
-- İlk özgün metnin sekiz haftalık çalışması: `metin-atolyesi/`.
+- [Ana sayfa](https://gencbeyinlernet.github.io/nazmihocaproje/)
+- [5. sınıf sesli hikâyeleri](https://gencbeyinlernet.github.io/nazmihocaproje/sahne-atolyesi/)
+- [Saraydan Dünyaya · Ortak ilk hikâye](https://gencbeyinlernet.github.io/nazmihocaproje/ortak-hikaye/)
+- [İğneden Kâinata · İkinci hikâye](https://gencbeyinlernet.github.io/nazmihocaproje/igneden-kainata/)
+- [Öğretmen için ders hazırlığı](https://gencbeyinlernet.github.io/nazmihocaproje/ders-hazirla/)
 
-24 Ekim 2026 tarihli kullanıcı isteğiyle **4. sınıf aktif katalogdan, sınıf seçicisinden, soru formundan ve sahne atölyesinden kaldırıldı**. Önceki çalışmalar `arsiv/4-sinif/` altında korunur. Eski 4. sınıf ve ilkokul bağlantıları 5. sınıfa yönlenir; uygulama arşiv dosyalarını yüklemez.
+Sınıfını ve konunu seç; **İzle ve dinle** düğmesine dokun. Her görsel kendi Türkçe ses kaydıyla oynar; konuşma bitince sonraki sahneye geçilir. Öğrenci veya öğretmenin bir okuma metni takip etmesi gerekmez. Altyazı kapalı başlar; istenirse açılır. Geri/İleri, duraklatma, sesin içinde ilerleme, bölüm seçimi ve destekleyen cihazlarda tam ekran vardır. Sesler sayfa açılır açılmaz değil, kullanıcının ilk oynatma dokunuşuyla başlar.
 
-## Herkese açık, sade öğrenme ve ders hazırlığı
+Platformun girişi şifresiz, üyeliksiz ve zorunlu onaysızdır. Özgün içerikler paylaşılabilir. [Paylaşım ve gizlilik](KULLANIM-KOSULLARI.md) isteğe bağlı bilgidir. Kişisel sorular eğitim materyali sayılmaz; özel kalır.
 
-Kullanıcının güncel isteğiyle platform **üyelik, kullanıcı adı, şifre ve zorunlu onay olmadan** açılır. Özgün hikâye, senaryo, görsel ve etkinlikler paylaşılabilir; ayrıca izin istenmez. Önceki yazılı izin ve girişte kabul zorunluluğu kaldırılmıştır. [Paylaşım ve gizlilik](KULLANIM-KOSULLARI.md) bilgisi isteğe bağlı açılır. Öğrencilerin özel soruları paylaşılabilir materyal sayılmaz.
+## Sesli içerik kapsamı
 
-Ana ekranın belirgin yolu **Sınıfını seç → Konunu seç → İçeriği aç** şeklindedir. Hazır görselli içerik oynatıcıya, hazır okuma sınıfın konu penceresine açılır. Hazır içerik olmayan sınıfta sınıf sayfasına gidilir; içerik varmış gibi gösterilmez. Ortak ilk hikâye ve ikinci hikâye, merkezi slayt alanında ilk iki sıradadır. Eğitim düzeyi kartları, soldaki kategorili sınıf menüsü ve mobilde sola açılan düğme korunur.
+**232 ayrı gerçek MP3 dosyası** `assets/audio/anlatim/` altında bulunur; çalışma anında bir ses hizmetine bağlanılmaz. Bunlar sonradan kullanıcının kendi kayıtlarıyla değiştirilebilen **sentetik Türkçe örnek seslerdir**. Gerçek çocuk veya karakter oyuncusu kaydı ya da stüdyo kalitesinde seslendirme olarak sunulmaz. Konuşmacı adları hikâyedeki rolleri gösterir; hedef karakter tarifleri gelecekteki kayıtların talimatıdır. Yerel iki Türkçe ses modeli ve küçük ton/tempo farkları kullanıldı. Kaynak ve lisanslar [ses kayıt bilgisi](assets/audio/CREDITS.md) içinde; DFKI örnekleri kaynak gösterilerek ticari olmayan amaçlarla, aynı lisansla paylaşılır.
 
-Zümrüt, turkuaz, mor ve altın renkleri; açık cam görünümlü kartlar, sade geometrik kitap/yıldız motifleri ve büyük okunabilir yazılar kullanılır. Üniversite sayfasının olgun okuma düzeni korunur. Dış yazı tipi veya takipçi çağrısı yoktur. Sağ üstte soru, diğer menüler içinde ders hazırlığı ve içerik paylaşımı bulunur. Paylaşım düğmesinde cihazın paylaşım menüsü, bağlantı kopyalama ve kopyalama başarısızsa seçilebilir bağlantı seçenekleri vardır.
+- 5. sınıf kitabının ilk üç konusuna ait 21 özgün görsel + 21 ayrı sahne sesi.
+- İlk ortak hikâyede 8 bölüm × 7 = 56 ayrı sahne sesi.
+- İkinci hikâyede 4 bölüm × 7 = 28 ayrı sahne sesi; konuşmaya uygun görsel, odak işaretleri ve efektler.
+- Hazır sınıf konularının bilgilendirme, hikâye ve düşünme sorularına ait kayıtlar.
+- Üniversitenin üç özgün çalışma taslağına ait sesli anlatım ve sorular.
 
-### Öğretmen için ders hazırlığı
+Toplam yaklaşık 34 dakikalık kayıt vardır. Her sahne hedef sekiz saniyeye zorla sıkıştırılmaz; **oynatıcı gerçek kayıt bitişini bekler**. Görsel veya ses hatasında otomatik ilerleme durur; yeniden deneme mümkündür. Eski sesi durdurmadan yenisi başlamaz. Menü açılması, başka bir pencere açılması, sayfa değişimi ve sekmenin gizlenmesi sesi durdurur. Tamamlanma için sahnelerin dinlenmesi ve Bitir düğmesi gerekir; yalnızca resme bakmak yeterli değildir.
 
-`ders-hazirla/` sayfasında sınıf, ünite ve konu seçilir. Başlıklar ve sayfa bilgileri yüklenen kitapların sırasındadır. **Kazanım / ders hedefiniz** alanı öğretmenin düzenlediği ders hedefidir; otomatik bir resmî kazanım kodu veya onaylanmış kazanım eşlemesi iddia edilmez. Öğretmen bilgilendirme, düşünme sorusu ve etkinliği de düzenler. Konu değiştirip geri dönünce sayfa açık kaldığı sürece taslak korunur.
+İlk ortak hikâyenin 56 ayrı yeni resmi henüz yoktur: hazır saray, doğa, atölye ve kâinat görselleri ilgili bölümlerde tekrar kullanılır. İkinci hikâyede dört özgün resim ve bir görev şeması tekrar kullanılır. Diğer hazır konular sesli anlatıma eşlik eden sade konu kartlarıyla açılır. Bunlar tamamlanmış video dosyaları değildir; görsel + kayıtlı ses oynatıcısıdır. Yeni videoların yeri korunur.
 
-“Sınıfta sun” ile büyük yazılı sunum açılır. Hazır hikâyenin yedi görseli ve konuşmaları sunuma eklenir; görseli olmayan hazır konularda okuma hikâyesi kullanılır. Henüz platform hikâyesi bulunmayan konuda öğretmen kendi açıklamasını yazarak sunum oluşturabilir. İleri/Geri, klavye okları ve destekleyen tarayıcılarda tam ekran vardır. Tam ekran açılamazsa aynı pencerede sunum sürer. “Planı indir” metin dosyası, “Yazdır / PDF” tarayıcının yazdırma ekranını açar. Taslaklar sunucuya veya tarayıcı depolamasına otomatik kaydedilmez; site içeriklerini değiştirmez. Üyelik ve öğretmen girişi gerekmez.
+## Sınıflar ve kaynaklar
 
-## Hazır içerikler
+Etkin sınıflar 5–12; ortaokul, lise ve üniversite ayrı alanlardır. Masaüstünde sınıflar solda, soru alanı ve diğer menüler sağdadır. Mobilde Sınıflar düğmesi soldan menüyü açar. Ana ekran **Sınıf → Konu → İçerik** yolunu ve ortak hikâyeleri öne çıkarır. Cam görünümlü kartlar zümrüt, turkuaz, mor ve altın tonlarındadır.
 
-**İkinci hikâye: “İğneden Kâinata: Bir Sorunun İzinde”.** Ana sayfada ortak ilk hikâyenin hemen ardından gelir. Kullanıcının ikinci metnini ele alan özgün konuşmalar, **4 bölüm × 7 sahne = 28 sahne** halinde hazırlanır. Atölye/iğne, tren, nar ağacı ve kâinat için dört yeni görsel; görev sırası için bir SVG şeması vardır. Aynı görsel, ilgili konuşmalarda farklı odak ve efektlerle kullanılır; 28 ayrı resim olduğu iddia edilmez.
+Kitaplardaki ünite ve konu sırası `assets/catalog.js` içinde korunur. 7. sınıfın doğrulanmış kaynak sırası henüz eklenmediği için hazır içerik varmış gibi gösterilmez. Kaynak ayrıntıları [KAYNAKLAR.md](KAYNAKLAR.md) dosyasındadır. Üniversite içeriği kaynaklandırılmış müfredat değil, özgün tartışma taslaklarıdır.
 
-Her repliğin konuşmacısı, görseli, odak noktası ve efekti birlikte değişir. Görsel yüklenmeden yeni konuşma gösterilmez; geciken eski bir istek sonraki seçimi değiştiremez. Geri/İleri, bölüm ve sahne seçimi, klavye okları, dokunmatik kaydırma ve isteğe bağlı otomatik okuma vardır. İğnede vurgu, trende hareket çizgileri, nar ağacında su/ışık, kâinatta yavaş yörünge efektleri kullanılır. Efektler kapatılabilir; hareket azaltma tercihinde kapalıdır. Düğmeler konuşma metnini kapatmaz.
+Kullanıcının iki kaynak metni `assets/source.txt` ve `assets/ikinci-hikaye-kaynak.txt` içinde **değiştirilmeden** korunur. Öğretmen isteğe bağlı açıp indirebilir; öğrenciye zorunlu okuma olarak gösterilmez. Senaryo replikleri ses üretiminde değiştirilmedi. Önceki 4. sınıf çalışmaları `arsiv/4-sinif/` altında korunur; aktif uygulama bunları veya reddedilen eski WAV seslerini yüklemez. İlgisiz eski projeler yayın paketine katılmaz.
 
-Konuşmada adı geçen nesneler, resimle birlikte hareket eden konum işaretleriyle vurgulanır; kısa adları görsel altında okunur. Görselin köşesindeki büyütme düğmesi aynı sahnenin tam resmini ayrı bir pencerede açar ve otomatik ilerlemeyi durdurur. Escape, kapatma düğmesi veya dış alana dokunmayla kapanır; odak düğmeye döner. Yeniden ilerlemek kullanıcının seçimidir. Bölüm kartları ve sahne listesi, her bölüm için incelenen sahne sayısını ve yedi sahnesi de görülen bölümün yeşil durumunu gösterir. Bu sayaçlar ses dinleme, video veya sınav puanı sayılmaz.
+## Öğretmen hazırlığı
 
-Sekiz saniye, her sahnenin üretim hedefidir (toplam 224 saniye). Sessiz otomatik okuma, uzun repliklerde daha fazla süre verir. Sesler henüz eklenmedi; tarayıcı seslendirmesi kullanılmaz. İleride onaylı ses dosyası bağlandığında kayıt bitmeden sahne değiştirilmez. Pencere/menü açılması ve sekmenin gizlenmesi otomatik okumayı durdurur; elle tekrar başlatılır. Hata halinde otomatik ilerleme durur ve görsel için yeniden deneme gösterilir.
+`ders-hazirla/` alanında sınıf, ünite ve konu seçilir. Ders hedefi, kısa giriş, düşünme sorusu ve sınıf etkinliği düzenlenebilir. Hedef bir öğretmen taslağıdır; resmî kazanım kodu olarak sunulmaz. Plan metin dosyası olarak indirilebilir; Yazdır / PDF, tarayıcının yazdırma ekranını açar.
 
-İkinci metnin tamamı **`assets/ikinci-hikaye-kaynak.txt` içinde aynen korunur** ve okunup indirilebilir. Konuşmalar, görsel/efekt planı ve öğretmen notları [IKINCI-HIKAYE.md](IKINCI-HIKAYE.md) içindedir; sayfadan seslendirme planı indirilebilir. Örneklerin sınırlarına ilişkin öğretmen notları öğrenci konuşmalarından ayrı açılır. İncelenen sahneler ve son sahne `merak-visual-story-v1` altında yerelde saklanır; 28 sahnenin hepsi açılmadan ve kullanıcı açıkça bitirmeden tamamlandı gösterilmez. Ortak ilk hikâye, sınıf ve sınav ilerlemeleri ayrı kalır.
+Sınıfta sun düğmesi aynı sade görsel/ses oynatıcısını açar. Hazır sahneler kayıtlı MP3'leriyle çalışır. Öğretmenin kendi değiştirdiği giriş veya sorular ancak cihazda Türkçe metin sesi varsa seslendirilebilir; destek yoksa açık mesaj gösterilir, öğretmen İleri ile hazır hikâyeye geçebilir. Kayıtlı platform sesleri bu cihaz özelliğine ihtiyaç duymaz. Hedef ve sınıf etkinliği indirilen öğretmen planında bulunur; öğrenciye uzun bir okuma slaytı çıkarılmaz.
 
-**Ortak ilk hikâye: “Saraydan Dünyaya: Büyük Keşif”.** Ana sayfanın orta slayt alanında ilk sıradadır; ortaokul, lise, üniversite ve bütün sınıf sayfalarında ortak başlangıç bağlantısı bulunur. Elif, Deniz ve Derya Öğretmen ile sekiz bağlantılı durak, kullanıcının verdiği metindeki saray → amaç ve görev → elçi ve rehberlik → Dünya ve doğa → robot → sonuç akışını işler. Bu, kitapların konu sırasından ayrı bir ortak başlangıçtır.
+Taslaklar sayfada geçicidir; hesap, otomatik sunucu kaydı veya yayımlanmış içeriği değiştirme yoktur. Ses dosyası denemeleri için `sahne-atolyesi/?gorunum=ogretmen` alanı korunur. Öğretmen burada her sahneye kendi yerel sesini seçip deneyebilir; dosya sunucuya yüklenmez ve sayfa yenilenince kaldırılır.
 
-Okuma hikâyesi, her durakta düşünme sorusu ve isteğe bağlı çalışma hazırdır. Üretim planında **8 durak × 7 sahne × 8 saniye = 56 sahne / 448 saniyelik hedef** vardır. Her sahnenin konuşmacısı, repliği ve görsel tarifi [ORTAK-HIKAYE.md](ORTAK-HIKAYE.md) içinde ve indirilebilir seslendirme planında yer alır. Ortak hikâyenin sahne görselleri, sesleri ve videosu henüz üretilmedi; kapak ayrı bir SVG çizimidir. Okuma sayfası bu dosyalar hazırmış gibi oynatmaz.
+## Kayıtları değiştirme
 
-Kaynak metnin **tamamı `assets/source.txt` üzerinden aynen gösterilir ve indirilebilir**; özgün hikâye uyarlaması ondan ayrı sunulur. Okuma ilerlemesi `merak-common-story-v1` anahtarında tutulur. Bir sayfayı açmak veya İleri ile geçmek okunmuş saymaz; “Okudum” düğmesi açıkça işaretler. Sekiz durak işaretlenmeden tamamlanma gösterilmez. Bu durum mevcut sınıf, sınav, video, rozet veya sertifika kayıtlarını değiştirmez.
+`assets/audio/narration-manifest.json` ve tarayıcıdaki karşılığı `assets/narration-data.js`, 232 dosyanın yolunu, süresini, rolünü ve metin/dosya SHA-256 özetlerini içerir. Oynatıcı `assets/narration.js`, görünüm `assets/narration.css` içindedir. Üç hikâye veri dosyasında sahnelerin `audioUrl`, `audioDuration`, `audioApproval: "demo"` alanları örnek kayıtlara bağlıdır.
 
-Aktif katalog 5–12. sınıflarda 35 ünite ve 163 konu planı içerir. Başlıklar ve sayfa referansları yüklenen kitapların sırasındadır. Kaynak dökümü: [KAYNAKLAR.md](KAYNAKLAR.md). 7. sınıf dosyası aktarım sınırını aştığından o sınıfın ayrı sayfasında konu sırası beklenir; tahminî başlık eklenmez.
+Gerçek kayıt geldiğinde ilgili sahnenin `audioUrl` yolunu değiştirin ve kontrol edilen kayda `audioApproval: "approved"` verin; onaylı kayıt örnek kayıttan önce kullanılır. Aynı dosya adıyla MP3 değiştirmek de mümkündür. `rejected` kayıt çalmaz. Gönderilecek hedef karakter tarifleri [SESLENDIRME-PLANI.md](SESLENDIRME-PLANI.md) içinde.
 
-5. sınıf “Allah İnancı” ünitesinin ilk üç konusu görselli hikâyelere bağlanır:
+Yerel üretimin tekrar edilebilir betiği `scripts/generate-audio.py`; Piper ve FFmpeg ile, `ses-planlari/anlatim-metinleri.json` metin listesi ve yerel modellerin klasörü verilerek çalışır. Model dosyaları, hizmet anahtarları veya kullanıcı oturumu depoya konulmaz. Çevrim içi ses hizmetine bu yürütme ortamından erişilemediği için örnekler yerel modellerle üretildi.
 
-1. **Evrendeki Mükemmel Düzen** · “Gökyüzü Kulübünün İlk Buluşması” · s. 14.
-2. **Allah’ın Varlığı ve Birliği** · “Birliğin Anlamını Ararken” · s. 20.
-3. **Allah’ın Güzel İsimleri** · “İsimlerin Açtığı Pencere” · s. 29.
+## Soru ve görüşler
 
-Her hikâye **7 sahne × 8 saniye = 56 saniye** olarak planlanır. Toplam 21 ayrı görsel, her görsele ait konuşmacı ve replik, ilerideki hareket tarifi, indirilebilir senaryo ve SRT taslağı bulunur. Zehra ve Ömer’in gözlem kulübü, üç konuyu sırayla birbirine bağlar. Diğer konular görselleri veya sesi hazırmış gibi gösterilmez.
+Soruların özel takip koduyla yanıtlanması için Supabase bağlantısı gerekir; henüz yapılandırılmamıştır. Bağlı değilken gönderme ve sorgulama düğmeleri devre dışıdır. Gönderilmiş gibi başarı mesajı verilmez. Genel sayfalarda yönetici kullanıcı adı/şifre formu yoktur; gelecekteki özel soru yönetimi sunucu yetkilendirmesi ister. Ayrıntılar [backend/QUESTIONS-SETUP.md](backend/QUESTIONS-SETUP.md) dosyasında.
 
-**Ses dosyalarını kullanıcı çalışmanın sonunda yükleyecek.** Şu an aktif içeriklerde ses veya video dosyası yoktur; önizleme sessizdir. Eski ses denemeleri kullanılmaz. Her repliğin hedef karakter sesi ve dosya adı [SESLENDIRME-PLANI.md](SESLENDIRME-PLANI.md) ve `ses-planlari/karakter-sesleri.json` içinde hazırdır.
+## Yerelde açma ve doğrulama
 
-## Yaşa göre sade görünüm
+Windows: `BASLAT-WINDOWS.bat`; diğer sistemler: proje klasöründe `python3 BASLAT.py`. Başlatıcı kendi klasörünü yayınlar ve uygun localhost adresini yazar. HTML dosyasına çift tıklamak yerine yerel sunucu kullanın. [Yerel test rehberi](YEREL-TEST.md).
 
-Ana sayfanın ortasında ortak ilk hikâyeyle başlayan slayt gösterisi, altında üç eğitim düzeyi bulunur. Sınıf sayfalarının slaytları yalnızca seçili sınıf ve ünitenin hazır içeriklerini gösterir; ortak ilk hikâye bunların üzerinde ayrı bir bağlantıdır. Ortaokulda sınıf → belirgin “Hikâyeye başla” düğmesi → büyük görsel ve replik → Geri/İleri akışı vardır. Hazırlanmamış konular ve kaynak bilgileri kapalı ayrıntılardadır. Sınıf hikâyesinin tamamlanması, yedi görsel ziyaret edilip öğrenci “Bitirdim” dediğinde kaydedilir; video izlenmiş veya sınav geçilmiş sayılmaz. Mevcut okuma ilerlemesi ve tamamlanan kartların yeşil durumu korunur.
+```sh
+CHROMIUM_PATH=/usr/bin/chromium node tests/audio-workflow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/public-learning-flow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/questions-workflow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/discovery-flow.cjs
+python3 scripts/package-local.py
+```
 
-Geniş ekranda sınıflar soldaki sabit menüde Ortaokul ve Lise başlıkları altında listelenir; Üniversite ayrı bir kategoridir. Seçili sınıf belirgin görünür. Mobil ve tablette üstteki “Sınıflar” düğmesi aynı menüyü açar. Sınıf seçimi, kapatma düğmesi, dış alana dokunma veya Escape ile kapanır; klavye odağı menü içinde kalır ve kapanınca düğmeye döner. Hikâye sesi ya da öğretmen önizlemesi menü açılırken duraklatılır.
+Ses testi gerçek MP3'lerle 105 görselli sahnenin akışını, 232 dosya/metin özeti eşleşmesini, ses bitişini beklemeyi, altyazının isteğe bağlı olmasını, öğretmen sunumunu, altı ekran genişliğini ve kaynak metinlerin korunmasını doğrular. Önceki sessiz/okuma oynatıcılarının testleri yeni sesli akışa göre güncellenmiştir.
 
-Sağ sütunun en üstünde “Soru sor”, altında hikâyeler, metin atölyesi, yerel test ve kullanım koşulları bağlantıları vardır. Soru formu ayrı bir pencerede açılır; mevcut özel takip kodu akışı korunur; giriş formu gösterilmez. Mobilde soru düğmesi üstte kalır, diğer menüler isteğe bağlı açılır. Slaytlar 7 saniyede otomatik geçer; oklar, seçim noktaları, klavye okları ve dokunmatik yatay kaydırma ile elle seçilebilir. Elle seçim veya klavye odağı otomatik geçişi durdurur; düğmeyle yeniden başlatılır. Fare üzerindeyken, sekme gizliyken, bir pencere/menü açıkken otomatik geçiş bekler. Hareket azaltma tercihi varsa otomatik geçiş kapalı başlar. Tek içerikte geçiş denetimleri gösterilmez.
-
-Lisede daha olgun renkler, ünite/konu araması, kısa okuma ve düşünme soruları kullanılır. Üniversite alanında profesyonel okuma düzeniyle üç özgün tartışma planı ve indirilebilir çalışma notları vardır. **Üniversite kaynakları henüz eklenmemiştir; bu planlar kaynaklandırılmış üniversite dersleri olarak sunulmaz.** Notlar sayfada geçici tutulur; kullanıcı isterse metin dosyası olarak indirir.
-
-Teknik senaryo, hareket tarifi, ses dosyası deneme ve indirme araçları öğrenci ekranında görünmez. Atölyede `?gorunum=ogretmen`, sınıf sayfasında aynı parametre öğretmen görünümünü açar. Bu bir görünüm seçimidir; yönetici girişi veya yetkilendirme değildir. Araçlar site kaynağını değiştirmez, sunucuya dosya yüklemez.
-
-## Çalışma akışı
-
-Öğrenci ortak ilk hikâyeden başlayabilir; ardından eğitim düzeyini ve sınıfını seçer. Sınıf sayfası hazır hikâyelerden birini belirgin bir başlangıç düğmesiyle önerir. Görselli içerik öğrenci oynatıcısında açılır; yalnızca görsel, konuşmacı/replik ve ilerleme düğmeleri görünür. Görseli olmayan hazır hikâyeler kısa bilgi → hikâye şeklinde ilerler. Gerçek video eklenene kadar öğrenciye boş bir video adımı gösterilmez. Sesler daha sonra bağlanır; kayıt bitmeden otomatik ilerlenmez.
-
-Öğretmen görünümünde bütün kitap konu planları ve önceki ayrıntılı inceleme araçları korunur. Ortak soru/cevap alanı sağ üstteki “Soru sor” düğmesiyle açılır. Paylaşım ve gizlilik bilgisi isteğe bağlı açılır; başlangıçta onay istenmez.
-
-5. sınıf hikâyelerinin sahne görselleri ve ikinci hikâyenin dört anlatım görseli özgün yapay zekâ üretimidir. Açıklama ve hikâyeler, öğretmen/içerik sorumlusu incelemesi bekleyen özgün uyarlamalardır; kitap metni, ayet veya hadis alıntısı gibi sunulmaz. Kitapların tam PDF’leri depoya eklenmez. Kullanıcının ilk `assets/source.txt` ve ikinci `assets/ikinci-hikaye-kaynak.txt` metinleri değişmeden korunur. Gerçek kurum logosu `logo.jpg` dosyasıdır.
-
-## Gizlilik ve soru alanı
-
-[Paylaşım ve gizlilik](KULLANIM-KOSULLARI.md) metni herkese açık kullanım ve paylaşım iznini anlatır. Bu bilgilendirme içeriklere erişimi engellemez, onay kaydı oluşturmaz.
-
-Soru/görüş ve takip koduyla özel cevap arayüzü vardır; herkese açık sayfalarda eğitimci girişi veya şifre alanı yoktur. **Soru sunucusu henüz bağlı değildir; gerçek gönderme ve sorgu kapalıdır.** Gelecekteki özel soru yönetiminin sunucu yetkilendirmesi korunur. Kurulum: [backend/QUESTIONS-SETUP.md](backend/QUESTIONS-SETUP.md). Sunucu anahtarı veya şifre GitHub’a yazılmaz. Cihazdan seçilen deneme sesi yalnızca açık sayfada kalır; sunucuya yüklenmez ve yenilemede kaldırılır.
-
-## Yerel test ve dosyalar
-
-[Yerel test paketini indir](indir/merak-bahcesi-yerel-test.zip). ZIP’i çıkarıp Windows’ta `BASLAT-WINDOWS.bat`, Mac/Linux’ta `python3 BASLAT.py` çalıştır. Python 3 gerekir; paket kurulumu ve derleme gerekmez. Ayrıntılar: [YEREL-TEST.md](YEREL-TEST.md).
-
-- `assets/catalog.js`: aktif 5–12 katalog, ünite ve konu sırası.
-- `assets/productions.js`: üç 5. sınıf senaryosu, 21 sahne ve dört hedef ses profili.
-- `assets/scenes/`: yeni sahne görselleri.
-- `assets/portal.js`, `portal.css`, `audiences.css`: eğitim düzeyleri, yaşa uygun sınıf görünümü ve gezinme.
-- `assets/navigation.js`, `navigation.css`: ortak sınıf menüsü ve mobil açılır panel.
-- `assets/discovery.js`, `discovery.css`: sağ menü, soru penceresi ve otomatik/manuel slayt gösterisi.
-- `assets/common-story-data.js`, `common-story.js`, `common-story.css`: sekiz duraklı ortak hikâye, 56 sahnenin planı ve okuma ilerlemesi.
-- `assets/common-palace.svg`: ortak hikâyenin kapak çizimi.
-- `assets/visual-story-data.js`, `visual-story.js`, `visual-story.css`: ikinci hikâyenin görsel/replik/efekt oynatıcısı ve ayrı ilerlemesi.
-- `assets/visual-story/`: dört üretilmiş anlatım görseli ve görev sırası şeması.
-- `assets/university.js`: kaynak seçimi bekleyen üç özgün üniversite tartışma planı.
-- `assets/portal-authoring.js`: öğretmenin tüm konu planlarını incelediği görünüm.
-- `assets/studio.js`: sade öğrenci hikâye oynatıcısı.
-- `assets/studio-authoring.js`, `studio.css`: öğretmen için görsel/replik/ses ve üretim araçları.
-- `assets/privacy.js`, `privacy.css`: erişimi engellemeyen paylaşım ve gizlilik bilgisi.
-- `assets/glass.css`, `public-theme.js`: renkli cam teması, açık kullanım ve paylaşım araçları.
-- `assets/lesson-prep.js`: üyelik gerektirmeyen ders planı ve sunum hazırlığı.
-- `assets/questions.js`, `question-service.js`, `backend/`: özel soru/cevap altyapısı.
-- `scripts/package-local.py`: arşivi dışarıda tutarak güncel yerel paketi oluşturur.
-- `tests/`: tarayıcı testleri; uygulamayı çalıştırmak için test araçları gerekmez.
+GitHub Pages: `main` dalı, `/ (root)`. Güncel yerel paket: `indir/merak-bahcesi-yerel-test.zip`; kayıtlı MP3'leri içerir, eski 4. sınıf WAV arşivini içermez.

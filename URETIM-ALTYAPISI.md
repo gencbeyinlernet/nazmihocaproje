@@ -1,5 +1,8 @@
 # 5. sınıftan başlayan görsel ve ses altyapısı
 
+
+> 24 Ekim 2026 güncellemesi: Hazır içeriklere 232 ayrı Türkçe örnek MP3 bağlandı. Öğrenci akışı artık görsel + ses oynatımıdır; aşağıdaki yazılı dökümler öğretmenin senaryo arşividir. Sekiz saniye üretim hedefidir; oynatıcı konuşmayı kesmez. Güncel ses durumu ve değiştirme yolu SESLENDIRME-PLANI.md içindedir.
+
 Kullanıcı isteğiyle aktif çalışma 5. sınıftan başlar; ses kayıtları en son eklenecektir. 4. sınıfın önceki verileri, görselleri ve reddedilen sesleri `arsiv/4-sinif/` altında korunur ve uygulama tarafından yüklenmez.
 
 5. sınıf kitabının sırasındaki ilk üç konuya ait üç bağlantılı senaryo vardır: Evrendeki Mükemmel Düzen (s. 14), Allah’ın Varlığı ve Birliği (s. 20), Allah’ın Güzel İsimleri (s. 29). Her içerik 7 sahne × 8 saniye = 56 saniyedir. Toplam 21 yeni görsel, her sahneye ait konuşmacı, replik ve ilerideki hareket tarifi bulunur. Ses/video alanları boştur; görseller sessiz önizlenir.

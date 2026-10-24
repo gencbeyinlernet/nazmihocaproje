@@ -71,7 +71,7 @@ const server = http.createServer((req, res) => {
     assert.equal(await p.locator('.spotlight-controls').count(), 0, 'Single slide has no needless controls');
     await p.goto(base + 'universite/');
     await p.locator('.spotlight-slide:not([hidden]) [data-university]').click();
-    assert(await p.locator('.academic-reading').isVisible());
+    assert(await p.locator('.sound-player').isVisible());assert(!await p.locator('.sound-subtitles').isVisible());
     await p.setViewportSize({ width: 390, height: 844 }); await p.goto(base);
     assert(await p.locator('#class-nav-trigger').isVisible());
     assert(!await p.locator('.quick-menu').evaluate(e => e.open));

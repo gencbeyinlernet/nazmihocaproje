@@ -1,40 +1,22 @@
-# Bilgisayarında test et
+# Yerelde test
 
-1. [Yerel test paketini indir](https://gencbeyinlernet.github.io/nazmihocaproje/indir/merak-bahcesi-yerel-test.zip).
-2. ZIP’i tamamen çıkar; `merak-bahcesi` klasörünü aç.
-3. Windows’ta **BASLAT-WINDOWS.bat** dosyasına çift tıkla. Python 3 kuruluysa doğru proje klasörü otomatik açılır. Terminali açık bırak.
+Proje dosyalarını açtıktan sonra Windows'ta **BASLAT-WINDOWS.bat** dosyasına çift tıkla. Diğer sistemlerde proje klasöründe `python3 BASLAT.py` çalıştır. Terminalde yazan `http://localhost:3000/` veya seçilen boş portun adresini aç. HTML dosyasını doğrudan açma; başlatıcı proje klasörünü yayınlar.
 
-Mac/Linux için proje klasöründe `python3 BASLAT.py`; Windows terminalinde `py -3 BASLAT.py` veya `python BASLAT.py` kullanılabilir. Başlatıcı kendi klasörünü yayınlar; başka klasörün dosya listesini açmaz. Varsayılan 3000 portu doluysa boş port seçilir ve adres terminalde yazılır. Sayfayı HTML dosyasına çift tıklayarak açma.
+1. Site kullanıcı adı, şifre ve sözleşme onayı olmadan açılmalı.
+2. Ana sayfada sınıf ve konu seç. **İzle ve dinle** düğmesine bas: görsel açılmalı ve o sahnenin sesi duyulmalı.
+3. Konuşma bitince sonraki görsel ve onun sesi başlamalı. Ses sekiz saniyeyi aşarsa konuşma kesilmemeli.
+4. Duraklat/Devam et çalışmalı. Geri/İleri düğmesiyle açılan görsel kendi sesini başlatmalı; önceki ses aynı anda sürmemeli.
+5. Uzun okuma metni görünmemeli. İstersen **Altyazı** düğmesiyle yalnızca o sahnenin metnini açıp kapatabilmelisin.
+6. Ortak ilk hikâyede 56, ikinci hikâyede 28, 5. sınıfın üç hikâyesinde toplam 21 sahne sesi bulunur. Diğer hazır konular ve üniversite taslakları da kayıtlı sesleriyle açılır.
+7. Sahneleri yalnızca açıp geçmek tamamlanma değildir. Konuşmaları dinleyip Bitir'e basınca tamamlandı görünmeli ve ilgili bölüm/sınıf kartı renklenmeli.
+8. Mobilde Sınıflar düğmesi soldan menüyü açmalı. Menü açılınca veya sekmeden çıkınca ses durmalı. Altyazı, oynatma ve ileri/geri düğmeleri dar ekranda taşmamalı.
+9. Öğretmen için Derse hazırlan alanında sınıf/ünite/konu ve ders hedefi düzenlenebilir. Sınıfta sun, sesli oynatıcıyı açar; Planı indir ve Yazdır / PDF öğretmen planını verir.
+10. Öğretmenin değiştirdiği giriş için cihazda Türkçe metin sesi bulunması gerekir. Yoksa mesaj gösterilir; İleri ile kayıtlı hikâyeye geçilebilir. Platformdaki hazır MP3'ler cihaz sesine bağlı değildir.
+11. Öğretmen senaryo görünümünde her sahnenin sesi dinlenebilir; kendi MP3/WAV kaydınla geçici deneme yapılabilir. Bu dosya sunucuya yüklenmez.
+12. Özgün iki kaynak metin öğretmen ayrıntılarında değişmeden açılıp indirilebilir. Hikâyeler ve sayfa bağlantıları paylaşılabilir.
 
-## Kontrol edilecekler
+İlk oynatma için bir dokunuş gerekir; tarayıcılar kullanıcı dokunuşu olmadan sesi başlatmayabilir. Ses düğmesi açık olduğu hâlde ses duyulmuyorsa cihaz ve tarayıcı sekmesinin sesini kontrol et.
 
-- Siteye onay, kullanıcı adı veya şifre olmadan doğrudan erişim; “Herkese açık · Paylaşılabilir” bilgisi.
-- Ana ekranda Sınıfını seç → Konunu seç → İçeriği aç akışı.
-- Derse hazırlan sayfasında sınıf, ünite, konu, düzenlenebilir ders hedefi ve açıklamalar; büyük yazılı sunum, plan indirme ve Yazdır / PDF.
-- İçeriği paylaş düğmesinde paylaşım/kopyalama veya seçilebilir bağlantı alternatifi.
-- Ana sayfanın ortasında hazır hikâyelerin kaydırmalı gösterisi, altında Ortaokul, Lise ve Üniversite seçenekleri.
-- İlk slaytta “Saraydan Dünyaya: Büyük Keşif”; tüm sınıflarda ve eğitim düzeylerinde aynı ortak başlangıç bağlantısı.
-- İkinci slaytta “İğneden Kâinata: Bir Sorunun İzinde”; dört bölüm ve 28 sahnede konuşmaya uygun görsel ve efekt değişimi.
-- İkinci hikâyede otomatik/manuel ilerleme, parmakla kaydırma ve efekt kapatma; hareket azaltma tercihinde efektler kapalıdır. Düğmeler konuşmayı kapatmaz.
-- Konuşmadaki nesnelerin görsel üzerinde vurgulanması; büyütme düğmesiyle aynı görselin tam açılması ve kapatınca kaldığın sahnede devam edilmesi.
-- Bölümlerde incelenen sahne sayıları; yedi sahnesi de incelenen bölümün yeşile dönmesi. Hikâyeyi bitirme işlemi ayrıca onaylanır.
-- İkinci özgün metnin tamamı ve 28 sahnenin indirilebilir seslendirme planı; ses kayıtları sonradan eklenecektir.
-- Ortak hikâyenin sekiz durağında Geri/İleri, “Okudum” ile kayıt ve tamamlanınca eğitim düzeyine geçiş. Yalnızca sayfa değiştirmek tamamlanma sayılmaz.
-- Özgün metnin tamamının aynen okunması/indirilmesi ve öğretmen bölümünden 56 sahnenin seslendirme planının indirilmesi.
-- Geniş ekranda solda kategorili sınıf menüsü; mobilde “Sınıflar” düğmesiyle açılan menü ve seçili sınıf vurgusu. Menü sınıf seçince, kapatma düğmesiyle, dışına dokunarak veya Escape ile kapanır.
-- Ortaokulda 5–8, lisede 9–12 sınıf seçimi; 4. sınıf kartı yoktur. Eski 4. sınıf/ilkokul adresleri 5. sınıfa yönlenir.
-- 5. sınıfın ilk üç konu kartındaki görselli atölye bağlantıları.
-- Atölyede üç hikâye, her hikâyede yedi ayrı görsel ve sahneye göre konuşmacı/replik.
-- Öğrencide “Hikâyeye başla”, büyük görsel/replik ve Geri/İleri; en sonda “Bitirdim” ile tamamlanma rengi.
-- Öğretmen görünümünde 8 saniyelik sahnelerle sessiz 56 saniyelik önizleme, önceki/sonraki sahne ve üretim araçları.
-- Üniversitede üç özgün çalışma taslağı, tartışma soruları ve çalışma notu indirme; kaynakların henüz eklenmediği bilgisi.
-- “Öğretmen görünümü” bağlantısında indirilebilir senaryo, seslendirme planı ve altyazı taslağı.
-- Sağ üstteki “Soru sor” düğmesinin soru penceresini açması; altında diğer menüler. Mobilde diğer menüler açılır başlıktadır.
-- Slaytların 7 saniyede otomatik geçmesi; durdurma/başlatma, oklar, seçim noktaları, klavye okları ve telefonda yatay kaydırma. Hareket azaltma tercihinde otomatik geçiş kapalıdır.
-- Paylaşım ve gizlilik bilgisinin isteğe bağlı açılması; hiçbir onay zorunluluğu bulunmaması.
-- Dar ekranlarda taşmayan mobil arayüz.
-- İlk özgün metnin sekiz haftalık çalışması ve değiştirilmeden korunan kaynak metin.
+232 MP3, indirilen yerel pakete dahildir. Yaklaşık 34 dakikalık geçici sentetik Türkçe örneklerdir; daha sonra kendi kayıtlarımızla değiştirilebilir. Gerçek çocuk/karakter oyuncusu veya stüdyo kaydı değildir. [Ses kaynak ve lisansları](assets/audio/CREDITS.md).
 
-Ses dosyaları kullanıcı tarafından en son eklenecek; şu an ses veya video bekleme durumu normaldir. Gerçek soru/özel cevap servisi bağlı değildir. 7. sınıfın kaynak sırası küçük/okunabilir kaynak dosyası bekler. Bunlar yerel sunucu hatası değildir.
-
-Paket yalnızca aktif içerikleri taşır; eski 4. sınıf arşiv görselleri/sesleri pakete dahil değildir. Deneme sesi seçersen dosya yalnızca açık sayfada kullanılır; yenileyince kaldırılır. Sunucu sadece kendi bilgisayarında `127.0.0.1` üzerinden çalışır. Bitirince terminalde **Ctrl+C** ile durdur.
+Gerçek soru/özel cevap servisi henüz bağlı değildir; bu nedenle gönderme/sorgulama kapalıdır. 7. sınıfın doğrulanmış kaynak sırası hazırlanıyor. Bunlar yerel sunucu hatası değildir.

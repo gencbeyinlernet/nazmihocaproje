@@ -1,0 +1,2097 @@
+'use strict';
+window.MERAK_NARRATION = {
+  "locale": "tr-TR",
+  "status": "replaceable-demo",
+  "engine": "Piper TTS 1.8.0",
+  "notes": "Yeni Türkçe örnek kayıtlar; gerçek çocuk veya karakter oyuncusu kaydı değildir. Doğal konuşma süresi korunur. Kullanıcının kayıtlarıyla değiştirilebilir.",
+  "scenes": {
+    "gozlem-kulubu-01": {
+      "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-01.mp3",
+      "duration": 5.52,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "1397397a6e28d4332cfd3a755b28ba0ec7fc6568c1c9898f0ee1d2350cff71b5",
+      "sha256": "4c34a09c14c5fd2ecf1f88db5b0b672e17ef97311a4465534a7a7b13176d13da"
+    },
+    "gozlem-kulubu-02": {
+      "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-02.mp3",
+      "duration": 5.352,
+      "speaker": "Zehra",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "6d69ed47a027b6fa9b83ac5ef318f14eaac59137f48f9f1d1a7c6724bee110b5",
+      "sha256": "8893c051af549040cd73d7cecc81738a26ee7c3f8734575edabf19d640937c02"
+    },
+    "gozlem-kulubu-03": {
+      "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-03.mp3",
+      "duration": 5.688,
+      "speaker": "Ömer",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "308f67871a4b6c4c01d8b6fa21d975656733edb5301e5eada4568573ff6f845a",
+      "sha256": "102db9ad6b48b03277588df2d98dcf5337dfcb3ba52eee5cbbd7b0ec410a5980"
+    },
+    "gozlem-kulubu-04": {
+      "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-04.mp3",
+      "duration": 6.456,
+      "speaker": "Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "783e73150ece00ec7fe733720ee35c1c20cefabd74f09c517a5908658b14a5b9",
+      "sha256": "eeacf15dd718c19c24d7cf3d624a82fb905b8a3c4f9329679c286ed160caa793"
+    },
+    "gozlem-kulubu-05": {
+      "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-05.mp3",
+      "duration": 5.304,
+      "speaker": "Zehra",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "f1735af50bbee17165d7ca8d3bfa54ff1d5d0bf6448201931068156de4f1e26e",
+      "sha256": "d53047a922f4dd82068695b6182bf230341bb8348db727cf883b4aed8ab1ee9b"
+    },
+    "gozlem-kulubu-06": {
+      "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-06.mp3",
+      "duration": 7.008,
+      "speaker": "Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "28c520537a2ad10ec0f1a12261be8daf07718bb2d2682a38ecf6a3e27033de53",
+      "sha256": "58f3a02b4160ab397d1b70f6aecaa1d2f9fb44d042521b35eb1f56f913832086"
+    },
+    "gozlem-kulubu-07": {
+      "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-07.mp3",
+      "duration": 5.784,
+      "speaker": "Ömer",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "5a0dbdcfa7f1cba36b55640c07551cb030f04c87fc67d0a47bd685afed72ecd2",
+      "sha256": "cab23c71f1156d5e8f9d937cacc5f431f11aa52d09c0ccabad898e0235659801"
+    },
+    "birligin-anlami-01": {
+      "url": "assets/audio/anlatim/birligin-anlami/birligin-anlami-01.mp3",
+      "duration": 6.552,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "6c8373b8f9a3541dbc78f7c711488f05067d8422eb11f914c62d833bab5bec2e",
+      "sha256": "d2ee481185a87cd06d7746afaf0b278cd743801d6fb820fa45f7096809566184"
+    },
+    "birligin-anlami-02": {
+      "url": "assets/audio/anlatim/birligin-anlami/birligin-anlami-02.mp3",
+      "duration": 5.736,
+      "speaker": "Ömer",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "b4c2ceb59367e868bb98086c82de1c1c3d98d92eb5ac1be1cad33cadf894e2c8",
+      "sha256": "fa0511cd1b46a170875ff86c275f5a6d0c917314018fd18df99e86a75516d81f"
+    },
+    "birligin-anlami-03": {
+      "url": "assets/audio/anlatim/birligin-anlami/birligin-anlami-03.mp3",
+      "duration": 6.36,
+      "speaker": "Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "1356bf0444ef6e5c61f26af2b34b951e50ced7822517a6d3f3801cd55ee62d45",
+      "sha256": "d46bbc638f6b3c02e4fa60c90734fa7a3b71a0a71c23158076ad76d30fc33507"
+    },
+    "birligin-anlami-04": {
+      "url": "assets/audio/anlatim/birligin-anlami/birligin-anlami-04.mp3",
+      "duration": 4.92,
+      "speaker": "Zehra",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "b876fb6a2bdccc90c791d73342b881dcdf9ed7d63032f1424c97a922357640c2",
+      "sha256": "f4452e211906f54a6554c865bf2191e6c26cc971fbcaa361d731bc72c8798f86"
+    },
+    "birligin-anlami-05": {
+      "url": "assets/audio/anlatim/birligin-anlami/birligin-anlami-05.mp3",
+      "duration": 5.832,
+      "speaker": "Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "0b830afe855258fe89aea94aa4671f35d1e034b629a8524af063078d896d1ced",
+      "sha256": "99bf3534786f80b00100d8dff91b81da276cb18aa3d4ddc441e59c3c7c46c1f5"
+    },
+    "birligin-anlami-06": {
+      "url": "assets/audio/anlatim/birligin-anlami/birligin-anlami-06.mp3",
+      "duration": 5.256,
+      "speaker": "Ömer",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "93df8fa0ea018a269824ae70e7fa34fc9245b5dda3deed63b0d37b61230cc879",
+      "sha256": "4cb3a8ee95efacd9429a2bb662133e38364875c2174110bd0cfa98f959ccbf1b"
+    },
+    "birligin-anlami-07": {
+      "url": "assets/audio/anlatim/birligin-anlami/birligin-anlami-07.mp3",
+      "duration": 5.736,
+      "speaker": "Zehra",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "5fb3c64429a4869e4a5da19b95d71883096f2f5b29b5acc01af1e8bce05746d8",
+      "sha256": "6c337f374745127ccb51cc536840645bc2705dd14e6a2300943daabe0f92882c"
+    },
+    "guzel-isimler-01": {
+      "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-01.mp3",
+      "duration": 5.592,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "6a1e4b90f2c44bf840a871004b6b06c4d04938b7fc7455a505434801f55afe7c",
+      "sha256": "de922cd3052e557ecac2f6d093776244d6387646d022787b1a66028f7cb12a93"
+    },
+    "guzel-isimler-02": {
+      "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-02.mp3",
+      "duration": 5.376,
+      "speaker": "Zehra",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "b76b77e3e53ab47e9b04c8e4ee208b69b2d2b15bc41a7b8eed0785c73962b81f",
+      "sha256": "9580b2124e5b1bf0e5c24a0ccdfa1f74101d1bb797f77f45b301b4f520bdae1d"
+    },
+    "guzel-isimler-03": {
+      "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-03.mp3",
+      "duration": 5.832,
+      "speaker": "Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "e9cc1ebb0c3181d4c4c17c8a160bae8777e7e84f23fad584d498026e22446f9a",
+      "sha256": "5e1c81a36affa12f1c7bdfb3d5a969fa59cd058c587fed025279f04688283723"
+    },
+    "guzel-isimler-04": {
+      "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-04.mp3",
+      "duration": 5.952,
+      "speaker": "Ömer",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "fbb4fff64652db033057e52c62355b5dfb06a60c00c5873c5a1ee4f50f36f2db",
+      "sha256": "d953569bf08b7a1f474d3cf3b262852f1c37e1acba2e0b55f53acb5ababc60f1"
+    },
+    "guzel-isimler-05": {
+      "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-05.mp3",
+      "duration": 7.2,
+      "speaker": "Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "ef7d0cccc30bd10846b511a757973d5bc947f94ce05d822c55e1eecc377a7198",
+      "sha256": "36e4ddbea9f93463d7f65c4aff486d9aca049d62ef17897dbbce81b8ffdfa295"
+    },
+    "guzel-isimler-06": {
+      "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-06.mp3",
+      "duration": 6.504,
+      "speaker": "Zehra",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "f0f7dd0a8623f9c20cd2d06208d8ad6289d2d18c6fa91d5d3306d692cfa5c138",
+      "sha256": "2fbcc3059e9cb350af473be097b44bb0e69621e8e21a5e55e6bd41584e02c49e"
+    },
+    "guzel-isimler-07": {
+      "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-07.mp3",
+      "duration": 5.4,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "d2b06d5df50d3564f36bbc7d0ff225408069212bbc01d21fb2c66de326f51f29",
+      "sha256": "b18503a8a4672d05b01004dcc59e9f09b94124cbd757a6bc0d0d0a6aba9f04f3"
+    },
+    "ortak-01-01": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-01.mp3",
+      "duration": 8.064,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "548e1e60941150de8fc0e432f532332bea3f0ce4762f0ec6b970a7036419e298",
+      "sha256": "4973e7aaca3895e1e450693daed0a595aef72e99a4bbd59f188b5bd9ac00f381"
+    },
+    "ortak-01-02": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-02.mp3",
+      "duration": 8.136,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "a633f5baf192e7fa1f6506defd32314cb961abedb6ce0b019c04a97b414901f3",
+      "sha256": "b167c17d7ac3d940e034259f84be5682cd97469cc93bb697e7946465bc04c7d0"
+    },
+    "ortak-01-03": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-03.mp3",
+      "duration": 6.552,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "359ad4f2cab23e3184db73bf74a04d7fc105df8dafab91c0ba52386677e1e12e",
+      "sha256": "160bba46dca87969f5f6737ba6f0e0e83c2c9a82f4aa70ea71f965479a71685a"
+    },
+    "ortak-01-04": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-04.mp3",
+      "duration": 8.04,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "ff70acd7f003c6038c30c583ffb99f8422527d13304be585987f7924ec7826f4",
+      "sha256": "d3d5652db82008cad6ce99a029f5a3555fc2ba0fa1e4f1756a07f87f977ff4a2"
+    },
+    "ortak-01-05": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-05.mp3",
+      "duration": 5.64,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "f447092b3d80946699ed006b899fb07b0e13788b1105c26b35df77b0566c2084",
+      "sha256": "6a4378738a8f570a7872db1855a84a041066dec3eb0096bf4aa74fe1b1155963"
+    },
+    "ortak-01-06": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-06.mp3",
+      "duration": 7.704,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "60ca374dc2503874fee524a1d443d0992d088c3f146ab2c84977113364ad43fe",
+      "sha256": "afb2400d47e0af20605d28f66410c9310411ca4e9aa6bc3e0b6f71ca56f8387c"
+    },
+    "ortak-01-07": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-07.mp3",
+      "duration": 8.064,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "7187ff240d51e790e59f283f33b6d61e9791629bce0044dbef6f23ebdafb85bc",
+      "sha256": "ac41da49e24cf9eec7e8c06f8dd5846c687eb78ffc0c3716b3d4e017c01a19d3"
+    },
+    "ortak-02-01": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-02-01.mp3",
+      "duration": 7.824,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "76d25679a73a10dc9e898f45e7820d8e7e1639042ddd99d238b4a949bd5148dc",
+      "sha256": "55402360c8048c9e1cdec636a7d5256a64d074fd394ec39dd41ec50b3d8f0073"
+    },
+    "ortak-02-02": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-02-02.mp3",
+      "duration": 8.136,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "49d9f89377b0eacbafc961df405be8f7b0e7b994a6636d49b4cefcd1eca3b800",
+      "sha256": "31ed81e1314b95d0924b43e3b9aefd9aa1df86f25a9bf3fce4efc149fa2df406"
+    },
+    "ortak-02-03": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-02-03.mp3",
+      "duration": 6.672,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "8828b7d690a14d62eb1ac195f6b06aa0e3dc9cfdd985327f1f6af930a5868514",
+      "sha256": "ac1dc144f4920c2aa37d4f8c115a097f37fd5139a1792198763f0a23c3965322"
+    },
+    "ortak-02-04": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-02-04.mp3",
+      "duration": 7.44,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "36f43adacb512de87dd57c14e25b16ef0aefd362b3add90ef2cf5a530ce9814e",
+      "sha256": "b97690cd2155e7302a4f6399faa78179ce571889c6a5a9168a1c36f151b94e87"
+    },
+    "ortak-02-05": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-02-05.mp3",
+      "duration": 7.176,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "0c0ef58e06311bb09bcf8605572373219df066d7cd1be7142a1fb2e818e5d64d",
+      "sha256": "537db48b478e2921b37d4276d3ca8ad7e62e9c2116b85e708123d388963cdc98"
+    },
+    "ortak-02-06": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-02-06.mp3",
+      "duration": 6.216,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "86dd1db58e7da6ed36ce15e9c3a081a82b96f203c43a92b02e28684cb3bce594",
+      "sha256": "9455a69af2ddc0e8bb098037a5a4b3fc04503c2ea5a225fcb058fdcd50e262b8"
+    },
+    "ortak-02-07": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-02-07.mp3",
+      "duration": 7.992,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "5bffb0b7e08cae63e4cd93296b2f9bd21b29af2141453351e162d11539f8312a",
+      "sha256": "069fd680fe9504accebca9d5e681ec2454cd96e77856d462fce0be36c16d1500"
+    },
+    "ortak-03-01": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-03-01.mp3",
+      "duration": 8.376,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "f23ea379630856ef79e507ef46234aaf0db1e17e3e4218820430840bd2b0777f",
+      "sha256": "533eaf26385b88e5688bdfe036284634277613184f259624d3adc419c5aa9c8c"
+    },
+    "ortak-03-02": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-03-02.mp3",
+      "duration": 6.816,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "66aa959d74535c630810f066c4d1199d5908a16e66225d1ab9aeafba6bb6be91",
+      "sha256": "90de62ca7392954ee4484f993f8f4d6127a50d652a04d92fc6e7234c576b9181"
+    },
+    "ortak-03-03": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-03-03.mp3",
+      "duration": 6.576,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "0fe4519bb93cdfed9b79723d5d47bd0e7a0ae31ce536f1d10d40c63860880a1e",
+      "sha256": "a31885824ada692035aa3086336cda5766790799242f2b30b144fcad804ef042"
+    },
+    "ortak-03-04": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-03-04.mp3",
+      "duration": 8.4,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "46a30d429ce3f42170091385ba7103c851193aed5713f8c603b9f31705de1938",
+      "sha256": "076986abfa843185edaf9b722b94759b69e42c65b472546cfb0b850c066e0423"
+    },
+    "ortak-03-05": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-03-05.mp3",
+      "duration": 6.864,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "bbb52da24d30298bf6a60c5d97128849fe0dc51c00e795c37aa58d42d3642e48",
+      "sha256": "b5ec4cb7ca4d6df70ae6faf1ea0100176ca0c8f3f3b970ce97bbdf0cd9936505"
+    },
+    "ortak-03-06": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-03-06.mp3",
+      "duration": 8.52,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "55808b7a8ef3f338a41eea81bc2cd55e443781b7b002dcd00d355710ff795278",
+      "sha256": "abbb883ecc94ce926e712b2d68abfaa4e9d3764ca7bddeb719c20049d6baf296"
+    },
+    "ortak-03-07": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-03-07.mp3",
+      "duration": 6.648,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "d1e767891fc93cb44194158706661712e50e71464926895668468f4c798e785a",
+      "sha256": "59a78d0d9d4b0b8c04a0536e7bcfaa27be3f1b6072950eb24622cf834ec3ca30"
+    },
+    "ortak-04-01": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-04-01.mp3",
+      "duration": 6.912,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "3006f6e9efef5187d661d3e3ff1bf4d030b9e5a27cfeeee13810f72c8e825bc3",
+      "sha256": "d0f9a205f14f0e280f4602b923f08214fcdc26d9a2b4ad33f042ea0226d5ab05"
+    },
+    "ortak-04-02": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-04-02.mp3",
+      "duration": 7.2,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "eecbf54050e4046ac9505fa1ff6034ed87be20133cde63c675883d985e473c2c",
+      "sha256": "cff7915f8bd130a5c1e87cc9ae2cb01ee38b89a2ac0d5d89705a553292e6de51"
+    },
+    "ortak-04-03": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-04-03.mp3",
+      "duration": 7.848,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "eab03f6a2d72c066c9175f94b98a74357338f36b18120a51644d3b88b8754cad",
+      "sha256": "6f4180c1b5b4765245e3faeb55320f87df2b4e7a3b01349f967780a997f1dd78"
+    },
+    "ortak-04-04": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-04-04.mp3",
+      "duration": 6.96,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "5badcced440af8fc1d1fcfe9781e1fb8a7eb7bfb3aeb89927701ac09af09d751",
+      "sha256": "9a4e56dcf2be8e830253ae4eaa5590e7455b7dbf2946cc2aa5dd0e8a173fbc23"
+    },
+    "ortak-04-05": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-04-05.mp3",
+      "duration": 8.376,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "37fb7ce099e9437303c1e4dafc1c70dcaca5e26c9fce595f5e6099e83185ff7c",
+      "sha256": "8547e060081cb1dbc89577cd7d4feda3c71b98174b07a6a827f259116b95ecbd"
+    },
+    "ortak-04-06": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-04-06.mp3",
+      "duration": 7.368,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "ca71017ebf261117cdfc51b4d2bfb78784c30b6b1e2047d109c663d0a249ad3f",
+      "sha256": "e5271598accf4fb369839a3ccd8ac8d450692415bb048e995b94ebe038090fab"
+    },
+    "ortak-04-07": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-04-07.mp3",
+      "duration": 8.184,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "293b591f7561a3d76300368335ff4618d1ce59a55542e120f59128a8a7aea411",
+      "sha256": "0509d91bfc0d151fac14b69aefcce841fb4c23c65e3acda8e7b54f20f6835f26"
+    },
+    "ortak-05-01": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-01.mp3",
+      "duration": 8.352,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "0e03f7ec8c6796a060ab05f978b8c3cf9339cadd58b9ea7b5920d3df75d83201",
+      "sha256": "c468e10bf2154cfa7948d441528d65046a5478dbdf6810b8e4c1a28568669f38"
+    },
+    "ortak-05-02": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-02.mp3",
+      "duration": 6.432,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "23a42ba7256994e40bfff95d7aebf455fb1d4455c7a4247ebcbe375a667911f3",
+      "sha256": "9c5487ab17b941a835c32cf69a87c7fa253f3bf8d4c37f9bc22ee209b90ea6bb"
+    },
+    "ortak-05-03": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-03.mp3",
+      "duration": 7.032,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "0063a21dc360f21288073b086a78098129799309df90020320accfc5066486d7",
+      "sha256": "59fa8dc0b5058d5f27c28f6a58ee66f8d8f845aae560390ce4e337982d723ff7"
+    },
+    "ortak-05-04": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-04.mp3",
+      "duration": 8.496,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "15239928765755bc7dd420e32b3e7e43250f91583a05b9eb94b8a66fde93eb1b",
+      "sha256": "3d1578e523b95e041e38f36539d7051ad1d2236f1c6f7b94eb2f8c7bb94168ee"
+    },
+    "ortak-05-05": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-05.mp3",
+      "duration": 7.56,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "b76235ea92f93bc9a89fcb371123d759bf4935a89fc7abb5acbb3c966ec291fb",
+      "sha256": "042e28fa4570ddbd9b470787e5b41eb51edbf1ed2acf6983b004cd757477cc4d"
+    },
+    "ortak-05-06": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-06.mp3",
+      "duration": 9.144,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "379edd8361b775ffa61c774a28e32388db4170d8db052613f3748c099739bf99",
+      "sha256": "412bd17b9458127c79eaccb128d853df1a0706f03e9301ca30bb623bbccda715"
+    },
+    "ortak-05-07": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-07.mp3",
+      "duration": 7.08,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "b9d1daa258db280abf3ab6aa6e52ebb8550a399e913856d165e81b1ddcb61bc3",
+      "sha256": "64a26c8e50c7a7cb1aa414fbf0398fd87caafec91dccf25a5f96a134af8e95ec"
+    },
+    "ortak-06-01": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-01.mp3",
+      "duration": 8.184,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "42c5f6d52c8ebcc6641e3613a90dc31d9c2fb159f6d26f91d1cef86b755c81e1",
+      "sha256": "8c8aa12cc190f8f93c8e874ec058369d1c2b4623e215b1a020ef6ab65f525da6"
+    },
+    "ortak-06-02": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-02.mp3",
+      "duration": 7.392,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "81e979b123057d84127014daa8f515de974201c6084a47fed7b67eba1ff19bd8",
+      "sha256": "afe5f9d62e0a5fbd75e363b80ff42ed44f8e8260ab724a1e782c0e40d217271c"
+    },
+    "ortak-06-03": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-03.mp3",
+      "duration": 7.104,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "bff99d509ac18bf8989d3fe84dcc3ed68e8283b4fbe6843395f1a64b54cca7c6",
+      "sha256": "f7046ec9dbfa79ac97c5ba62ea6d2900bc4159a00cb7cff0c14e8750d5352c1c"
+    },
+    "ortak-06-04": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-04.mp3",
+      "duration": 8.952,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "51f3b625017c1a25c08f251a31c3340019cb31ebc02bbb41d56349ee3a2a9b1a",
+      "sha256": "ab8069a4f0be08fdf45e527a2a1fb02e076d725b8c48a615970e5f0e7096af64"
+    },
+    "ortak-06-05": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-05.mp3",
+      "duration": 6.912,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "4f3aeab9840a5f7ca2e7a0b31d76fdce852c132bfab47934fa67004678c3b6e1",
+      "sha256": "a408fe099238f8772875f471f617e9e6cb3edc31adb0cc6272e143bde590b8bc"
+    },
+    "ortak-06-06": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-06.mp3",
+      "duration": 9.312,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "485fe3dcb578f82d78819e128f6ee5e05069fd1a0371b2749dc99643a1506a4c",
+      "sha256": "bbc521f199c00e159f2de8c2afd815efa0acedbd9dfb4f90fa9f3a81756ff8bc"
+    },
+    "ortak-06-07": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-07.mp3",
+      "duration": 8.496,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "7d4bf4b828ec4f4d5f8ddeb15a15fce4588112f81708e4f4ed50b7c19b6ed66a",
+      "sha256": "8301dddc728cc3b0d1020ab5c1ac7c07e118d6e29bbeacec3f773117e3265f1b"
+    },
+    "ortak-07-01": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-07-01.mp3",
+      "duration": 6.528,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "c39e19f1212db14befb9ded2df0f2826ee8ada05e4507ff20ba425a9ed3c2f3b",
+      "sha256": "5513033beecd963062f973fe453e95fdd978dab152600a86a25d54dc199bef0f"
+    },
+    "ortak-07-02": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-07-02.mp3",
+      "duration": 7.056,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "662140b016e1052085a4e135ce7c18c97565dab09896f81950bdd020d0d4f367",
+      "sha256": "60e1958e5559909347f964afb5a6f8bea18ebe9c238b7a205d9cfdd876d115be"
+    },
+    "ortak-07-03": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-07-03.mp3",
+      "duration": 6.264,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "206881f4aff0e44c109080d5c0ec0b06a8d27bbd630b0e94eb593a0f90a509c0",
+      "sha256": "e2bd3af392671e768939f2a41f64ccb325165968b6cc9d71c91af6b9be3c253c"
+    },
+    "ortak-07-04": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-07-04.mp3",
+      "duration": 7.512,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "227f4a6831da2fd5a1452667f3e05b7374b41c38580c8cbfdd27d508fa15d633",
+      "sha256": "cec0ff8c28444d6d4d8009dfa96d7ec5be0036c1e9216283b5b721a45fb4df63"
+    },
+    "ortak-07-05": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-07-05.mp3",
+      "duration": 6.696,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "dd6f0c73e665a6773762518588def463045041ca43e4368378f82cb4800a3b06",
+      "sha256": "06fa1b16119ab8d07401c0100badfd1f44f994288cb7f47ef669a4cd80e0ae42"
+    },
+    "ortak-07-06": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-07-06.mp3",
+      "duration": 8.28,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "3cd4c5c62ebeceb5af8a7a42af7c9ab5d1c689fec1f9d6e58bdedf9cc85b364c",
+      "sha256": "ec224f82010824c326f643e19adcb06cc83f51942be11fbd0be2ce582e0a2688"
+    },
+    "ortak-07-07": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-07-07.mp3",
+      "duration": 8.904,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "4ba1bf1a9e2006b1093db149d8f1629088a53020ba4731d18ef458f06f251e3f",
+      "sha256": "ac828d9260c0219825b1e3337caa17f3defbc196216d5712630969720bb12e66"
+    },
+    "ortak-08-01": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-08-01.mp3",
+      "duration": 7.968,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "0ac245f410ad42e4674ce8c6073f0350232690a82e00c8021b5bde5ddb3f61c9",
+      "sha256": "46786248ee88e9cef6381c2c6fd68850fe74674c8f0c8b2078ed6306b6a97a6a"
+    },
+    "ortak-08-02": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-08-02.mp3",
+      "duration": 7.608,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "d582258523448b09342f2b06fa684080ae8355729c9541dedc5dab0f659171ce",
+      "sha256": "9cc64eca855bd0fa0db454febb2ccb5f5eaa482bee0e97b09cad871c958e602f"
+    },
+    "ortak-08-03": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-08-03.mp3",
+      "duration": 8.304,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "10754bd6ddf72fc72b159000befe0f6991264d4d505fd6f274aae56b0a258927",
+      "sha256": "4f67fa50147e404881082b78288db466077b57037858eaf327ef4f76f1a64e0a"
+    },
+    "ortak-08-04": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-08-04.mp3",
+      "duration": 8.952,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "00336e2a6c20a2152d88e3a6f07bbf33ee0efa080c01f117d4684f7e962b01b1",
+      "sha256": "e6378ff02c229efa462686c48e5b6f2af54e7beee1a463211e0b313195b8559a"
+    },
+    "ortak-08-05": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-08-05.mp3",
+      "duration": 8.328,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "9b30617d09271348b78687c852b60fd5c2ec70032cf236a9f137b3a3d1710f4d",
+      "sha256": "00f0ef55a8f0bd954bb3fa9936af476a693a99fd35688a4cfe496ac941000451"
+    },
+    "ortak-08-06": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-08-06.mp3",
+      "duration": 7.416,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "81cd09e3ee6e5773d9241cb0eecd022c4074ec58e63483faede19e40d1e137a2",
+      "sha256": "39cead864b449e6390b67c9e422049f52ad90fa8296cfa11dfff75d0fba4430a"
+    },
+    "ortak-08-07": {
+      "url": "assets/audio/anlatim/ortak-hikaye/ortak-08-07.mp3",
+      "duration": 8.112,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "745cd3b520679bce63b5369703d8e4eb2365b790ee080fa87cb7689e97d3002d",
+      "sha256": "ca805c5bce481b3fe353ab0479510bc26a45005dfe0e0952cd88923ff7c5db5a"
+    },
+    "ikinci-1-1": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-1.mp3",
+      "duration": 8.304,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "30c90a855364dacf50c277964fe08fd7863aebffe6434d39017b6f66c978c740",
+      "sha256": "42635453ca181a222fd4236dbe79da4477a894df3361ac53dfd8d78c674b5143"
+    },
+    "ikinci-1-2": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-2.mp3",
+      "duration": 9.192,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "85bf73feb8c072e9925773e1f545a9d5e0b4c4aaaa9bcc88b94dc3df807d1143",
+      "sha256": "4b7b807ee4fdd11833c6503e76b6cd5617d9ee3eaafbdfdb9abe084ac5d128b2"
+    },
+    "ikinci-1-3": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-3.mp3",
+      "duration": 10.344,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "f1e08f7efe283b78936047b881726409aa62286441f27fc3b9800896ff17f60a",
+      "sha256": "035985cd9ce24dc52f8b253da393b586ef21accd9f29be6d603ff3466b7fb06b"
+    },
+    "ikinci-1-4": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-4.mp3",
+      "duration": 8.568,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "b306d432cbfda7ffeaa1045509d9112a09986c6404f9d5bbb0d86a9cf8e1eb69",
+      "sha256": "e9ef07c2876edb65ae90b2c7b5d9cd0699ec4daf30b052c5f73b5e0335255643"
+    },
+    "ikinci-1-5": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-5.mp3",
+      "duration": 8.88,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "ec09080320ebabc96de50b3e5ce7f69363cf2e74eeb51af244d2f83f31fa70e4",
+      "sha256": "2dc84c5415b1b431b32dfce7ca7416110f0d297ae0ae85628bc24b13766f6c02"
+    },
+    "ikinci-1-6": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-6.mp3",
+      "duration": 9.24,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "7aa416880df3e0c73d5225bef750ea32256582ed350ede554bd0ad9ccb0e4065",
+      "sha256": "1282dc306bb6a641cdc5a0877b878010b908e62f871270cd45019aa682f3efd1"
+    },
+    "ikinci-1-7": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-7.mp3",
+      "duration": 9.6,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "3561c1e9d599e8df990765d122fcead4fe01eec922897dfbeb68abf58e6582a3",
+      "sha256": "0c6dcca248b27111bf981475958ca416fb1cdde313c907ddd6b3dd8d6dfb5f04"
+    },
+    "ikinci-2-1": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-1.mp3",
+      "duration": 7.752,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "77ff1c1dea04eab422c13f3ea4904682e55d4770bd90696009f2c13d6f153bf0",
+      "sha256": "febb7411d2c006eed5f6202d344676a8ca73fa95dae991e4e2174d1b0c921661"
+    },
+    "ikinci-2-2": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-2.mp3",
+      "duration": 8.136,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "323c8b6e47319323356e892a55d7684e9561a80acfc893cebc5eead443c4fa41",
+      "sha256": "fa9d61f352f3ca9c960dafa618a6505d7e409937c5555b93bc96967d122f686f"
+    },
+    "ikinci-2-3": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-3.mp3",
+      "duration": 9.48,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "34f2bcffa79004ca26739bcdcc59575be60ee139dd46f628522e5345d0d787a7",
+      "sha256": "029b2f9e5fea02f3c61ae93f16fcdd6c087de187276b1a8b1439c009ab17a2b2"
+    },
+    "ikinci-2-4": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-4.mp3",
+      "duration": 9.624,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "adc1fd20150280555601086d7476de48e358044558b74105fb5ac07c4fd112b4",
+      "sha256": "96e7e8143e07d501bf6bcce2afa6d57e84dd59f66e01db7422583de72c1799eb"
+    },
+    "ikinci-2-5": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-5.mp3",
+      "duration": 10.896,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "04c3ddc4a7c19c25776aa278de2d740df7d01704c6437a942d8fb9a998c32e92",
+      "sha256": "9a2333d523b65cf93fe71d742c1ad1a87f4738ed0b26cc3d73e6dead30ad3018"
+    },
+    "ikinci-2-6": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-6.mp3",
+      "duration": 9.696,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "5e45b07590b18a8f31cbc620e4510f04a89f84192f9b2bdbfb47bb964f01018e",
+      "sha256": "0a157182b7d3764cc32c50cf19b9c1e7deccfbe5bd9e7c8ceeb601de780bfd18"
+    },
+    "ikinci-2-7": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-7.mp3",
+      "duration": 9.216,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "1df67f34f93466643973ced7fca3f4aa8a01fa0c89b4e1ecb748292fdbbbb96c",
+      "sha256": "ac46dd26c2680ac696044596b34eafda3a9b2e035c6f1b4b1953479ee6e0f8d3"
+    },
+    "ikinci-3-1": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-1.mp3",
+      "duration": 8.64,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "1f78bc98f3d4453496b98e9875f88a404a353e45b690bb0a37ecf60226da61a9",
+      "sha256": "cf1a52454df077b4dab3c75e3cd8926d9d3662d58c7b51f3d7778486f4855a0a"
+    },
+    "ikinci-3-2": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-2.mp3",
+      "duration": 9.768,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "d4446fddd1ff98950e0a9708f84961a078575f05efa3857936ce08fc39d4940d",
+      "sha256": "f11f22de39f57e0bb47f52a14a8e9fcd0b0df50a887f141ca1d09b9d610ef5e3"
+    },
+    "ikinci-3-3": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-3.mp3",
+      "duration": 7.44,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "f0e656d87c9fcaa5295f29816b82a02c8df0ec422b7a61adb9a0e5ef0323e561",
+      "sha256": "0ccb1663dd2751e47664ec5db6f98743a1a690fd16eba4ad86fdf65b2f7d413b"
+    },
+    "ikinci-3-4": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-4.mp3",
+      "duration": 8.832,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "ada36742cc65bd4bd2ed8dec598478d5ff5938fd5043197ba829682fc98d2335",
+      "sha256": "b485ea333c28ec595ee7755a9f9b8e78107c2496d59c0050e0b0a42a8150757d"
+    },
+    "ikinci-3-5": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-5.mp3",
+      "duration": 11.256,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "7872fcac05f37bfe1fa17c6d0c2c8b676f39208acadf2309625e1adc7e00408e",
+      "sha256": "fd64f29da6ed78e4b7eaf6ae056ea1f5b8370879d07425abb1420adaf04d4f10"
+    },
+    "ikinci-3-6": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-6.mp3",
+      "duration": 10.392,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "9a31c6557e15af66118988aeb8556923f40b7cb2053f63adb0b84a5aa4dd639e",
+      "sha256": "28f0139a05112d6e94442d5bcc1f7abeddea50fc03cdd5c5c58c0c8a698f4895"
+    },
+    "ikinci-3-7": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-7.mp3",
+      "duration": 8.136,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "04bc42ece59aef12af3b16c13dcba126fcd2aadbd8681f86aa56edde0ce5de2f",
+      "sha256": "d1d7ac345f3d611a4a63342bff43cd3a2ad9f2c101a97ac8a7aa066cddb8bc4a"
+    },
+    "ikinci-4-1": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-1.mp3",
+      "duration": 10.056,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "bb0facb8c77e44d3a082988058cd70c79e2abe243b75049af4d19f7c2eb5f947",
+      "sha256": "7de11b5860921869ef4d511aef359e50a29a7790b064f7e0ea58b8047b47b029"
+    },
+    "ikinci-4-2": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-2.mp3",
+      "duration": 11.088,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "7472b67b4a195f4ad18c132fb8c6986330439d2df5ea48d52590a5d6e1bc68c8",
+      "sha256": "fc216a4bf0e01a950170feff2a01cda5ca520a4c07d4934357175bf6702bd258"
+    },
+    "ikinci-4-3": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-3.mp3",
+      "duration": 9.456,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "fe08684aaa8d5b8fb331795fcbe750adab1f3a59a30b8d6639dab71c39e27df1",
+      "sha256": "791c248d55c191aa6e6976a0214d20983db6c715777d62eace3ba43fb189edc7"
+    },
+    "ikinci-4-4": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-4.mp3",
+      "duration": 9.744,
+      "speaker": "Deniz",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "a93a77cab60297192bab1e25a5969f83a6983d0c142c993dcdbec78216709ebc",
+      "sha256": "8a06696f4827087083efb3081ccb2a8b6d1b4bae0c0a40c3ba7df612796cecad"
+    },
+    "ikinci-4-5": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-5.mp3",
+      "duration": 10.416,
+      "speaker": "Derya Öğretmen",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "00eb5ce0ae1226b3638f662adb32e0073ec6c9b20d13b32f6b7a227008bf2f53",
+      "sha256": "0addc33047d2701e0f3ef182bd4d39a36c49190ce54ebbbe1b4a65da05799798"
+    },
+    "ikinci-4-6": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-6.mp3",
+      "duration": 8.928,
+      "speaker": "Elif",
+      "voice": "dfki",
+      "kind": "synthetic-demo",
+      "textSha256": "39ce286432bd2f909d54a30ba924b473523436462c1c1815c3f4dacbd045e1a2",
+      "sha256": "e888ca2e964041a0922202c230b936c7b12726fb84cc61117bc8efa01ff9a958"
+    },
+    "ikinci-4-7": {
+      "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-7.mp3",
+      "duration": 11.04,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "ff2b9474f94fc5e1435c70adea5e6efd4576cadf44a711714bb738e5a1d3b51d",
+      "sha256": "9b16e9bc9fe29c5433251ec71da645e350ed6aea675c03590282ec3caf386317"
+    },
+    "g6-1-1-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g6-1-1-audio-0.mp3",
+      "duration": 12.744,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "6bd25ef18f0f9a94dd6393b8721faefa4552363bfdf0509fd46d0deaae41b51c",
+      "sha256": "f72474efef2909cc47885582f3b7204374139e23dc2c4376333b3b1d717271e6"
+    },
+    "g6-1-1-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g6-1-1-audio-1.mp3",
+      "duration": 8.76,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "e80ce06a067907b9d2a16f175d87fd4216c0f5b68ac88f3123c951dda7f714a3",
+      "sha256": "bcce5747b1e24b72d5cd0fba808691cdd45f1ff1a1952171d23b9fe809293771"
+    },
+    "g6-1-1-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g6-1-1-audio-2.mp3",
+      "duration": 10.536,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "909cde387d3c3b655bd07c12398ba41f71289f3828a2a6bdeafde72655483048",
+      "sha256": "aa7361c058d1286b81d0b002af48dd05b876d16a9b2bcfbbc8bb83867c1c18f1"
+    },
+    "g6-1-1-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g6-1-1-audio-3.mp3",
+      "duration": 8.952,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "af489f1cd15adbc967e046edacf40c8dcf4aa169d84631ce375404a2406ee05a",
+      "sha256": "efd301aa711233c73f52dbb9c74751c7a582faf794d80aba4fd8a8f358093745"
+    },
+    "g6-1-1-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g6-1-1-audio-4.mp3",
+      "duration": 5.28,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "b951ce46b1d59a2a398d8f6974658d60be30a1a29278bf636d8367cf33b7fd62",
+      "sha256": "d45f235fb027ebbc5ce90b20e096e9d1250f119eded69cf448800877e6b5feb7"
+    },
+    "g6-1-2-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g6-1-2-audio-0.mp3",
+      "duration": 9.408,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "6d94b9d344bf059a6613a4d8fbf162a12b65cfb8f9cd31b5181f47111d984567",
+      "sha256": "cb52c0d3945c958607888182c1b34352a4e6c1d78b546864e1e9bb90502cb153"
+    },
+    "g6-1-2-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g6-1-2-audio-1.mp3",
+      "duration": 7.296,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "157a71f3b6d517274cdb359b7b487fbe2af9c7536301314d8319db3d1d067d19",
+      "sha256": "ea848fb9e12290e24b61d5e07685d5fa29724197d0ec87db1ec7484100cf3153"
+    },
+    "g6-1-2-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g6-1-2-audio-2.mp3",
+      "duration": 9.984,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "8642bfec0a9528382563a8fd3043e70e881c8e10cb87798884626b40932e5ece",
+      "sha256": "10c00016d347dbc6dcfd91215135a25aaf907af3322782f1eeb7a5ea3dddab5b"
+    },
+    "g6-1-2-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g6-1-2-audio-3.mp3",
+      "duration": 6.768,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "665784c84ff4169534d65f47d5288ca6c26a73ac18167c3bf1b60f8c18f7dfe5",
+      "sha256": "2cd44016f3409508f796428acb1026fef9b800fc1b8d8721d4a99afb2ab3ecd5"
+    },
+    "g6-1-2-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g6-1-2-audio-4.mp3",
+      "duration": 4.08,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "efaeb7f3de96639485dce73929fc85c4e26f641cfe7276d7bd36731e91912812",
+      "sha256": "230c66fe4d2d23a82472df6b50b303af99acf22467467a4b6e5e1f088b447e60"
+    },
+    "g8-1-1-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g8-1-1-audio-0.mp3",
+      "duration": 12.672,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "2d9e0d07aa9e158419d8eb0f9da66cd7e24ff26739ef378a46b971b4c3b7430c",
+      "sha256": "fe6d385fe9890ee4e85e479c0c22624efd92c68f2abe565a03b0f6b11063fd3f"
+    },
+    "g8-1-1-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g8-1-1-audio-1.mp3",
+      "duration": 8.304,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "dba530d8bc06725a876f2dd16d92d2a4fd9faab2d9cf8b0e6812c1250d7943e7",
+      "sha256": "b4a03e3155f7d49db5b7582bee5077030b44fb0e0740275bd1b4abc4f6b5dcbf"
+    },
+    "g8-1-1-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g8-1-1-audio-2.mp3",
+      "duration": 9.6,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "d222429e70c25c4759bde741fa137bc1aea81983229d70135fad7e07841b332e",
+      "sha256": "56022048f5ec802aa90a72282a1d7472a49cf933aaea730e84adff684e2834f5"
+    },
+    "g8-1-1-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g8-1-1-audio-3.mp3",
+      "duration": 5.016,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "07b5fade29a8a33f969a17776327c64ed575dfdfb126cf29755acf7d027d6790",
+      "sha256": "a04c4ea11893430964d8f4fa6b23433ded290d0f4c37b00502d3e5913e9a0faf"
+    },
+    "g8-1-1-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g8-1-1-audio-4.mp3",
+      "duration": 5.112,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "5cbabcd3e0c849ed0ed20f6ae228b2d54e40a0b7b1a86934bf3fe796535b22ff",
+      "sha256": "d061a6ed0fe504ca3207e35fb837c1cf1e7c94159f483a173b92b635dd7aa3ab"
+    },
+    "g8-1-2-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g8-1-2-audio-0.mp3",
+      "duration": 9.864,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "dc64da8fc7689ad6bafe3f4b3fa9396464c1a9a63178d8c5643c75e679de6674",
+      "sha256": "c28f2ef863d5ac12fef991fa71ac7f2bdf144cc95be11674516656bf815a1821"
+    },
+    "g8-1-2-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g8-1-2-audio-1.mp3",
+      "duration": 6.792,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "c6b869b844faac0c8ef64b1c89b02acc5775d64562bc9dde44cedf07af9feb98",
+      "sha256": "059b1bcadf7af13d40271df88e6a9667172d66570bce09185341979da5eec205"
+    },
+    "g8-1-2-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g8-1-2-audio-2.mp3",
+      "duration": 10.488,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "846f3d942ab190e56cbceb616de962ea9fbaf6767417b3c987e7d266c9ce9b39",
+      "sha256": "b1d9ff7ab42704d98502d5eb67e5bff5886d6967c4e259041441284cbda34a94"
+    },
+    "g8-1-2-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g8-1-2-audio-3.mp3",
+      "duration": 7.488,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "4e38763834c0d7bdc6c4366113c4efac63da8df2094eb4960e71b1b5bf5e44e0",
+      "sha256": "7821e5bf53be0a0ed12729db00230934807de8b31e0bb17a8a13546697dc1dff"
+    },
+    "g8-1-2-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g8-1-2-audio-4.mp3",
+      "duration": 4.272,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "ef608b490a1dba9576140bc47dcb354f2c01d8fc926f8503e1f384895d04b7bc",
+      "sha256": "945b6260d8aecb8b003b5313be4fe6189502069ac46d50c10abfad160ec34eed"
+    },
+    "g9-1-1-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g9-1-1-audio-0.mp3",
+      "duration": 14.736,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "6d4eaf03e00f6ccc520918edcacc0eca4d89a8e365c0838f90a624baf0ee903b",
+      "sha256": "b405c075acf705fe4a58f7dc948554e2564e480e616e9c0434d9aa290991f3a9"
+    },
+    "g9-1-1-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g9-1-1-audio-1.mp3",
+      "duration": 10.776,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "3cb16d068e0f9f291c029a0eb4391020f4d6565bb14acc7366032a7d17127573",
+      "sha256": "21b106f8f05b7c2c2edfc97ff827ea4431e121d178afb45c0207c3b35ad4b4d1"
+    },
+    "g9-1-1-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g9-1-1-audio-2.mp3",
+      "duration": 13.968,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "842d797e3ea24b00027e75a110e00fbe26e4a6275d0a7ca0abdf0d14d587e69f",
+      "sha256": "91b1ac5b2d59b421632debb5c8e7c0f360f24a263e1dfe27b0f55821ccd9d735"
+    },
+    "g9-1-1-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g9-1-1-audio-3.mp3",
+      "duration": 14.232,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "14917980cf892e6d4852806c30083f2490a12b547337c557046ca988f7b2fee9",
+      "sha256": "2b720018b774cec9c286c7029c1cc3513efdc60340270651b6cde74f1897c8cd"
+    },
+    "g9-1-1-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g9-1-1-audio-4.mp3",
+      "duration": 5.952,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "badd3bf4a3f7d8ec85504fd05160ae0571ee020aed9a791f02ce2697a91878ca",
+      "sha256": "b1d84f1c8ef6e078d3c1d4fb337c228793d35956a270f5ff4331293bf895f555"
+    },
+    "g9-1-2-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g9-1-2-audio-0.mp3",
+      "duration": 13.344,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "20e4d3ac8254bb8e86b8557f0376dfdf52e82933197646592195881b3c053548",
+      "sha256": "2f7435cb8e9bae618396cb015fc6cf114598ede8137e02fc639e4d3a9794e342"
+    },
+    "g9-1-2-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g9-1-2-audio-1.mp3",
+      "duration": 10.56,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "fe93f4c892fbb0a5488ab812b95c6c6669aecb21f799d7cbeecd7841da616adb",
+      "sha256": "5101d25852ac5b117571389434e42734a614153223b4056edec2e67c87346746"
+    },
+    "g9-1-2-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g9-1-2-audio-2.mp3",
+      "duration": 13.416,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "49aefd7024b5996557379c8f3a91ce89749e5180224e0fae88c9ee2ff527e98d",
+      "sha256": "d8ca444ba25445e022134656c2c54b50d0e2634fe3c6460a2d4e2bc6e42f9f73"
+    },
+    "g9-1-2-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g9-1-2-audio-3.mp3",
+      "duration": 11.088,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "f2dd6afca1e28d7ee23903093bcb75eac414b7992ddaa00ca548f59dcaba737e",
+      "sha256": "d21ca5226fb1734781ed83910ed76408c9bdd88c10a80601625c4cce3da66414"
+    },
+    "g9-1-2-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g9-1-2-audio-4.mp3",
+      "duration": 3.744,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "e24fde4b916c4e004296a41ba49b907a69cef6d67e46f4975ec3a8d3c32a8d4f",
+      "sha256": "8abd72011862c8870d87b134924416d3f3e31871e8183e17ebf610920e74723f"
+    },
+    "g9-1-3-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g9-1-3-audio-0.mp3",
+      "duration": 15.192,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "2123570c74e9cc899d248d577047a1820dc98c7794641229521c5509361389d9",
+      "sha256": "78ec09bb65661b8513639ce23f21f0cbe71e21d57242b032798d7150a6081f4f"
+    },
+    "g9-1-3-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g9-1-3-audio-1.mp3",
+      "duration": 9.48,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "31bbaa0050c0c5081177a61d722f1615eef842c5b5c129850485c0101b6ba619",
+      "sha256": "59cd047aa4d7677c8bfa8b8bdee7df4f5904fa0a37cf2abfa56f968faf63aace"
+    },
+    "g9-1-3-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g9-1-3-audio-2.mp3",
+      "duration": 11.544,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "bdf0c532a97212b15a3b816e11c50e79e7752a429a7b60d87ce7f3e80706b734",
+      "sha256": "1ddef0759814dde195b3b22e0f25185ed40da2f3262aad28545139c81ddb41ef"
+    },
+    "g9-1-3-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g9-1-3-audio-3.mp3",
+      "duration": 12.936,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "acf019b27668c5387649d630414f9da0849557745eabcaad3754cda0f006bd0e",
+      "sha256": "8436bf6d836c73bcd5c2f72d35b6a77a8d5b3c639fbe24e99e5039280ba064bb"
+    },
+    "g9-1-3-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g9-1-3-audio-4.mp3",
+      "duration": 4.344,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "9c7bfa6dd2fbbabb744fb4fa8107fb3a00bb38247301e42add83bc8b54c5df49",
+      "sha256": "8d4507bbc549c1ae18d8c13d3c8359f3607764803d9ba45569c273536a133c9b"
+    },
+    "g9-1-4-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g9-1-4-audio-0.mp3",
+      "duration": 20.064,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "9a0eda91084ac3a3ab7069e1e8e0aaeacef6e5490057392bb145a02a18b97cb1",
+      "sha256": "6c8126465be12d9dca65ba104aa85dc333c3f8ffa897b87d5a0227028f9a4406"
+    },
+    "g9-1-4-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g9-1-4-audio-1.mp3",
+      "duration": 12.624,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "0dc67065eb432d29ba48608134ea6e9c906774d5a162581734f293327979514f",
+      "sha256": "01f41c823e4ec6c222fdb3cb803d236106b3983ff07bf1dd51cf8b24811b343e"
+    },
+    "g9-1-4-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g9-1-4-audio-2.mp3",
+      "duration": 11.256,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "beed3c9d7cbeacf755e281248c3c1b4b9c0ae81f25e6d939d0a35796fa53a46d",
+      "sha256": "17f0fb4c2e420698b4b5c23780f0e34e6100783ec3cf0390044fffa7044cb0a1"
+    },
+    "g9-1-4-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g9-1-4-audio-3.mp3",
+      "duration": 13.776,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "ba944a9009c853fb68b667a9854f6b4188fcd8b507370e2b968cc6344dd94484",
+      "sha256": "45474fe05d7eda2009e1857ac2fc70333e4862ae133f1474585651b4c28888d1"
+    },
+    "g9-1-4-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g9-1-4-audio-4.mp3",
+      "duration": 4.872,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "f8acc87006d3b6a1546cee92cca2cc0320ef728b08ac884c69787c0f69260102",
+      "sha256": "7ba5114fbc651c5461a9ff49228ab8bf978207106a9081c7aae50d49d4dcaca5"
+    },
+    "g9-2-1-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g9-2-1-audio-0.mp3",
+      "duration": 14.496,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "e40237cba9c2f3a781ef6c53682796f979ddab62a9c64916b650cc02b4ca8015",
+      "sha256": "6e725808e3a633aec92c5a8e5271d52dd8b59d45f997a9ba56e2c863ac41fbe1"
+    },
+    "g9-2-1-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g9-2-1-audio-1.mp3",
+      "duration": 10.728,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "467d3e507ccbb367bfacbd2c03056411975154e4360741f7d21ceca803a54d6e",
+      "sha256": "17a60e912c099275e1de918008a351262fb7b7c5c3e9f09c2daedbff57e0ab8d"
+    },
+    "g9-2-1-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g9-2-1-audio-2.mp3",
+      "duration": 11.976,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "aef576fcc02970bb868a8fc34390c2fb9e6975997b2a44ae44c6e00e40e5ca7f",
+      "sha256": "3261b8b2c856c95c173ab68f8c5f2c5ac771bb32eb50cf6447d1fe73538194dd"
+    },
+    "g9-2-1-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g9-2-1-audio-3.mp3",
+      "duration": 10.872,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "125f7175eba1d9ac385c8b50d497547387f2ef40d914d26caa4e2a48aa294bec",
+      "sha256": "68c9ccea17a68035e1bab23172fd9e3941bb83954257de9f37300ae7f495160b"
+    },
+    "g9-2-1-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g9-2-1-audio-4.mp3",
+      "duration": 4.68,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "b20bb5f82405ed342ffb05f20700a6b24c06f2f73c18cb027f5c5fa65c938755",
+      "sha256": "fe7c5e1b52f8755f3c354c3a79cc3106362ecfa9f848b5af4b7319d3b858434b"
+    },
+    "g9-2-2-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g9-2-2-audio-0.mp3",
+      "duration": 14.904,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "832516c08dcc8ce79d3df69f307f46be5c2ff1c1a449b70be402500ff088b117",
+      "sha256": "0c77ec0089064614a13534d165c5a3e16527acb148fbdf3b3569c8515660107c"
+    },
+    "g9-2-2-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g9-2-2-audio-1.mp3",
+      "duration": 9.192,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "89cff4044911d64f2ad117b2086198318bccc4bdadc2fb232106116f575c031c",
+      "sha256": "28df9381395ba3f46be36f13e69884b9cf77a2be962cb07d0c4e0992133d00ef"
+    },
+    "g9-2-2-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g9-2-2-audio-2.mp3",
+      "duration": 11.592,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "c68c7c607836eb184b69842da7c15d65274716c2ac037c5f9c09ac70fa5637a1",
+      "sha256": "8ddd5d772e5481e16f90748f0f96088c49fe327870753088387aefe281971442"
+    },
+    "g9-2-2-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g9-2-2-audio-3.mp3",
+      "duration": 10.752,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "e29cb9b69adfba6677117ab7d2a8d4152ef28e1c5b40353518ba82d209641ab3",
+      "sha256": "f42c4ae283cb645316f8c4e030aaa01c106525507346da3bb2c7d4bed917a4d2"
+    },
+    "g9-2-2-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g9-2-2-audio-4.mp3",
+      "duration": 5.208,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "a51e329c2998a0f357b58becb6dcb61f2d43f838e31f3ee3700d4c511cf55436",
+      "sha256": "e65c4a12b71669b9c1edb158b188f0daec0dd9ce5d36ccb679b9679e4cff7195"
+    },
+    "g10-1-1-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-audio-0.mp3",
+      "duration": 9.624,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "6d3a9d28d1ccf94c22bdbb11c5becc4a16a13161dfe5cab178b0e96438f99a9d",
+      "sha256": "d63edef149337deabed1fb99f5c2a9197c3041522b76a7c3a75ef70f27e3a3ee"
+    },
+    "g10-1-1-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-audio-1.mp3",
+      "duration": 8.976,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "96b2d8705b420e79701a41f0284ac7939b96472e424082de0a82a209152880d8",
+      "sha256": "feba2b0bc05b6a22af2be5904b82056da14c053688f6414cde924cbc74066cb0"
+    },
+    "g10-1-1-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-audio-2.mp3",
+      "duration": 9.6,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "fa1a9eb0165666b53b78fec0ce53a7fe48caa73f820c8993dede2b239004da64",
+      "sha256": "225a54b951a9f79d97bd7a3e33073cbcdcb95737e6e207fd42b5e006aa1b135e"
+    },
+    "g10-1-1-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-audio-3.mp3",
+      "duration": 11.736,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "c95cb6122fad177a41593c4cedde182e06ae177f9805a9669b925ad151732f76",
+      "sha256": "b9fb0f37886ff8b0a9653e8c9e9ca139f110b74a3443b0ecc6ef4b5240b5c4de"
+    },
+    "g10-1-1-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-audio-4.mp3",
+      "duration": 4.752,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "05cd156fe02e828a5e125f72733bc71699ce12b109f3f5b6fa97a5b51d93b4f4",
+      "sha256": "c17b605e8e3aa117b62d786742eabd3ad036ae67f6d2e17abac385afa9ec7c2c"
+    },
+    "g10-1-1-1-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-1-audio-0.mp3",
+      "duration": 10.8,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "5b15c64943c418e49b9eecdb37a1d2e4bfd6b5840afa1090f59be1ed48f16c15",
+      "sha256": "ca14670149049d0703439a6981139d992387ded0d47f9966f8505a3abca2594b"
+    },
+    "g10-1-1-1-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-1-audio-1.mp3",
+      "duration": 9.336,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "4460ba768f5b6e17d41d32206339d6d317cc79cac741ecb31c707a4a5b6ce088",
+      "sha256": "a360ba0ecd43efbe8a705f5a4adff6011b128f52dbd6ad3ffee8d98c78ddcf58"
+    },
+    "g10-1-1-1-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-1-audio-2.mp3",
+      "duration": 12.816,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "226bee193504954ba04958f36f57c0e0d5b0311edfe23fc39f20812bd08eb759",
+      "sha256": "f59d84390d55ac23923cbbf89d7e98145978038ecd5aad0c15d09fed4d5025d8"
+    },
+    "g10-1-1-1-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-1-audio-3.mp3",
+      "duration": 7.296,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "d24ca17fb6bec269faaf7d7532d093fd4d9944be8b017c0c286772706720915d",
+      "sha256": "7d32641d486b6242b1bc7cb77e5eec7be1aa714abeb7c51f0d5eaae73098aa60"
+    },
+    "g10-1-1-1-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-1-audio-4.mp3",
+      "duration": 3.72,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "761cfeb717075955a15a785762bcf3e5ea01c2c7e9d457360a3cceadfff545a3",
+      "sha256": "6f53ed0787f3cf0c8be512b17c4c3aac683c8996cf45e444a09f1abd80b8dd4f"
+    },
+    "g10-1-1-2-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-2-audio-0.mp3",
+      "duration": 12.6,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "44b50aadadd3ffb171dcfadcfe81d5588b32b394e80c41a56aebd5a7b7f8af98",
+      "sha256": "26d9ad9d7f1f53f35546f56d93437ec4eb903490eff02abbee667202f5afe136"
+    },
+    "g10-1-1-2-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-2-audio-1.mp3",
+      "duration": 9.816,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "67beb0d76b9de27082bf179b22d4f90d8d349f7613e9a661010a9e4688b7b9bf",
+      "sha256": "a35bc59c21d7c398a5098697acd6ae4b60ecc83ee38ff24c40a24ad9391d5348"
+    },
+    "g10-1-1-2-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-2-audio-2.mp3",
+      "duration": 11.928,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "7162446d2fcfb36abf5ff46ae0d20dba0a4aa6c1459d783b26dd3ad58eb1a5e9",
+      "sha256": "dd7e03d6343edfd530583bc1d489e35dce70754eec9b78355736dd2713b3c8ef"
+    },
+    "g10-1-1-2-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-2-audio-3.mp3",
+      "duration": 6.888,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "e6e5ec353550ab5f4f6c1275a7c5626fa8136a28d701db56ebc94ddab968b87b",
+      "sha256": "71040b6e0f4b02f9ee22056ec8a7c17dc3db90532e66109e546c1d7b8c134779"
+    },
+    "g10-1-1-2-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g10-1-1-2-audio-4.mp3",
+      "duration": 4.536,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "1d96f53e15291f0955ef9992c45f2d8ed6a0249cb872be7ccf96dbff26abda72",
+      "sha256": "4edcef7d7be63bfb5869fc3f40cd10cb39b979c8c4282bf96e54f22132376bc7"
+    },
+    "g10-2-1-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-audio-0.mp3",
+      "duration": 13.872,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "18419e6ce0f3213f3cdd91e1481f77b06568761c4e58bdbb7dfaaadd480a4d9c",
+      "sha256": "8e7f657816994860fe0b51d23203d5ea9a21e30e46d578986cc2208b6c5ae38b"
+    },
+    "g10-2-1-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-audio-1.mp3",
+      "duration": 7.44,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "9dc3fdd014b6ba04701ac8ec5d4d3f7601e40df0c281c66a3d3a1de2d3c4c959",
+      "sha256": "76e82ddc42d9c6a152992cb24c623322139bc067bf02c84f021f79990a30ed17"
+    },
+    "g10-2-1-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-audio-2.mp3",
+      "duration": 13.128,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "603c3c7a4c6231bae9fccb3123c3148a0fe80d74464d37872e3d65324f54b27b",
+      "sha256": "a4108f6268b4c7498f3b667d8e8c393fc4580efbd5e8e5fae0dc3fe13c204070"
+    },
+    "g10-2-1-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-audio-3.mp3",
+      "duration": 9.792,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "bd2f96a1559576866464fb051c4b1a52850a9351861d632b7526138f2e86512d",
+      "sha256": "453cf31cf62c21c6efd801b02867caa51fedc13f9149bc11355372ef07155637"
+    },
+    "g10-2-1-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-audio-4.mp3",
+      "duration": 4.536,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "f5d29a833e4a3114daa4991e1c81653b9e2b7859c483d18502c29903cdb5e9d1",
+      "sha256": "b135dcf2bdd10dd73f055e7c2f033a94170a3b4a5ece5bf8957f8162c76ecfc0"
+    },
+    "g10-2-1-1-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-1-audio-0.mp3",
+      "duration": 17.256,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "6d53e8989a60d492b3c0133f8c4e0779a39c37dac2864101bdb760aa4f49066e",
+      "sha256": "1c233b00bb7560581ffb6aa2f2ccbb8f5ae09e73ec2d73532295f9c7ab4d152b"
+    },
+    "g10-2-1-1-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-1-audio-1.mp3",
+      "duration": 13.392,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "e542bb8188db8f6d333a366b648713c60ce5c8836220455fa8168d33b281d9d4",
+      "sha256": "7108c6b551b93b3d43fa0fdb2795a238fbb1da215547dded5ca9afc8316ac032"
+    },
+    "g10-2-1-1-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-1-audio-2.mp3",
+      "duration": 11.784,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "ac615a468153db8b1f8a1c253f4a7564de1af7aae192bbdb3416e1f408a633a4",
+      "sha256": "5cbcf7621b570017fbd0e259fa5a47abf91bc04146e5e53589cdc4c521bffc67"
+    },
+    "g10-2-1-1-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-1-audio-3.mp3",
+      "duration": 7.152,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "cb07b765f8ccd324f31309eaaa3a0b3ad00001af53a8e7f1c29c49fa4fedc1b0",
+      "sha256": "18911065e4c6425af0eb750b738939df4480279e5df40063a512353bbebbbe6c"
+    },
+    "g10-2-1-1-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-1-audio-4.mp3",
+      "duration": 4.272,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "394eb07e54098b8d54b9728627c7bffbf80539ee7e7b2ab3544fba155cdd2559",
+      "sha256": "0d37b9a52078bd581cd24d1b9a3ccc59b536e38ae490dc32ccf2530cc210c444"
+    },
+    "g10-2-1-2-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-2-audio-0.mp3",
+      "duration": 16.296,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "78815995043ca7165adcdd9119798265ed53433b385a5c9db9d0365086c64357",
+      "sha256": "7d59d904c899aef4b59462c2759137c8da5908a0c0dc3e7c03a8fbd86c914b15"
+    },
+    "g10-2-1-2-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-2-audio-1.mp3",
+      "duration": 7.848,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "928a0ef4f6f468f426fa938394e8aca76cd33dfe262e3e07173e389468ea5da1",
+      "sha256": "cf6d3fe70d478088d7541eaf7171d1ff7085c369d8bf4a23a43cdec46d8bd927"
+    },
+    "g10-2-1-2-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-2-audio-2.mp3",
+      "duration": 12.672,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "e736ca4ef1f3252c3be2ab1c531cb8a88d1887abc713ffc41185366ec8c31140",
+      "sha256": "538463fb59a0f092ade603b9c2cc4583f23113dc3a7aa5e9cf577270e59c8bf8"
+    },
+    "g10-2-1-2-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-2-audio-3.mp3",
+      "duration": 10.392,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "54947b6f8358944da97e106c5c1b7ba9903627c8a0e3a192c26b9e4508ead4f9",
+      "sha256": "11a68c78e5091b2f9b44f42e068b89a4be49b60d9ba6b343c3d3050bd0e8061e"
+    },
+    "g10-2-1-2-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g10-2-1-2-audio-4.mp3",
+      "duration": 4.8,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "8da109e0fc3fcf0cb3b3ba8189c1f106188dd2fb6a420afcdbc168cc6d66d4a0",
+      "sha256": "4d55df702f58dfddf20e1746b3eac932e44f6ad6a6a22755d5a3041a1e4b730c"
+    },
+    "g11-1-1-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g11-1-1-audio-0.mp3",
+      "duration": 12.528,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "3372a34299abd5fabd5e05c3f5f7b5afa1d561a442e53f3995329b4f0f56b79f",
+      "sha256": "1ee053206abe06080f4933257abba026f67aebf65b46d506794880fe345cca15"
+    },
+    "g11-1-1-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g11-1-1-audio-1.mp3",
+      "duration": 11.544,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "52f9b559ff02668cf793bc989f1cae3f105967a11b93d15156b9a433586a3d15",
+      "sha256": "8d38b202927fc3453d721174efbf82efedb9656069ec4f671907ff3dc9030cbd"
+    },
+    "g11-1-1-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g11-1-1-audio-2.mp3",
+      "duration": 12.456,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "6230da41ca97dec4d5480528b4a37b1f1ee43a99828a880eb76b63b2d8bb5e98",
+      "sha256": "4759379e80fcccec8d367cfdc61a0057552f9611c5e98790f16338745afd1e15"
+    },
+    "g11-1-1-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g11-1-1-audio-3.mp3",
+      "duration": 6.552,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "76b36842eee03b745dd50853398b18253b0af699ee1448a18f3f2aeac35e4e32",
+      "sha256": "6413828e5a6f7951137e4d02d540d4b526b9e24c9e99b68499d849f7a002edad"
+    },
+    "g11-1-1-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g11-1-1-audio-4.mp3",
+      "duration": 3.744,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "c579ec6dac6b6b44d31c2ef6ee4e43620187ef00073f9c8763040ae6914cf643",
+      "sha256": "638c1d141e257500287f4423cebbe080a70073ea313866d54d1754f654450b97"
+    },
+    "g11-1-2-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g11-1-2-audio-0.mp3",
+      "duration": 10.992,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "e141d7d9dc8e0f6ddb9edeb9c7cf0d7f1d728d036e3476a598b3611d8545c7ac",
+      "sha256": "a39bdd72941b3780a83c2079477ea2135992bb42824ae5d816d51773a1d8a241"
+    },
+    "g11-1-2-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g11-1-2-audio-1.mp3",
+      "duration": 9.768,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "cf226e9218443b367b2192fc2ede9e763871a1d0d6ba71ee504e6aeac8c5c594",
+      "sha256": "d0dc5295bf6808e780352d215748ad6b61e7e3d8bf02c82ae05b8fc2f0998e33"
+    },
+    "g11-1-2-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g11-1-2-audio-2.mp3",
+      "duration": 11.28,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "ccf7c61e4a28bd6dbe36dfa273eefd74f6096b9b5ae8c51d9bcbb2262578879e",
+      "sha256": "3de2734d620db6cf356041dbc318bf494799996805f2187e639f63c1fc810895"
+    },
+    "g11-1-2-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g11-1-2-audio-3.mp3",
+      "duration": 8.568,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "643c0a0b0f71565afbdcb66a15f7fe6fa06f4306b954451a655d9d5ad33ac779",
+      "sha256": "2bda8ed05dcaf12af352d3bd7d9b4e99c7db97acb609ba1f7b20053b473a8db2"
+    },
+    "g11-1-2-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g11-1-2-audio-4.mp3",
+      "duration": 3.888,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "b9d5240b525d2ed0f4bb0a5eaed899f6238d6239ec29cb74d521fe51bd287800",
+      "sha256": "ba716af19c09a657161c68cd93a313dc23b0c2fc20acd118158110397cc287b2"
+    },
+    "g12-1-1-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g12-1-1-audio-0.mp3",
+      "duration": 13.68,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "c41d153bb5bf984f1bb4f45571d9aeff89465cfd3d9e43a82d20024cc07d72fd",
+      "sha256": "dbe6f0e5775601f40b43e1db6e75277560203b8d15b0454febf9504ed1f8c085"
+    },
+    "g12-1-1-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g12-1-1-audio-1.mp3",
+      "duration": 10.992,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "90a8bae1717e92297b139781e3988d08d7f9f65ed354b1ee57e89713b02fb092",
+      "sha256": "4001afce96b0e62290e8cb86964d0a7b50d3c6ad50804fbf89dac27675feee33"
+    },
+    "g12-1-1-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g12-1-1-audio-2.mp3",
+      "duration": 9.408,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "03e2c7ac96340c005fb75b8acf1d26aae6f03227d2395d1a476b4e9e6f7f1a6c",
+      "sha256": "fb01cf6bf2ad2c8d80cb8cfb8a928a036bbc27d60a9c252d5af73343823a24b7"
+    },
+    "g12-1-1-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g12-1-1-audio-3.mp3",
+      "duration": 12.504,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "1b7c23b8b6d5c68d6c96087fa59cc081b2a83b42a1db6eb236b45789d0f19598",
+      "sha256": "d39ba2eb56690c851d2203659df616c32d0878bdf72531eba25d8d382ab0e9d5"
+    },
+    "g12-1-1-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g12-1-1-audio-4.mp3",
+      "duration": 4.128,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "46fc173bae67c593b1f5cd9f1bd4d2ef8dae4b67e64475a46238434733747ece",
+      "sha256": "abe3f1b9c6ea69b30365bc717d367652b8061a5a95aaebc51f3fe9c64c7e96cd"
+    },
+    "g12-1-2-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g12-1-2-audio-0.mp3",
+      "duration": 13.368,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "02802b7d0701b34ff8e41c6b1580f852d5cd577f9abb8c6c7df46e6d3b236b6b",
+      "sha256": "8ab8dfb6f40334a416e72590a948dded6cd895ca861285da95fa4c02321a6224"
+    },
+    "g12-1-2-audio-1": {
+      "url": "assets/audio/anlatim/dersler/g12-1-2-audio-1.mp3",
+      "duration": 10.752,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "b0c26afcc18823b0082fa5854b5b56f2243f38cd9d6602aa8e703d09a7d016c9",
+      "sha256": "07d7e7bf703fa6c500f7845d397232f81a12c637913364620d54fe8979a2828d"
+    },
+    "g12-1-2-audio-2": {
+      "url": "assets/audio/anlatim/dersler/g12-1-2-audio-2.mp3",
+      "duration": 10.992,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "b7a6754090f13c592f9bbb70273b72b0cb6a3ac7d4d77f93d67f3552f0a3859f",
+      "sha256": "6c152824cf32a30c6641ea064c0bc78b20a06b8411a49d1bcf0e9e51839cd0e8"
+    },
+    "g12-1-2-audio-3": {
+      "url": "assets/audio/anlatim/dersler/g12-1-2-audio-3.mp3",
+      "duration": 8.568,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "edaaffc5a8e1596f6739c5fa67818bb4ae05da18a6f421bc86b66d4b9bd79d63",
+      "sha256": "426cb0300e08a81b29e30d34a44829186ed0050a7c6d36f4050e2c8e2325e2bc"
+    },
+    "g12-1-2-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g12-1-2-audio-4.mp3",
+      "duration": 5.04,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "b484a84248eb4dd8de085af9388cd76a5449abef761819aefbf77135f8dd8038",
+      "sha256": "2d0e072d3a97194893c7753ed71b7217642622f28ed03dfe9c7d69136a583861"
+    },
+    "akil-ve-inanc-audio-0": {
+      "url": "assets/audio/anlatim/universite/akil-ve-inanc-audio-0.mp3",
+      "duration": 18.336,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "02241d21cefb2fc9738dcd67f4a44d4fa582c6664a57ab35a6600cc5bb1520ad",
+      "sha256": "7f42e8b2fa1537b6cdcba99f8fd00a077c60d2ef4db7f7bcdd99e7467840174a"
+    },
+    "akil-ve-inanc-audio-1": {
+      "url": "assets/audio/anlatim/universite/akil-ve-inanc-audio-1.mp3",
+      "duration": 14.952,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "7ce6265c1950ba45d82944fe17be5cea2d0e7eb1c4f5d0b302bbf833c11eeb9c",
+      "sha256": "36f008899fcf16f887782678ad8064eaf6f79fbbc58a1d59786f9df3fefbd331"
+    },
+    "akil-ve-inanc-audio-2": {
+      "url": "assets/audio/anlatim/universite/akil-ve-inanc-audio-2.mp3",
+      "duration": 12.744,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "9dcf896332318ee8746d894929e1683c2cefccbf4a06f0daf291729b31e57a9c",
+      "sha256": "80c062215befaf1765a0b0b3bb7b11e8a1548b7fb3afe68189f483b80f7339fd"
+    },
+    "akil-ve-inanc-audio-3": {
+      "url": "assets/audio/anlatim/universite/akil-ve-inanc-audio-3.mp3",
+      "duration": 4.392,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "b0f300753f0cedc8f04e5d9dbefaa4638147d0150b3858a616025177f228453d",
+      "sha256": "b2d93920caed89344341d86ef784919c3c05691fd265c8c0918cd24c47fc214d"
+    },
+    "akil-ve-inanc-audio-4": {
+      "url": "assets/audio/anlatim/universite/akil-ve-inanc-audio-4.mp3",
+      "duration": 3.504,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "8aa49f7a3b53e2c001bd9d31c20f3a55d2fe09ba9ff930883aef43c088640d4d",
+      "sha256": "aa1f72096950a75da8461ab54c7672258bc70c165e5337eed009420afe2a68e0"
+    },
+    "akil-ve-inanc-audio-5": {
+      "url": "assets/audio/anlatim/universite/akil-ve-inanc-audio-5.mp3",
+      "duration": 3.744,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "cd34c29e66803490d7f2deaeb5e25f66245410c7a6b8095979d009e8d0185bd4",
+      "sha256": "befa456f9f7b32b914a2a1daa0b417ee3d677409413233ced4ecc3da83689896"
+    },
+    "akil-ve-inanc-audio-6": {
+      "url": "assets/audio/anlatim/universite/akil-ve-inanc-audio-6.mp3",
+      "duration": 7.992,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "e200211a53be1554bc5843388ac8696b60b3c7963bc9bda42412ecf62c70335f",
+      "sha256": "728172d2ddfaffb3320a11317ace575b67c4fa51085cff28298e2dac000f6638"
+    },
+    "ahlaki-karar-audio-0": {
+      "url": "assets/audio/anlatim/universite/ahlaki-karar-audio-0.mp3",
+      "duration": 15.288,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "d1adade58258f7627a76fe53f9c121c7b65b59569b3f940d0166ab16daa08a7b",
+      "sha256": "431f44884c97d4ef4c2f0268e48be09c66fd86c102f9df8b85af6b03ea52a8ba"
+    },
+    "ahlaki-karar-audio-1": {
+      "url": "assets/audio/anlatim/universite/ahlaki-karar-audio-1.mp3",
+      "duration": 14.568,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "55183992a520be33f074f7cc6e83c7c988ab9fe4d6a639b12a0c279d5be76dce",
+      "sha256": "34f35511172a731c4cdc0e790b5a900a82ca2e865f99ebcfc176ad2d1f50e0c6"
+    },
+    "ahlaki-karar-audio-2": {
+      "url": "assets/audio/anlatim/universite/ahlaki-karar-audio-2.mp3",
+      "duration": 14.64,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "78f1109a7b4f44db78c11420507e4f42cbd6a4d493ec4cc6298d357e29aaf8d4",
+      "sha256": "0c89089e86c23b0d32251141ab032877fdeca420167190c68c01bdba66702508"
+    },
+    "ahlaki-karar-audio-3": {
+      "url": "assets/audio/anlatim/universite/ahlaki-karar-audio-3.mp3",
+      "duration": 3.744,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "7519f3833a0edac72f84c7470280a137ed28920b02659a7e3555f14f26f3d2ba",
+      "sha256": "6f6a39bdcb789bc250e04202497e5d3369db0875c05aa9eb99327bbf0cf563a5"
+    },
+    "ahlaki-karar-audio-4": {
+      "url": "assets/audio/anlatim/universite/ahlaki-karar-audio-4.mp3",
+      "duration": 4.368,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "f4b7766a46a98ba99204c4cdc7cb61f8b04bc8dce71ce55790bceca35f7c82f5",
+      "sha256": "a39d4a2ceb022e1a8da6bb7193be0c265a4cfd53f7ae89f0e94cb0671ad98731"
+    },
+    "ahlaki-karar-audio-5": {
+      "url": "assets/audio/anlatim/universite/ahlaki-karar-audio-5.mp3",
+      "duration": 3.648,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "66551c91d1e70c9bf2f7ac09d884e9d614d35868486b9a73c292fd33d9accad4",
+      "sha256": "1652f5832dc67f22551e26556ed03818af7f835d16864cf55bfb1e98bac892e3"
+    },
+    "ahlaki-karar-audio-6": {
+      "url": "assets/audio/anlatim/universite/ahlaki-karar-audio-6.mp3",
+      "duration": 7.128,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "2fb9fc4fc980ebb070cb7596bcd03e926649ef6532200e18ccad904b485d1db8",
+      "sha256": "a23fe5587eab03bab11c1340d3ef1c28bd97a4d2b34289dac82c0d5b100fff05"
+    },
+    "metin-ve-yorum-audio-0": {
+      "url": "assets/audio/anlatim/universite/metin-ve-yorum-audio-0.mp3",
+      "duration": 13.968,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "4c67983f5824f761020cd8a18a1310aa1e42cd6aae32a1a5fd4ad9fd47d33984",
+      "sha256": "e521dfe0b508315d55d4f23de2b003dc8ff57f210e1db3ef915d725f0965ebe9"
+    },
+    "metin-ve-yorum-audio-1": {
+      "url": "assets/audio/anlatim/universite/metin-ve-yorum-audio-1.mp3",
+      "duration": 13.92,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "cc3cf42d8710162f15eaf817b3531eaad2cd4c1bb78f2c282177f7d797c3af12",
+      "sha256": "eb8a52cf6e995ce73e41ccbdded53b7c9446bac213190a8bfc06e52f838aaa9e"
+    },
+    "metin-ve-yorum-audio-2": {
+      "url": "assets/audio/anlatim/universite/metin-ve-yorum-audio-2.mp3",
+      "duration": 15.336,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "fec56c36246b8aab657084529472f5960f2b938b8bbf14b8d0aba362bc7d5ec2",
+      "sha256": "0539aa2418b32399fca959acbeae2119eb02fa5a1f18d6d3c58c62d95ab0d184"
+    },
+    "metin-ve-yorum-audio-3": {
+      "url": "assets/audio/anlatim/universite/metin-ve-yorum-audio-3.mp3",
+      "duration": 3.744,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "57f02bb3c09124b6e8d34379c620ded4dc4b7e72cf8a109036156425a661e404",
+      "sha256": "7798d458a7cb366fc20be5f68cd06ac77a6a381857182b0f66084e8dc8a25f24"
+    },
+    "metin-ve-yorum-audio-4": {
+      "url": "assets/audio/anlatim/universite/metin-ve-yorum-audio-4.mp3",
+      "duration": 3.552,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "9dde4d76ad7ae0cb1bb4454899c7643cc1a64446d4969852fac50312e70c4cfd",
+      "sha256": "8501d436173540468430c69a1fbcb0fa380bffb6c2a96d61424675a920c8e579"
+    },
+    "metin-ve-yorum-audio-5": {
+      "url": "assets/audio/anlatim/universite/metin-ve-yorum-audio-5.mp3",
+      "duration": 4.416,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "8dcd79700fafae24574b9ef445991d2a1bcb268d3a5888ec36fc195026f1ea00",
+      "sha256": "fcc5341817979beb6ae6611ca2ebfc7a5056f1d02e49af38a1cdb1b9e01e0dd1"
+    },
+    "metin-ve-yorum-audio-6": {
+      "url": "assets/audio/anlatim/universite/metin-ve-yorum-audio-6.mp3",
+      "duration": 8.304,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "12e1ffc4905f2bdd720487ef5c29c4849d60ec0a94929cab75815025a04ba275",
+      "sha256": "6ab1581cff96c0a245687b19b2fc3e9a686decb8a1cf0e7efae64a65557d888c"
+    },
+    "g5-1-1-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g5-1-1-audio-0.mp3",
+      "duration": 13.248,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "c574fc4ae5081f980992a98ce59d4d14b470161cc060ff81528ecbbcc6be1e2d",
+      "sha256": "a4f4f61b479a00215366fab5c00cd714c5c4f6ab7d233120859db90fbdac9ba6"
+    },
+    "g5-1-1-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g5-1-1-audio-4.mp3",
+      "duration": 5.64,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "f84ba212a8ce137b52cc9b81a0d3c1914987c8b0fd41bb116af483985e090e89",
+      "sha256": "c44a2d6ddae2d750998a9c935c2d4afa5417ac7d0b6b5f1540e390566603614c"
+    },
+    "g5-1-2-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g5-1-2-audio-0.mp3",
+      "duration": 13.608,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "893dd3c99f75257410d4faecf528483986848cd4d459d4b42da37a47e11ba63f",
+      "sha256": "838cd37fc1ee27e53007df2f9d9b717d5082e58b699395ce0b04c2d6acedd3df"
+    },
+    "g5-1-2-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g5-1-2-audio-4.mp3",
+      "duration": 3.792,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "869c3a2635c2d1e23a7f169fef86a173d17910436ea6ec4cc90528186816cab6",
+      "sha256": "3a9142990369dbbc29328f858d36f32ce1cd7a5622a568728e66b88f3deb8302"
+    },
+    "g5-1-3-audio-0": {
+      "url": "assets/audio/anlatim/dersler/g5-1-3-audio-0.mp3",
+      "duration": 13.488,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "8825efe38a73979862f20f96afbaa5cac3240f3720b049228e3b9b25688d1d14",
+      "sha256": "8b8ed5166c25db979d6f9e817795f68bd4d90df52027896bf41ff51b040bb4ec"
+    },
+    "g5-1-3-audio-4": {
+      "url": "assets/audio/anlatim/dersler/g5-1-3-audio-4.mp3",
+      "duration": 4.656,
+      "speaker": "Anlatıcı",
+      "voice": "fettah",
+      "kind": "synthetic-demo",
+      "textSha256": "57434fc09a55ef32ba3b1a055afec4f981022a9a77d81f3df8b63c2dca87af32",
+      "sha256": "a916b2fe3b6be96d5685fb1f0f56f8659e74102077ff6c2ba462224baa1403ba"
+    }
+  }
+};

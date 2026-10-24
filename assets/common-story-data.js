@@ -1,5 +1,5 @@
 'use strict';
-// Original common story adaptation. The full source remains unchanged in source.txt.
+// Original adaptation. Source text is preserved separately; synthetic demo audio is replaceable.
 window.MERAK_COMMON_STORY = {
   "id": "saraydan-dunyaya",
   "title": "Saraydan Dünyaya: Büyük Keşif",
@@ -11,22 +11,22 @@ window.MERAK_COMMON_STORY = {
     {
       "name": "Elif",
       "role": "Merak eden öğrenci",
-      "voice": "Doğal, anlaşılır kız çocuk sesi; ses dosyası daha sonra eklenecek."
+      "voice": "Doğal, anlaşılır kız çocuk sesi; geçici Türkçe örnek ses bağlıdır."
     },
     {
       "name": "Deniz",
       "role": "Bağlantıları araştıran öğrenci",
-      "voice": "Doğal, anlaşılır erkek çocuk sesi; ses dosyası daha sonra eklenecek."
+      "voice": "Doğal, anlaşılır erkek çocuk sesi; geçici Türkçe örnek ses bağlıdır."
     },
     {
       "name": "Derya Öğretmen",
       "role": "Yol gösteren eğitimci",
-      "voice": "Sakin ve sıcak yetişkin kadın sesi; ses dosyası daha sonra eklenecek."
+      "voice": "Sakin ve sıcak yetişkin kadın sesi; geçici Türkçe örnek ses bağlıdır."
     },
     {
       "name": "Anlatıcı",
       "role": "Durakları birbirine bağlayan anlatım",
-      "voice": "Akıcı Türkçe yetişkin anlatıcı sesi; ses dosyası daha sonra eklenecek."
+      "voice": "Akıcı Türkçe yetişkin anlatıcı sesi; geçici Türkçe örnek ses bağlıdır."
     }
   ],
   "chapters": [
@@ -51,9 +51,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Elif ile Deniz, keşif defterinin başında buluştu. İlk sayfada büyük bir soru vardı: Hayatımızın anlamı neydi?",
           "visual": "Kütüphane masasında bir defter; kapağında yazı yerine saray ve Dünya simgeleri.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-01-01.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.064,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-01-02",
@@ -61,9 +64,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Hepimiz farklı sınıflardayız. Ama aynı gökyüzüne bakıyor, aynı dünyada yaşıyoruz. Bu hikâyeyi birlikte keşfedebiliriz.",
           "visual": "Elif defteri açar; farklı yaşları temsil eden kitaplar masanın çevresinde durur.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-01-02.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.136,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-01-03",
@@ -71,9 +77,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Deniz",
           "text": "Defterin başında bir saray, sonunda Dünya var. Bu iki resmin arasındaki bağlantıyı bulmak istiyorum.",
           "visual": "Deniz, defterde saray ile Dünya arasındaki boş sayfalara işaret eder.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-01-03.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.552,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-01-04",
@@ -81,9 +90,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "Metnimiz yaratılış, amaç, sorumluluk ve rehberlik üzerine sorular soruyor. Önce ne söylendiğini dikkatle anlayalım.",
           "visual": "Öğretmen dört kavramı temsil eden resimli kartları masaya koyar.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-01-04.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.04,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-01-05",
@@ -91,9 +103,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Bir şeyin nasıl var olduğunu merak ediyorum. Ama niçin var olduğunu da düşünmek istiyorum.",
           "visual": "Elif iki ayrı soru kartını saray çiziminin yanına yerleştirir.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-01-05.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 5.64,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-01-06",
@@ -101,9 +116,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "İslam inancına göre insanın hayatı anlamlıdır. Allah insanı yaratıp ilgisiz bırakmaz; ona yol gösterir.",
           "visual": "Öğretmen ve öğrenciler aydınlık kütüphanede konuşur; ilahî varlık tasvir edilmez.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-01-06.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.704,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-01-07",
@@ -111,9 +129,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Sorularını deftere yazdılar. Sayfa çevrildi, hayallerindeki sarayın kapısı açıldı. Yolculuk artık başlıyordu.",
           "visual": "Defterdeki saray çizimine yaklaşılır; bir sonraki durağa görsel geçiş planı.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-01-07.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.064,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         }
       ]
     },
@@ -138,9 +159,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Sarayda su, yiyecek, giyecek ve dinlenecek odalar hazırlanmıştı. Her köşede başka bir ihtiyaç düşünülmüştü.",
           "visual": "Geniş saray avlusu, çeşme ve sade bir sofra; Elif ile Deniz çevreyi inceler.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-02-01.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.824,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-02-02",
@@ -148,9 +172,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Burada yalnızca güzel bir bina yok. Susadığımızda su, acıktığımızda yiyecek bulabiliyoruz. İhtiyaçlarımız düşünülmüş.",
           "visual": "Elif çeşme ile sofrayı gösterir; ortam sıcak ve davetkârdır.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-02-02.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.136,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-02-03",
@@ -158,9 +185,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Deniz",
           "text": "Bahçeye bakan, sofraya yardım eden görevliler de var. Bu hazırlıkların hepsini defterimize yazalım.",
           "visual": "Deniz, bahçıvanı ve sofra hazırlayan yetişkinleri gözlemleyerek not alır.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-02-03.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.672,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-02-04",
@@ -168,9 +198,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Bütün ekmekleri ben alırsam başkalarına kalmaz. Bir imkândan yararlanmak, onu sınırsızca tüketmek demek mi?",
           "visual": "Elif ekmek sepetini başka konuklarla paylaşır.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-02-04.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.44,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-02-05",
@@ -178,9 +211,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "Kaynak metin bu sarayı bir benzetme olarak kuruyor. Sunulan imkânlardan, amaç ve görev sorularına geçiyor.",
           "visual": "Öğretmen saray çiziminin yanına ihtiyaç ve amaç simgeleri koyar.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-02-05.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.176,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-02-06",
@@ -188,9 +224,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Deniz",
           "text": "Öyleyse yalnızca bana ne verildiğini sormayacağım. Bu imkânları nasıl kullandığımı da düşüneceğim.",
           "visual": "Deniz deftere bir ekmek ve paylaşan eller simgesi çizer.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-02-06.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.216,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-02-07",
@@ -198,9 +237,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Elif çeşmenin musluğunu kapattı. İkisi de aynı soruyu düşündü: Bu hazırlığın içinde bizim sorumluluğumuz neydi?",
           "visual": "Çeşme kapanır; defterin yeni sayfasında yol ayrımı simgesi görünür.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-02-07.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.992,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         }
       ]
     },
@@ -225,9 +267,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Bahçedeki yollar bir soruyu daha açtı. Özgürce hareket etmekle başkalarının hakkını gözetmek nasıl birlikte düşünülürdü?",
           "visual": "Saray bahçesinde iki yol; çiçekler ve ortak çeşme görünür.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-03-01.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.376,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-03-02",
@@ -235,9 +280,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Deniz",
           "text": "Çiçeklerin üzerine basarsam benim için kısa bir yol olur. Ama bahçenin güzelliğine başkaları da ortak.",
           "visual": "Deniz çiçeklerin kenarında durur, döşenmiş yola bakar.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-03-02.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.816,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-03-03",
@@ -245,9 +293,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "İstediğim bir şeyi yapabiliyor olmam, onun doğru olduğu anlamına gelmeyebilir. Sonucunu da düşünmeliyim.",
           "visual": "Elif, çiçeklerin etrafından dolaşan yolu seçer.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-03-03.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.576,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-03-04",
@@ -255,9 +306,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "Amaç, niçin sorusuyla ilgilidir. Sorumluluk ise nasıl davranmamız gerektiğini düşündürür. İkisi birbirine bağlıdır.",
           "visual": "Öğretmen iki ayrı kavram kartını defter üzerine yerleştirir.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-03-04.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.4,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-03-05",
@@ -265,9 +319,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Paylaşmak, başkasının hakkını korumak ve zarar vermemek de sorumluluk. Görev yalnızca zor bir iş değil.",
           "visual": "Elif bir arkadaşına su uzatır; diğer konukların geçişine yer bırakır.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-03-05.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.864,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-03-06",
@@ -275,9 +332,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "İslam inancında insan amaçsız değildir ve seçimlerinden sorumludur. İyilik ile adalet, davranışlarımızda karşılık bulur.",
           "visual": "Öğretmen, öğrencilerle bahçedeki ortak alanı konuşur.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-03-06.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.52,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-03-07",
@@ -285,9 +345,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Deniz",
           "text": "Peki, sorumluluğumu nasıl öğreneceğim? Defterin sonraki sayfasında bu sorunun izini sürmek istiyorum.",
           "visual": "Deniz bir zarf simgesi bulunan sayfayı açar.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-03-07.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.648,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         }
       ]
     },
@@ -312,9 +375,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Saraydaki görevliler yapacaklarını biliyordu. Yeni bir açıklamanın ise konuklara da duyurulması gerekiyordu.",
           "visual": "Bahçıvan ve sofra görevlisi çalışırken konuklar avluda toplanır.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-04-01.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.912,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-04-02",
@@ -322,9 +388,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Deniz",
           "text": "Bir görev varsa, onu öğrenmeye de ihtiyaç var. Konuklara hiç açıklama yapılmadığını düşünmek tuhaf geliyor.",
           "visual": "Deniz, henüz açılmamış bir mesaj zarfına bakar.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-04-02.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.2,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-04-03",
@@ -332,9 +401,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Mesajın yalnızca söylenmesi yetmez. Neyi anlattığını dikkatle dinlemek, anlamak ve davranışıma yansıtmak isterim.",
           "visual": "Elif üç aşamalı bir bağlantı şeması çizer.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-04-03.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.848,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-04-04",
@@ -342,9 +414,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "Tebliğ, bildirmek demektir. Metindeki elçi, görevi iletme bağlantısını düşünmemize yardım ediyor.",
           "visual": "Öğretmen, zarf ve konuşma simgelerini defterde ilişkilendirir.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-04-04.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.96,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-04-05",
@@ -352,9 +427,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "İslam inancında Allah, peygamberler ve vahiy yoluyla insanlara rehberlik eder. Kur’an bu rehberliğin temel kaynağıdır.",
           "visual": "Öğretmen kapalı bir Kur’an-ı Kerim’in bulunduğu okuma masasında açıklama yapar; peygamber tasviri yoktur.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-04-05.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.376,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-04-06",
@@ -362,9 +440,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Saraydaki hayalî haberciyle, öğrendiğimiz dinî kavramları birbirine karıştırmadan aradaki bağlantıyı kurabiliriz.",
           "visual": "Elif saray örneği ile rehberlik kavramını ayrı kutularda gösterir.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-04-06.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.368,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-04-07",
@@ -372,9 +453,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Mesajın anlamını konuştular. Şimdi saray çiziminin yanında duran Dünya, onları daha büyük bir düşünceye çağırıyordu.",
           "visual": "Defterde saray ile Dünya arasında bir yol çizilir.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-04-07.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.184,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         }
       ]
     },
@@ -399,9 +483,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Saray çizimi yerini Dünya’ya bıraktı. Tarlalar, ağaçlar ve su, ilk duraktaki ihtiyaç listesini yeniden hatırlattı.",
           "visual": "Dünya küresi çevresinde tarla, ağaç ve su simgeleri belirir.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-05-01.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.352,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-05-02",
@@ -409,9 +496,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Suya ve yiyeceğe her gün ihtiyaç duyuyorum. Ama bazen bunların hayatımdaki yerini fark etmeden geçiyorum.",
           "visual": "Elif su bardağı ve elmayı yan yana inceler.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-05-02.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.432,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-05-03",
@@ -419,9 +509,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Deniz",
           "text": "Metin Dünya’yı saraya, ay ve yıldızları kandile benzetiyor. Güneş için de ışık ve ısı örnekleri var.",
           "visual": "Deniz, Dünya ile saray çizimlerini eşleştirir.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-05-03.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.032,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-05-04",
@@ -429,9 +522,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "Bunlar benzetmelerdir. Güneş’in gerçek bir ocak olduğunu söylemiyoruz; ışığın ve ısının hayatla bağlantısını düşünüyoruz.",
           "visual": "Öğretmen Güneş’ten bitkiye uzanan sade bir ışık ve ısı şeması çizer.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-05-04.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.496,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-05-05",
@@ -439,9 +535,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Bir elmanın yanında suyu, toprağı, güneşi ve emeği de hatırlamak istiyorum. Fark etmek, davranışımı değiştirebilir.",
           "visual": "Elif, elmanın çevresine su, toprak, Güneş ve emek simgeleri ekler.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-05-05.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.56,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-05-06",
@@ -449,9 +548,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "İslam inancında nimetleri fark etmek şükürle ilişkilidir. Şükür, paylaşmakta ve israftan kaçınmakta da karşılık bulabilir.",
           "visual": "Öğrenciler sofrada ihtiyacı kadar yiyecek alır ve paylaşır.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-05-06.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 9.144,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-05-07",
@@ -459,9 +561,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Deniz",
           "text": "Dünya’yı bir emanet gibi düşünürsem, onu nasıl kullandığımı da sorgularım. Sorumluluk sorumuz şimdi daha büyük.",
           "visual": "Dünya küresinin etrafında bitki, su ve koruyan eller simgeleri görünür.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-05-07.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.08,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         }
       ]
     },
@@ -486,9 +591,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Gece ve gündüz, suyun yolculuğu ve ağaçların büyümesi… Defter şimdi doğayı dikkatle gözlemlemeye davet ediyordu.",
           "visual": "Pencereden gökyüzü ve bahçedeki ağaç görünür; gece-gündüz geçişi planlanır.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-06-01.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.184,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-06-02",
@@ -496,9 +604,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Bir ağacın nasıl büyüdüğünü araştırabilirim. Gözlemledikçe hem yeni bilgiler öğreniyor hem de daha çok soru soruyorum.",
           "visual": "Elif ağacın farklı mevsimlerdeki gözlem çizimlerini karşılaştırır.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-06-02.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.392,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-06-03",
@@ -506,9 +617,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Deniz",
           "text": "Ama ağacın büyümesiyle benim bir arkadaşıma yardım etmeyi seçmem aynı şey değil. Aradaki farkı konuşalım mı?",
           "visual": "Deniz doğa süreci ve yardım davranışı için iki ayrı kart açar.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-06-03.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.104,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-06-04",
@@ -516,9 +630,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "Doğadaki süreçler ile ahlaki kararlar aynı türden değildir. İnsan, davranışını değerlendirebilir ve nasıl davranacağını seçebilir.",
           "visual": "Öğretmen, gözlem ve seçim kartlarını ayrı tutarak ilişkilendirir.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-06-04.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.952,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-06-05",
@@ -526,9 +643,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Yerdeki kâğıdı görmezden gelebilirdim. Çevreyi temiz tutmayı doğru bulduğum için onu kutuya atmayı seçtim.",
           "visual": "Elif yerdeki kâğıdı uygun atık kutusuna bırakır.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-06-05.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.912,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-06-06",
@@ -536,9 +656,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "İslam inancında insana verilen akıl ve irade, sorumlulukla ilişkilidir. Rehberlik, seçimlerimizi düşünmemize yardım eder.",
           "visual": "Öğretmen, akıl, seçim ve sorumluluğu simgeleyen sade bir şema çizer.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-06-06.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 9.312,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-06-07",
@@ -546,9 +669,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Doğayı anlamakla davranışını değerlendirmeyi ayırdılar. Sonraki sayfada, insanın yaptığı küçük bir robot onları bekliyordu.",
           "visual": "İki ayrı kavram kutusunun yanına küçük bir eğitim robotu çizilir.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-06-07.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.496,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         }
       ]
     },
@@ -573,9 +699,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Deniz küçük robotunu masaya koydu. Robot çizgiyi izliyor, önündeki engeli fark edince duruyordu.",
           "visual": "Masa üzerinde çizgi izleyen basit bir eğitim robotu; Elif ile Deniz gözlemler.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-07-01.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.528,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-07-02",
@@ -583,9 +712,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Deniz",
           "text": "Onun için komutlar yazdım, parçalarını birleştirdim. Şimdi belirli işleri nasıl yaptığını sana gösterebilirim.",
           "visual": "Deniz robotun parçalarını ve komut kartlarını gösterir.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-07-02.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.056,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-07-03",
@@ -593,9 +725,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Bir cihaz bir işi çok hızlı yapabilir. Ama hız ile hayatın anlamını düşünmek aynı soru değil.",
           "visual": "Elif, hız simgesi ile düşünme simgesini ayrı kartlara yerleştirir.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-07-03.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.264,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-07-04",
@@ -603,9 +738,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "Metindeki robot bir benzetme örneğidir. Onu, bütün teknolojiler için yapılmış teknik bir ölçüm gibi okumayalım.",
           "visual": "Öğretmen robot örneğinin çevresine belirli bir benzetme çerçevesi çizer.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-07-04.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.512,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-07-05",
@@ -613,9 +751,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "O hâlde hangi bağlantının anlatıldığını soralım. Benzetmenin her ayrıntısının aynı olması gerekmiyor.",
           "visual": "Elif, örnek ile sonuç arasında tek bir bağlantı oku çizer.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-07-05.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 6.696,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-07-06",
@@ -623,9 +764,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "İslam inancında Allah’ın ilmi ve kudreti insanınki gibi sınırlı değildir. Allah’ı insan veya makine gibi tasvir etmeyiz.",
           "visual": "Öğretmen yalnızca yazılı kavram kartlarıyla açıklar; ilahî varlık görüntülenmez.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-07-06.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.28,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-07-07",
@@ -633,9 +777,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Robot kapandı, keşif defteri açık kaldı. Saraydan bugüne uzanan soruları tek bir haritada birleştirmenin zamanı gelmişti.",
           "visual": "Robot kenara alınır; büyük bir düşünce haritası için defter açılır.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-07-07.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.904,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         }
       ]
     },
@@ -661,9 +808,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Keşif kartları aynı masada buluştu. Saray, amaç, mesaj, Dünya, doğa ve robot artık birbirine bağlanıyordu.",
           "visual": "Bütün durakların simgeleri büyük bir masa üzerinde sıralanır.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-08-01.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.968,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-08-02",
@@ -671,9 +821,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Deniz",
           "text": "İlk başta ayrı örnekler görüyordum. Şimdi metnin aynı soruyu farklı benzetmelerle adım adım açtığını fark ediyorum.",
           "visual": "Deniz kartlar arasında bağlantı okları çizer.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-08-02.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.608,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-08-03",
@@ -681,9 +834,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Metin, insanın amaçsız ve rehbersiz bırakıldığı düşüncesini sorguluyor. Saray örneğinden başlayan sorular buraya uzanıyor.",
           "visual": "Elif, ilk soru kartını son kavram haritasının yanına koyar.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-08-03.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.304,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-08-04",
@@ -691,9 +847,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Derya Öğretmen",
           "text": "İslam inancında yaratılış hikmetlidir; insan sorumludur. Peygamberler ve vahiy, insanın hayatında ilahî rehberliği anlatır.",
           "visual": "Öğretmen amaç, sorumluluk ve rehberliği gösteren üç kartı ilişkilendirir.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-08-04.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.952,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-08-05",
@@ -701,9 +860,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Elif",
           "text": "Ben de bu düşüncenin hayatımdaki karşılığını arayacağım. Suyu dikkatli kullanmak, paylaşmak ve saygıyla konuşmakla başlayabilirim.",
           "visual": "Elif, günlük hayatında seçtiği üç davranışı defterine yazar.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-08-05.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.328,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ortak-08-06",
@@ -711,9 +873,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Deniz",
           "text": "Bütün sorularımız bugün bitmedi. Ama sorumu nasıl soracağımı ve öğrendiğimi nasıl düşüneceğimi daha iyi biliyorum.",
           "visual": "Deniz ilk sorusunu yeniden okur ve yanına yeni bir soru ekler.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-08-06.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 7.416,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ortak-08-07",
@@ -721,9 +886,12 @@ window.MERAK_COMMON_STORY = {
           "speaker": "Anlatıcı",
           "text": "Ortak hikâye tamamlandı. Kaynak metin aynen yerinde duruyor. Şimdi herkes kendi sınıfındaki öğrenme yoluna devam edebilir.",
           "visual": "Defterin yanında ortaokul, lise ve üniversite yollarını gösteren sade kartlar açılır.",
-          "audioUrl": "",
+          "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-08-07.mp3",
           "imageUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "demo",
+          "audioDuration": 8.112,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         }
       ]
     }

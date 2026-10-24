@@ -1,5 +1,8 @@
 # İğneden Kâinata: Bir Sorunun İzinde
 
+
+> 24 Ekim 2026 güncellemesi: Hazır içeriklere 232 ayrı Türkçe örnek MP3 bağlandı. Öğrenci akışı artık görsel + ses oynatımıdır; aşağıdaki yazılı dökümler öğretmenin senaryo arşividir. Sekiz saniye üretim hedefidir; oynatıcı konuşmayı kesmez. Güncel ses durumu ve değiştirme yolu SESLENDIRME-PLANI.md içindedir.
+
 Ana sayfadaki ikinci hikâye. Kullanıcının tam metni `assets/ikinci-hikaye-kaynak.txt` içinde korunur. Ekrandaki konuşmalar bu metni ele alan özgün uyarlamadır.
 
 4 bölüm × 7 sahne; hedef 8 saniye/sahne, toplam 224 saniye. Bunlar üretim hedefidir. Sessiz otomatik okumada süre, repliğin uzunluğuna göre en az 8 saniyedir. Ses kayıtları sonradan eklenecek; gerçek ses bitmeden sahne değiştirilmez.

@@ -1,15 +1,26 @@
 # Kontroller
 
-Uygulama paket kurulumu gerektirmez. Testler Node.js, Playwright/Chromium ve SQL testi için `@electric-sql/pglite` kullanır. Test araçlarını ayrı bir geçici klasöre kurup `NODE_PATH` ile onun `node_modules` dizinini gösterebilirsin. Sistem Chromium kullanılıyorsa `CHROMIUM_PATH` yolunu belirt.
+Testler Node.js, Playwright ve Chromium kullanır. Sistem tarayıcısı için `CHROMIUM_PATH=/usr/bin/chromium` belirtilebilir. Her test kendi geçici HTTP sunucusunu açıp kapatır; canlı platforma veri yazmaz.
 
 ```sh
-node tests/portal-smoke.cjs
-node tests/questions-workflow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/audio-workflow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/public-learning-flow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/studio-workflow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/common-story-flow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/visual-story-flow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/audience-flow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/navigation-flow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/discovery-flow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/questions-workflow.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/portal-smoke.cjs
 node tests/questions-permissions.cjs
 ```
 
-- Portal testi geçici HTTP sunucusunu kendisi başlatıp kapatır. Gerçek proje alt dizinini, başlangıç sözleşmesini, sınıf/kitap sırasını, 320/390/768/1440 piksel ekranları, hikâye/video/öğretmen gezinmesini, eski ilerleme taşınmasını, kaynak metni ve dış isteksiz çalışmayı kontrol eder.
-- Soru iş akışı testi, gerçek bir sunucuya veri göndermeden API yanıtlarını tarayıcı içinde taklit eder. Gönderim/takip kodu/özel cevap/yanlış kod/yetkisiz hesap/eğitimci yanıtı ve HTML kaçışlarını kontrol eder.
-- Yetki testi SQL dosyasını gerçek bir yerel Postgres motorunda (PGlite) çalıştırır. Supabase Auth için test şeması kullanır; tabloya doğrudan erişimi, özel kod ayrımını, normal kullanıcı ile yetkili eğitimciyi, cevap yazmayı, token özetini ve istek sınırını kontrol eder.
+- Ses testi 232 gerçek MP3'ün metin/dosya özetlerini, 105 görselli sahnenin doğru kayıtla açılmasını, gerçek `ended` geçişini, duraklatma, altyazı, hata/yeniden deneme, tek medya öğesiyle üst üste binmeyen sesleri, değiştirme önceliğini ve altı ekran genişliğini doğrular. Testte zaman kazanmak için ses bitişine yaklaştırma ve hızlı oynatma kullanılır; uygulamanın normal ses hızı değiştirilmez.
+- Öğretmen testi düzenlenebilir ders taslaklarını, metin indirme/yazdırmayı, güvenli altyazıları ve sesli sınıf sunumunu kontrol eder. Atölye testi yerel dosya denemesini ve sekiz saniyeyi aşan kayıtların kesilmemesini doğrular.
+- Hikâye testleri bölüm adreslerini, kaynak metinlerin aynen korunmasını, senaryo indirmeyi, sahne/görsel/efekt eşleşmesini ve yalnızca açıp geçerek tamamlanamamasını doğrular.
+- Arayüz testleri yaşa göre alanları, slaytları, mobil sol menüyü, odak/scroll yönetimini ve soru penceresi açılınca sesin durmasını kontrol eder.
+- Portal testi mevcut öğretmen senaryo arşivini, kitap sırasını, kaynak metni ve eski ilerleme taşınmasını korur. Bu yazılı arşiv öğrenciye zorunlu okuma olarak açılmaz.
+- Soru testi taklit API yanıtlarıyla özel takip kodu, yetkisiz erişimin reddi ve HTML kaçışlarını doğrular. SQL testi `@electric-sql/pglite` ile özel veri yetkilerini kontrol eder.
 
-Bu testler canlı Supabase bağlantısı veya canlı veri işleme izni anlamına gelmez. Soru hizmeti kaynak kodda şu anda bağlı değildir. Testler yeni tarayıcı profili kullanır; gerçek öğrenci kayıtlarını değiştirmez. Kitapların tam PDF'leri test çıktısına veya depoya dahil edilmez.
+Testler gerçek öğrenci verilerini veya canlı Supabase bağlantısını kullanmaz; soru servisi henüz yapılandırılmamıştır. Hesap ve zorunlu sözleşme onayı yoktur. Kitapların tam PDF'leri yayımlanmaz.

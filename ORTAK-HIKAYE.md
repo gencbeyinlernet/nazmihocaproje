@@ -1,5 +1,8 @@
 # Saraydan Dünyaya: Büyük Keşif
 
+
+> 24 Ekim 2026 güncellemesi: Hazır içeriklere 232 ayrı Türkçe örnek MP3 bağlandı. Öğrenci akışı artık görsel + ses oynatımıdır; aşağıdaki yazılı dökümler öğretmenin senaryo arşividir. Sekiz saniye üretim hedefidir; oynatıcı konuşmayı kesmez. Güncel ses durumu ve değiştirme yolu SESLENDIRME-PLANI.md içindedir.
+
 Tüm eğitim düzeylerinin ortak ilk hikâyesi. Verilen metin `assets/source.txt` içinde değiştirilmeden korunur. Aşağıdaki anlatım özgün bir uyarlamadır; kaynak metnin yerine geçmez.
 
 8 durak × 7 sahne × 8 saniye = 448 saniyelik (7 dakika 28 saniye) hedef senaryo. Bunlar planlanan sürelerdir; ses ve sahne görselleri henüz üretilmemiştir. Okuma akışı hazırdır.

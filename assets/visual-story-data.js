@@ -1,5 +1,5 @@
 'use strict';
-// Original visual story adaptation. User source is kept separately and unchanged.
+// Original adaptation. Source text is preserved separately; synthetic demo audio is replaceable.
 window.MERAK_VISUAL_STORY = {
   "id": "igneden-kainata",
   "title": "İğneden Kâinata: Bir Sorunun İzinde",
@@ -24,8 +24,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Bir soru ile başlayalım",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-1.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "İğne",
@@ -37,7 +37,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 77,
               "y": 45
             }
-          ]
+          ],
+          "audioDuration": 8.304,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-1-2",
@@ -49,15 +52,18 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1.18,
           "caption": "İğne ve yapılışı",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-2.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "İğne",
               "x": 42,
               "y": 52
             }
-          ]
+          ],
+          "audioDuration": 9.192,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-1-3",
@@ -69,15 +75,18 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1.24,
           "caption": "İğneye yakından bak",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-3.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "İğne",
               "x": 42,
               "y": 52
             }
-          ]
+          ],
+          "audioDuration": 10.344,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ikinci-1-4",
@@ -89,8 +98,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1.08,
           "caption": "Sıra, masa ve bina",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-4.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Sıra",
@@ -102,7 +111,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 51,
               "y": 36
             }
-          ]
+          ],
+          "audioDuration": 8.568,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-1-5",
@@ -114,8 +126,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1.1,
           "caption": "Araçlar ve robot",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-5.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Uçak",
@@ -137,7 +149,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 88,
               "y": 57
             }
-          ]
+          ],
+          "audioDuration": 8.88,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ikinci-1-6",
@@ -149,8 +164,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Nesnelerden kâinata",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-6.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Dünya",
@@ -162,7 +177,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 49,
               "y": 14
             }
-          ]
+          ],
+          "audioDuration": 9.24,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-1-7",
@@ -174,8 +192,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "İddia · Örnek · Sonuç",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-7.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "İğne",
@@ -187,7 +205,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 73,
               "y": 43
             }
-          ]
+          ],
+          "audioDuration": 9.6,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         }
       ]
     },
@@ -208,8 +229,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Yeni soru, yeni örnek",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-1.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Lokomotif",
@@ -221,7 +242,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 77,
               "y": 47
             }
-          ]
+          ],
+          "audioDuration": 7.752,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ikinci-2-2",
@@ -233,15 +257,18 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1.1,
           "caption": "Vagonların bağlantısı",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-2.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Vagonlar",
               "x": 80,
               "y": 48
             }
-          ]
+          ],
+          "audioDuration": 8.136,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-2-3",
@@ -253,15 +280,18 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1.1,
           "caption": "Lokomotifin görevi",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-3.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Lokomotif",
               "x": 27,
               "y": 48
             }
-          ]
+          ],
+          "audioDuration": 9.48,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ikinci-2-4",
@@ -273,8 +303,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Hareketi sağlamak ve aktarmak",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-4.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Lokomotif",
@@ -286,7 +316,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 59,
               "y": 50
             }
-          ]
+          ],
+          "audioDuration": 9.624,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-2-5",
@@ -298,15 +331,18 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Bağlantının sonundaki soru",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-5.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Kâinat",
               "x": 49,
               "y": 14
             }
-          ]
+          ],
+          "audioDuration": 10.896,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-2-6",
@@ -318,15 +354,18 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1.04,
           "caption": "Yaratan ve yaratılan ayrımı",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-6.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Dünya",
               "x": 69,
               "y": 47
             }
-          ]
+          ],
+          "audioDuration": 9.696,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-2-7",
@@ -338,8 +377,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Örneğin bağlantısı ve sınırı",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-7.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Lokomotif",
@@ -351,7 +390,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 80,
               "y": 48
             }
-          ]
+          ],
+          "audioDuration": 9.216,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         }
       ]
     },
@@ -372,15 +414,18 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Görev sırası benzetmesi",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-1.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Görev sırası",
               "x": 49,
               "y": 47
             }
-          ]
+          ],
+          "audioDuration": 8.64,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-3-2",
@@ -392,15 +437,18 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Benzetmenin sınırını fark et",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-2.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Görev sırası",
               "x": 49,
               "y": 47
             }
-          ]
+          ],
+          "audioDuration": 9.768,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-3-3",
@@ -412,8 +460,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Narın çevresindeki bağlantılar",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-3.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Nar",
@@ -425,7 +473,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 27,
               "y": 36
             }
-          ]
+          ],
+          "audioDuration": 7.44,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ikinci-3-4",
@@ -437,8 +488,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1.08,
           "caption": "Su, toprak ve ağaç",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-4.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Su",
@@ -455,7 +506,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 25,
               "y": 67
             }
-          ]
+          ],
+          "audioDuration": 8.832,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-3-5",
@@ -467,8 +521,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1.04,
           "caption": "Kâinat fabrikası benzetmesi",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-5.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Nar ağacı",
@@ -480,7 +534,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 86,
               "y": 14
             }
-          ]
+          ],
+          "audioDuration": 11.256,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-3-6",
@@ -492,15 +549,18 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Sürekli başka bir halka mı?",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-6.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Bağlantılar",
               "x": 57,
               "y": 43
             }
-          ]
+          ],
+          "audioDuration": 10.392,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ikinci-3-7",
@@ -512,8 +572,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Birbirine bağlanan örnekler",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-7.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Nar",
@@ -525,7 +585,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 27,
               "y": 36
             }
-          ]
+          ],
+          "audioDuration": 8.136,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         }
       ]
     },
@@ -546,8 +609,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Metnin ulaştığı düşünce",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-1.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Dünya",
@@ -559,7 +622,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 49,
               "y": 14
             }
-          ]
+          ],
+          "audioDuration": 10.056,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ikinci-4-2",
@@ -571,15 +637,18 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1.03,
           "caption": "Başlangıca ihtiyaç duymamak",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-2.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Kâinat",
               "x": 49,
               "y": 14
             }
-          ]
+          ],
+          "audioDuration": 11.088,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-4-3",
@@ -591,8 +660,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Görsel neyi temsil ediyor?",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-3.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Dünya",
@@ -604,7 +673,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 23,
               "y": 75
             }
-          ]
+          ],
+          "audioDuration": 9.456,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-4-4",
@@ -616,8 +688,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Hayatın çevresindeki unsurlar",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-4.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Toprak",
@@ -634,7 +706,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 86,
               "y": 14
             }
-          ]
+          ],
+          "audioDuration": 9.744,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         },
         {
           "id": "ikinci-4-5",
@@ -646,8 +721,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1.04,
           "caption": "Nasıl ve anlam soruları",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-5.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Doğa",
@@ -659,7 +734,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 25,
               "y": 67
             }
-          ]
+          ],
+          "audioDuration": 10.416,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-4-6",
@@ -671,8 +749,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Dört örnek, bir düşünce yolu",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-6.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "İğne",
@@ -689,7 +767,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 65,
               "y": 40
             }
-          ]
+          ],
+          "audioDuration": 8.928,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · dfki"
         },
         {
           "id": "ikinci-4-7",
@@ -701,8 +782,8 @@ window.MERAK_VISUAL_STORY = {
           "zoom": 1,
           "caption": "Yeni sorulara açık bir son",
           "seconds": 8,
-          "audioUrl": "",
-          "audioApproval": "pending",
+          "audioUrl": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-7.mp3",
+          "audioApproval": "demo",
           "focusTerms": [
             {
               "label": "Dünya",
@@ -714,7 +795,10 @@ window.MERAK_VISUAL_STORY = {
               "x": 23,
               "y": 75
             }
-          ]
+          ],
+          "audioDuration": 11.04,
+          "audioKind": "synthetic-demo",
+          "audioVoice": "Türkçe örnek anlatım · fettah"
         }
       ]
     }

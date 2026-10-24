@@ -1,5 +1,8 @@
 # Merak Bahçesi · 8 haftalık kısa video senaryoları
 
+
+> 24 Ekim 2026 güncellemesi: Hazır içeriklere 232 ayrı Türkçe örnek MP3 bağlandı. Öğrenci akışı artık görsel + ses oynatımıdır; aşağıdaki yazılı dökümler öğretmenin senaryo arşividir. Sekiz saniye üretim hedefidir; oynatıcı konuşmayı kesmez. Güncel ses durumu ve değiştirme yolu SESLENDIRME-PLANI.md içindedir.
+
 Hedef grup: 13–18 yaş. Her hafta tek konu, 60–90 saniyelik bir video ve yaklaşık 15–20 dakikalık çalışma. Haftalar tarih kilidi olmadan öğrenme sırasını gösterir. Önce senaryo değerlendirilir, sonra video hazırlanır. Videolar henüz üretilmemiştir.
 
 Özgün metin `assets/source.txt` dosyasında değiştirilmeden korunur. Aşağıdaki senaryolar ayrı uyarlamalardır; kaynak alıntıları aynen verilmiştir. Öğretmen ve içerik sorumlusu değerlendirmesinden sonra video üretimine geçilir.

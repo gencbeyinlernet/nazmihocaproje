@@ -10,9 +10,11 @@ Platformun özgün hikâye, senaryo, görsel ve etkinliklerini sınıfta sunabil
 
 Ders kitaplarının konu sırası ve sayfa referansları kaynak gösterilir. Kitapların tam PDF’leri bu sitede yayınlanmaz. Üçüncü taraf kitapların ve dış hizmetlerin kendi koşulları geçerlidir. Hikâyeler özgün uyarlamalardır; kullanıcının verdiği iki kaynak metnin tamamı ayrıca değiştirilmeden korunur.
 
+Geçici sentetik seslerin model/veri kümesi lisansları ayrıca geçerlidir. DFKI örnek kayıtları kaynak gösterilerek ticari olmayan amaçlarla, aynı CC BY-NC-SA 4.0 lisansıyla paylaşılır. [Ses kaynak ve lisans bilgisi](assets/audio/CREDITS.md). Gerçek kayıtlar geldikçe bu örnekler değiştirilebilir.
+
 ## Bu cihazdaki bilgiler
 
-Okunan duraklar, incelenen sahneler, son açılan içerik ve önceki öğrenme etkinliğinin ilerlemesi tarayıcıda saklanır. Önceki sertifikaya yazılmış ad da bu cihazda bulunabilir. Kayıtlar diğer cihazlara otomatik taşınmaz. Öğretmenin düzenlediği ders planı sayfada geçici tutulur; indirildiğinde kendi cihazında dosya olur. Hesap veya sunucu kaydı yapılmaz.
+Dinlenen duraklar, tamamlanan sahneler, son açılan içerik ve önceki öğrenme etkinliğinin ilerlemesi tarayıcıda saklanır. Önceki sertifikaya yazılmış ad da bu cihazda bulunabilir. Kayıtlar diğer cihazlara otomatik taşınmaz. Öğretmenin düzenlediği ders planı sayfada geçici tutulur; indirildiğinde kendi cihazında dosya olur. Hesap veya sunucu kaydı yapılmaz.
 
 Paylaşım ve gizlilik penceresindeki “Bu cihazdaki öğrenme kayıtlarını sil” düğmesi yerel ilerleme ve varsa soru takip kodunu siler. Site üyelik veya yeniden onay istemeden açılmaya devam eder. Bu işlem gelecekteki soru sunucusunun kayıtlarını silmez.
 

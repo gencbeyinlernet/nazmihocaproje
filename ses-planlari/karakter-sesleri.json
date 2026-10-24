@@ -1,5 +1,5 @@
 {
-  "status": "deferred-until-user-upload",
+  "status": "replaceable-demo",
   "locale": "tr-TR",
   "profiles": {
     "zehra": {
@@ -7,28 +7,28 @@
       "label": "Kız çocuk · 10–11 yaş",
       "kind": "child",
       "gender": "female",
-      "instructions": "10–11 yaşlarında bir kız karakterin doğal, akıcı Türkiye Türkçesi. Meraklı ve içten ton; anlaşılır kelimeler ve doğal duraklamalar. Aynı karakter sesi hikâyeler boyunca korunacak. Ses dosyası çalışmanın sonunda eklenecek."
+      "instructions": "10–11 yaşlarında bir kız karakterin doğal, akıcı Türkiye Türkçesi. Meraklı ve içten ton; anlaşılır kelimeler ve doğal duraklamalar. Aynı karakter sesi hikâyeler boyunca korunacak. Geçici örnek ses hazır; hedef karakter kaydıyla değiştirilebilir."
     },
     "omer": {
       "name": "Ömer",
       "label": "Erkek çocuk · 10–11 yaş",
       "kind": "child",
       "gender": "male",
-      "instructions": "10–11 yaşlarında bir erkek karakterin doğal, akıcı Türkiye Türkçesi. Arkadaşça, canlı ve anlaşılır ton; cümle anlamına uygun vurgular. Aynı karakter sesi hikâyeler boyunca korunacak. Ses dosyası çalışmanın sonunda eklenecek."
+      "instructions": "10–11 yaşlarında bir erkek karakterin doğal, akıcı Türkiye Türkçesi. Arkadaşça, canlı ve anlaşılır ton; cümle anlamına uygun vurgular. Aynı karakter sesi hikâyeler boyunca korunacak. Geçici örnek ses hazır; hedef karakter kaydıyla değiştirilebilir."
     },
     "ogretmen": {
       "name": "Öğretmen",
       "label": "Yetişkin kadın · öğretmen",
       "kind": "adult",
       "gender": "female",
-      "instructions": "Kadın öğretmen sesi. Akıcı Türkiye Türkçesi, sıcak ve sabırlı açıklama tonu, anlaşılır tempo. Ses dosyası çalışmanın sonunda eklenecek."
+      "instructions": "Kadın öğretmen sesi. Akıcı Türkiye Türkçesi, sıcak ve sabırlı açıklama tonu, anlaşılır tempo. Geçici örnek ses hazır; hedef karakter kaydıyla değiştirilebilir."
     },
     "anlatici": {
       "name": "Anlatıcı",
       "label": "Yetişkin erkek · anlatıcı",
       "kind": "adult",
       "gender": "male",
-      "instructions": "Erkek anlatıcı sesi. Akıcı Türkiye Türkçesi, dengeli ve merak uyandıran bir hikâye anlatımı; doğal cümle sonları. Ses dosyası çalışmanın sonunda eklenecek."
+      "instructions": "Erkek anlatıcı sesi. Akıcı Türkiye Türkçesi, dengeli ve merak uyandıran bir hikâye anlatımı; doğal cümle sonları. Geçici örnek ses hazır; hedef karakter kaydıyla değiştirilebilir."
     }
   },
   "scenes": [
@@ -43,7 +43,9 @@
       "text": "Zehra ve Ömer, Gökyüzü Kulübünün ilk gözlem gününde okul bahçesine çıkıyor.",
       "targetSeconds": 8,
       "deliveryFilename": "gozlem-kulubu-01-anlatici.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-01.mp3",
+      "actualSeconds": 5.52
     },
     {
       "sceneId": "gozlem-kulubu-02",
@@ -56,7 +58,9 @@
       "text": "Bu çiçek güneş ışığıyla büyüyor. Arılar da çiçeklerle nasıl bir ilişki kuruyor?",
       "targetSeconds": 8,
       "deliveryFilename": "gozlem-kulubu-02-zehra.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-02.mp3",
+      "actualSeconds": 5.352
     },
     {
       "sceneId": "gozlem-kulubu-03",
@@ -69,7 +73,9 @@
       "text": "Arı nektar toplarken çiçekler arasında polen taşıyabiliyor. Canlılar birbirine bağlı.",
       "targetSeconds": 8,
       "deliveryFilename": "gozlem-kulubu-03-omer.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-03.mp3",
+      "actualSeconds": 5.688
     },
     {
       "sceneId": "gozlem-kulubu-04",
@@ -82,7 +88,9 @@
       "text": "Gökyüzündeki hareketlerde ve doğada düzen gözlemleriz. Bunları dikkatle inceleyebiliriz.",
       "targetSeconds": 8,
       "deliveryFilename": "gozlem-kulubu-04-ogretmen.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-04.mp3",
+      "actualSeconds": 6.456
     },
     {
       "sceneId": "gozlem-kulubu-05",
@@ -95,7 +103,9 @@
       "text": "Yağmur toprağı besliyor, bitkiler büyüyor. Birçok olay birbirini tamamlıyor.",
       "targetSeconds": 8,
       "deliveryFilename": "gozlem-kulubu-05-zehra.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-05.mp3",
+      "actualSeconds": 5.304
     },
     {
       "sceneId": "gozlem-kulubu-06",
@@ -108,7 +118,9 @@
       "text": "İslam, evrendeki düzen üzerine düşünmemizi ister. Bu gözlemler bize Allah’ın yaratışını hatırlatır.",
       "targetSeconds": 8,
       "deliveryFilename": "gozlem-kulubu-06-ogretmen.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-06.mp3",
+      "actualSeconds": 7.008
     },
     {
       "sceneId": "gozlem-kulubu-07",
@@ -121,7 +133,9 @@
       "text": "Gördüklerimizi defterimize yazalım. Sonra Allah’ın varlığı ve birliğini birlikte düşünelim.",
       "targetSeconds": 8,
       "deliveryFilename": "gozlem-kulubu-07-omer.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-07.mp3",
+      "actualSeconds": 5.784
     },
     {
       "sceneId": "birligin-anlami-01",
@@ -134,7 +148,9 @@
       "text": "Zehra ve Ömer, gözlemlerinin ardından Allah’ın varlığı ve birliği üzerine konuşuyor.",
       "targetSeconds": 8,
       "deliveryFilename": "birligin-anlami-01-anlatici.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-01.mp3",
+      "actualSeconds": 6.552
     },
     {
       "sceneId": "birligin-anlami-02",
@@ -147,7 +163,9 @@
       "text": "Doğadaki düzen hakkında düşündük. Peki, İslam’da Allah’ın birliğine inanmak ne demek?",
       "targetSeconds": 8,
       "deliveryFilename": "birligin-anlami-02-omer.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-02.mp3",
+      "actualSeconds": 5.736
     },
     {
       "sceneId": "birligin-anlami-03",
@@ -160,7 +178,9 @@
       "text": "Allah’ın birliğine inanmak tevhit demektir. İslam’a göre Allah’ın eşi ve benzeri yoktur.",
       "targetSeconds": 8,
       "deliveryFilename": "birligin-anlami-03-ogretmen.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-03.mp3",
+      "actualSeconds": 6.36
     },
     {
       "sceneId": "birligin-anlami-04",
@@ -173,7 +193,9 @@
       "text": "Allah’ı çevremizde gördüğümüz varlıklar gibi düşünmememiz gerektiğini anlıyorum.",
       "targetSeconds": 8,
       "deliveryFilename": "birligin-anlami-04-zehra.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-04.mp3",
+      "actualSeconds": 4.92
     },
     {
       "sceneId": "birligin-anlami-05",
@@ -186,7 +208,9 @@
       "text": "Allah yaratandır. O’nu insanlara, hayvanlara veya başka bir varlığa benzetmeyiz.",
       "targetSeconds": 8,
       "deliveryFilename": "birligin-anlami-05-ogretmen.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-05.mp3",
+      "actualSeconds": 5.832
     },
     {
       "sceneId": "birligin-anlami-06",
@@ -199,7 +223,9 @@
       "text": "Tevhit kavramını kendi cümlelerimizle yazalım. Sorularımızı da birlikte konuşalım.",
       "targetSeconds": 8,
       "deliveryFilename": "birligin-anlami-06-omer.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-06.mp3",
+      "actualSeconds": 5.256
     },
     {
       "sceneId": "birligin-anlami-07",
@@ -212,7 +238,9 @@
       "text": "Allah’ın birliğini öğrendik. Şimdi O’nun güzel isimlerini ve anlamlarını merak ediyorum.",
       "targetSeconds": 8,
       "deliveryFilename": "birligin-anlami-07-zehra.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/birligin-anlami/birligin-anlami-07.mp3",
+      "actualSeconds": 5.736
     },
     {
       "sceneId": "guzel-isimler-01",
@@ -225,7 +253,9 @@
       "text": "Kulübün yeni buluşmasında Zehra ile Ömer, Allah’ın güzel isimlerini araştırıyor.",
       "targetSeconds": 8,
       "deliveryFilename": "guzel-isimler-01-anlatici.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-01.mp3",
+      "actualSeconds": 5.592
     },
     {
       "sceneId": "guzel-isimler-02",
@@ -238,7 +268,9 @@
       "text": "Allah’ın güzel isimlerine esmayıhüsna deniyor. Bu isimler bize neler anlatıyor?",
       "targetSeconds": 8,
       "deliveryFilename": "guzel-isimler-02-zehra.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-02.mp3",
+      "actualSeconds": 5.376
     },
     {
       "sceneId": "guzel-isimler-03",
@@ -251,7 +283,9 @@
       "text": "Bu isimler Allah’ı tanımamıza yardımcı olur. Her birinin anlamını dikkatle öğrenelim.",
       "targetSeconds": 8,
       "deliveryFilename": "guzel-isimler-03-ogretmen.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-03.mp3",
+      "actualSeconds": 5.832
     },
     {
       "sceneId": "guzel-isimler-04",
@@ -264,7 +298,9 @@
       "text": "Bir canlının ihtiyacını fark edip yardım ettiğimizde merhamet üzerine düşünebiliriz.",
       "targetSeconds": 8,
       "deliveryFilename": "guzel-isimler-04-omer.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-04.mp3",
+      "actualSeconds": 5.952
     },
     {
       "sceneId": "guzel-isimler-05",
@@ -277,7 +313,9 @@
       "text": "Allah’ın merhametini, bilmesini, görmesini ve işitmesini anlatan isimleri sırayla inceleyeceğiz.",
       "targetSeconds": 8,
       "deliveryFilename": "guzel-isimler-05-ogretmen.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-05.mp3",
+      "actualSeconds": 7.2
     },
     {
       "sceneId": "guzel-isimler-06",
@@ -290,7 +328,9 @@
       "text": "İsimleri yalnızca ezberlemek yerine anlamlarını öğrenmek istiyorum. Sorularımı defterime yazacağım.",
       "targetSeconds": 8,
       "deliveryFilename": "guzel-isimler-06-zehra.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-06.mp3",
+      "actualSeconds": 6.504
     },
     {
       "sceneId": "guzel-isimler-07",
@@ -303,7 +343,9 @@
       "text": "Bir sonraki buluşmada Rahman ve Rahîm isimlerinin anlamını konuşacaklar.",
       "targetSeconds": 8,
       "deliveryFilename": "guzel-isimler-07-anlatici.mp3",
-      "status": "deferred-until-user-upload"
+      "status": "synthetic-demo",
+      "audioUrl": "assets/audio/anlatim/guzel-isimler/guzel-isimler-07.mp3",
+      "actualSeconds": 5.4
     }
   ]
 }
