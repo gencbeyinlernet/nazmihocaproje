@@ -281,3 +281,39 @@ Görsel: assets/visual-story/cosmos.png
 Efekt: orbit
 Odak: 65% 45%
 Gelecek ses dosyası: assets/audio/ikinci-hikaye/ikinci-4-7.mp3
+
+
+## Konuşmalara göre görselde öne çıkanlar
+
+Bu sözcükler konuşmanın görselinde konum işaretleriyle belirtilir; görseli büyütme penceresi aynı sahnenin tam resmini gösterir. Bölüm sayacı görüntülenen sahne sayısını gösterir; ses dinleme veya sınav puanı sayılmaz.
+
+| Sahne | Öne çıkanlar |
+| --- | --- |
+| ikinci-1-1 | İğne, Araçlar |
+| ikinci-1-2 | İğne |
+| ikinci-1-3 | İğne |
+| ikinci-1-4 | Sıra, Bina |
+| ikinci-1-5 | Uçak, Araba, Robot, Tren |
+| ikinci-1-6 | Dünya, Kâinat |
+| ikinci-1-7 | İğne, Örnekler |
+| ikinci-2-1 | Lokomotif, Vagonlar |
+| ikinci-2-2 | Vagonlar |
+| ikinci-2-3 | Lokomotif |
+| ikinci-2-4 | Lokomotif, Bağlantı |
+| ikinci-2-5 | Kâinat |
+| ikinci-2-6 | Dünya |
+| ikinci-2-7 | Lokomotif, Vagonlar |
+| ikinci-3-1 | Görev sırası |
+| ikinci-3-2 | Görev sırası |
+| ikinci-3-3 | Nar, Ağaç |
+| ikinci-3-4 | Su, Ağaç, Nar |
+| ikinci-3-5 | Nar ağacı, Güneş ışığı |
+| ikinci-3-6 | Bağlantılar |
+| ikinci-3-7 | Nar, Ağaç |
+| ikinci-4-1 | Dünya, Kâinat |
+| ikinci-4-2 | Kâinat |
+| ikinci-4-3 | Dünya, Doğa |
+| ikinci-4-4 | Toprak, Su, Güneş |
+| ikinci-4-5 | Doğa, Nar |
+| ikinci-4-6 | İğne, Tren, Örnekler |
+| ikinci-4-7 | Dünya, Doğa |

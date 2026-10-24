@@ -10,7 +10,7 @@
  window.MerakPortal={base:base.href,gradeId:grade?.id||'',escape};
  if(teacher&&grade){
   const bar=document.createElement('div');bar.className='teacher-mode-bar';bar.innerHTML=`<span>Öğretmen görünümü · Tüm konu planları</span><a href="${location.pathname}">Öğrenci görünümüne dön →</a>`;root.before(bar);
-  const script=document.createElement('script');script.src=url('assets/portal-authoring.js?v=20261024-visual');document.body.append(script);return;
+  const script=document.createElement('script');script.src=url('assets/portal-authoring.js?v=20261024-focus');document.body.append(script);return;
  }
  const productions=window.MERAK_PRODUCTIONS||[],productionFor=id=>productions.find(p=>p.lessonId===id),lessons=grade?grade.units.flatMap(u=>u.lessons):[];
  let unit=grade?.units[0]?String(grade.units[0].number):'all',search='',current=0,stage=0,uniIndex=0;

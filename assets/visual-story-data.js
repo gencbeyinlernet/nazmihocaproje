@@ -25,7 +25,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Bir soru ile başlayalım",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "İğne",
+              "x": 42,
+              "y": 52
+            },
+            {
+              "label": "Araçlar",
+              "x": 77,
+              "y": 45
+            }
+          ]
         },
         {
           "id": "ikinci-1-2",
@@ -38,7 +50,14 @@ window.MERAK_VISUAL_STORY = {
           "caption": "İğne ve yapılışı",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "İğne",
+              "x": 42,
+              "y": 52
+            }
+          ]
         },
         {
           "id": "ikinci-1-3",
@@ -51,7 +70,14 @@ window.MERAK_VISUAL_STORY = {
           "caption": "İğneye yakından bak",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "İğne",
+              "x": 42,
+              "y": 52
+            }
+          ]
         },
         {
           "id": "ikinci-1-4",
@@ -64,7 +90,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Sıra, masa ve bina",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Sıra",
+              "x": 16,
+              "y": 49
+            },
+            {
+              "label": "Bina",
+              "x": 51,
+              "y": 36
+            }
+          ]
         },
         {
           "id": "ikinci-1-5",
@@ -77,7 +115,29 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Araçlar ve robot",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Uçak",
+              "x": 67,
+              "y": 25
+            },
+            {
+              "label": "Araba",
+              "x": 66,
+              "y": 56
+            },
+            {
+              "label": "Robot",
+              "x": 81,
+              "y": 39
+            },
+            {
+              "label": "Tren",
+              "x": 88,
+              "y": 57
+            }
+          ]
         },
         {
           "id": "ikinci-1-6",
@@ -90,7 +150,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Nesnelerden kâinata",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Dünya",
+              "x": 69,
+              "y": 47
+            },
+            {
+              "label": "Kâinat",
+              "x": 49,
+              "y": 14
+            }
+          ]
         },
         {
           "id": "ikinci-1-7",
@@ -103,7 +175,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "İddia · Örnek · Sonuç",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "İğne",
+              "x": 42,
+              "y": 52
+            },
+            {
+              "label": "Örnekler",
+              "x": 73,
+              "y": 43
+            }
+          ]
         }
       ]
     },
@@ -125,7 +209,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Yeni soru, yeni örnek",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Lokomotif",
+              "x": 28,
+              "y": 48
+            },
+            {
+              "label": "Vagonlar",
+              "x": 77,
+              "y": 47
+            }
+          ]
         },
         {
           "id": "ikinci-2-2",
@@ -138,7 +234,14 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Vagonların bağlantısı",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Vagonlar",
+              "x": 80,
+              "y": 48
+            }
+          ]
         },
         {
           "id": "ikinci-2-3",
@@ -151,7 +254,14 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Lokomotifin görevi",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Lokomotif",
+              "x": 27,
+              "y": 48
+            }
+          ]
         },
         {
           "id": "ikinci-2-4",
@@ -164,7 +274,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Hareketi sağlamak ve aktarmak",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Lokomotif",
+              "x": 28,
+              "y": 48
+            },
+            {
+              "label": "Bağlantı",
+              "x": 59,
+              "y": 50
+            }
+          ]
         },
         {
           "id": "ikinci-2-5",
@@ -177,7 +299,14 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Bağlantının sonundaki soru",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Kâinat",
+              "x": 49,
+              "y": 14
+            }
+          ]
         },
         {
           "id": "ikinci-2-6",
@@ -190,7 +319,14 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Yaratan ve yaratılan ayrımı",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Dünya",
+              "x": 69,
+              "y": 47
+            }
+          ]
         },
         {
           "id": "ikinci-2-7",
@@ -203,7 +339,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Örneğin bağlantısı ve sınırı",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Lokomotif",
+              "x": 28,
+              "y": 48
+            },
+            {
+              "label": "Vagonlar",
+              "x": 80,
+              "y": 48
+            }
+          ]
         }
       ]
     },
@@ -225,7 +373,14 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Görev sırası benzetmesi",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Görev sırası",
+              "x": 49,
+              "y": 47
+            }
+          ]
         },
         {
           "id": "ikinci-3-2",
@@ -238,7 +393,14 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Benzetmenin sınırını fark et",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Görev sırası",
+              "x": 49,
+              "y": 47
+            }
+          ]
         },
         {
           "id": "ikinci-3-3",
@@ -251,7 +413,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Narın çevresindeki bağlantılar",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Nar",
+              "x": 25,
+              "y": 67
+            },
+            {
+              "label": "Ağaç",
+              "x": 27,
+              "y": 36
+            }
+          ]
         },
         {
           "id": "ikinci-3-4",
@@ -264,7 +438,24 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Su, toprak ve ağaç",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Su",
+              "x": 82,
+              "y": 73
+            },
+            {
+              "label": "Ağaç",
+              "x": 27,
+              "y": 36
+            },
+            {
+              "label": "Nar",
+              "x": 25,
+              "y": 67
+            }
+          ]
         },
         {
           "id": "ikinci-3-5",
@@ -277,7 +468,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Kâinat fabrikası benzetmesi",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Nar ağacı",
+              "x": 31,
+              "y": 42
+            },
+            {
+              "label": "Güneş ışığı",
+              "x": 86,
+              "y": 14
+            }
+          ]
         },
         {
           "id": "ikinci-3-6",
@@ -290,7 +493,14 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Sürekli başka bir halka mı?",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Bağlantılar",
+              "x": 57,
+              "y": 43
+            }
+          ]
         },
         {
           "id": "ikinci-3-7",
@@ -303,7 +513,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Birbirine bağlanan örnekler",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Nar",
+              "x": 25,
+              "y": 67
+            },
+            {
+              "label": "Ağaç",
+              "x": 27,
+              "y": 36
+            }
+          ]
         }
       ]
     },
@@ -325,7 +547,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Metnin ulaştığı düşünce",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Dünya",
+              "x": 69,
+              "y": 47
+            },
+            {
+              "label": "Kâinat",
+              "x": 49,
+              "y": 14
+            }
+          ]
         },
         {
           "id": "ikinci-4-2",
@@ -338,7 +572,14 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Başlangıca ihtiyaç duymamak",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Kâinat",
+              "x": 49,
+              "y": 14
+            }
+          ]
         },
         {
           "id": "ikinci-4-3",
@@ -351,7 +592,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Görsel neyi temsil ediyor?",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Dünya",
+              "x": 69,
+              "y": 47
+            },
+            {
+              "label": "Doğa",
+              "x": 23,
+              "y": 75
+            }
+          ]
         },
         {
           "id": "ikinci-4-4",
@@ -364,7 +617,24 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Hayatın çevresindeki unsurlar",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Toprak",
+              "x": 69,
+              "y": 79
+            },
+            {
+              "label": "Su",
+              "x": 82,
+              "y": 73
+            },
+            {
+              "label": "Güneş",
+              "x": 86,
+              "y": 14
+            }
+          ]
         },
         {
           "id": "ikinci-4-5",
@@ -377,7 +647,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Nasıl ve anlam soruları",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Doğa",
+              "x": 46,
+              "y": 52
+            },
+            {
+              "label": "Nar",
+              "x": 25,
+              "y": 67
+            }
+          ]
         },
         {
           "id": "ikinci-4-6",
@@ -390,7 +672,24 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Dört örnek, bir düşünce yolu",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "İğne",
+              "x": 42,
+              "y": 52
+            },
+            {
+              "label": "Tren",
+              "x": 88,
+              "y": 57
+            },
+            {
+              "label": "Örnekler",
+              "x": 65,
+              "y": 40
+            }
+          ]
         },
         {
           "id": "ikinci-4-7",
@@ -403,7 +702,19 @@ window.MERAK_VISUAL_STORY = {
           "caption": "Yeni sorulara açık bir son",
           "seconds": 8,
           "audioUrl": "",
-          "audioApproval": "pending"
+          "audioApproval": "pending",
+          "focusTerms": [
+            {
+              "label": "Dünya",
+              "x": 69,
+              "y": 47
+            },
+            {
+              "label": "Doğa",
+              "x": 23,
+              "y": 75
+            }
+          ]
         }
       ]
     }
