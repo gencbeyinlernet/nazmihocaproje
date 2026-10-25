@@ -5,6 +5,10 @@ require('./helpers/audio-harness.cjs')(async({page:p,base,errors,missing})=>{
  // Existing bookmarks and links must reach the class picker, not the welcome screen.
  await p.goto(base+'#siniflar');
  assert.equal(await p.locator('[data-grade-choice]').count(),9);
+ assert.equal(await p.locator('.journey-class-group').count(),2);
+ await p.click('#journey-question-shortcut');assert(await p.locator('#journey-help').isVisible());
+ await p.keyboard.press('Escape');await p.waitForFunction(()=>!document.querySelector('#journey-help').open);
+ assert.equal(await p.evaluate(()=>document.activeElement.id),'journey-question-shortcut');
  assert((await p.locator('.journey-stepper [aria-current=step]').innerText()).includes('Sınıfını seç'));
  await p.click('[data-grade-choice="5"]');
  assert((await p.locator('.journey-stepper [aria-current=step]').innerText()).includes('İzle ve dinle'));
@@ -26,7 +30,7 @@ require('./helpers/audio-harness.cjs')(async({page:p,base,errors,missing})=>{
  await p.goto(base+'#merak');assert(await p.locator('#journey-help').isVisible());
  assert(await p.evaluate(()=>MerakNarration.active.audio.paused));
  assert.equal(await p.locator('body').evaluate(e=>e.style.overflow),'hidden');
- await p.click('#journey-help-close');assert.equal(await p.locator('body').evaluate(e=>e.style.overflow),'');
+ await p.click('#journey-help-close');await p.waitForFunction(()=>document.body.style.overflow==='');
  await p.click('#journey-menu-open');await p.click('[data-journey-nav="map"]');
  assert.equal(await p.locator('.journey-route-status').first().innerText(),'Devam ediyor');
  assert.equal(await p.locator('.journey-route-status').nth(1).innerText(),'Henüz tamamlanmadı');
@@ -50,6 +54,7 @@ require('./helpers/audio-harness.cjs')(async({page:p,base,errors,missing})=>{
   assert(!await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),'Player overflow '+width);
   await p.click('[data-journey="map"]');await p.click('[data-journey="class"]');
   assert(!await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),'Steps overflow '+width);
+  assert((await p.locator('[data-grade-choice="5"]').boundingBox()).height>=100);
   await p.click('[data-grade-choice="5"]');await p.click('#journey-watch');await ready();
  }
  await p.setViewportSize({width:390,height:844});

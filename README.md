@@ -16,6 +16,8 @@ Sınıf, dinlenen sahneler, son açılan sahne ve tamamlanan keşifler yalnızca
 
 Öğretmenler doğrudan `hikayeler/` alanından konu arayabilir. Önceki serbest keşif ekranı `kesfet/` altında korunur; öğrencinin ilk girişine eklenmez. Kaynak metinler, 198 örnek, 1.457 ses ve diğer sayfalar korunmuştur. Arayüz `assets/guided-app.js` ve `assets/guided-app.css` içindedir.
 
+Güncel tasarım kırık beyaz, zümrüt yeşili, turkuaz ve sıcak altın renklerini kullanır. Kemer biçimli görsel çerçevesi, büyük başlangıç düğmesi, ortaokul/lise olarak gruplanan renkli sınıf kartları ve dinlenince yeşile dönen sahneler aynı görsel dili paylaşır. Mobil menü soldan açılır; sağ üstte soru düğmesi bulunur. Öğretmen ve sınıf kütüphanesi `assets/classroom-design.css` ile aynı renkleri kullanır; masaüstünde konu kartları iki sütun, mobilde tek sütundur. Hareket azaltma tercihi desteklenir; haricî yazı tipi veya görsel hizmeti isteği eklenmez.
+
 ## Aç ve dinle
 
 - [Ana sayfa](https://gencbeyinlernet.github.io/nazmihocaproje/)
