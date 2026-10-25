@@ -4,6 +4,7 @@ Testler Node.js, Playwright ve Chromium kullanır. Sistem tarayıcısı için `C
 
 ```sh
 CHROMIUM_PATH=/usr/bin/chromium node tests/guided-journey.cjs
+CHROMIUM_PATH=/usr/bin/chromium node tests/guided-wayfinding.cjs
 CHROMIUM_PATH=/usr/bin/chromium node tests/automatic-playback.cjs
 CHROMIUM_PATH=/usr/bin/chromium node tests/story-library.cjs
 CHROMIUM_PATH=/usr/bin/chromium node tests/audio-workflow.cjs
@@ -33,3 +34,5 @@ Kütüphane testi 163 kitap konusuna bağlı 198 hikâyeyi, konu/sayfa sırasın
 Otomatik oynatma testi gerçek MP3 kayıtlarıyla aralıksız sahne sırasını ve tamamlanmayı, elle moda dönüşü, duraklatmayı, geç yüklenen görselde bekleyen sesin iptalini, ses hatasında durmayı, özel öğretmen sesini ve desteklenen ekran uyanık tutma isteğinin temizlenmesini doğrular.
 
 Yönlendirilmiş giriş testi karşılama, sınıf seçimi, gerçek yedi sahnenin dinlenmesi, otomatik tamamlanma, sonraki keşif önerisi, kayıtlı devam, tarayıcı Geri işlemi, öğretmen/serbest girişleri, menü/ses/scroll temizliği ve bozuk yerel kayıtların güvenli karşılanmasını kontrol eder. Önceki katalog ana sayfa kontrolleri bilinçli olarak serbest `kesfet/` adresinde korunur.
+
+Yön bulma testi görünür adım şeridini, gerçek dinleme sonrasında renklenen sahne ilerlemesini, tamamlanma durumlarını, eski sınıf/soru bağlantılarını, erişilebilir içerik bağlantısının oynatıcıyı kapatmamasını ve tamamlanan yolun ilk sahneden tekrar izlenmesini kontrol eder.

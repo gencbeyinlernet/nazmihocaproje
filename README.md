@@ -10,6 +10,8 @@ Sınıf seçilince ilk ortak hikâyenin ilk kısa durağı açılır. Keşif yol
 
 Her durakta görsel ve kayıtlı ses vardır. Öğrenci elle ilerleyebilir veya Otomatik oynat seçeneğini açabilir. Bütün sahneler dinlenmeden keşif tamamlanmaz. Tamamlanınca kısa bir kutlama ve **Sonraki keşfe geç** düğmesi çıkar; başka bir içerik istemeden başlatılmaz. Keşif yolundan farklı bir konuya serbestçe geçilebilir; zorunlu sıra veya kilit yoktur.
 
+Sınıf seçimi, izleme ve devam adımları kısa bir şeritte gösterilir. Oynatıcıda yalnız dinlenmesi biten sahneler yeşile döner; geçip bakılan sahne tamamlanmış sayılmaz. Keşif listesinde **Tamamlandı / Devam ediyor / Henüz tamamlanmadı** durumları yazıyla da belirtilir. Tamamlanmış bir hikâye yeniden açıldığında ilk sahneden başlar. Bütün yol tamamlandıysa yeni içerik varmış gibi önerilmez; yeniden dinleme sunulur. Önceki `#siniflar` ve `#merak` bağlantıları yeni sınıf seçimini ve soru penceresini açar.
+
 Sınıf, dinlenen sahneler, son açılan sahne ve tamamlanan keşifler yalnızca bu cihazın `merak-guided-journey-v1` kaydında tutulur. Hesap, ad, e-posta ve izleme analitiği yoktur. Geri dönüşte kaldığı yer önerilir; tarayıcı Geri işlemi oynatıcıyı durdurur. Yenilenen sayfa sesi kendiliğinden başlatmaz; Devam et düğmesi gösterilir. Kayıtlar isteğe bağlı paylaşım/gizlilik alanından silinebilir. Sayaç dinlenen keşif sayısıdır, öğrenme ölçümü veya sınav puanı değildir.
 
 Öğretmenler doğrudan `hikayeler/` alanından konu arayabilir. Önceki serbest keşif ekranı `kesfet/` altında korunur; öğrencinin ilk girişine eklenmez. Kaynak metinler, 198 örnek, 1.457 ses ve diğer sayfalar korunmuştur. Arayüz `assets/guided-app.js` ve `assets/guided-app.css` içindedir.

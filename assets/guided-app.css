@@ -8,3 +8,38 @@ body.guided-app{--journey-ink:#262c50;--journey-muted:#68708d;--journey-green:#0
 @media(prefers-reduced-motion:reduce){.guided-app *{animation:none!important;scroll-behavior:auto!important}.journey-primary,.journey-class-choice{transition:none;transform:none!important}}
 .guided-app .journey-image-card>img{height:auto}.guided-app #journey-root h1[tabindex='-1']:focus{outline:none}.guided-app .journey-skip{position:fixed;left:15px;top:15px;transform:translateY(-200%);z-index:5000}.guided-app .journey-skip:focus{transform:translateY(0)}.journey-welcome-copy .journey-primary>span{font-size:23px}.guided-app .journey-preview-play{font-size:0}.guided-app .journey-preview-play:after{content:'';border-top:10px solid transparent;border-bottom:10px solid transparent;border-left:15px solid #6c9b8b}.journey-preview-copy .journey-primary>span{font-size:0}.journey-preview-copy .journey-primary>span:after{content:'';display:block;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:10px solid #fff}.journey-teacher-link>span,.journey-entry-icon{font-family:Arial,sans-serif}
 .journey-floating-card{animation:none;z-index:2}.journey-primary{background:linear-gradient(110deg,#087f61,#087d71);border-color:#087f69}.journey-welcome-copy>p{color:#69718a}.journey-teacher-link{display:flex;align-items:center;gap:9px}.journey-teacher-link svg{width:16px;height:16px}.journey-entry-icon svg{width:21px;height:21px}@media(max-width:650px){.journey-teacher-link{display:none}}
+
+/* Short, visible guidance and progress without opening another menu. */
+.journey-stepper{display:flex;list-style:none;padding:0;margin:0 0 30px;gap:18px;max-width:730px}
+.journey-stepper li{display:flex;align-items:center;gap:9px;flex:1;position:relative;color:#737b91;min-width:0}
+.journey-stepper li:not(:last-child):after{content:'';height:2px;min-width:12px;flex:1;background:#e2e4ef;margin-left:8px}
+.journey-stepper li>span{display:grid;place-items:center;width:30px;height:30px;border-radius:10px;background:#eaeaf3;color:#6a7190;font-size:13px;font-weight:750;flex-shrink:0}
+.journey-stepper strong{font-size:14px;font-weight:600;line-height:1.5}
+.journey-stepper [aria-current=step]{color:#6950ac}
+.journey-stepper [aria-current=step]>span{background:#7960c1;color:white;box-shadow:0 0 0 4px #eee8fa}
+.journey-stepper .is-past{color:#287458}
+.journey-stepper .is-past>span{background:#dcefe4;color:#287458}
+.journey-player-progress{margin:0 0 15px}
+.journey-scene-progress{display:flex;gap:6px;padding:3px 0}
+.journey-scene-progress>i{display:block;flex:1;min-width:0;height:6px;border-radius:9px;background:#e5e7f0;transition:background .2s}
+.journey-scene-progress>.is-listened{background:#188865}
+.journey-scene-progress>.is-current{outline:2px solid #9e88d5;outline-offset:2px}
+.journey-player-progress>p{display:flex;justify-content:space-between;gap:10px;margin:8px 0 0;font-size:13px;line-height:1.6;color:#626d85}
+.journey-player-progress strong{font-weight:650;color:#68529e}
+.journey-route-status{display:block;margin-top:6px;color:#6b7387;font-size:13px;line-height:1.5}
+.journey-route-item.is-done .journey-route-status{color:#297249;font-weight:600}
+.guided-app .journey-section-heading>p,.guided-app .journey-preview-copy>p{color:#66738a}
+.guided-app .journey-preview-copy>small,.guided-app .journey-small-note,.guided-app .sound-guidance{color:#68738b;font-size:14px}
+.guided-app .journey-class-choice>strong,.guided-app .journey-grade-pill{font-size:14px}
+.guided-app .journey-class-choice.tone-1{color:#79612b}.guided-app .journey-class-choice.tone-2{color:#42638d}.guided-app .journey-class-choice.tone-3{color:#72588e}
+.guided-app .journey-preview-meta,.guided-app .journey-duration{color:#577365;font-size:14px}
+.guided-app .sound-player:fullscreen .journey-player-progress>p,.guided-app .sound-player:fullscreen .journey-player-progress strong{color:#e1e8f3}
+@media(max-width:650px){
+ .journey-stepper{gap:10px;margin-bottom:25px}
+ .journey-stepper li{flex-direction:column;align-items:flex-start;gap:8px}
+ .journey-stepper li:not(:last-child):after{position:absolute;top:14px;left:39px;right:0;margin:0}
+ .journey-stepper strong{font-size:13px;line-height:1.5}
+ .journey-scene-progress{gap:5px}
+ .journey-player-progress{margin-bottom:12px}
+ .journey-route-status{font-size:13px}
+}
