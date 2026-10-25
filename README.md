@@ -30,7 +30,7 @@ Toplam yaklaşık 34 dakikalık kayıt vardır. Her sahne hedef sekiz saniyeye z
 
 ## Sınıflar ve kaynaklar
 
-Etkin sınıflar 5–12; ortaokul, lise ve üniversite ayrı alanlardır. Masaüstünde sınıflar solda, soru alanı ve diğer menüler sağdadır. Mobilde Sınıflar düğmesi soldan menüyü açar. Ana ekran **Sınıf → Konu → İçerik** yolunu ve ortak hikâyeleri öne çıkarır. Cam görünümlü kartlar zümrüt, turkuaz, mor ve altın tonlarındadır.
+Etkin sınıflar 5–12; ortaokul, lise ve üniversite ayrı alanlardır. Masaüstünde sınıflar solda, soru alanı ve diğer menüler sağdadır. Mobilde Sınıflar düğmesi soldan menüyü açar. Ana ekran **Sınıf → Konu → İçerik** yolunu ve ortak hikâyeleri öne çıkarır. Kurumsal görünüm lacivert, zümrüt yeşili ve altın tonlarını kullanır. Rize İl Millî Eğitim logosu, beyaz içerik kartları, belirgin başlıklar ve tutarlı çizgi simgeleriyle sade bir gezinme sunulur. Ortaokul, lise ve üniversite alanları kendi renk vurgularını korur.
 
 Kitaplardaki ünite ve konu sırası `assets/catalog.js` içinde korunur. 7. sınıfın doğrulanmış kaynak sırası henüz eklenmediği için hazır içerik varmış gibi gösterilmez. Kaynak ayrıntıları [KAYNAKLAR.md](KAYNAKLAR.md) dosyasındadır. Üniversite içeriği kaynaklandırılmış müfredat değil, özgün tartışma taslaklarıdır.
 
