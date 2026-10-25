@@ -10,7 +10,7 @@ Rize İl Millî Eğitim Müdürlüğü çalışması için Türkçe, herkese aç
 - [İğneden Kâinata · İkinci hikâye](https://gencbeyinlernet.github.io/nazmihocaproje/igneden-kainata/)
 - [Öğretmen için ders hazırlığı](https://gencbeyinlernet.github.io/nazmihocaproje/ders-hazirla/)
 
-Sınıfını ve konunu seç; **İzle ve dinle** düğmesine dokun. Her görsel kendi Türkçe ses kaydıyla oynar; konuşma bitince sonraki sahneye geçilir. Öğrenci veya öğretmenin bir okuma metni takip etmesi gerekmez. Altyazı kapalı başlar; istenirse açılır. Geri/İleri, duraklatma, sesin içinde ilerleme, bölüm seçimi ve destekleyen cihazlarda tam ekran vardır. Sesler sayfa açılır açılmaz değil, kullanıcının ilk oynatma dokunuşuyla başlar.
+Sınıfını ve konunu seç; **İzle ve dinle** düğmesine dokun. Her görsel kendi Türkçe ses kaydıyla oynar; konuşma bitince aynı görselde bekler. **İleri** düğmesine dokunulduğunda sonraki görsel açılır ve o görselin sesi başlar. Öğrenci veya öğretmenin bir okuma metni takip etmesi gerekmez. Altyazı kapalı başlar; istenirse açılır. Ana ekranda yalnızca Geri, Dinle/Duraklat ve İleri düğmeleri bulunur. Ses çubuğu, altyazı, tam ekran ve bölüm seçimi kapalı başlayan “Diğer seçenekler” altındadır. Sesler sayfa açılır açılmaz değil, kullanıcının ilk oynatma dokunuşuyla başlar.
 
 Platformun girişi şifresiz, üyeliksiz ve zorunlu onaysızdır. Özgün içerikler paylaşılabilir. [Paylaşım ve gizlilik](KULLANIM-KOSULLARI.md) isteğe bağlı bilgidir. Kişisel sorular eğitim materyali sayılmaz; özel kalır.
 
@@ -24,13 +24,13 @@ Platformun girişi şifresiz, üyeliksiz ve zorunlu onaysızdır. Özgün içeri
 - Hazır sınıf konularının bilgilendirme, hikâye ve düşünme sorularına ait kayıtlar.
 - Üniversitenin üç özgün çalışma taslağına ait sesli anlatım ve sorular.
 
-Toplam yaklaşık 34 dakikalık kayıt vardır. Her sahne hedef sekiz saniyeye zorla sıkıştırılmaz; **oynatıcı gerçek kayıt bitişini bekler**. Görsel veya ses hatasında otomatik ilerleme durur; yeniden deneme mümkündür. Eski sesi durdurmadan yenisi başlamaz. Menü açılması, başka bir pencere açılması, sayfa değişimi ve sekmenin gizlenmesi sesi durdurur. Tamamlanma için sahnelerin dinlenmesi ve Bitir düğmesi gerekir; yalnızca resme bakmak yeterli değildir.
+Toplam yaklaşık 34 dakikalık kayıt vardır. Her sahne hedef sekiz saniyeye zorla sıkıştırılmaz; **oynatıcı gerçek kayıt bitişini bekler**. Görsel veya ses hatasında ses durur; yeniden deneme mümkündür. Hiçbir kayıt bitişi, özel öğretmen metni dahil, kendiliğinden sahne değiştirmez. Eski sesi durdurmadan yenisi başlamaz. Menü açılması, başka bir pencere açılması, sayfa değişimi ve sekmenin gizlenmesi sesi durdurur. Tamamlanma için sahnelerin dinlenmesi ve Bitir düğmesi gerekir; yalnızca resme bakmak yeterli değildir.
 
 İlk ortak hikâyenin 56 ayrı yeni resmi henüz yoktur: hazır saray, doğa, atölye ve kâinat görselleri ilgili bölümlerde tekrar kullanılır. İkinci hikâyede dört özgün resim ve bir görev şeması tekrar kullanılır. Diğer hazır konular sesli anlatıma eşlik eden sade konu kartlarıyla açılır. Bunlar tamamlanmış video dosyaları değildir; görsel + kayıtlı ses oynatıcısıdır. Yeni videoların yeri korunur.
 
 ## Sınıflar ve kaynaklar
 
-Etkin sınıflar 5–12; ortaokul, lise ve üniversite ayrı alanlardır. Masaüstünde sınıflar solda, soru alanı ve diğer menüler sağdadır. Mobilde Sınıflar düğmesi soldan menüyü açar. Ana ekran **Sınıf → Konu → İçerik** yolunu ve ortak hikâyeleri öne çıkarır. Kurumsal görünüm lacivert, zümrüt yeşili ve altın tonlarını kullanır. Rize İl Millî Eğitim logosu, beyaz içerik kartları, belirgin başlıklar ve tutarlı çizgi simgeleriyle sade bir gezinme sunulur. Ortaokul, lise ve üniversite alanları kendi renk vurgularını korur.
+Etkin sınıflar 5–12; ortaokul, lise ve üniversite ayrı alanlardır. Masaüstünde sınıflar solda, soru alanı ve diğer menüler sağdadır. Mobilde Sınıflar düğmesi soldan menüyü açar. Ana ekran **Sınıf → Konu → İzle ve dinle** yolunu ve ortak hikâyeleri öne çıkarır. Uzun tanıtım yazıları kısaltıldı; ikinci menüler tüm ekranlarda kapalı başlar. Kurumsal görünüm lacivert, zümrüt yeşili ve altın tonlarını kullanır. Rize İl Millî Eğitim logosu, beyaz içerik kartları, belirgin başlıklar ve tutarlı çizgi simgeleriyle sade bir gezinme sunulur. Ortaokul, lise ve üniversite alanları kendi renk vurgularını korur.
 
 Kitaplardaki ünite ve konu sırası `assets/catalog.js` içinde korunur. 7. sınıfın doğrulanmış kaynak sırası henüz eklenmediği için hazır içerik varmış gibi gösterilmez. Kaynak ayrıntıları [KAYNAKLAR.md](KAYNAKLAR.md) dosyasındadır. Üniversite içeriği kaynaklandırılmış müfredat değil, özgün tartışma taslaklarıdır.
 

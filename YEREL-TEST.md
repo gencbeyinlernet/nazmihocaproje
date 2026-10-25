@@ -4,9 +4,9 @@ Proje dosyalarını açtıktan sonra Windows'ta **BASLAT-WINDOWS.bat** dosyasın
 
 1. Site kullanıcı adı, şifre ve sözleşme onayı olmadan açılmalı.
 2. Ana sayfada sınıf ve konu seç. **İzle ve dinle** düğmesine bas: görsel açılmalı ve o sahnenin sesi duyulmalı.
-3. Konuşma bitince sonraki görsel ve onun sesi başlamalı. Ses sekiz saniyeyi aşarsa konuşma kesilmemeli.
+3. Konuşma bitince aynı görselde beklemeli. **İleri** düğmesine dokununca sonraki görsel ve onun sesi başlamalı. Ses sekiz saniyeyi aşarsa konuşma kesilmemeli.
 4. Duraklat/Devam et çalışmalı. Geri/İleri düğmesiyle açılan görsel kendi sesini başlatmalı; önceki ses aynı anda sürmemeli.
-5. Uzun okuma metni görünmemeli. İstersen **Altyazı** düğmesiyle yalnızca o sahnenin metnini açıp kapatabilmelisin.
+5. Uzun okuma metni görünmemeli. İstersen **Diğer seçenekler → Altyazı** düğmesiyle yalnızca o sahnenin metnini açıp kapatabilmelisin.
 6. Ortak ilk hikâyede 56, ikinci hikâyede 28, 5. sınıfın üç hikâyesinde toplam 21 sahne sesi bulunur. Diğer hazır konular ve üniversite taslakları da kayıtlı sesleriyle açılır.
 7. Sahneleri yalnızca açıp geçmek tamamlanma değildir. Konuşmaları dinleyip Bitir'e basınca tamamlandı görünmeli ve ilgili bölüm/sınıf kartı renklenmeli.
 8. Mobilde Sınıflar düğmesi soldan menüyü açmalı. Menü açılınca veya sekmeden çıkınca ses durmalı. Altyazı, oynatma ve ileri/geri düğmeleri dar ekranda taşmamalı.

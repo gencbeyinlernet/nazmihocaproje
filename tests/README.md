@@ -16,7 +16,7 @@ CHROMIUM_PATH=/usr/bin/chromium node tests/portal-smoke.cjs
 node tests/questions-permissions.cjs
 ```
 
-- Ses testi 232 gerçek MP3'ün metin/dosya özetlerini, 105 görselli sahnenin doğru kayıtla açılmasını, gerçek `ended` geçişini, duraklatma, altyazı, hata/yeniden deneme, tek medya öğesiyle üst üste binmeyen sesleri, değiştirme önceliğini ve altı ekran genişliğini doğrular. Testte zaman kazanmak için ses bitişine yaklaştırma ve hızlı oynatma kullanılır; uygulamanın normal ses hızı değiştirilmez.
+- Ses testi 232 gerçek MP3'ün metin/dosya özetlerini, 105 görselli sahnenin doğru kayıtla açılmasını, gerçek `ended` sonrasında aynı sahnede beklemeyi ve İleri ile geçişi, üç temel düğme, kapalı ek seçenekler, duraklatma, isteğe bağlı altyazı, hata/yeniden deneme, tek medya öğesiyle üst üste binmeyen sesleri, değiştirme önceliğini ve altı ekran genişliğini doğrular. Testte zaman kazanmak için ses bitişine yaklaştırma ve hızlı oynatma kullanılır; uygulamanın normal ses hızı değiştirilmez.
 - Öğretmen testi düzenlenebilir ders taslaklarını, metin indirme/yazdırmayı, güvenli altyazıları ve sesli sınıf sunumunu kontrol eder. Atölye testi yerel dosya denemesini ve sekiz saniyeyi aşan kayıtların kesilmemesini doğrular.
 - Hikâye testleri bölüm adreslerini, kaynak metinlerin aynen korunmasını, senaryo indirmeyi, sahne/görsel/efekt eşleşmesini ve yalnızca açıp geçerek tamamlanamamasını doğrular.
 - Arayüz testleri yaşa göre alanları, slaytları, mobil sol menüyü, odak/scroll yönetimini ve soru penceresi açılınca sesin durmasını kontrol eder.

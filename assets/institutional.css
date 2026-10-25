@@ -19,3 +19,56 @@ body.public-learning{--ink:#19354b;--muted:#52697b;--teal:#087f70;--line:#dce5eb
 
 /* Keyboard and touch feedback remain clear across public routes. */
 .public-learning .learning-skip:focus{position:fixed;top:10px;left:12px;z-index:9999;width:auto;height:auto;clip:auto;clip-path:none;padding:13px 20px;background:#fff;color:#123a50;border:2px solid #087f70;border-radius:10px;font-size:17px;box-shadow:0 5px 20px #123a5030}.public-learning main:focus{outline:none}.public-learning .sound-controls [data-sound=play][aria-pressed=true]{background:#12596a;border-color:#12596a}.public-learning .sound-controls .button:active:not(:disabled){transform:translateY(1px);box-shadow:none}.public-learning .sound-scene-list button:focus-visible{outline:3px solid #b78118;outline-offset:2px}.public-learning .sound-seek{min-height:32px}.public-learning .sound-image{touch-action:pan-y pinch-zoom}
+/* Simple lesson flow: choose a topic, see its image, listen, then press Next. */
+.public-learning .public-hero{grid-template-columns:1fr;padding:26px;gap:20px;background:#174d50;box-shadow:none}
+.public-learning .public-hero h1{font-size:clamp(28px,3vw,37px);max-width:650px}
+.public-learning .public-hero-art,.public-learning .public-hero-pills,.public-learning .teacher-entry-link{display:none}
+.public-learning .public-hero-copy>p{font-size:17px;margin-top:12px}
+.public-learning .public-hero:before,.public-learning .public-hero:after{display:none}
+.public-learning .quick-start{margin:0;padding:20px 18px 13px}
+.public-learning .level-card{padding:20px;min-height:0;gap:12px}
+.public-learning .level-card>svg,.public-learning .level-card>span,.public-learning .level-card>p{display:none}
+.public-learning .level-card h2{font-size:22px;margin:0}
+.public-learning .level-card b{font-size:14px;margin-top:8px}
+.public-learning .question-invite{padding:12px;border-radius:14px;background:#fff;border-color:#d9e4eb;box-shadow:none}
+.public-learning .question-invite>:not(.button){display:none}
+.public-learning .question-invite .button{background:#f0f6f5;color:#235951;border-color:#d5e6df;min-height:46px}
+.public-learning .question-invite .button:hover{background:#e5f1eb}
+.public-learning .quick-menu{padding:17px;margin-top:12px}
+.public-learning .sound-player{padding:20px;border-radius:18px;box-shadow:none}
+.public-learning .sound-heading{padding-bottom:12px;margin-bottom:14px}
+.public-learning .sound-heading .eyebrow{display:none}
+.public-learning .sound-heading h1{font-size:clamp(20px,2.3vw,28px);margin:0}
+.public-learning .sound-image{max-height:58dvh}
+.public-learning .sound-controls{margin-top:18px;max-width:650px}
+.public-learning .sound-controls .button{min-height:54px}
+.public-learning .sound-guidance{text-align:center;font-size:14px;line-height:1.5;color:#526f7e;margin:13px 0 0}
+.public-learning .sound-options{border-top:1px solid #e0e8ec;margin-top:18px;padding-top:13px}
+.public-learning .sound-options>summary{font-size:14px;color:#4f6e7c;cursor:pointer;min-height:32px;display:list-item;width:fit-content;align-content:center}
+.public-learning .sound-options[open]>summary{margin-bottom:7px}
+.public-learning .sound-player[data-scene-ready=true] [data-sound=next]{background:#087f70;border-color:#087f70;color:#fff}
+.public-learning .sound-player[data-scene-ready=true] [data-sound=play]{background:#fff;color:#31566a;border-color:#cddce4;box-shadow:none}
+.public-learning .sound-subtitles:not([hidden]){margin-top:16px}
+.public-learning .sound-player:fullscreen .sound-guidance,.public-learning .sound-player:fullscreen .sound-options>summary{color:#d1e3e9}
+.public-learning .sound-player:fullscreen .sound-options{border-color:#ffffff26}
+.public-learning .sound-player:fullscreen .sound-image{height:calc(100dvh - 230px);max-height:none}
+@media(max-width:650px){
+ .public-learning .public-hero{padding:22px 18px 18px;gap:18px}
+ .public-learning .public-hero h1{font-size:29px;line-height:1.2}
+ .public-learning .public-hero-copy>p{font-size:16px;line-height:1.5;margin-top:11px}
+ .public-learning .quick-start{padding:18px 14px 13px;gap:14px}
+ .public-learning .public-hero-copy>.eyebrow{font-size:9px}
+ .public-learning .level-card{padding:19px}
+ .public-learning .level-card h2{font-size:22px}
+ .public-learning .question-invite{padding:0;border:0;background:transparent}
+ .public-learning .question-invite .button{min-height:47px;background:#fff;border-color:#d5e2e8}
+ .public-learning .quick-menu{margin-top:0;padding:15px}
+ .public-learning .sound-player{padding:14px 10px 12px}
+ .public-learning .sound-heading h1{font-size:20px;line-height:1.3}
+ .public-learning .sound-counter{font-size:12px;white-space:nowrap}
+ .public-learning .sound-controls{gap:7px;margin-top:14px}
+ .public-learning .sound-controls .button{font-size:16px;min-height:53px;padding:11px 8px}
+ .public-learning .sound-guidance{font-size:14px;margin-top:11px}
+ .public-learning .sound-options{margin-top:13px;padding-top:10px}
+ .public-learning .sound-player:fullscreen .sound-image{height:calc(100dvh - 225px)}
+}
