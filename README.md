@@ -10,7 +10,7 @@ Rize İl Millî Eğitim Müdürlüğü çalışması için Türkçe, herkese aç
 - [İğneden Kâinata · İkinci hikâye](https://gencbeyinlernet.github.io/nazmihocaproje/igneden-kainata/)
 - [Öğretmen için ders hazırlığı](https://gencbeyinlernet.github.io/nazmihocaproje/ders-hazirla/)
 
-Sınıfını ve konunu seç; **İzle ve dinle** düğmesine dokun. Her görsel kendi Türkçe ses kaydıyla oynar; konuşma bitince aynı görselde bekler. **İleri** düğmesine dokunulduğunda sonraki görsel açılır ve o görselin sesi başlar. Öğrenci veya öğretmenin bir okuma metni takip etmesi gerekmez. Altyazı kapalı başlar; istenirse açılır. Ana ekranda yalnızca Geri, Dinle/Duraklat ve İleri düğmeleri bulunur. Ses çubuğu, altyazı, tam ekran ve bölüm seçimi kapalı başlayan “Diğer seçenekler” altındadır. Sesler sayfa açılır açılmaz değil, kullanıcının ilk oynatma dokunuşuyla başlar.
+Sınıfını ve konunu seç; **İzle ve dinle** düğmesine dokun. Her görsel kendi Türkçe ses kaydıyla oynar; varsayılan elle ilerleme modunda konuşma bitince aynı görselde bekler. **Otomatik oynat** anahtarı açılırsa, kullanıcı yeniden dokunmadan bir sonraki görsel ve kayıt açılır. **İleri** düğmesine dokunulduğunda sonraki görsel açılır ve o görselin sesi başlar. Öğrenci veya öğretmenin bir okuma metni takip etmesi gerekmez. Altyazı kapalı başlar; istenirse açılır. Ana ekranda yalnızca Geri, Dinle/Duraklat ve İleri düğmeleri bulunur. Ses çubuğu, altyazı, tam ekran ve bölüm seçimi kapalı başlayan “Diğer seçenekler” altındadır. Sesler sayfa açılır açılmaz değil, kullanıcının ilk oynatma dokunuşuyla başlar.
 
 Platformun girişi şifresiz, üyeliksiz ve zorunlu onaysızdır. Özgün içerikler paylaşılabilir. [Paylaşım ve gizlilik](KULLANIM-KOSULLARI.md) isteğe bağlı bilgidir. Kişisel sorular eğitim materyali sayılmaz; özel kalır.
 
@@ -26,7 +26,7 @@ Yeni hikâyeler için **1.225 ayrı Türkçe MP3** üretildi; önceki 232 kayıt
 
 Yeni kaynaklar: `ses-planlari/mufredat-hikaye-tohumlari.txt`, `ses-planlari/unite-alternatifleri.txt`; derleme betiği `scripts/build-story-library.py`; 198 hikâye `assets/story-library-data.js`. Yeni ses metinleri `ses-planlari/kutuphane-ses-metinleri.json`, ses/dosya özetleri `assets/audio/library-manifest.json`; tarayıcıda `assets/library-narration.js` önceki kayıt haritasına eklenir. Metin veya kayıt değiştiğinde birbirine karşılık gelen özetler de yenilenmelidir.
 
-Öğretmen hazırlık alanında yeni konular da sesli hikâyeyle sunulabilir. İlgili konunun bütün alternatiflerine doğrudan bağlantı vardır. Öğrenci akışında uzun metin gösterilmez; her sahne dinlendikten sonra **İleri** ile geçilir. Tamamlanan yeni örnekler `merak-library-progress-v1` altında yalnızca bu cihazda tutulur; paylaşım/gizlilik alanındaki kayıt silme işlemi bunu da temizler.
+Öğretmen hazırlık alanında yeni konular da sesli hikâyeyle sunulabilir. İlgili konunun bütün alternatiflerine doğrudan bağlantı vardır. Öğrenci akışında uzun metin gösterilmez; her sahne dinlendikten sonra **İleri** ile veya isteğe bağlı **Otomatik oynat** seçeneğiyle geçilir. Tamamlanan yeni örnekler `merak-library-progress-v1` altında yalnızca bu cihazda tutulur; paylaşım/gizlilik alanındaki kayıt silme işlemi bunu da temizler.
 
 ## Sesli içerik kapsamı
 
@@ -38,7 +38,7 @@ Yeni kaynaklar: `ses-planlari/mufredat-hikaye-tohumlari.txt`, `ses-planlari/unit
 - Hazır sınıf konularının bilgilendirme, hikâye ve düşünme sorularına ait kayıtlar.
 - Üniversitenin üç özgün çalışma taslağına ait sesli anlatım ve sorular.
 
-Toplam yaklaşık 34 dakikalık kayıt vardır. Her sahne hedef sekiz saniyeye zorla sıkıştırılmaz; **oynatıcı gerçek kayıt bitişini bekler**. Görsel veya ses hatasında ses durur; yeniden deneme mümkündür. Hiçbir kayıt bitişi, özel öğretmen metni dahil, kendiliğinden sahne değiştirmez. Eski sesi durdurmadan yenisi başlamaz. Menü açılması, başka bir pencere açılması, sayfa değişimi ve sekmenin gizlenmesi sesi durdurur. Tamamlanma için sahnelerin dinlenmesi ve Bitir düğmesi gerekir; yalnızca resme bakmak yeterli değildir.
+Toplam yaklaşık 34 dakikalık kayıt vardır. Her sahne hedef sekiz saniyeye zorla sıkıştırılmaz; **oynatıcı gerçek kayıt bitişini bekler**. Görsel veya ses hatasında ses durur; yeniden deneme mümkündür. Elle ilerleme modunda kayıt bitişi sahne değiştirmez. Otomatik modda kayıt bitişi sonraki sahneyi açar; öğretmenin cihaz sesiyle okunan özel metinlerinde de aynı seçim uygulanır. Eski sesi durdurmadan yenisi başlamaz. Menü açılması, başka bir pencere açılması, sayfa değişimi ve sekmenin gizlenmesi sesi durdurur. Tamamlanma için bütün sahnelerin dinlenmesi gerekir; elle modda Bitir düğmesi kullanılır, otomatik modda son kayıt bitince hikâye kendiliğinden tamamlanır; yalnızca resme bakmak yeterli değildir.
 
 İlk ortak hikâyenin 56 ayrı yeni resmi henüz yoktur: hazır saray, doğa, atölye ve kâinat görselleri ilgili bölümlerde tekrar kullanılır. İkinci hikâyede dört özgün resim ve bir görev şeması tekrar kullanılır. Diğer hazır konular sesli anlatıma eşlik eden sade konu kartlarıyla açılır. Bunlar tamamlanmış video dosyaları değildir; görsel + kayıtlı ses oynatıcısıdır. Yeni videoların yeri korunur.
 
@@ -85,3 +85,7 @@ python3 scripts/package-local.py
 Ses testi gerçek MP3'lerle 105 görselli sahnenin akışını, 232 dosya/metin özeti eşleşmesini, ses bitişini beklemeyi, altyazının isteğe bağlı olmasını, öğretmen sunumunu, altı ekran genişliğini ve kaynak metinlerin korunmasını doğrular. Önceki sessiz/okuma oynatıcılarının testleri yeni sesli akışa göre güncellenmiştir.
 
 GitHub Pages: `main` dalı, `/ (root)`. Güncel yerel paket: `indir/merak-bahcesi-yerel-test.zip`; kayıtlı MP3'leri içerir, eski 4. sınıf WAV arşivini içermez.
+
+## Otomatik izleme
+
+Oynatıcıdaki görünür anahtar elle modda kapalı başlar. Açıldığında duraklatılmış ses devam eder; sahne zaten bittiyse sıradaki görsele geçilir. Son ses bittiğinde bütün sahneler dinlenmişse mevcut hikâye tamamlanır. Atlanan sahneler varsa önce bunlara dönülür; başka bir konu rastgele başlatılmaz. Anahtarın kapatılması mevcut kaydı kesmez, sonraki geçişi elle yapmaya döndürür. Duraklatma, menü açılması, sekmenin gizlenmesi ve hata halinde ses durur; kullanıcının Dinle düğmesiyle devam etmesi gerekir. Destekleyen tarayıcılarda otomatik ses çalarken ekran uyanık tutma isteği yapılır; destek yoksa oynatım bozulmaz. Yeni bir hikâye açıldığında otomatik seçim yeniden kapalıdır.
