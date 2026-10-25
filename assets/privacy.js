@@ -8,6 +8,6 @@ window.ContentTerms=(()=>{
  function open(){if(!dialog.open)dialog.showModal();}
  const close=()=>dialog.close();document.querySelector('#terms-close').onclick=close;document.querySelector('#terms-done').onclick=close;
  dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)close();});
- document.querySelector('#terms-reset').onclick=()=>{if(!confirm('Bu cihazdaki hikâye ilerlemesi ve varsa soru takip kodu silinsin mi?'))return;try{for(const key of ['merak-content-terms','merak-bahcesi-v1','merak-class-progress-v1','merak-library-progress-v1','merak-common-story-v1','merak-visual-story-v1','merak-question-receipt'])localStorage.removeItem(key);}catch{}location.reload();};
+ document.querySelector('#terms-reset').onclick=()=>{if(!confirm('Bu cihazdaki hikâye ilerlemesi ve varsa soru takip kodu silinsin mi?'))return;try{for(const key of ['merak-content-terms','merak-bahcesi-v1','merak-class-progress-v1','merak-library-progress-v1','merak-guided-journey-v1','merak-common-story-v1','merak-visual-story-v1','merak-question-receipt'])localStorage.removeItem(key);}catch{}location.reload();};
  return {accepted:()=>true,require:()=>true,open,version};
 })();

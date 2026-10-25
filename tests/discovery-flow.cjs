@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
     p.on('response', r => { if (r.status() >= 400) missing.push(r.url()); });
     await p.clock.install();
     const current = () => p.locator('[data-slide-count]').innerText();
-    await p.goto(base);
+    await p.goto(base+'kesfet/');
     assert(!await p.locator('#terms-dialog').isVisible());
 
     await p.clock.runFor(7100); assert.equal(await current(), '2 / 5');
@@ -70,7 +70,7 @@ const server = http.createServer((req, res) => {
     await p.goto(base + 'universite/');
     await p.locator('.spotlight-slide:not([hidden]) [data-university]').click();
     assert(await p.locator('.sound-player').isVisible());assert(!await p.locator('.sound-subtitles').isVisible());
-    await p.setViewportSize({ width: 390, height: 844 }); await p.goto(base);
+    await p.setViewportSize({ width: 390, height: 844 }); await p.goto(base+'kesfet/');
     assert(await p.locator('#class-nav-trigger').isVisible());
     assert(!await p.locator('.quick-menu').evaluate(e => e.open));
     await p.locator('.quick-menu > summary').click(); assert(await p.locator('.quick-menu nav').isVisible());
@@ -84,7 +84,7 @@ const server = http.createServer((req, res) => {
     await p.click('#close-question-area');
     for (const width of [320, 390, 768, 1100, 1280, 1440]) {
       await p.setViewportSize({ width, height: 900 });
-      for (const route of ['', 'ortaokul/', 'lise/', 'universite/', 'siniflar/5-sinif/', 'siniflar/9-sinif/', 'sahne-atolyesi/', 'metin-atolyesi/', 'indir/']) {
+      for (const route of ['kesfet/', 'ortaokul/', 'lise/', 'universite/', 'siniflar/5-sinif/', 'siniflar/9-sinif/', 'sahne-atolyesi/', 'metin-atolyesi/', 'indir/']) {
         await p.goto(base + route);
         assert(!await p.evaluate(() => document.documentElement.scrollWidth > innerWidth), `Overflow ${width} ${route}`);
         assert(await p.locator('.question-invite .button').isVisible());

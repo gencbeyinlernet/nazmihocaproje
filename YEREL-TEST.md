@@ -24,3 +24,7 @@ Gerçek soru/özel cevap servisi henüz bağlı değildir; bu nedenle gönderme/
 Kütüphane testi: Ana sayfada 5. sınıfı seçip “namaz” yazın. Hikâyeleri bul ile ilgili kitap konuları ve her konunun örnekleri açılmalı. Sınıf sayfalarında konu sırası korunmalı; ünite filtresi ve sonraki konular düğmesi çalışmalı. 7. sınıfta doğrulanmış sıra bekleniyor bilgisi görünmeli.
 
 Otomatik test: Bir hikâyeyi açıp **Otomatik oynat** anahtarını açın. Her kayıt bitince sonraki görselin sesi başlamalı; İleri veya Bitir düğmesine basmadan tüm hikâye tamamlanmalı. Anahtarı kapatınca mevcut kayıt sürmeli ve bitişinde beklemeli. Duraklatıp devam etme, menü açınca durma ve eksik ses dosyasında ilerlememe çalışmalı. Tüm sahneler dinlenmeden tamamlandı kaydı oluşmamalı. Destekleyen cihazlarda otomatik izleme sırasında ekran uyanık tutulur.
+
+## İlk kez gelen öğrenci
+
+Ana adres Keşfe başla ekranını açar. Sınıf seçimi ilk keşfin önizlemesine götürür; İzle ve dinle düğmesi kayıtları başlatır. Tamamlandı ekranında Sonraki keşfe geç önerisi görünür. Keşif yolum menüsünden istediğin içeriğe geri dönülebilir. Yenileme ve geri dönüşte aynı cihazdaki ilerleme korunur; ses izin almadan başlamaz. Öğretmen alanı konu aramasına doğrudan gider. Önceki serbest ekran `kesfet/` adresindedir.

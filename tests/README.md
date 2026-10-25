@@ -3,6 +3,7 @@
 Testler Node.js, Playwright ve Chromium kullanır. Sistem tarayıcısı için `CHROMIUM_PATH=/usr/bin/chromium` belirtilebilir. Her test kendi geçici HTTP sunucusunu açıp kapatır; canlı platforma veri yazmaz.
 
 ```sh
+CHROMIUM_PATH=/usr/bin/chromium node tests/guided-journey.cjs
 CHROMIUM_PATH=/usr/bin/chromium node tests/automatic-playback.cjs
 CHROMIUM_PATH=/usr/bin/chromium node tests/story-library.cjs
 CHROMIUM_PATH=/usr/bin/chromium node tests/audio-workflow.cjs
@@ -30,3 +31,5 @@ Testler gerçek öğrenci verilerini veya canlı Supabase bağlantısını kulla
 Kütüphane testi 163 kitap konusuna bağlı 198 hikâyeyi, konu/sayfa sırasını, 1.457 kayıt eşleşmesini, konu kelimelerini, ünite filtresini, alternatifleri ve mobil sunumu doğrular. 7. sınıf kaynak sırası doğrulanmış gibi sunulmaz.
 
 Otomatik oynatma testi gerçek MP3 kayıtlarıyla aralıksız sahne sırasını ve tamamlanmayı, elle moda dönüşü, duraklatmayı, geç yüklenen görselde bekleyen sesin iptalini, ses hatasında durmayı, özel öğretmen sesini ve desteklenen ekran uyanık tutma isteğinin temizlenmesini doğrular.
+
+Yönlendirilmiş giriş testi karşılama, sınıf seçimi, gerçek yedi sahnenin dinlenmesi, otomatik tamamlanma, sonraki keşif önerisi, kayıtlı devam, tarayıcı Geri işlemi, öğretmen/serbest girişleri, menü/ses/scroll temizliği ve bozuk yerel kayıtların güvenli karşılanmasını kontrol eder. Önceki katalog ana sayfa kontrolleri bilinçli olarak serbest `kesfet/` adresinde korunur.

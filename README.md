@@ -2,6 +2,18 @@
 
 Rize İl Millî Eğitim Müdürlüğü çalışması için Türkçe, herkese açık, mobil uyumlu din kültürü ve değerler eğitimi platformu. Öğretmen takip sistemi ayrı `okultakipburakhoca` deposundadır.
 
+## Öğrenci için adım adım uygulama
+
+Ana adres artık menü katalogu yerine yönlendiren bir öğrenci uygulamasıdır. İlk girişte **Keşfe başla → Sınıfını seç → İlk keşfi izle → Sonraki keşfe geç** yolu izlenir. Karşılama ekranında tek belirgin başlangıç düğmesi vardır; sürekli sol/sağ menüler gösterilmez. Öğretmen alanı ve serbest gezinme ayrı erişimlerdir.
+
+Sınıf seçilince ilk ortak hikâyenin ilk kısa durağı açılır. Keşif yolu ortak hikâyenin sekiz bağlantılı durağı, seçilen sınıfın kitap sırasındaki konuları ve ikinci ortak hikâyenin dört bölümünden oluşur. 7. sınıfta doğrulanmış kitap konuları bulunmadığından yalnız ortak keşifler gösterilir. Üniversitedeki üç özgün taslak kaynaklandırılmış müfredat gibi sunulmaz.
+
+Her durakta görsel ve kayıtlı ses vardır. Öğrenci elle ilerleyebilir veya Otomatik oynat seçeneğini açabilir. Bütün sahneler dinlenmeden keşif tamamlanmaz. Tamamlanınca kısa bir kutlama ve **Sonraki keşfe geç** düğmesi çıkar; başka bir içerik istemeden başlatılmaz. Keşif yolundan farklı bir konuya serbestçe geçilebilir; zorunlu sıra veya kilit yoktur.
+
+Sınıf, dinlenen sahneler, son açılan sahne ve tamamlanan keşifler yalnızca bu cihazın `merak-guided-journey-v1` kaydında tutulur. Hesap, ad, e-posta ve izleme analitiği yoktur. Geri dönüşte kaldığı yer önerilir; tarayıcı Geri işlemi oynatıcıyı durdurur. Yenilenen sayfa sesi kendiliğinden başlatmaz; Devam et düğmesi gösterilir. Kayıtlar isteğe bağlı paylaşım/gizlilik alanından silinebilir. Sayaç dinlenen keşif sayısıdır, öğrenme ölçümü veya sınav puanı değildir.
+
+Öğretmenler doğrudan `hikayeler/` alanından konu arayabilir. Önceki serbest keşif ekranı `kesfet/` altında korunur; öğrencinin ilk girişine eklenmez. Kaynak metinler, 198 örnek, 1.457 ses ve diğer sayfalar korunmuştur. Arayüz `assets/guided-app.js` ve `assets/guided-app.css` içindedir.
+
 ## Aç ve dinle
 
 - [Ana sayfa](https://gencbeyinlernet.github.io/nazmihocaproje/)
@@ -44,7 +56,7 @@ Toplam yaklaşık 34 dakikalık kayıt vardır. Her sahne hedef sekiz saniyeye z
 
 ## Sınıflar ve kaynaklar
 
-Etkin sınıflar 5–12; ortaokul, lise ve üniversite ayrı alanlardır. Masaüstünde sınıflar solda, soru alanı ve diğer menüler sağdadır. Mobilde Sınıflar düğmesi soldan menüyü açar. Ana ekran **Sınıf → Konu → İzle ve dinle** yolunu ve ortak hikâyeleri öne çıkarır. Uzun tanıtım yazıları kısaltıldı; ikinci menüler tüm ekranlarda kapalı başlar. Kurumsal görünüm lacivert, zümrüt yeşili ve altın tonlarını kullanır. Rize İl Millî Eğitim logosu, beyaz içerik kartları, belirgin başlıklar ve tutarlı çizgi simgeleriyle sade bir gezinme sunulur. Ortaokul, lise ve üniversite alanları kendi renk vurgularını korur.
+Etkin sınıflar 5–12; ortaokul, lise ve üniversite ayrı alanlardır. Masaüstünde sınıflar solda, soru alanı ve diğer menüler sağdadır. Mobilde Sınıflar düğmesi soldan menüyü açar. Serbest keşif ve öğretmen araması **Sınıf → Konu → İzle ve dinle** yolunu kullanır; ana giriş ise yukarıdaki yönlendirilmiş öğrenci uygulamasıdır. Uzun tanıtım yazıları kısaltıldı; ikinci menüler tüm ekranlarda kapalı başlar. Kurumsal görünüm lacivert, zümrüt yeşili ve altın tonlarını kullanır. Rize İl Millî Eğitim logosu, beyaz içerik kartları, belirgin başlıklar ve tutarlı çizgi simgeleriyle sade bir gezinme sunulur. Ortaokul, lise ve üniversite alanları kendi renk vurgularını korur.
 
 Kitaplardaki ünite ve konu sırası `assets/catalog.js` içinde korunur. 7. sınıfın doğrulanmış kaynak sırası henüz eklenmediği için hazır içerik varmış gibi gösterilmez. Kaynak ayrıntıları [KAYNAKLAR.md](KAYNAKLAR.md) dosyasındadır. Üniversite içeriği kaynaklandırılmış müfredat değil, özgün tartışma taslaklarıdır.
 
@@ -75,6 +87,7 @@ Soruların özel takip koduyla yanıtlanması için Supabase bağlantısı gerek
 Windows: `BASLAT-WINDOWS.bat`; diğer sistemler: proje klasöründe `python3 BASLAT.py`. Başlatıcı kendi klasörünü yayınlar ve uygun localhost adresini yazar. HTML dosyasına çift tıklamak yerine yerel sunucu kullanın. [Yerel test rehberi](YEREL-TEST.md).
 
 ```sh
+CHROMIUM_PATH=/usr/bin/chromium node tests/guided-journey.cjs
 CHROMIUM_PATH=/usr/bin/chromium node tests/audio-workflow.cjs
 CHROMIUM_PATH=/usr/bin/chromium node tests/public-learning-flow.cjs
 CHROMIUM_PATH=/usr/bin/chromium node tests/questions-workflow.cjs

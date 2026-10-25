@@ -25,6 +25,6 @@
   root.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.libraryPlay)show(b.dataset.libraryPlay);if(b.hasAttribute('data-library-more')){limit+=12;results();}if(b.hasAttribute('data-library-clear')){query='';input.value='';unit='all';units.value='all';limit=12;results();}});
   input.oninput=()=>{query=input.value;limit=12;results();};document.querySelector('#library-search-form').onsubmit=e=>{e.preventDefault();query=input.value;limit=12;results();document.querySelector('.library-result-summary')?.scrollIntoView({block:'nearest'});};units.onchange=()=>{unit=units.value;limit=12;results();};const gs=document.querySelector('#library-grade');if(gs)gs.onchange=()=>{selected=gs.value;MerakPortal.gradeId=selected;document.body.dataset.grade=selected;window.dispatchEvent(new Event('merak-grade-change'));limit=12;setUnits();results();};setUnits();results();const hash=new URLSearchParams(location.hash.slice(1)).get('hikaye');if(hash)show(hash);
  }
- window.MerakStoryLibrary={stories,find,normalize,mount};
+ window.MerakStoryLibrary={stories,find,normalize,mount,renderScene:art};
  if(document.querySelector('#story-library-root')){mount(document.querySelector('#story-library-root'));document.querySelector('#privacy-btn').onclick=()=>ContentTerms.open();}
 })();
