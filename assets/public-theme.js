@@ -8,6 +8,7 @@
  };
  document.addEventListener('DOMContentLoaded',()=>{
   document.body.classList.add('public-learning');
+  const main=document.querySelector('main');if(main&&!document.querySelector('a.skip')){if(!main.id)main.id='main';const skip=document.createElement('a');skip.className='skip learning-skip';skip.href='#'+main.id;skip.textContent='İçeriğe geç';document.body.prepend(skip);}if(main&&!main.hasAttribute('tabindex'))main.tabIndex=-1;
   const institution=document.querySelector('.institution>div>div');if(institution&&!institution.querySelector('.public-access-badge')){const badge=document.createElement('span');badge.className='public-access-badge';badge.textContent='Herkese açık · Paylaşılabilir';institution.append(badge);}
   const brand=document.querySelector('.brand>span');if(brand)brand.innerHTML='<svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M5 8h9c2 0 3 2 3 3v16c-2-3-5-4-12-4V8Zm22 0h-7c-2 0-3 2-3 3v16c2-3 5-4 10-4V8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m16 2 1.2 2.8L20 6l-2.8 1.2L16 10l-1.2-2.8L12 6l2.8-1.2L16 2Z" fill="currentColor"/></svg>';
   for(const button of document.querySelectorAll('#privacy-btn'))button.textContent='Paylaşım ve gizlilik';
