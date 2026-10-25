@@ -17,6 +17,8 @@ Proje dosyalarını açtıktan sonra Windows'ta **BASLAT-WINDOWS.bat** dosyasın
 
 İlk oynatma için bir dokunuş gerekir; tarayıcılar kullanıcı dokunuşu olmadan sesi başlatmayabilir. Ses düğmesi açık olduğu hâlde ses duyulmuyorsa cihaz ve tarayıcı sekmesinin sesini kontrol et.
 
-232 MP3, indirilen yerel pakete dahildir. Yaklaşık 34 dakikalık geçici sentetik Türkçe örneklerdir; daha sonra kendi kayıtlarımızla değiştirilebilir. Gerçek çocuk/karakter oyuncusu veya stüdyo kaydı değildir. [Ses kaynak ve lisansları](assets/audio/CREDITS.md).
+1.457 MP3, indirilen yerel pakete dahildir. Yaklaşık 34 dakikalık geçici sentetik Türkçe örneklerdir; daha sonra kendi kayıtlarımızla değiştirilebilir. Gerçek çocuk/karakter oyuncusu veya stüdyo kaydı değildir. [Ses kaynak ve lisansları](assets/audio/CREDITS.md).
 
 Gerçek soru/özel cevap servisi henüz bağlı değildir; bu nedenle gönderme/sorgulama kapalıdır. 7. sınıfın doğrulanmış kaynak sırası hazırlanıyor. Bunlar yerel sunucu hatası değildir.
+
+Kütüphane testi: Ana sayfada 5. sınıfı seçip “namaz” yazın. Hikâyeleri bul ile ilgili kitap konuları ve her konunun örnekleri açılmalı. Sınıf sayfalarında konu sırası korunmalı; ünite filtresi ve sonraki konular düğmesi çalışmalı. 7. sınıfta doğrulanmış sıra bekleniyor bilgisi görünmeli.

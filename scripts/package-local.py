@@ -8,7 +8,7 @@ files = [root / name for name in (
     "README.md", "VIDEO-SENARYOLARI.md", "YEREL-TEST.md", "URETIM-ALTYAPISI.md", "SESLENDIRME-PLANI.md",
     "index.html", "logo.jpg", "ORTAK-HIKAYE.md", "IKINCI-HIKAYE.md",
 )]
-for folder in ("assets", "backend", "metin-atolyesi", "siniflar", "sahne-atolyesi", "ses-planlari", "ortaokul", "lise", "universite", "ortak-hikaye", "igneden-kainata", "ders-hazirla"):
+for folder in ("assets", "backend", "metin-atolyesi", "siniflar", "sahne-atolyesi", "ses-planlari", "ortaokul", "lise", "universite", "ortak-hikaye", "igneden-kainata", "ders-hazirla", "hikayeler"):
     files.extend(p for p in (root / folder).rglob("*") if p.is_file())
 for folder in (root / "video-ornekleri").glob("7-sahne-*"):
     files.extend(p for p in folder.rglob("*") if p.is_file())

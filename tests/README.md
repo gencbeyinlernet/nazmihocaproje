@@ -3,6 +3,7 @@
 Testler Node.js, Playwright ve Chromium kullanır. Sistem tarayıcısı için `CHROMIUM_PATH=/usr/bin/chromium` belirtilebilir. Her test kendi geçici HTTP sunucusunu açıp kapatır; canlı platforma veri yazmaz.
 
 ```sh
+CHROMIUM_PATH=/usr/bin/chromium node tests/story-library.cjs
 CHROMIUM_PATH=/usr/bin/chromium node tests/audio-workflow.cjs
 CHROMIUM_PATH=/usr/bin/chromium node tests/public-learning-flow.cjs
 CHROMIUM_PATH=/usr/bin/chromium node tests/studio-workflow.cjs
@@ -24,3 +25,5 @@ node tests/questions-permissions.cjs
 - Soru testi taklit API yanıtlarıyla özel takip kodu, yetkisiz erişimin reddi ve HTML kaçışlarını doğrular. SQL testi `@electric-sql/pglite` ile özel veri yetkilerini kontrol eder.
 
 Testler gerçek öğrenci verilerini veya canlı Supabase bağlantısını kullanmaz; soru servisi henüz yapılandırılmamıştır. Hesap ve zorunlu sözleşme onayı yoktur. Kitapların tam PDF'leri yayımlanmaz.
+
+Kütüphane testi 163 kitap konusuna bağlı 198 hikâyeyi, konu/sayfa sırasını, 1.457 kayıt eşleşmesini, konu kelimelerini, ünite filtresini, alternatifleri ve mobil sunumu doğrular. 7. sınıf kaynak sırası doğrulanmış gibi sunulmaz.

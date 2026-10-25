@@ -1,6 +1,6 @@
 # Kayıtlı örnek sesler ve değiştirme planı
 
-Artık **232 ayrı Türkçe MP3** bağlıdır. Öğrenci/öğretmen görseli açıp dinler; uzun okuma metni takip etmez. Bunlar yerel modellerle üretilen, sonradan gerçek kayıtlarla değiştirilebilen sentetik örneklerdir. Gerçek çocuk veya karakter oyuncusu sesi oldukları iddia edilmez. Kaynak/lisans: [CREDITS.md](assets/audio/CREDITS.md).
+Önceki **232 Türkçe MP3** korunur; yeni konu kütüphanesine **1.225 ayrı Türkçe MP3** daha eklenmiştir. Toplam **1.457 kayıt** bağlıdır. Öğrenci/öğretmen görseli açıp dinler; uzun okuma metni takip etmez. Bunlar yerel modellerle üretilen, sonradan gerçek kayıtlarla değiştirilebilen sentetik örneklerdir. Gerçek çocuk veya karakter oyuncusu sesi oldukları iddia edilmez. Kaynak/lisans: [CREDITS.md](assets/audio/CREDITS.md).
 
 ## Eşleşmeler
 
@@ -27,3 +27,5 @@ Bu tarifler **gelecek kayıtların hedefidir**; mevcut yerel modellerin bu yaş/
 İlgili sahnede `audioUrl` yeni dosya yolu, `audioDuration` gerçek saniye, `audioApproval: "approved"` yapılır. Onaylı özel kayıt geçici örnekten önce kullanılır. `audioApproval: "rejected"` çalmaz. Başka bir URL kullanmadan aynı MP3'ü aynı dosya adıyla değiştirmek de mümkündür; önbellek sürümü güncellenir. Örnekler değiştikçe model lisansına bağlı geçici sesler kaldırılabilir.
 
 Öğretmen atölyesinde kendi kaydını geçici denemek mümkündür: dosya sunucuya yüklenmez, sayfa yenilenince kaldırılır. Kalıcı yayına bağlama ayrı dosya güncellemesidir.
+
+Yeni 198 hikâyenin ses listesi `ses-planlari/kutuphane-ses-metinleri.json`, kayıt özeti `assets/audio/library-manifest.json` dosyalarındadır. Her ses `kutuphane-<konu>-<örnek>-<sahne>.mp3` biçiminde eşleştirilir.

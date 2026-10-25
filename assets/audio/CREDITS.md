@@ -12,3 +12,7 @@ Eski, reddedilen 4. sınıf WAV kayıtları arşivdedir; burada veya etkin oynat
 ## Gerçek kayıtlarla değiştirme
 
 Her MP3 bir sahne kimliği taşır. Aynı dosya adıyla yeni MP3 koyabilir veya sahnenin `audioUrl` alanına yeni dosya yolunu yazıp `audioApproval: "approved"` yapabilirsiniz. Oynatıcı onaylı özel kaydı örnek kayıttan önce kullanır ve her zaman gerçek `ended` olayını bekler. Özel kayıtlar geldikçe bu geçici modellere ait örnekler kaldırılabilir.
+
+## Yeni konu kütüphanesi
+
+`anlatim/kutuphane/` altındaki 1.225 yeni kayıt yalnızca CC0 veri kümesi kullanan `tr_TR-fettah-medium` modeliyle oluşturulmuştur. Önceki DFKI örneklerinin lisansı değişmez. Yeni anlatımlar geçici sentetik anlatıcı örnekleridir; gerçek karakter oyuncusu kaydı değildir. Kayıt ve metin özetleri `library-manifest.json` içinde bulunur.

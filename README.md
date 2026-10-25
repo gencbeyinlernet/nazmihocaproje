@@ -14,9 +14,23 @@ Sınıfını ve konunu seç; **İzle ve dinle** düğmesine dokun. Her görsel k
 
 Platformun girişi şifresiz, üyeliksiz ve zorunlu onaysızdır. Özgün içerikler paylaşılabilir. [Paylaşım ve gizlilik](KULLANIM-KOSULLARI.md) isteğe bağlı bilgidir. Kişisel sorular eğitim materyali sayılmaz; özel kalır.
 
+## Kitap sırasına göre hikâye kütüphanesi
+
+`hikayeler/` sayfası ile 5–12 sınıf sayfalarının ana akışı **Hangi konuyu işliyorsunuz? → Hikâyeleri bul → İzle ve dinle** şeklindedir. Sınıf ve konu kelimesi seçilir; sonuçlar kitap sırasını korur. Türkçe karakterler, bazı eş anlamlılar ve kısa konu anlatımları desteklenir. Bu alan bir hazır içerik aramasıdır; çevrim içi yapay zekâdan yeni içerik üretiyormuş gibi gösterilmez.
+
+Kütüphanede doğrulanmış **163 konu için 198 özgün hikâye** vardır. Her konuya bir örnek; her ünitenin ilk konusuna ek bir alternatif hazırlanmıştır. Sınıf başına dağılım: 5. sınıf 40, 6. sınıf 25, 8. sınıf 30, 9. sınıf 25, 10. sınıf 30, 11. sınıf 22, 12. sınıf 26. **7. sınıfın kaynak sırası doğrulanmadı; içerik uydurulmaz.** Dosya 32 MiB aktarım sınırını aşmaktadır.
+
+Ünite/konu adı, sınıf, basılı kitap sayfası ve sıra katalogla aynıdır. Yeni 140 ana hikâyenin olay, açıklama, seçim, sonuç ve düşünme sorusu ayrı ayrı yazıldı; yalnız başlık değiştiren boş yer tutucular değildir. Bunlar özgün **öğretmen kontrolü bekleyen taslaklardır**; kitaptan alınmış metin veya resmî kazanım onayı olarak sunulmaz.
+
+Yeni hikâyeler için **1.225 ayrı Türkçe MP3** üretildi; önceki 232 kayıt da korunur. Toplam 1.457 kayıt vardır. Yeni kayıtlar CC0 veri kümesi kullanan Fettah modelinin geçici anlatıcı örnekleridir; gerçek çocuk veya karakter oyuncusu kaydı değildir. Görseller konulara eşlik eden kitap, doğa, dayanışma, adalet, mimari ve düşünme simgeleridir; yüzlerce özgün film sahnesi hazırlanmış gibi gösterilmez. Mevcut 21 özgün resimli üç hikâye ayrıca korunur.
+
+Yeni kaynaklar: `ses-planlari/mufredat-hikaye-tohumlari.txt`, `ses-planlari/unite-alternatifleri.txt`; derleme betiği `scripts/build-story-library.py`; 198 hikâye `assets/story-library-data.js`. Yeni ses metinleri `ses-planlari/kutuphane-ses-metinleri.json`, ses/dosya özetleri `assets/audio/library-manifest.json`; tarayıcıda `assets/library-narration.js` önceki kayıt haritasına eklenir. Metin veya kayıt değiştiğinde birbirine karşılık gelen özetler de yenilenmelidir.
+
+Öğretmen hazırlık alanında yeni konular da sesli hikâyeyle sunulabilir. İlgili konunun bütün alternatiflerine doğrudan bağlantı vardır. Öğrenci akışında uzun metin gösterilmez; her sahne dinlendikten sonra **İleri** ile geçilir. Tamamlanan yeni örnekler `merak-library-progress-v1` altında yalnızca bu cihazda tutulur; paylaşım/gizlilik alanındaki kayıt silme işlemi bunu da temizler.
+
 ## Sesli içerik kapsamı
 
-**232 ayrı gerçek MP3 dosyası** `assets/audio/anlatim/` altında bulunur; çalışma anında bir ses hizmetine bağlanılmaz. Bunlar sonradan kullanıcının kendi kayıtlarıyla değiştirilebilen **sentetik Türkçe örnek seslerdir**. Gerçek çocuk veya karakter oyuncusu kaydı ya da stüdyo kalitesinde seslendirme olarak sunulmaz. Konuşmacı adları hikâyedeki rolleri gösterir; hedef karakter tarifleri gelecekteki kayıtların talimatıdır. Yerel iki Türkçe ses modeli ve küçük ton/tempo farkları kullanıldı. Kaynak ve lisanslar [ses kayıt bilgisi](assets/audio/CREDITS.md) içinde; DFKI örnekleri kaynak gösterilerek ticari olmayan amaçlarla, aynı lisansla paylaşılır.
+Önceki içeriklerdeki **232 ayrı MP3 dosyası** `assets/audio/anlatim/` altında bulunur; çalışma anında bir ses hizmetine bağlanılmaz. Yeni kütüphane kayıtları yukarıdaki bölümde açıklanmıştır. Bunlar sonradan kullanıcının kendi kayıtlarıyla değiştirilebilen **sentetik Türkçe örnek seslerdir**. Gerçek çocuk veya karakter oyuncusu kaydı ya da stüdyo kalitesinde seslendirme olarak sunulmaz. Konuşmacı adları hikâyedeki rolleri gösterir; hedef karakter tarifleri gelecekteki kayıtların talimatıdır. Yerel iki Türkçe ses modeli ve küçük ton/tempo farkları kullanıldı. Kaynak ve lisanslar [ses kayıt bilgisi](assets/audio/CREDITS.md) içinde; DFKI örnekleri kaynak gösterilerek ticari olmayan amaçlarla, aynı lisansla paylaşılır.
 
 - 5. sınıf kitabının ilk üç konusuna ait 21 özgün görsel + 21 ayrı sahne sesi.
 - İlk ortak hikâyede 8 bölüm × 7 = 56 ayrı sahne sesi.
