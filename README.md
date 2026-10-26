@@ -44,6 +44,10 @@ Yeni kaynaklar: `ses-planlari/mufredat-hikaye-tohumlari.txt`, `ses-planlari/unit
 
 Öğretmen hazırlık alanında yeni konular da sesli hikâyeyle sunulabilir. İlgili konunun bütün alternatiflerine doğrudan bağlantı vardır. Öğrenci akışında uzun metin gösterilmez; her sahne dinlendikten sonra **İleri** ile veya isteğe bağlı **Otomatik oynat** seçeneğiyle geçilir. Tamamlanan yeni örnekler `merak-library-progress-v1` altında yalnızca bu cihazda tutulur; paylaşım/gizlilik alanındaki kayıt silme işlemi bunu da temizler.
 
+## Video üretim kılavuzu
+
+Sonraki videolar, kullanıcının 26 Ekim 2026 tarihinde verdiği eğitim videosu kılavuzuna göre hazırlanır. Kaynak sayfaları, teknik sınırlar, sahne kartı ve uygulama tercihleri [VIDEO-URETIM-STANDARDI.md](VIDEO-URETIM-STANDARDI.md) içindedir. Şimdilik görsel ve Türkçe ses oynatımı sürer.
+
 ## Sesli içerik kapsamı
 
 Önceki içeriklerdeki **232 ayrı MP3 dosyası** `assets/audio/anlatim/` altında bulunur; çalışma anında bir ses hizmetine bağlanılmaz. Yeni kütüphane kayıtları yukarıdaki bölümde açıklanmıştır. Bunlar sonradan kullanıcının kendi kayıtlarıyla değiştirilebilen **sentetik Türkçe örnek seslerdir**. Gerçek çocuk veya karakter oyuncusu kaydı ya da stüdyo kalitesinde seslendirme olarak sunulmaz. Konuşmacı adları hikâyedeki rolleri gösterir; hedef karakter tarifleri gelecekteki kayıtların talimatıdır. Yerel iki Türkçe ses modeli ve küçük ton/tempo farkları kullanıldı. Kaynak ve lisanslar [ses kayıt bilgisi](assets/audio/CREDITS.md) içinde; DFKI örnekleri kaynak gösterilerek ticari olmayan amaçlarla, aynı lisansla paylaşılır.

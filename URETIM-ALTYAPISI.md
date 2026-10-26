@@ -1,20 +1,38 @@
-# 5. sınıftan başlayan görsel ve ses altyapısı
+# Merak Bahçesi · Görsel, ses ve video altyapısı
 
+26 Ekim 2026 güncellemesi. Yeni video çalışmaları, kullanıcının yüklediği eğitim videosu hazırlama kılavuzuna göre yürütülür. Teknik ve pedagojik ölçütler ile sahne kartı [VIDEO-URETIM-STANDARDI.md](VIDEO-URETIM-STANDARDI.md) içindedir.
 
-> 24 Ekim 2026 güncellemesi: Hazır içeriklere 232 ayrı Türkçe örnek MP3 bağlandı. Öğrenci akışı artık görsel + ses oynatımıdır; aşağıdaki yazılı dökümler öğretmenin senaryo arşividir. Sekiz saniye üretim hedefidir; oynatıcı konuşmayı kesmez. Güncel ses durumu ve değiştirme yolu SESLENDIRME-PLANI.md içindedir.
+## Mevcut içerik
 
-Kullanıcı isteğiyle aktif çalışma 5. sınıftan başlar; ses kayıtları en son eklenecektir. 4. sınıfın önceki verileri, görselleri ve reddedilen sesleri `arsiv/4-sinif/` altında korunur ve uygulama tarafından yüklenmez.
+Aktif çalışma 5. sınıftan başlar. Kitap sırasına bağlı 163 konu için 198 özgün hikâye taslağı vardır. 7. sınıfın kaynak sırası henüz doğrulanmamıştır. Üniversite içerikleri özgün tartışma taslaklarıdır.
 
-5. sınıf kitabının sırasındaki ilk üç konuya ait üç bağlantılı senaryo vardır: Evrendeki Mükemmel Düzen (s. 14), Allah’ın Varlığı ve Birliği (s. 20), Allah’ın Güzel İsimleri (s. 29). Her içerik 7 sahne × 8 saniye = 56 saniyedir. Toplam 21 yeni görsel, her sahneye ait konuşmacı, replik ve ilerideki hareket tarifi bulunur. Ses/video alanları boştur; görseller sessiz önizlenir.
+Öğrenci deneyimi görsel ve sahneye bağlı Türkçe ses oynatımıdır. Toplam 1.457 geçici sentetik MP3 yaklaşık 154 dakika sürer. Kaynak ve lisanslar [ses kayıt bilgisi](assets/audio/CREDITS.md) dosyasındadır. Konuşmacı adları gerçek çocuk veya karakter oyuncusu kaydı bulunduğu anlamına gelmez.
 
-`assets/productions.js` aktif senaryoları ve Zehra, Ömer, öğretmen, anlatıcı ses profillerini tutar. Profiller ses tarifidir; oluşturulmuş kayıt gibi gösterilmez. `assets/scenes/<hikâye>/<01..07>.png` ayrı görsellerdir. Senaryo ve altyazı taslakları `video-ornekleri/7-sahne-*/` altındadır.
+5. sınıf kitabının ilk üç konusuna ait üç hikâyede toplam 21 özgün sahne görseli vardır: Evrendeki Mükemmel Düzen (s. 14), Allah’ın Varlığı ve Birliği (s. 20), Allah’ın Güzel İsimleri (s. 29). Diğer konularda ortak görseller ve konu simgeleri de kullanılır; yüzlerce ayrı film sahnesi hazırlanmış gibi sunulmaz.
 
-Kullanıcı sesi yüklediğinde ilgili sahnenin `audioUrl`, ölçülen `audioDuration`, gerçek `audioVoice` ve `audioApproval: "approved"` alanları güncellenir. Her sahne ayrı replik kaydı kullanır; bir karakterin farklı repliklerinde aynı dosya tekrarlanmaz. `SESLENDIRME-PLANI.md` ve `ses-planlari/karakter-sesleri.json`, sahne/karakter/dosya eşleştirmesini içerir.
+## Dosya düzeni
 
-Oynatıcı onaylı ses veya cihazdan seçilmiş deneme sesi varsa sesli çalışabilir; `ended` olayını bekler ve uzun kaydı 8. saniyede kesmez. Ses bulunmaz veya oynatılamazsa durur ve bilgi verir. Öğrenci görünümü elle Geri/İleri ile ilerler ve tüm görseller ziyaret edilip “Bitirdim” denince okuma ilerlemesini kaydeder. `?gorunum=ogretmen` ile açılan üretim görünümünde sessiz önizleme 8 saniyede bir ilerler. Deneme dosyası yalnızca açık sayfada kalır, sunucuya yüklenmez ve yenilemede kaldırılır. Video/MP4 üretilmez; görsel eklenmesi bir konuyu video izlenmiş yapmaz.
+- `assets/productions.js`: üç görselli hikâyenin sahne ve replikleri.
+- `assets/scenes/<hikâye>/<01..07>.png`: 21 ayrı görsel.
+- `assets/common-story-data.js`, `assets/visual-story-data.js`: iki ortak hikâye.
+- `assets/story-library-data.js`: kitap sırasındaki özgün örnekler.
+- `assets/audio/anlatim/`: sahne kimlikleriyle eşleşen MP3 kayıtları.
+- `assets/audio/narration-manifest.json`, `assets/audio/library-manifest.json`: kayıt yolları, gerçek süreler, metin ve dosya özetleri.
+- `assets/narration.js`: ortak görsel ve ses oynatıcısı.
+- `video-ornekleri/7-sahne-*/`: senaryo ve hedef altyazı taslakları; son kayda göre yeniden zamanlanır.
 
-Replikler yaş düzeyine uygun özgün uyarlamalardır. Kitap başlıkları ve sırası korunur; tam kitap metinleri veya PDF’leri yayımlanmaz. Kullanıcının ilk özgün metni `assets/source.txt` içinde değişmeden korunur. Kurum logosu kullanıcının sağladığı gerçek `logo.jpg` dosyasıdır.
+Eski senaryo dökümlerindeki “sesler sonra eklenecek” veya “56 saniye” ifadeleri ilk planı anlatır; güncel durum yukarıdadır. Yedi sahne ve yaklaşık sekiz saniye üretim hedefidir. Oynatıcı gerçek ses bitişini bekler; kaydı sekizinci saniyede kesmez.
 
-## Görünüm ayrımı
+## Oynatma ve yeni kayıt
 
-`assets/studio.js` sade öğrenci oynatıcısıdır; üretim araçları `assets/studio-authoring.js` içinde, yalnızca öğretmen görünümü seçildiğinde yüklenir. Sınıfların sade akışı `portal.js`, tüm planları inceleme görünümü `portal-authoring.js` ile çalışır. Görünüm seçimi bir yetkilendirme mekanizması değildir. Ortaokul, lise ve üniversite girişleri ayrıdır; üniversite tartışma taslakları kaynak seçimi bekler ve sınıf kataloğunun kitap sırasını değiştirmez.
+Öğrenci İzle ve dinle düğmesiyle başlar. Varsayılan elle modda konuşma bitince İleri düğmesiyle geçer. Otomatik oynat seçilirse ses bitişi sonraki görsel ve kaydı açar. Bütün sahneler dinlenmeden içerik tamamlanmaz. Hesap, zorunlu onay veya uzun okuma ekranı yoktur.
+
+Gerçek ses geldiğinde sahnenin `audioUrl`, `audioDuration`, `audioVoice` ve `audioApproval: "approved"` alanları güncellenir. Onaylı kayıt geçici örnekten önce kullanılır. Her replik ayrı dosyadır. [SESLENDIRME-PLANI.md](SESLENDIRME-PLANI.md) eşleştirmeleri açıklar.
+
+Öğretmen `sahne-atolyesi/?gorunum=ogretmen` alanında yerel bir sesi deneyebilir. Deneme yalnız açık sayfada kalır; sunucuya yüklenmez ve yenilemede kaldırılır. Bu görünüm seçimi bir yönetici yetkilendirmesi değildir.
+
+## Daha sonraki video aşaması
+
+Şimdiki oynatım, tamamlanmış MP4 veya tam karakter animasyonu değildir. Sonraki videolar için aynı konu ve sahne kimlikleri korunur. Kılavuza göre **senaryo → sahne taslağı → görsel → ses → kurgu → kontrol** sırası izlenir.
+
+Kaynak metinler `assets/source.txt` ve `assets/ikinci-hikaye-kaynak.txt` içinde değiştirilmeden korunur. Kitapların tamamı yayımlanmaz. Kurum logosu kullanıcının sağladığı gerçek `logo.jpg` dosyasıdır. Önceki 4. sınıf denemeleri arşivdedir ve aktif uygulama tarafından yüklenmez.
