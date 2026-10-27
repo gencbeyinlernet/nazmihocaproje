@@ -16,3 +16,9 @@ Her MP3 bir sahne kimliği taşır. Aynı dosya adıyla yeni MP3 koyabilir veya 
 ## Yeni konu kütüphanesi
 
 `anlatim/kutuphane/` altındaki 1.225 yeni kayıt yalnızca CC0 veri kümesi kullanan `tr_TR-fettah-medium` modeliyle oluşturulmuştur. Önceki DFKI örneklerinin lisansı değişmez. Yeni anlatımlar geçici sentetik anlatıcı örnekleridir; gerçek karakter oyuncusu kaydı değildir. Kayıt ve metin özetleri `library-manifest.json` içinde bulunur.
+
+## Örnek dersin etkinlik sesleri
+
+`etkinlik/` altındaki 27 ayrı MP3, 5. sınıf Evrendeki Mükemmel Düzen dersinin yönerge, soru/seçenek, ipucu, açıklama ve sonuç sesleridir; yaklaşık 6,2 dakika sürer. Yalnız yukarıda kaynağı verilen CC0 veri kümesine sahip Fettah modeli kullanılmıştır. Bunlar değiştirilebilir sentetik anlatıcı örnekleridir; çocuk sesi veya gerçek öğretmen kaydı olarak sunulmaz.
+
+Kaynak metinler `ses-planlari/etkinlik-ses-metinleri.json`, üretim betiği `scripts/generate-activity-audio.py` içindedir. Dosya ve metin SHA-256 özetleri, gerçek süreler ve lisans bilgisi `activity-manifest.json` dosyasındadır. Tarayıcı eşleştirmesi `assets/activity-narration.js` içindedir. Gerçek kayıtlarla değiştirirken bu eşleştirme ve manifest birlikte güncellenir. Önceki hikâye kayıtlarının lisans koşulları değişmez.

@@ -1,5 +1,7 @@
 # Kontroller
 
+Yeni bütünleşik ders testi: `CHROMIUM_PATH=/usr/bin/chromium node tests/pilot-lesson.cjs`. Gerçek yedi sahne MP3'ünün dinlenmesiyle açılan üç turlu oyunu, yanlış cevap ipuçlarını, üçüncü denemede açıklamayı, ilgili sahneye dönüşü, beş soruda ilk cevap üzerinden puanlamayı, son/en iyi puanı, yarım denemeden devamı ve öğrenci/öğretmen ekranları arasındaki ortak ilerlemeyi kontrol eder. Ayrıca 27 yeni kaydın metin/dosya özetlerini, menü açılınca sesin durmasını ve beş ekran genişliğini doğrular.
+
 Testler Node.js, Playwright ve Chromium kullanır. Sistem tarayıcısı için `CHROMIUM_PATH=/usr/bin/chromium` belirtilebilir. Her test kendi geçici HTTP sunucusunu açıp kapatır; canlı platforma veri yazmaz.
 
 ```sh

@@ -48,6 +48,16 @@ Yeni kaynaklar: `ses-planlari/mufredat-hikaye-tohumlari.txt`, `ses-planlari/unit
 
 Sonraki videolar, kullanıcının 26 Ekim 2026 tarihinde verdiği eğitim videosu kılavuzuna göre hazırlanır. Kaynak sayfaları, teknik sınırlar, sahne kartı ve uygulama tercihleri [VIDEO-URETIM-STANDARDI.md](VIDEO-URETIM-STANDARDI.md) içindedir. Şimdilik görsel ve Türkçe ses oynatımı sürer.
 
+## Oyun ve sınav içeren örnek ders
+
+5. sınıf **Evrendeki Mükemmel Düzen** için ilk bütünleşik ders: [Gökyüzü Kulübünün İlk Buluşması](https://gencbeyinlernet.github.io/nazmihocaproje/sahne-atolyesi/?v=20261027-pilot#icerik=gozlem-kulubu). Akış **7 sahneyi dinle → Doğa Dedektifi (3 bağlantı) → 5 soru → açıklamalı sonuç** şeklindedir. Ana öğrenci yolu ve öğretmen kütüphanesi aynı cihazdaki ilerlemeyi paylaşır. Diğer konulara aynı etkinlikler eklenmiş gibi gösterilmez.
+
+Hedef, kullanıcının verdiği DÖGM belgesinin PDF 72. sayfasındaki **DKAB.5.1.1: Evrendeki mükemmel düzene ilişkin akıl yürütebilme** çıktısıyla eşleştirildi. Oyun ve sorular özgün öğretmen kontrol taslaklarıdır; resmî içerik onayı değildir. Kaynak, yedi sahne ve cevap anahtarı [ders planında](video-ornekleri/7-sahne-gozlem-kulubu/DERS-PLANI.md) bulunur.
+
+Dinleme durumu ile sınav puanı ayrıdır. Yedi kaydı dinlemek oyunu açar; üç bağlantı tamamlanınca sınava geçilir. Yanlış oyun cevabında ipucu verilir; üçüncü denemeden sonra doğru bağlantı açıklanır. Sınavda her sorunun ilk gönderilen cevabı o deneme için kaydedilir, her doğru cevap 20 puandır. Sonuçta son puan ve en iyi tamamlanmış deneme ayrı gösterilir. Yanlış cevapta açıklama ve ilgili sahneyi yeniden dinleme vardır. **Doğa Gözlemcisi** katılım rozeti resmî sertifika veya başarı belgesi değildir.
+
+Soru, seçenek, ipucu, açıklama ve sonuçlar için **27 ek Türkçe MP3** vardır; sentetik anlatıcı örnekleridir. `assets/lesson-activities-data.js` içeriği, `assets/lesson-activities.js` davranışı, `assets/lesson-activities.css` görünümü belirler. Ses eşleştirmesi `assets/activity-narration.js`, metin ve dosya özetleri `assets/audio/activity-manifest.json` içindedir. Cevaplar ve ilerleme yalnız `merak-lesson-activities-v1` altında bu tarayıcıda tutulur; paylaşım/gizlilik alanından silinir. Hesap ve sunucu analitiği eklenmez.
+
 ## Sesli içerik kapsamı
 
 Önceki içeriklerdeki **232 ayrı MP3 dosyası** `assets/audio/anlatim/` altında bulunur; çalışma anında bir ses hizmetine bağlanılmaz. Yeni kütüphane kayıtları yukarıdaki bölümde açıklanmıştır. Bunlar sonradan kullanıcının kendi kayıtlarıyla değiştirilebilen **sentetik Türkçe örnek seslerdir**. Gerçek çocuk veya karakter oyuncusu kaydı ya da stüdyo kalitesinde seslendirme olarak sunulmaz. Konuşmacı adları hikâyedeki rolleri gösterir; hedef karakter tarifleri gelecekteki kayıtların talimatıdır. Yerel iki Türkçe ses modeli ve küçük ton/tempo farkları kullanıldı. Kaynak ve lisanslar [ses kayıt bilgisi](assets/audio/CREDITS.md) içinde; DFKI örnekleri kaynak gösterilerek ticari olmayan amaçlarla, aynı lisansla paylaşılır.

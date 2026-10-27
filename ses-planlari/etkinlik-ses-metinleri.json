@@ -1,0 +1,110 @@
+[
+  {
+    "id": "g5-1-1-intro",
+    "text": "Doğa dedektifi ol! Üç olayın doğru bağlantısını bul. Ardından beş soruyla öğrendiklerini dene. İstersen soruları ve seçenekleri dinleyebilirsin."
+  },
+  {
+    "id": "g5-1-1-quiz-intro",
+    "text": "Üç bağlantıyı inceledin. Şimdi beş soru var. Her soruda bir cevap seç ve cevabını kontrol et. Her doğru cevap yirmi puan. Açıklamayı dinleyebilir, ilgili sahneye dönebilirsin."
+  },
+  {
+    "id": "g5-1-1-game-isik",
+    "text": "Karttaki olay: Bitkiye ulaşan güneş ışığı. Bu olayla hangi bağlantıyı kurarsın? A seçeneği: Arı, çiçekler arasında polen taşıyabilir. B seçeneği: Bitki, besin üretirken ışık enerjisinden yararlanır. C seçeneği: Yağış, toprağa su ulaştırabilir."
+  },
+  {
+    "id": "g5-1-1-game-isik-explanation",
+    "text": "Bitkiler, besin üretirken ışık enerjisinden yararlanır. Bu, güneş ile bitki arasındaki bağlantılardan biridir."
+  },
+  {
+    "id": "g5-1-1-game-isik-hint",
+    "text": "Bu seçenek başka bir doğa olayını anlatıyor. Işığın bitki için ne işe yaradığını düşün."
+  },
+  {
+    "id": "g5-1-1-game-ari",
+    "text": "Karttaki olay: Bir arının çiçekten çiçeğe uçması. Bu olayla hangi bağlantıyı kurarsın? A seçeneği: Yağış, toprağa su ulaştırabilir. B seçeneği: Bitki, besin üretirken ışık enerjisinden yararlanır. C seçeneği: Arı, nektar toplarken çiçekler arasında polen taşıyabilir."
+  },
+  {
+    "id": "g5-1-1-game-ari-explanation",
+    "text": "Arı, nektar toplarken çiçekler arasında polen taşıyabilir. Böylece bazı bitkilerin çoğalmasına katkı sağlar."
+  },
+  {
+    "id": "g5-1-1-game-ari-hint",
+    "text": "Bu seçenek başka bir doğa olayını anlatıyor. Arının çiçekler arasında ne taşıyabildiğini hatırla."
+  },
+  {
+    "id": "g5-1-1-game-yagmur",
+    "text": "Karttaki olay: Bahçeye yağan yağmur. Bu olayla hangi bağlantıyı kurarsın? A seçeneği: Yağış, toprağa su ulaştırır; bitkiler bu sudan yararlanabilir. B seçeneği: Arı, nektar toplarken çiçekler arasında polen taşıyabilir. C seçeneği: Bitki, besin üretirken ışık enerjisinden yararlanır."
+  },
+  {
+    "id": "g5-1-1-game-yagmur-explanation",
+    "text": "Yağmur, toprağa su ulaştırır. Bitkiler kökleriyle topraktaki sudan yararlanabilir. Bu olaylar birbiriyle ilişkilidir."
+  },
+  {
+    "id": "g5-1-1-game-yagmur-hint",
+    "text": "Bu seçenek başka bir doğa olayını anlatıyor. Yağmurun toprağa ne ulaştırdığını düşün."
+  },
+  {
+    "id": "g5-1-1-quiz-gozlem",
+    "text": "1. soru. Bir bitkinin yağmurla ilişkisini araştırmak isteyen Zehra, hangisini yaparsa gözleme dayalı bilgi toplar? A seçeneği: Bitkiyi incelemeden nasıl büyüdüğüne karar verir. B seçeneği: Yağmurdan önce ve sonra aynı bitkiyi inceleyip not alır. C seçeneği: İlk duyduğu açıklamayı araştırmadan doğru kabul eder. D seçeneği: Yalnız saksının rengine bakıp büyümeyi açıklamaya çalışır."
+  },
+  {
+    "id": "g5-1-1-quiz-gozlem-explanation",
+    "text": "Aynı bitkiyi farklı zamanlarda incelemek ve not almak, gözleme dayalı bilgi toplamaya yardımcı olur. Bir sonuca ulaşmadan önce gözlem ve karşılaştırma yaparız."
+  },
+  {
+    "id": "g5-1-1-quiz-iliskiler",
+    "text": "2. soru. Ömer, arıların nektar toplarken polen taşıyabildiğini öğreniyor. Bu gözlem hangi düşünceyi destekler? A seçeneği: Bitkiler büyümek için yalnız arılara ihtiyaç duyar. B seçeneği: Arılar, çiçeklerin bütün ihtiyaçlarını tek başına karşılar. C seçeneği: Çiçekler ile onları ziyaret eden arılar birbirinden bağımsızdır. D seçeneği: Canlılar arasında birbirini etkileyen ilişkiler bulunabilir."
+  },
+  {
+    "id": "g5-1-1-quiz-iliskiler-explanation",
+    "text": "Arı ile çiçek arasındaki ilişki, canlıların birbirini etkileyebildiğine bir örnektir. Bu, bitkinin su ve ışık gibi başka ihtiyaçları olmadığı anlamına gelmez."
+  },
+  {
+    "id": "g5-1-1-quiz-neden-sonuc",
+    "text": "3. soru. Hikâyede yağmurun bitkilere katkısı hangi sırayla açıklanıyor? A seçeneği: Yağmur yağar; toprağa su ulaşır; bitki sudan yararlanır. B seçeneği: Bitki büyür; yağmuru oluşturur; toprağın suyu biter. C seçeneği: Yağmur yağar; topraktaki su biter; bitki susuz büyür. D seçeneği: Toprak kurur; yağmur durur; bitki suya ihtiyaç duymaz."
+  },
+  {
+    "id": "g5-1-1-quiz-neden-sonuc-explanation",
+    "text": "Hikâyede yağmurun toprağa su ulaştırdığı ve bitkilerin bu sudan yararlandığı anlatılıyor. Olayların hangi sırayla birbirine bağlandığına dikkat ederiz."
+  },
+  {
+    "id": "g5-1-1-quiz-tefekkur",
+    "text": "4. soru. Hikâyedeki öğretmene göre İslam, doğadaki düzen karşısında hangi davranışı teşvik eder? A seçeneği: Doğa hakkında soru sormadan ilk açıklamayla yetinmeyi. B seçeneği: Çevremizdeki olayları incelemeyi yalnız başkalarına bırakmayı. C seçeneği: Düzeni dikkatle gözlemleyip Allah’ın yaratışı üzerine düşünmeyi. D seçeneği: Gözlem yapmak yerine yalnız gördüklerimizin adlarını ezberlemeyi."
+  },
+  {
+    "id": "g5-1-1-quiz-tefekkur-explanation",
+    "text": "Öğretmen, İslam’ın evrendeki düzen üzerine düşünmeyi teşvik ettiğini anlatıyor. Dikkatli gözlem ve düşünme, hikâyemizin birlikte ele aldığı iki adımdır."
+  },
+  {
+    "id": "g5-1-1-quiz-ozen",
+    "text": "5. soru. Doğadaki canlılar arasındaki bağlantıları fark eden Ömer, gözlem yaparken nasıl davranmalı? A seçeneği: Bitkileri tanımak için bahçedeki çiçekleri koparmalı. B seçeneği: Canlıları rahatsız etmeden gözlemleyip bahçeyi korumalı. C seçeneği: Arıları daha yakından görmek için yuvalarını bozmalı. D seçeneği: Gözlem alanı açmak için küçük bitkileri söküp atmalı."
+  },
+  {
+    "id": "g5-1-1-quiz-ozen-explanation",
+    "text": "Doğayı gözlemlerken canlıları rahatsız etmemek ve yaşam alanlarını korumak gerekir. Öğrendiklerimizi özenli davranışlara dönüştürebiliriz."
+  },
+  {
+    "id": "g5-1-1-result-0",
+    "text": "Çalışmayı tamamladın. Beş sorudan 0 tanesini doğru cevapladın. Son denemendeki puanın yüz üzerinden 0. Açıklamaları yeniden inceleyebilir veya soruları tekrar deneyebilirsin."
+  },
+  {
+    "id": "g5-1-1-result-20",
+    "text": "Çalışmayı tamamladın. Beş sorudan 1 tanesini doğru cevapladın. Son denemendeki puanın yüz üzerinden 20. Açıklamaları yeniden inceleyebilir veya soruları tekrar deneyebilirsin."
+  },
+  {
+    "id": "g5-1-1-result-40",
+    "text": "Çalışmayı tamamladın. Beş sorudan 2 tanesini doğru cevapladın. Son denemendeki puanın yüz üzerinden 40. Açıklamaları yeniden inceleyebilir veya soruları tekrar deneyebilirsin."
+  },
+  {
+    "id": "g5-1-1-result-60",
+    "text": "Çalışmayı tamamladın. Beş sorudan 3 tanesini doğru cevapladın. Son denemendeki puanın yüz üzerinden 60. Açıklamaları yeniden inceleyebilir veya soruları tekrar deneyebilirsin."
+  },
+  {
+    "id": "g5-1-1-result-80",
+    "text": "Çalışmayı tamamladın. Beş sorudan 4 tanesini doğru cevapladın. Son denemendeki puanın yüz üzerinden 80. Açıklamaları yeniden inceleyebilir veya soruları tekrar deneyebilirsin."
+  },
+  {
+    "id": "g5-1-1-result-100",
+    "text": "Çalışmayı tamamladın. Beş sorudan 5 tanesini doğru cevapladın. Son denemendeki puanın yüz üzerinden 100. Açıklamaları yeniden inceleyebilir veya soruları tekrar deneyebilirsin."
+  }
+]

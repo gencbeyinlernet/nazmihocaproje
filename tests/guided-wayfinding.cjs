@@ -38,6 +38,7 @@ require('./helpers/audio-harness.cjs')(async({page:p,base,errors,missing})=>{
  await p.evaluate(()=>{
   const episodes=[...MERAK_COMMON_STORY.chapters.map(c=>({id:'ortak-'+c.id,scenes:c.scenes})),...MERAK_STORY_LIBRARY.stories.filter(s=>s.order===1&&s.grade==='5'),...MERAK_VISUAL_STORY.chapters.map(c=>({id:'ikinci-'+c.id,scenes:c.scenes}))];
   localStorage.setItem('merak-guided-journey-v1',JSON.stringify({grade:'5',completed:episodes.map(e=>e.id),heard:Object.fromEntries(episodes.map(e=>[e.id,e.scenes.map(s=>s.id)])),positions:Object.fromEntries(episodes.map(e=>[e.id,e.scenes.length-1])),last:''}));
+  const lesson=MERAK_LESSON_ACTIVITIES.lessons['g5-1-1'],answers=lesson.quiz.map(q=>q.answer);localStorage.setItem('merak-lesson-activities-v1',JSON.stringify({version:MERAK_LESSON_ACTIVITIES.version,lessons:{'g5-1-1':{heard:lesson.sceneIds,game:{started:true,index:2,answers:lesson.game.map(q=>q.answer),tries:[1,1,1]},quiz:{active:false,index:4,answers},latest:answers,best:answers,attemptCount:1}}}));
  });
  await p.goto(base+'?test=completed');
  assert((await p.locator('h1').innerText()).includes('Bütün keşifleri tamamladın'));

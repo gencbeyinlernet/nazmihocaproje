@@ -14,9 +14,9 @@ Geçici sentetik seslerin model/veri kümesi lisansları ayrıca geçerlidir. DF
 
 ## Bu cihazdaki bilgiler
 
-Dinlenen duraklar, tamamlanan sahneler, son açılan içerik ve önceki öğrenme etkinliğinin ilerlemesi tarayıcıda saklanır. Önceki sertifikaya yazılmış ad da bu cihazda bulunabilir. Kayıtlar diğer cihazlara otomatik taşınmaz. Öğretmenin düzenlediği ders planı sayfada geçici tutulur; indirildiğinde kendi cihazında dosya olur. Hesap veya sunucu kaydı yapılmaz.
+Dinlenen duraklar, tamamlanan sahneler, son açılan içerik ve önceki öğrenme etkinliğinin ilerlemesi tarayıcıda saklanır. Örnek dersteki oyun ilerlemesi, son sınav puanı ve en iyi puan da yalnız bu tarayıcıda tutulur. Önceki sertifikaya yazılmış ad da bu cihazda bulunabilir. Kayıtlar diğer cihazlara otomatik taşınmaz. Öğretmenin düzenlediği ders planı sayfada geçici tutulur; indirildiğinde kendi cihazında dosya olur. Hesap veya sunucu kaydı yapılmaz.
 
-Paylaşım ve gizlilik penceresindeki “Bu cihazdaki öğrenme kayıtlarını sil” düğmesi yerel ilerleme ve varsa soru takip kodunu siler. Site üyelik veya yeniden onay istemeden açılmaya devam eder. Bu işlem gelecekteki soru sunucusunun kayıtlarını silmez.
+Paylaşım ve gizlilik penceresindeki “Bu cihazdaki öğrenme kayıtlarını sil” düğmesi yerel ilerlemeyi, oyun/sınav kayıtlarını ve varsa soru takip kodunu siler. Site üyelik veya yeniden onay istemeden açılmaya devam eder. Bu işlem gelecekteki soru sunucusunun kayıtlarını silmez.
 
 ## Soru ve cevap alanı
 
