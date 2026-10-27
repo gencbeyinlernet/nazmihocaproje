@@ -120,3 +120,7 @@ GitHub Pages: `main` dalı, `/ (root)`. Güncel yerel paket: `indir/merak-bahces
 ## Otomatik izleme
 
 Oynatıcıdaki görünür anahtar elle modda kapalı başlar. Açıldığında duraklatılmış ses devam eder; sahne zaten bittiyse sıradaki görsele geçilir. Son ses bittiğinde bütün sahneler dinlenmişse mevcut hikâye tamamlanır. Atlanan sahneler varsa önce bunlara dönülür; başka bir konu rastgele başlatılmaz. Anahtarın kapatılması mevcut kaydı kesmez, sonraki geçişi elle yapmaya döndürür. Duraklatma, menü açılması, sekmenin gizlenmesi ve hata halinde ses durur; kullanıcının Dinle düğmesiyle devam etmesi gerekir. Destekleyen tarayıcılarda otomatik ses çalarken ekran uyanık tutma isteği yapılır; destek yoksa oynatım bozulmaz. Yeni bir hikâye açıldığında otomatik seçim yeniden kapalıdır.
+
+## Ayrı öğrenci ve öğretmen ekranları
+
+Öğrenci ana ekranı yalnız hikâye, görsel ve sesle ilerler; dinleme sonrasında oyun veya sınav açılmaz. Öğretmen ekranı `hikayeler/` adresindedir. Buradan açılan görselli dersler `ekran=ogretmen` seçimini taşır; ilk örneğin oyunu ve sınavı yalnız bu görünümde sunulur. Bu ayrım yetkilendirme değildir; iki ekran da herkese açıktır.
