@@ -258,3 +258,7 @@ MEB, 12. Sınıf Din Kültürü ve Ahlak Bilgisi (2026). ISBN 978-975-11-8641-6.
 | 5.2 | Budizm | 132 | Özgün hikâye taslağı |
 | 5.3 | Konfüçyanizm | 137 | Özgün hikâye taslağı |
 | 5.4 | Taoizm | 141 | Özgün hikâye taslağı |
+
+## 28 Ekim 2026 güncellemesi
+
+Yedi yeni, yedişer sahnelik hikâye eklendi; kütüphane 205 özgün taslağa ulaştı. Öğrenci ekranında her doğrulanmış sınıf için kitap sırasındaki 10 hikâyelik başlangıç listesi bulunur. 7. sınıfın kaynağı aktarım sınırı nedeniyle okunamadığından o sınıfın hedefi açık kalmıştır. Güncel sayılar, kaynaklar ve yeni replikler [hikâye serisi dökümündedir](HIKAYE-SERISI-20261028.md).

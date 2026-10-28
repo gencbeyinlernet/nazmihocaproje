@@ -22,3 +22,7 @@ Her MP3 bir sahne kimliği taşır. Aynı dosya adıyla yeni MP3 koyabilir veya 
 `etkinlik/` altındaki 27 ayrı MP3, 5. sınıf Evrendeki Mükemmel Düzen dersinin yönerge, soru/seçenek, ipucu, açıklama ve sonuç sesleridir; yaklaşık 6,2 dakika sürer. Yalnız yukarıda kaynağı verilen CC0 veri kümesine sahip Fettah modeli kullanılmıştır. Bunlar değiştirilebilir sentetik anlatıcı örnekleridir; çocuk sesi veya gerçek öğretmen kaydı olarak sunulmaz.
 
 Kaynak metinler `ses-planlari/etkinlik-ses-metinleri.json`, üretim betiği `scripts/generate-activity-audio.py` içindedir. Dosya ve metin SHA-256 özetleri, gerçek süreler ve lisans bilgisi `activity-manifest.json` dosyasındadır. Tarayıcı eşleştirmesi `assets/activity-narration.js` içindedir. Gerçek kayıtlarla değiştirirken bu eşleştirme ve manifest birlikte güncellenir. Önceki hikâye kayıtlarının lisans koşulları değişmez.
+
+## 28 Ekim 2026 ek hikâyeleri
+
+`anlatim/kutuphane/ek20261028-*.mp3` biçimindeki 49 yeni kayıt, yukarıdaki CC0 veri kümesine sahip Fettah modeliyle oluşturulmuştur. Sentetik anlatıcı örnekleridir; özgün metinler `ses-planlari/yeni-hikayeler-20261028.json`, eşleştirmeler `library-manifest.json` içindedir.

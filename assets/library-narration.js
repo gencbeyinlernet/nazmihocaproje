@@ -11024,5 +11024,446 @@ Object.assign(window.MERAK_NARRATION.scenes, {
     "kind": "synthetic-demo",
     "textSha256": "9c8d7edb6318833443f65adca09bb858274d6b11ccd5b9f0634643ea1ea0f29f",
     "sha256": "c5a2318d16806d86f79dc42ee0795e30738d1991d7e585744789be71a83fc9d5"
+  },
+  "ek20261028-5-1": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-5-1.mp3",
+    "duration": 8.438,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "95ee6f06ea313da32063f7f5e5f6d2a8e8baac4ed8f94b0097c2ca3311f9b61e",
+    "sha256": "b5b0896ff1ea8193ee978a040a48c8d41887d6b672df283c4aa8fb3a31d4125b"
+  },
+  "ek20261028-5-2": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-5-2.mp3",
+    "duration": 8.516,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "95123b5f043724447e477627452c46ba7b688d554359c9d51e001f731483baeb",
+    "sha256": "367544d36faecf0bec650499ee20869e151d7b8fa7435ff8d9c77df6050411dc"
+  },
+  "ek20261028-5-3": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-5-3.mp3",
+    "duration": 8.856,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "2be3cd53fa02d5dfdc3279adde9cd111dc32c391708262160d652c2a884866f2",
+    "sha256": "558e0cf6c72306eb2529f3e546f26a694a2f8f4b3ef2bada9572472381643a57"
+  },
+  "ek20261028-5-4": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-5-4.mp3",
+    "duration": 8.333,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "2ae933ac95f2dd04137ca19419f4b6e4101b046cf67896d894a6766a55a38bda",
+    "sha256": "afc65dd1c3969eaaf3e86955ddc0258858050367fe2a6b960c4247efab083eda"
+  },
+  "ek20261028-5-5": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-5-5.mp3",
+    "duration": 8.333,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "c86f2193545cb6453223eadd2d6c6dd1ca470758ae342f7698b220134d13a619",
+    "sha256": "cc91c9138588679ff038ab2bdb251595bc4f4288f5b617e33c17fa56b20d2661"
+  },
+  "ek20261028-5-6": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-5-6.mp3",
+    "duration": 8.96,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "b06e3fe47cdd6317a654cdc284ef8934a259e4e64820213efa3c8932dac23ea7",
+    "sha256": "92b95a406917c24a715bd1a8b962bb4246fdb1c7d1aef33d16dbddc743af65aa"
+  },
+  "ek20261028-5-7": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-5-7.mp3",
+    "duration": 7.941,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "439f425156d52beac134ee1523b251a2b9eb9d0300187299850568d445d59dec",
+    "sha256": "f3d9e4d470096da34e34e0f28dc0d1d1aeef37263c189b6615188e8e5e8fd10e"
+  },
+  "ek20261028-6-1": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-6-1.mp3",
+    "duration": 7.784,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "9592b002b05373d73fe524758034773c41f28ea0da58a9f95e23ce6048be738f",
+    "sha256": "ed07d49fec3f98e4dff17b648dcd80698f2775ead77cc2a134009ac604ecab98"
+  },
+  "ek20261028-6-2": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-6-2.mp3",
+    "duration": 9.352,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "4f504cbdd464f3a8768a5e14b2be0729fef68fbb556afeee5c2aa26c2618097c",
+    "sha256": "80eb739638f9b4ef4e4df600022467c06c22c0b8599a7da84f43c6d655ec0ee9"
+  },
+  "ek20261028-6-3": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-6-3.mp3",
+    "duration": 12.042,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "b2397e6e6627710e86dd2fddcb025b729957c69fd23c91e5052b0c9a9a7cf24e",
+    "sha256": "ded6d98c061199de2ead1d67cbcbc1563e5bceef87b296948a5ea730909e2781"
+  },
+  "ek20261028-6-4": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-6-4.mp3",
+    "duration": 10.266,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "2df0e9e7a187f03c21a2bf99fe9fbe45b0e877d7a8ae258abff1c055944fab8f",
+    "sha256": "4c0eb2cb732a5c19fa473e2f7f746808a5b433a23ce8e8981fc53b323ca38e37"
+  },
+  "ek20261028-6-5": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-6-5.mp3",
+    "duration": 10.606,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "36641da951a405cf81fde699658d776ba68f304a1bd38154647bd9fe1b753c46",
+    "sha256": "d5491f973ce36941a5c46c28e568cae5b2038cc8caa12a654e94541a4f890bb3"
+  },
+  "ek20261028-6-6": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-6-6.mp3",
+    "duration": 9.038,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "847f90809c7dc65d1b6c9eeb49c5bdc61424fc102c0df69e72523ae44507dbfc",
+    "sha256": "3c3afa9b8b696984bb1d68d1a21630e702a30b5509d1c5d81c72136691f7f90e"
+  },
+  "ek20261028-6-7": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-6-7.mp3",
+    "duration": 8.333,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "379f852031993b2598582e387e5a1629b6f17a4d341b5868ad99f0c3850453c5",
+    "sha256": "6eadca8168ecd865f7081b772de1efcc6206514e41ef341de606b8aedac1f15d"
+  },
+  "ek20261028-8-1": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-8-1.mp3",
+    "duration": 8.908,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "d337d46cbf3d8b76000d26d817068d4a7a7416e298951799c89dd26d825e035d",
+    "sha256": "e6931d7bec3a9e0c1407f5ace892b3966afddce79adae9171868752fded50a1a"
+  },
+  "ek20261028-8-2": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-8-2.mp3",
+    "duration": 8.62,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "4f964d91b255eae85196f29244966bdf82982af0995b80eb22f987dc31c8c2c7",
+    "sha256": "41f3fc8a59e540616f313665e9e13cf7e14fbf7d2803794838ee39834ab3ef40"
+  },
+  "ek20261028-8-3": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-8-3.mp3",
+    "duration": 10.632,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "81195703c24b2c525bfef430258e5f9894089c9717d630bba4d8c84efec7f7a3",
+    "sha256": "f4c3996074b673f0045a3bab0a31f0b54952495445d26315ff8282b982515b50"
+  },
+  "ek20261028-8-4": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-8-4.mp3",
+    "duration": 10.397,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "8ea721777c048f5ecdad7c813b34ffba61fc2633f963c8e07f034fddaab60626",
+    "sha256": "9a077fd37bad4eb4700073fef67b64012a0788636964ad84e12a97bb599a8206"
+  },
+  "ek20261028-8-5": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-8-5.mp3",
+    "duration": 10.031,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "41e5c3c69a6b9a1e8e4dcb4dd665538f03488758e22c8764a8420e6633283b31",
+    "sha256": "8de3387d520334a809bafc664a82019f1f8e060ecfe0bb7fcc5e3633fbfec5f5"
+  },
+  "ek20261028-8-6": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-8-6.mp3",
+    "duration": 9.169,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "a25b35154f395441680aaeeaedb3f8be719d5a3cc6a1eb4a33e2de2a7339edee",
+    "sha256": "455b3c9c28ced4c966b087e58ee03cc6d6786cf0c6885661caafd3cf2be54b63"
+  },
+  "ek20261028-8-7": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-8-7.mp3",
+    "duration": 6.87,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "5b043e9430b25afb884e9b89cc53291966b216a87c7ea14bab9e9b75455b94f6",
+    "sha256": "dcee2a611c7f575b36efcb5703f92312fb43743930c723a02ba44af46425ebfa"
+  },
+  "ek20261028-9-1": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-9-1.mp3",
+    "duration": 8.882,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "4f5d4b9ca732c4351323303ff4a18cf28c7f87e26914e9d91516c7b278a2bd68",
+    "sha256": "695f25376c4d89e007b2c0a2515b89d477ec483652126357b09b6f28fbb0b9f3"
+  },
+  "ek20261028-9-2": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-9-2.mp3",
+    "duration": 9.613,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "59e29a809c057ea8afeeb16a517e4c8c397663743342035d45269cad41cbf0ba",
+    "sha256": "41a874ac878ea2000113102100ec5b22e1603d2b0ef68bbf893eab93b65325db"
+  },
+  "ek20261028-9-3": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-9-3.mp3",
+    "duration": 10.371,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "b2c27d5a02558db8a481b96b354263d458cba19403b070a4cd3b1692b6e83cad",
+    "sha256": "a11ebe93713bf021ae7c5bb271b0dc4f207ee0531bbafb08d57d13379fa4d574"
+  },
+  "ek20261028-9-4": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-9-4.mp3",
+    "duration": 9.796,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "171623bc629598bfc084f8e2f595cc57c745e7a37a075d260c951ace1ca6cf8e",
+    "sha256": "45f648b8a84b0108b87428a9e078327f7a6d7b28bdbe05c2ac564c16ce9690c1"
+  },
+  "ek20261028-9-5": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-9-5.mp3",
+    "duration": 9.77,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "80444e0e00f1703f2a9c158dc956bc51774610f5c72ac8b77bfc83026921b616",
+    "sha256": "50b4effa7e6b747161d9d5b5bd54a0fc5806a78b27bb0ce57459ae89d15d3644"
+  },
+  "ek20261028-9-6": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-9-6.mp3",
+    "duration": 9.221,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "face468a74c8cfc079f602dfe7839258121d57c2e751c0c450a454a5dfa350a3",
+    "sha256": "b0f65f8af7cbe00198a80b86100b5e5d2da32176645614f208915fe075605280"
+  },
+  "ek20261028-9-7": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-9-7.mp3",
+    "duration": 9.796,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "bd7734b85cba1ad7a3fcc9583a66e16863625b6d37c1707f4548e9f1ffefce15",
+    "sha256": "2144454cb845a0e332021dfe563042c2353465c8171a6d7c68de9d92d57044b3"
+  },
+  "ek20261028-10-1": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-10-1.mp3",
+    "duration": 8.098,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "7071c3d7849eb0a660e607cf858d0a13884c8fcb0c7b520568db782d87eabedc",
+    "sha256": "c6732cb0a0a2cdf70ae7e452e3222921c2df492bfbe7fff788917088074d6b6b"
+  },
+  "ek20261028-10-2": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-10-2.mp3",
+    "duration": 8.464,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "27067523c587ed44d8021c9602945e4c0f8a3df9f0d39ed87e36e72707f48149",
+    "sha256": "9837bb35e9590fe64b15087a0f393b2c48fdcb87ed91961fe6aacff45e94e76a"
+  },
+  "ek20261028-10-3": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-10-3.mp3",
+    "duration": 10.971,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "8bb379526080a87e71058ea790565d5af71625f2af239886d0cfd975f50dbd3b",
+    "sha256": "eb98fd2215862afc79bba6045ed71c76fd81c44504d3c6221edbd702aa6eecb6"
+  },
+  "ek20261028-10-4": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-10-4.mp3",
+    "duration": 10.109,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "9707fc32eb666cc2dd3a0259d60dfbcd74e3beef20d68e5372ddb3046ade7ee8",
+    "sha256": "c78e926a248a7c9770db9919ed61e22741ac34780c550041b3654ba77eb151d2"
+  },
+  "ek20261028-10-5": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-10-5.mp3",
+    "duration": 9.221,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "3d181c86b522a1394bd22583fa8600e41b6468078675f0525c14ef1ea1156153",
+    "sha256": "1bcc1edc4a1a05e09f6189b5e1cee6adede988c34076f1166bac55c1443ab9b8"
+  },
+  "ek20261028-10-6": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-10-6.mp3",
+    "duration": 9.587,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "02ded541885d04c5ec1c510bcb41ee61cda5ec5fb431f4d11300da6757b29f72",
+    "sha256": "5883c1a01e4b56c47b285ddeb160a43a79db385bdd43a083a7c52639a6ab4c13"
+  },
+  "ek20261028-10-7": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-10-7.mp3",
+    "duration": 8.438,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "15cfac4c415b9c081d105dc8a9b104d5fe35b71cbf63300576485a4516e4b8c1",
+    "sha256": "89b741b3feda6fb248ef48a8ca53f7f6e8f5ab95c5d3d27996a5a3d274fddc73"
+  },
+  "ek20261028-11-1": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-11-1.mp3",
+    "duration": 8.882,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "d71dbf5ab1e67c0a617d7ec9998da1708c0a1ad70e1cbe0b56cfdfd88bcb22fc",
+    "sha256": "befdc14400f1c4b3a244bf6cd3edcb1dbe70b9b91b5e69a4eae1b9fabe2011d7"
+  },
+  "ek20261028-11-2": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-11-2.mp3",
+    "duration": 9.064,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "2cd875b4e9ca87abe9c1f163db7ce700879bf80b24b34456564bfb10a8936cb3",
+    "sha256": "76b5617a534c93198dbda0d415b6b8f5d6f55dd44c9af6331d670257065b7a67"
+  },
+  "ek20261028-11-3": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-11-3.mp3",
+    "duration": 9.509,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "36b359477f19cca9efb4718c2cb193b56054bb6c6df272f93e9a52a4022c4413",
+    "sha256": "34bd8f21cb9c652ea1727e34950cbf498e9ead9487ce6e8de719670745394ef5"
+  },
+  "ek20261028-11-4": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-11-4.mp3",
+    "duration": 11.494,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "3853598ec0c9dd66922cf3d6b5278e1eb8ca0a89ffb3f39040e9eea00a851fa9",
+    "sha256": "7fd3ae9851acec1c79642fe701b975aefc5eedbc156e7ed930f86de8889b0112"
+  },
+  "ek20261028-11-5": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-11-5.mp3",
+    "duration": 9.718,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "79b1ba102b7fd4b8a1d890200182b764da898a7671043b2c3729757f279e8334",
+    "sha256": "b6447ebcba4e20c7104d87d5f361c9229584bcd3c4e6fb19829f480574ee3e9d"
+  },
+  "ek20261028-11-6": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-11-6.mp3",
+    "duration": 10.736,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "132eb99ed6f4b282dd44abdf2918b44797b79c52543552dece452306a377f291",
+    "sha256": "7f1d581c212d647b8861e18d4a54473e7a0d3616ca7e59e6e30ec1a2912bce83"
+  },
+  "ek20261028-11-7": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-11-7.mp3",
+    "duration": 8.777,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "70120fc4f419aca6e2ad6efa93a7672f95eeb8f364ef1b836d5057ca9807a0f1",
+    "sha256": "27ed2302ef8d86ed1ad944cd7c1d813c76a91ce08c2d24c41868bd064671a383"
+  },
+  "ek20261028-12-1": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-12-1.mp3",
+    "duration": 10.162,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "4069e51ef9c8ebc9c628a797028cb8f213508e337e3309c4f5ca0e854e972542",
+    "sha256": "265fc1dd83227f21629bbbc73844f01da082ff7b4edd2f69bec1626e0e498f1a"
+  },
+  "ek20261028-12-2": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-12-2.mp3",
+    "duration": 9.665,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "83be7ee535c6cb19ae2af34190373334c0cb5f050133861fc81e4a82a15c0cf7",
+    "sha256": "ba2184c16cfcfb99f0474613fa3f991cdc7427eb5bcd356bb6fe2678cc63b22a"
+  },
+  "ek20261028-12-3": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-12-3.mp3",
+    "duration": 9.639,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "1fd670df68f8a4c2d892b6dbd2dfb279c997e101215fead286ad00c59847b152",
+    "sha256": "0f2c610edf1e0a8f970d12dbf35cb57bafb7f09f4b30de89d497dea59dd9b68f"
+  },
+  "ek20261028-12-4": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-12-4.mp3",
+    "duration": 10.58,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "e7ddae6ae0d1d2b2061b729634961558bd42ba91d086d65f2d539e2c0d57adb6",
+    "sha256": "b1976cd6f78eebb12983fc0b28b87536e2a805b7efabe6098db3c4c11e225f73"
+  },
+  "ek20261028-12-5": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-12-5.mp3",
+    "duration": 11.05,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "cd45c76cd23c1a0913d9763d99ebb388cf2f3d96e165772cbb2bbefc83c5b20d",
+    "sha256": "58b32c1660a2f392a5ebc7e0704e9eac45b4d7f6890746f619f03442daf53f12"
+  },
+  "ek20261028-12-6": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-12-6.mp3",
+    "duration": 11.886,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "55ce5fccd0e7c9218b4775edb336a424a519d50d8d1bb2f921e7415ac9bfa5e3",
+    "sha256": "cb6cd8617f265b062a11f652a1f7f367861af5d610f1075d51d97173090bb64f"
+  },
+  "ek20261028-12-7": {
+    "url": "assets/audio/anlatim/kutuphane/ek20261028-12-7.mp3",
+    "duration": 10.632,
+    "speaker": "Anlatıcı",
+    "voice": "fettah",
+    "kind": "synthetic-demo",
+    "textSha256": "4f959d8686a9be0f9604d7387f9ea68dfc42fb7d0cd17e4b6a5c9fa99b1cd8aa",
+    "sha256": "d096f30a2177e42789717d194ad5df05fead07a58b9806de64ba78b7c3fad4ad"
   }
 });

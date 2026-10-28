@@ -124,3 +124,7 @@ Oynatıcıdaki görünür anahtar elle modda kapalı başlar. Açıldığında d
 ## Ayrı öğrenci ve öğretmen ekranları
 
 Öğrenci ana ekranı yalnız hikâye, görsel ve sesle ilerler; dinleme sonrasında oyun veya sınav açılmaz. Öğretmen ekranı `hikayeler/` adresindedir. Buradan açılan görselli dersler `ekran=ogretmen` seçimini taşır; ilk örneğin oyunu ve sınavı yalnız bu görünümde sunulur. Bu ayrım yetkilendirme değildir; iki ekran da herkese açıktır.
+
+## 28 Ekim 2026 güncellemesi
+
+Yedi yeni, yedişer sahnelik hikâye eklendi; kütüphane 205 özgün taslağa ulaştı. Öğrenci ekranında her doğrulanmış sınıf için kitap sırasındaki 10 hikâyelik başlangıç listesi bulunur. 7. sınıfın kaynağı aktarım sınırı nedeniyle okunamadığından o sınıfın hedefi açık kalmıştır. Güncel sayılar, kaynaklar ve yeni replikler [hikâye serisi dökümündedir](HIKAYE-SERISI-20261028.md).

@@ -30,8 +30,15 @@ for g in catalog:
     scenes=[{'id':'kutuphane-'+l['id']+'-2-'+str(i+1),'text':text,'speaker':'Anlatıcı','label':label} for i,(label,text) in enumerate(zip(['Yeni bir olay','İlk düşünce','Temel bilgi','Birlikte araştıralım','Sonuç','Değerlendirme','Sıra sende'],texts))]
     stories.append({**base,'id':l['id']+'-ornek-2','title':title,'order':2,'characters':names[g['id']],'scenes':scenes,'external':'','core':item['core']})
     jobs.extend({'id':s['id'],'text':s['text'],'speaker':s['speaker'],'group':'kutuphane'} for s in scenes)
-assert len(stories)==198 and len(jobs)==1225
-payload={'version':'2026-10-25','status':'original-teacher-review-drafts','stories':stories}
+for extra in json.loads((root/'ses-planlari/yeni-hikayeler-20261028.json').read_text()):
+ original=next(s for s in stories if s['grade']==extra['grade'] and s['order']==1)
+ scenes=[{'id':'ek20261028-'+extra['grade']+'-'+str(i+1),'text':text,'speaker':'Anlatıcı','label':label} for i,(label,text) in enumerate(zip(['Olay','Soru','Temel bilgi','Bağlantı','Karar','Sonuç','Düşünelim'],extra['texts']))]
+ stories.append({**original,'id':original['lessonId']+'-ornek-3','title':extra['title'],'order':3,'scenes':scenes,'external':'','core':extra['texts'][2]})
+ jobs.extend({'id':s['id'],'text':s['text'],'speaker':s['speaker'],'group':'kutuphane'} for s in scenes)
+lesson_order={l['id']:i for i,l in enumerate(l for g in catalog for u in g['units'] for l in u['lessons'])}
+stories.sort(key=lambda s:(lesson_order[s['lessonId']],s['order']))
+assert len(stories)==205 and len(jobs)==1274
+payload={'version':'2026-10-28','status':'original-teacher-review-drafts','stories':stories}
 (root/'assets/story-library-data.js').write_text("'use strict';\n// Original narratives, book heading order; no reproduced book passages.\nwindow.MERAK_STORY_LIBRARY = "+json.dumps(payload,ensure_ascii=False,indent=2)+';\n')
 (root/'ses-planlari/kutuphane-ses-metinleri.json').write_text(json.dumps(jobs,ensure_ascii=False,indent=2)+'\n')
 print('Library:',len(stories),'stories;',len(jobs),'new voice jobs')

@@ -1,7 +1,7 @@
 'use strict';
 // Original narratives, book heading order; no reproduced book passages.
 window.MERAK_STORY_LIBRARY = {
-  "version": "2026-10-25",
+  "version": "2026-10-28",
   "status": "original-teacher-review-drafts",
   "stories": [
     {
@@ -236,6 +236,70 @@ window.MERAK_STORY_LIBRARY = {
       ],
       "external": "",
       "core": "Evrende canlılar ve çevreleri arasında çeşitli ilişkiler, ölçü ve düzen gözlemlenir. İslam inancı bu gözlemler üzerinde düşünmeyi, Allah’ın yaratmasıyla ilişki kurmayı öğütler."
+    },
+    {
+      "grade": "5",
+      "lessonId": "g5-1-1",
+      "unit": 1,
+      "unitTitle": "Allah İnancı",
+      "code": "1.1",
+      "topic": "Evrendeki Mükemmel Düzen",
+      "page": 14,
+      "sourceTitle": "5. Sınıf Din Kültürü ve Ahlak Bilgisi",
+      "reviewed": false,
+      "id": "g5-1-1-ornek-3",
+      "title": "Rüzgârın Taşıdığı Tohum",
+      "order": 3,
+      "characters": [
+        "Zehra",
+        "Ömer"
+      ],
+      "scenes": [
+        {
+          "id": "ek20261028-5-1",
+          "text": "Zehra, bahçede aynı bitkinin küçük filizlerini farklı yerlerde gördü. Bu kadar uzağa nasıl ulaştıklarını merak etti.",
+          "speaker": "Anlatıcı",
+          "label": "Olay"
+        },
+        {
+          "id": "ek20261028-5-2",
+          "text": "Ömer, yerdeki hafif tohumlardan birini gösterdi. Esen rüzgâr tohumu biraz öteye taşıdı; çocuklar dikkatle izledi.",
+          "speaker": "Anlatıcı",
+          "label": "Soru"
+        },
+        {
+          "id": "ek20261028-5-3",
+          "text": "Öğretmenleri, bazı bitkilerin tohumlarının rüzgârla taşınabildiğini söyledi. Her bitkinin aynı yolla yayılmadığını da ekledi.",
+          "speaker": "Anlatıcı",
+          "label": "Temel bilgi"
+        },
+        {
+          "id": "ek20261028-5-4",
+          "text": "Zehra, bir bağlantı çizdi: bitki, tohum, rüzgâr ve yeni bir yer. Filizlenmek için uygun koşullar da gerekliydi.",
+          "speaker": "Anlatıcı",
+          "label": "Bağlantı"
+        },
+        {
+          "id": "ek20261028-5-5",
+          "text": "İslam inancında doğadaki düzen üzerine düşünmek, Allah’ın yaratışını anlamaya yönelen bir tefekkür örneğidir.",
+          "speaker": "Anlatıcı",
+          "label": "Karar"
+        },
+        {
+          "id": "ek20261028-5-6",
+          "text": "Çocuklar filizleri koparmadı. Gözlemlerini çizerek kaydetti ve sonraki günlerde aynı alanı yeniden incelemeye karar verdi.",
+          "speaker": "Anlatıcı",
+          "label": "Sonuç"
+        },
+        {
+          "id": "ek20261028-5-7",
+          "text": "Sen çevrende birbirini etkileyen hangi iki doğa olayını gözlemledin? Birini seç ve aralarındaki bağlantıyı düşün.",
+          "speaker": "Anlatıcı",
+          "label": "Düşünelim"
+        }
+      ],
+      "external": "",
+      "core": "Öğretmenleri, bazı bitkilerin tohumlarının rüzgârla taşınabildiğini söyledi. Her bitkinin aynı yolla yayılmadığını da ekledi."
     },
     {
       "grade": "5",
@@ -2992,6 +3056,70 @@ window.MERAK_STORY_LIBRARY = {
     },
     {
       "grade": "6",
+      "lessonId": "g6-1-1",
+      "unit": 1,
+      "unitTitle": "Peygamber ve İlahi Kitap İnancı",
+      "code": "1.1",
+      "topic": "İnsanlara Rehber: Peygamber",
+      "page": 14,
+      "sourceTitle": "6. Sınıf Din Kültürü ve Ahlak Bilgisi",
+      "reviewed": false,
+      "id": "g6-1-1-ornek-3",
+      "title": "Sözü Davranışla Tamamlamak",
+      "order": 3,
+      "characters": [
+        "Asya",
+        "Kerem"
+      ],
+      "scenes": [
+        {
+          "id": "ek20261028-6-1",
+          "text": "Asya, sınıfın paylaşım rafına kitap getireceğini söyledi. Fakat kitabı evde unutunca verdiği sözü düşündü.",
+          "speaker": "Anlatıcı",
+          "label": "Olay"
+        },
+        {
+          "id": "ek20261028-6-2",
+          "text": "Kerem, yarın getirmenin yeterli olacağını söyledi. Asya ise arkadaşlarına durumu açıklayıp sözünü ne zaman tutacağını belirtmek istedi.",
+          "speaker": "Anlatıcı",
+          "label": "Soru"
+        },
+        {
+          "id": "ek20261028-6-3",
+          "text": "Derslerinde peygamberlerin insanlara rehber oluşunu konuşuyorlardı. Öğretmenleri, onların Allah’ın mesajlarını ilettiğini ve davranışlarıyla örnek olduğunu anlattı.",
+          "speaker": "Anlatıcı",
+          "label": "Temel bilgi"
+        },
+        {
+          "id": "ek20261028-6-4",
+          "text": "Asya, dürüstlüğü yalnız anlatmanın değil, davranışlarında göstermenin de önemli olduğunu fark etti. Unuttuğunu arkadaşlarına açıkça söyledi.",
+          "speaker": "Anlatıcı",
+          "label": "Bağlantı"
+        },
+        {
+          "id": "ek20261028-6-5",
+          "text": "Bir öğrenci iyi davranışları örnek alabilir; ancak peygamberlik sıradan bir yol göstericilik değildir. İslam’da peygamberler Allah’ın seçtiği elçilerdir.",
+          "speaker": "Anlatıcı",
+          "label": "Karar"
+        },
+        {
+          "id": "ek20261028-6-6",
+          "text": "Ertesi gün Asya kitabını getirdi. Paylaşım rafında küçük bir iş yapmıştı; fakat sözüne sahip çıkmak için somut bir adım atmıştı.",
+          "speaker": "Anlatıcı",
+          "label": "Sonuç"
+        },
+        {
+          "id": "ek20261028-6-7",
+          "text": "Bir davranışı örnek almak senin için ne demek? Güvenilir bir insan olmak için bugün hangi sözünün arkasında durabilirsin?",
+          "speaker": "Anlatıcı",
+          "label": "Düşünelim"
+        }
+      ],
+      "external": "",
+      "core": "Derslerinde peygamberlerin insanlara rehber oluşunu konuşuyorlardı. Öğretmenleri, onların Allah’ın mesajlarını ilettiğini ve davranışlarıyla örnek olduğunu anlattı."
+    },
+    {
+      "grade": "6",
       "lessonId": "g6-1-2",
       "unit": 1,
       "unitTitle": "Peygamber ve İlahi Kitap İnancı",
@@ -4555,6 +4683,70 @@ window.MERAK_STORY_LIBRARY = {
       ],
       "external": "",
       "core": "Kader ve kaza, Allah’ın ilmi, iradesi ve yaratmasıyla ilgili kavramlardır. Konu, evrendeki ölçü ve düzen ile insanın sorumluluğu birlikte düşünülerek ele alınır."
+    },
+    {
+      "grade": "8",
+      "lessonId": "g8-1-1",
+      "unit": 1,
+      "unitTitle": "Kader İnancı",
+      "code": "1.1",
+      "topic": "Kader ve Kaza İnancı",
+      "page": 12,
+      "sourceTitle": "8. Sınıf Din Kültürü ve Ahlak Bilgisi",
+      "reviewed": false,
+      "id": "g8-1-1-ornek-3",
+      "title": "Yağmurdan Önceki Hazırlık",
+      "order": 3,
+      "characters": [
+        "Selin",
+        "Eymen"
+      ],
+      "scenes": [
+        {
+          "id": "ek20261028-8-1",
+          "text": "Selin ve Eymen açık havada bir etkinlik planlıyordu. Hava tahmininde yağmur ihtimali görünce hazırlıklarını yeniden değerlendirdiler.",
+          "speaker": "Anlatıcı",
+          "label": "Olay"
+        },
+        {
+          "id": "ek20261028-8-2",
+          "text": "Eymen, sonucu bütünüyle kontrol edemediklerini söyledi. Selin de buna rağmen yağmura karşı önlem alabileceklerini hatırlattı.",
+          "speaker": "Anlatıcı",
+          "label": "Soru"
+        },
+        {
+          "id": "ek20261028-8-3",
+          "text": "Öğretmenleri, kaderin Allah’ın bilgisi ve takdiriyle, kazanın ise olayların gerçekleşmesiyle ilgili kavramlar olduğunu açıkladı.",
+          "speaker": "Anlatıcı",
+          "label": "Temel bilgi"
+        },
+        {
+          "id": "ek20261028-8-4",
+          "text": "Bu kavramlar insanın sorumluluğunu ortadan kaldırmaz. Havanın nasıl olacağını seçemeyen çocuklar, hazırlıklarını nasıl yapacaklarını seçebilirdi.",
+          "speaker": "Anlatıcı",
+          "label": "Bağlantı"
+        },
+        {
+          "id": "ek20261028-8-5",
+          "text": "Okulun izniyle kapalı bir alan ayarladılar. Arkadaşlarını bilgilendirdiler ve etkinlik malzemelerini ıslanmayacak biçimde yerleştirdiler.",
+          "speaker": "Anlatıcı",
+          "label": "Karar"
+        },
+        {
+          "id": "ek20261028-8-6",
+          "text": "Yağmur başlayınca planlarını değiştirdiler. Önlem almak, sonucu kesin olarak belirlemek değildi; kendi görevlerini yerine getirmekti.",
+          "speaker": "Anlatıcı",
+          "label": "Sonuç"
+        },
+        {
+          "id": "ek20261028-8-7",
+          "text": "Bu hikâyede çocukların kontrol edemediği durum neydi? Sorumluluk alarak verdikleri iki kararı düşün.",
+          "speaker": "Anlatıcı",
+          "label": "Düşünelim"
+        }
+      ],
+      "external": "",
+      "core": "Öğretmenleri, kaderin Allah’ın bilgisi ve takdiriyle, kazanın ise olayların gerçekleşmesiyle ilgili kavramlar olduğunu açıkladı."
     },
     {
       "grade": "8",
@@ -6444,6 +6636,70 @@ window.MERAK_STORY_LIBRARY = {
     },
     {
       "grade": "9",
+      "lessonId": "g9-1-1",
+      "unit": 1,
+      "unitTitle": "Allah–İnsan İlişkisi",
+      "code": "1.1",
+      "topic": "İnsan ve İnsanın Yaratılışı",
+      "page": 12,
+      "sourceTitle": "9. Sınıf Din Kültürü ve Ahlak Bilgisi",
+      "reviewed": false,
+      "id": "g9-1-1-ornek-3",
+      "title": "Bir Günlük Sorumluluk",
+      "order": 3,
+      "characters": [
+        "Elif",
+        "Deniz"
+      ],
+      "scenes": [
+        {
+          "id": "ek20261028-9-1",
+          "text": "Elif, okulun ortak çalışma alanında unutulmuş bir defter buldu. Sahibinin kim olduğunu anlamak için özel sayfaları okumayı düşündü.",
+          "speaker": "Anlatıcı",
+          "label": "Olay"
+        },
+        {
+          "id": "ek20261028-9-2",
+          "text": "Deniz, defteri açmadan görevliye teslim edebileceklerini söyledi. Elif durup kendi kararının başka bir insanı nasıl etkileyeceğini düşündü.",
+          "speaker": "Anlatıcı",
+          "label": "Soru"
+        },
+        {
+          "id": "ek20261028-9-3",
+          "text": "Din kültürü dersinde insanın yaratılışını konuşmuşlardı. İslam’a göre insan, akıl ve irade sahibi, davranışlarından sorumlu bir varlıktır.",
+          "speaker": "Anlatıcı",
+          "label": "Temel bilgi"
+        },
+        {
+          "id": "ek20261028-9-4",
+          "text": "Bu özellikler yalnız büyük kararlarla ilgili değildir. Birinin eşyasına ve mahremiyetine gösterilen özen de günlük sorumluluğun parçasıdır.",
+          "speaker": "Anlatıcı",
+          "label": "Bağlantı"
+        },
+        {
+          "id": "ek20261028-9-5",
+          "text": "Elif defteri okumadan teslim etti. Görevli, sahibinin defteri bulabilmesi için kişisel bilgilerini paylaşmayan bir duyuru hazırladı.",
+          "speaker": "Anlatıcı",
+          "label": "Karar"
+        },
+        {
+          "id": "ek20261028-9-6",
+          "text": "Defter sahibine ulaşınca Elif bir şeyi fark etti: Seçim yapabilmek, seçimin sonuçları üzerinde düşünmeyi de gerektiriyordu.",
+          "speaker": "Anlatıcı",
+          "label": "Sonuç"
+        },
+        {
+          "id": "ek20261028-9-7",
+          "text": "İnsanın akıl, irade ve sorumluluk sahibi olması bu olayda nasıl görünür oldu? Başka hangi çözüm kişinin mahremiyetini koruyabilirdi?",
+          "speaker": "Anlatıcı",
+          "label": "Düşünelim"
+        }
+      ],
+      "external": "",
+      "core": "Din kültürü dersinde insanın yaratılışını konuşmuşlardı. İslam’a göre insan, akıl ve irade sahibi, davranışlarından sorumlu bir varlıktır."
+    },
+    {
+      "grade": "9",
       "lessonId": "g9-1-2",
       "unit": 1,
       "unitTitle": "Allah–İnsan İlişkisi",
@@ -7939,6 +8195,70 @@ window.MERAK_STORY_LIBRARY = {
       ],
       "external": "",
       "core": "İslam’da bilgiye değer verilir. Bilginin kaynağını sorgulamak, güvenilirliği üzerinde düşünmek ve bilgiyi sorumlulukla kullanmak önemlidir."
+    },
+    {
+      "grade": "10",
+      "lessonId": "g10-1-1",
+      "unit": 1,
+      "unitTitle": "İslam’da Varlık ve Bilgi",
+      "code": "1.1",
+      "topic": "İslam’da Bilgi ve Bilginin Kaynakları",
+      "page": 14,
+      "sourceTitle": "10. Sınıf Din Kültürü ve Ahlak Bilgisi",
+      "reviewed": false,
+      "id": "g10-1-1-ornek-3",
+      "title": "Paylaşmadan Önce",
+      "order": 3,
+      "characters": [
+        "Meryem",
+        "Arda"
+      ],
+      "scenes": [
+        {
+          "id": "ek20261028-10-1",
+          "text": "Meryem, arkadaş grubunda dinî bir söz gördü. Altında kaynak yazmıyordu; buna rağmen pek çok kişi sözü paylaşmıştı.",
+          "speaker": "Anlatıcı",
+          "label": "Olay"
+        },
+        {
+          "id": "ek20261028-10-2",
+          "text": "Arda, çok paylaşılmasının doğru olduğunu göstermeyeceğini söyledi. Önce sözün nereden alındığını araştırmaya karar verdiler.",
+          "speaker": "Anlatıcı",
+          "label": "Soru"
+        },
+        {
+          "id": "ek20261028-10-3",
+          "text": "İslam düşüncesinde doğru haber, sağlıklı duyular ve akıl bilgi edinmede önem taşır. Kaynağın güvenilirliği ve bilginin sınırları birlikte değerlendirilir.",
+          "speaker": "Anlatıcı",
+          "label": "Temel bilgi"
+        },
+        {
+          "id": "ek20261028-10-4",
+          "text": "Öğrenciler sözü güvenilir kaynaklarda aradı. Bir görselin üzerinde tanınmış bir isim bulunması, o kişinin gerçekten söylediğini kanıtlamıyordu.",
+          "speaker": "Anlatıcı",
+          "label": "Bağlantı"
+        },
+        {
+          "id": "ek20261028-10-5",
+          "text": "Kaynağı doğrulayamadıkları için sözü aktarmadılar. Öğretmenlerinden uygun kaynaklara nasıl ulaşabilecekleri konusunda yardım istediler.",
+          "speaker": "Anlatıcı",
+          "label": "Karar"
+        },
+        {
+          "id": "ek20261028-10-6",
+          "text": "Meryem, doğrulayamadığı bir bilgiye henüz bilmiyorum diyebilmenin de sorumlu bir tutum olduğunu düşündü. Araştırma notuna belirsizliği açıkça yazdı.",
+          "speaker": "Anlatıcı",
+          "label": "Sonuç"
+        },
+        {
+          "id": "ek20261028-10-7",
+          "text": "Bir iddianın kaynağını, dayanağını ve doğrulanabilirliğini nasıl incelersin? Paylaşmadan önce soracağın üç soruyu düşün.",
+          "speaker": "Anlatıcı",
+          "label": "Düşünelim"
+        }
+      ],
+      "external": "",
+      "core": "İslam düşüncesinde doğru haber, sağlıklı duyular ve akıl bilgi edinmede önem taşır. Kaynağın güvenilirliği ve bilginin sınırları birlikte değerlendirilir."
     },
     {
       "grade": "10",
@@ -9760,6 +10080,70 @@ window.MERAK_STORY_LIBRARY = {
     },
     {
       "grade": "11",
+      "lessonId": "g11-1-1",
+      "unit": 1,
+      "unitTitle": "Kader, İrade ve Sorumluluk",
+      "code": "1.1",
+      "topic": "İnsan ve Kader",
+      "page": 15,
+      "sourceTitle": "11. Sınıf Din Kültürü ve Ahlak Bilgisi",
+      "reviewed": false,
+      "id": "g11-1-1-ornek-3",
+      "title": "Sonuç ve Sorumluluk",
+      "order": 3,
+      "characters": [
+        "Zeynep",
+        "Yusuf"
+      ],
+      "scenes": [
+        {
+          "id": "ek20261028-11-1",
+          "text": "Zeynep ile Yusuf bir araştırma sunumuna hazırlanıyordu. Yusuf, sonuç zaten belli diyerek kaynakları kontrol etmeyi erteledi.",
+          "speaker": "Anlatıcı",
+          "label": "Olay"
+        },
+        {
+          "id": "ek20261028-11-2",
+          "text": "Zeynep, geleceği bilmediklerini ve kendi emeklerinden sorumlu olduklarını hatırlattı. İkisi çalışma planını yeniden gözden geçirdi.",
+          "speaker": "Anlatıcı",
+          "label": "Soru"
+        },
+        {
+          "id": "ek20261028-11-3",
+          "text": "Kader konusu, Allah’ın ilmi, iradesi ve kudretiyle birlikte ele alınır. İnsan iradesi ve sorumluluğu bu konudan koparılamaz.",
+          "speaker": "Anlatıcı",
+          "label": "Temel bilgi"
+        },
+        {
+          "id": "ek20261028-11-4",
+          "text": "Bir insanın bütün koşulları kontrol edememesi, yapabileceği seçimlerin olmadığı anlamına gelmez. Araştırmak, doğrulamak ve zaman ayırmak onların elindeydi.",
+          "speaker": "Anlatıcı",
+          "label": "Bağlantı"
+        },
+        {
+          "id": "ek20261028-11-5",
+          "text": "Yusuf kaynakları karşılaştırdı; Zeynep sunumu düzenledi. Teknik bir sorun çıkma ihtimaline karşı çevrim dışı bir kopya da hazırladılar.",
+          "speaker": "Anlatıcı",
+          "label": "Karar"
+        },
+        {
+          "id": "ek20261028-11-6",
+          "text": "Sunumdan sonra yalnız aldıkları değerlendirmeyi konuşmadılar. Hangi kararların kendilerine ait olduğunu ve hangi koşulları değiştiremediklerini ayırdılar.",
+          "speaker": "Anlatıcı",
+          "label": "Sonuç"
+        },
+        {
+          "id": "ek20261028-11-7",
+          "text": "Kader inancı ile sorumluluk arasında nasıl bir ilişki kurarsın? Sonuçtan bağımsız olarak yerine getirmen gereken görevleri düşün.",
+          "speaker": "Anlatıcı",
+          "label": "Düşünelim"
+        }
+      ],
+      "external": "",
+      "core": "Kader konusu, Allah’ın ilmi, iradesi ve kudretiyle birlikte ele alınır. İnsan iradesi ve sorumluluğu bu konudan koparılamaz."
+    },
+    {
+      "grade": "11",
       "lessonId": "g11-1-2",
       "unit": 1,
       "unitTitle": "Kader, İrade ve Sorumluluk",
@@ -11131,6 +11515,70 @@ window.MERAK_STORY_LIBRARY = {
       ],
       "external": "",
       "core": "Din ve bilim, insanın varlığı ve evreni anlamaya yönelik arayışlarında ele alınır. Bilimin yöntem ve inceleme alanı ile dinin anlam, değer ve rehberlik boyutları dikkatle ayırt edilir."
+    },
+    {
+      "grade": "12",
+      "lessonId": "g12-1-1",
+      "unit": 1,
+      "unitTitle": "İslam ve Bilim",
+      "code": "1.1",
+      "topic": "Din ve Bilim İlişkisi",
+      "page": 12,
+      "sourceTitle": "12. Sınıf Din Kültürü ve Ahlak Bilgisi",
+      "reviewed": false,
+      "id": "g12-1-1-ornek-3",
+      "title": "İki Soru, İki Yöntem",
+      "order": 3,
+      "characters": [
+        "Duru",
+        "Emre"
+      ],
+      "scenes": [
+        {
+          "id": "ek20261028-12-1",
+          "text": "Duru ve Emre, okul bahçesindeki bir ağacın gelişimini araştırdı. Işık, su ve toprak koşullarına ilişkin gözlem kayıtları topladılar.",
+          "speaker": "Anlatıcı",
+          "label": "Olay"
+        },
+        {
+          "id": "ek20261028-12-2",
+          "text": "Emre, ölçümlerden yola çıkarak büyümeye etki eden koşulları tartıştı. Sonuçlarının hangi gözlemlere dayandığını ve sınırlarını açıkladı.",
+          "speaker": "Anlatıcı",
+          "label": "Soru"
+        },
+        {
+          "id": "ek20261028-12-3",
+          "text": "Duru başka bir soru sordu: Doğaya karşı niçin sorumluyuz? Bu soru onları anlam, değer ve insanın tutumları üzerine düşünmeye yöneltti.",
+          "speaker": "Anlatıcı",
+          "label": "Temel bilgi"
+        },
+        {
+          "id": "ek20261028-12-4",
+          "text": "Bilimsel araştırma, olguları gözlem ve kanıtlarla inceler. Din ise inanç, anlam ve değerler bakımından insanın sorularına cevaplar sunar.",
+          "speaker": "Anlatıcı",
+          "label": "Bağlantı"
+        },
+        {
+          "id": "ek20261028-12-5",
+          "text": "Bu alanların sorularını, yöntemlerini ve iddialarını dikkatle ayırt etmek gerekir. Bir gözlem sonucu tek başına bütün inanç veya değer sorularını çözmez.",
+          "speaker": "Anlatıcı",
+          "label": "Karar"
+        },
+        {
+          "id": "ek20261028-12-6",
+          "text": "Öğrenciler raporlarında gözlem sonuçlarını ayrı, doğayı korumaya ilişkin gerekçelerini ayrı açıkladı. İslam’ın sorumluluk anlayışını ders kaynaklarıyla ilişkilendirdiler.",
+          "speaker": "Anlatıcı",
+          "label": "Sonuç"
+        },
+        {
+          "id": "ek20261028-12-7",
+          "text": "Aynı olay hakkında bilimsel bir araştırma sorusu ve anlamla ilgili bir soru kur. Bu sorulara cevap ararken hangi kaynakları ve yöntemleri kullanırsın?",
+          "speaker": "Anlatıcı",
+          "label": "Düşünelim"
+        }
+      ],
+      "external": "",
+      "core": "Duru başka bir soru sordu: Doğaya karşı niçin sorumluyuz? Bu soru onları anlam, değer ve insanın tutumları üzerine düşünmeye yöneltti."
     },
     {
       "grade": "12",
