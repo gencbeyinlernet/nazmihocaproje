@@ -26,3 +26,5 @@ Kaynak metinler `ses-planlari/etkinlik-ses-metinleri.json`, üretim betiği `scr
 ## 28 Ekim 2026 ek hikâyeleri
 
 `anlatim/kutuphane/ek20261028-*.mp3` biçimindeki 49 yeni kayıt, yukarıdaki CC0 veri kümesine sahip Fettah modeliyle oluşturulmuştur. Sentetik anlatıcı örnekleridir; özgün metinler `ses-planlari/yeni-hikayeler-20261028.json`, eşleştirmeler `library-manifest.json` içindedir.
+
+28 Ekim mobil düzenleme: Son 49 Fettah anlatıcı kaydı aynı metinlerle, 1,02 uzunluk ölçeği ve 48 kbps MP3 olarak yeniden üretildi. Hedef ses seviyesi -18 LUFS, tepe sınırı -2 dBTP; 70 Hz alt frekans süzme uygulandı. Kaynak/model lisansı değişmez. Üretim betiği `scripts/polish-recent-audio.py` dosyasındadır.

@@ -128,3 +128,9 @@ Oynatıcıdaki görünür anahtar elle modda kapalı başlar. Açıldığında d
 ## 28 Ekim 2026 güncellemesi
 
 Yedi yeni, yedişer sahnelik hikâye eklendi; kütüphane 205 özgün taslağa ulaştı. Öğrenci ekranında her doğrulanmış sınıf için kitap sırasındaki 10 hikâyelik başlangıç listesi bulunur. 7. sınıfın kaynağı aktarım sınırı nedeniyle okunamadığından o sınıfın hedefi açık kalmıştır. Güncel sayılar, kaynaklar ve yeni replikler [hikâye serisi dökümündedir](HIKAYE-SERISI-20261028.md).
+
+## 28 Ekim · Mobil uygulama görünümü ve dinleme
+
+Öğrenci ekranında telefona uygun Ana ekran / Hikâyeler / Sınıfım alt menüsü, renkli konu kartları, büyük dokunma alanları ve güvenli ekran kenarı boşlukları bulunur. Hikâye oynarken alt menü gizlenir. Diğer seçenekler içindeki Sakin (0,9×), Normal (1×), Akıcı (1,1×) hız seçimi kayıtlı seslerde ton korunarak uygulanır; tercih bu cihazda saklanır ve öğrenme kayıtları silinirken temizlenir.
+
+Son eklenen 49 anlatıcı kaydı yeniden sentezlendi: 1,02 uzunluk ölçeği, 70 Hz alt frekans süzme, -18 LUFS hedef seviye ve 48 kbps MP3. Metinler değişmedi. `scripts/polish-recent-audio.py` üretimi tekrarlar; kayıtlar sentetik örnek olmaya devam eder. Eski hikâyelerin bütün sesleri yeniden üretilmiş değildir.

@@ -38,3 +38,5 @@ Otomatik oynatma testi gerçek MP3 kayıtlarıyla aralıksız sahne sırasını 
 Yönlendirilmiş giriş testi karşılama, sınıf seçimi, gerçek yedi sahnenin dinlenmesi, otomatik tamamlanma, sonraki keşif önerisi, kayıtlı devam, tarayıcı Geri işlemi, öğretmen/serbest girişleri, menü/ses/scroll temizliği ve bozuk yerel kayıtların güvenli karşılanmasını kontrol eder. Önceki katalog ana sayfa kontrolleri bilinçli olarak serbest `kesfet/` adresinde korunur.
 
 Yön bulma testi görünür adım şeridini, gerçek dinleme sonrasında renklenen sahne ilerlemesini, tamamlanma durumlarını, eski sınıf/soru bağlantılarını, erişilebilir içerik bağlantısının oynatıcıyı kapatmamasını ve tamamlanan yolun ilk sahneden tekrar izlenmesini kontrol eder.
+
+Mobil uygulama testi: `CHROMIUM_PATH=/usr/bin/chromium node tests/mobile-app.cjs`. Alt menü ve seçili ekranı, oynatıcıda odaklı görünümü, ton korunarak hız değiştirmeyi, sahneler ve yenileme arasında tercihin korunmasını, ses temizliğini ve beş ekran ölçüsünü kontrol eder.
