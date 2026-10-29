@@ -67,9 +67,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-01-02.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 8.136,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.56,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-01-03",
@@ -93,9 +93,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-01-04.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 8.04,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 8.88,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-01-05",
@@ -106,9 +106,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-01-05.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 5.64,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 6.864,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-01-06",
@@ -119,9 +119,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-01-06.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 7.704,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 8.88,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-01-07",
@@ -175,9 +175,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-02-02.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 8.136,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.032,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-02-03",
@@ -201,9 +201,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-02-04.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 7.44,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 8.448,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-02-05",
@@ -214,9 +214,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-02-05.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 7.176,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 8.424,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-02-06",
@@ -296,9 +296,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-03-03.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 6.576,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 7.8,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-03-04",
@@ -309,9 +309,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-03-04.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 8.4,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.056,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-03-05",
@@ -322,9 +322,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-03-05.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 6.864,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 8.184,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-03-06",
@@ -335,9 +335,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-03-06.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 8.52,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 9.384,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-03-07",
@@ -404,9 +404,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-04-03.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 7.848,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 8.784,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-04-04",
@@ -417,9 +417,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-04-04.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 6.96,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 7.896,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-04-05",
@@ -430,9 +430,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-04-05.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 8.376,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 9.84,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-04-06",
@@ -443,9 +443,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-04-06.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 7.368,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 7.8,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-04-07",
@@ -499,9 +499,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-05-02.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 6.432,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 8.184,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-05-03",
@@ -525,9 +525,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-05-04.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 8.496,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 9.72,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-05-05",
@@ -538,9 +538,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-05-05.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 7.56,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 8.688,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-05-06",
@@ -551,9 +551,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-05-06.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 9.144,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 9.816,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-05-07",
@@ -607,9 +607,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-06-02.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 7.392,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 8.688,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-06-03",
@@ -633,9 +633,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-06-04.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 8.952,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 11.064,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-06-05",
@@ -646,9 +646,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-06-05.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 6.912,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 8.064,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-06-06",
@@ -659,9 +659,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-06-06.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 9.312,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.248,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-06-07",
@@ -728,9 +728,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-07-03.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 6.264,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 7.368,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-07-04",
@@ -741,9 +741,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-07-04.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 7.512,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 8.376,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-07-05",
@@ -754,9 +754,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-07-05.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 6.696,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 8.064,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-07-06",
@@ -767,9 +767,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-07-06.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 8.28,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.416,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-07-07",
@@ -837,9 +837,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-08-03.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 8.304,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 9.12,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-08-04",
@@ -850,9 +850,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-08-04.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 8.952,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 9.936,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-08-05",
@@ -863,9 +863,9 @@ window.MERAK_COMMON_STORY = {
           "audioUrl": "assets/audio/anlatim/ortak-hikaye/ortak-08-05.mp3",
           "imageUrl": "",
           "audioApproval": "demo",
-          "audioDuration": 8.328,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 9.48,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ortak-08-06",

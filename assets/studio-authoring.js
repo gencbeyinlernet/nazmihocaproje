@@ -14,7 +14,7 @@
  const sourceFor=s=>localAudio.get(s.id)?.url||approved(s);
  function message(text){const el=document.querySelector('#studio-feedback');if(el)el.textContent=text;}
  function stopVoice(){const audio=voice();if(audio)audio.pause();}
- const durationFor=s=>mode==='silent'?8:localAudio.get(s.id)?.duration||s.audioDuration||MerakNarration.duration(s)||s.duration||8;
+ const durationFor=s=>mode==='silent'?8:localAudio.get(s.id)?.duration||MerakNarration.duration(s)||s.audioDuration||s.duration||8;
  const totalDuration=()=>production.scenes.reduce((sum,s)=>sum+durationFor(s),0);
  const playedBefore=()=>production.scenes.slice(0,sceneIndex).reduce((sum,s)=>sum+durationFor(s),0);
  function pause(){if(loading){generation++;loading=false;}if(playing)elapsed=mode==='voice'&&voice()?voice().currentTime:Math.min(8,(performance.now()-epoch)/1000);playing=false;if(raf!==null)cancelAnimationFrame(raf);raf=null;stopVoice();updateClock();}

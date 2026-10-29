@@ -42,3 +42,5 @@ Yön bulma testi görünür adım şeridini, gerçek dinleme sonrasında renklen
 Mobil uygulama testi: `CHROMIUM_PATH=/usr/bin/chromium node tests/mobile-app.cjs`. Alt menü ve seçili ekranı, oynatıcıda odaklı görünümü, ton korunarak hız değiştirmeyi, sahneler ve yenileme arasında tercihin korunmasını, ses temizliğini ve beş ekran ölçüsünü kontrol eder.
 
 Fotoğraf gerçekliğindeki görseller: `CHROMIUM_PATH=/usr/bin/chromium node tests/photo-library.cjs`. 205 hikâyenin 1.395 sahnesini, diğer ortak/akademik sahneleri, 48 karenin dosya ve görüntü alanlarını, gerçek yüklemeyi, mobil görünümü ve görsel hatasında durup yeniden denemeyi doğrular.
+
+Kadın sesi yenileme testi: `CHROMIUM_PATH=/usr/bin/chromium node tests/female-audio.cjs`. 60 Emel kaydının replik ve dosya özetlerini, gerçek sürelerini, açık sahne URL’si ile manifest üzerinden önbellek sürümünü, onaylı özel kayıt önceliğini ve öğrenci/öğretmen oynatımını kontrol eder.

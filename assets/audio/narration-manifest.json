@@ -1,8 +1,8 @@
 {
   "locale": "tr-TR",
   "status": "replaceable-demo",
-  "engine": "Piper TTS 1.8.0",
-  "notes": "Yeni Türkçe örnek kayıtlar; gerçek çocuk veya karakter oyuncusu kaydı değildir. Doğal konuşma süresi korunur. Kullanıcının kayıtlarıyla değiştirilebilir.",
+  "engine": "Piper TTS 1.8.0 / Microsoft Edge online neural TTS",
+  "notes": "Kadın rolleri kullanıcı tarafından üretilip yüklenen Türkçe Emel kayıtlarıdır. Diğer kayıtlar Piper örnekleridir. Sentetik seslerdir; gerçek çocuk oyuncu kaydı değildir. Metinler ve doğal konuşma süreleri korunur.",
   "scenes": {
     "gozlem-kulubu-01": {
       "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-01.mp3",
@@ -15,12 +15,16 @@
     },
     "gozlem-kulubu-02": {
       "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-02.mp3",
-      "duration": 5.352,
+      "duration": 6.48,
       "speaker": "Zehra",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "6d69ed47a027b6fa9b83ac5ef318f14eaac59137f48f9f1d1a7c6724bee110b5",
-      "sha256": "8893c051af549040cd73d7cecc81738a26ee7c3f8734575edabf19d640937c02"
+      "sha256": "446f2f738b6daefc0d7ef4cef40181ccfef5c132924416a1c9aad77d220b5597",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "gozlem-kulubu-03": {
       "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-03.mp3",
@@ -33,30 +37,42 @@
     },
     "gozlem-kulubu-04": {
       "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-04.mp3",
-      "duration": 6.456,
+      "duration": 7.68,
       "speaker": "Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "783e73150ece00ec7fe733720ee35c1c20cefabd74f09c517a5908658b14a5b9",
-      "sha256": "eeacf15dd718c19c24d7cf3d624a82fb905b8a3c4f9329679c286ed160caa793"
+      "sha256": "294d9dea1dd420ac903e90ab42060a82196ffc6d051562487786084866f276ea",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "gozlem-kulubu-05": {
       "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-05.mp3",
-      "duration": 5.304,
+      "duration": 6.624,
       "speaker": "Zehra",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "f1735af50bbee17165d7ca8d3bfa54ff1d5d0bf6448201931068156de4f1e26e",
-      "sha256": "d53047a922f4dd82068695b6182bf230341bb8348db727cf883b4aed8ab1ee9b"
+      "sha256": "f2c371c7f3c697ec721e5cf377fa1d5cd6e3338ffb43f5437ee5ab1b337ba7e7",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "gozlem-kulubu-06": {
       "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-06.mp3",
-      "duration": 7.008,
+      "duration": 8.28,
       "speaker": "Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "28c520537a2ad10ec0f1a12261be8daf07718bb2d2682a38ecf6a3e27033de53",
-      "sha256": "58f3a02b4160ab397d1b70f6aecaa1d2f9fb44d042521b35eb1f56f913832086"
+      "sha256": "ef028caf3f879c91042e157ec8e84a4fa1ea577d85c0def43b39f27b5544fbe9",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "gozlem-kulubu-07": {
       "url": "assets/audio/anlatim/gozlem-kulubu/gozlem-kulubu-07.mp3",
@@ -87,30 +103,42 @@
     },
     "birligin-anlami-03": {
       "url": "assets/audio/anlatim/birligin-anlami/birligin-anlami-03.mp3",
-      "duration": 6.36,
+      "duration": 7.656,
       "speaker": "Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "1356bf0444ef6e5c61f26af2b34b951e50ced7822517a6d3f3801cd55ee62d45",
-      "sha256": "d46bbc638f6b3c02e4fa60c90734fa7a3b71a0a71c23158076ad76d30fc33507"
+      "sha256": "2bd636f9b5cf0afccba5ec6cb1eaf748e1357998386371f29d2c526df0f61416",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "birligin-anlami-04": {
       "url": "assets/audio/anlatim/birligin-anlami/birligin-anlami-04.mp3",
-      "duration": 4.92,
+      "duration": 5.328,
       "speaker": "Zehra",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "b876fb6a2bdccc90c791d73342b881dcdf9ed7d63032f1424c97a922357640c2",
-      "sha256": "f4452e211906f54a6554c865bf2191e6c26cc971fbcaa361d731bc72c8798f86"
+      "sha256": "91b98f319281564c5b2fe2cdb5844e2d73a2fba2fd6efd5d7b372ce95068a14e",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "birligin-anlami-05": {
       "url": "assets/audio/anlatim/birligin-anlami/birligin-anlami-05.mp3",
-      "duration": 5.832,
+      "duration": 7.104,
       "speaker": "Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "0b830afe855258fe89aea94aa4671f35d1e034b629a8524af063078d896d1ced",
-      "sha256": "99bf3534786f80b00100d8dff91b81da276cb18aa3d4ddc441e59c3c7c46c1f5"
+      "sha256": "3ac285464fea668fd7ee91cb213d91eb26dd7e5f53620a7431e03584533145eb",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "birligin-anlami-06": {
       "url": "assets/audio/anlatim/birligin-anlami/birligin-anlami-06.mp3",
@@ -123,12 +151,16 @@
     },
     "birligin-anlami-07": {
       "url": "assets/audio/anlatim/birligin-anlami/birligin-anlami-07.mp3",
-      "duration": 5.736,
+      "duration": 7.224,
       "speaker": "Zehra",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "5fb3c64429a4869e4a5da19b95d71883096f2f5b29b5acc01af1e8bce05746d8",
-      "sha256": "6c337f374745127ccb51cc536840645bc2705dd14e6a2300943daabe0f92882c"
+      "sha256": "64c76ae6ec5f457d548dc19f8fcc27d602cf8800f0d0835c4d67ab1fa38e9dd0",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "guzel-isimler-01": {
       "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-01.mp3",
@@ -141,21 +173,29 @@
     },
     "guzel-isimler-02": {
       "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-02.mp3",
-      "duration": 5.376,
+      "duration": 6.648,
       "speaker": "Zehra",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "b76b77e3e53ab47e9b04c8e4ee208b69b2d2b15bc41a7b8eed0785c73962b81f",
-      "sha256": "9580b2124e5b1bf0e5c24a0ccdfa1f74101d1bb797f77f45b301b4f520bdae1d"
+      "sha256": "6b82dfcdf65cf97901105c2b8608c33cfc8d74cdec9457db7cbc7a19bfec7321",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "guzel-isimler-03": {
       "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-03.mp3",
-      "duration": 5.832,
+      "duration": 7.032,
       "speaker": "Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "e9cc1ebb0c3181d4c4c17c8a160bae8777e7e84f23fad584d498026e22446f9a",
-      "sha256": "5e1c81a36affa12f1c7bdfb3d5a969fa59cd058c587fed025279f04688283723"
+      "sha256": "bccf98dfcc6a99cce61941daf8b352c3a9beb3ceffeed5ac25a50ee72d40cdcf",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "guzel-isimler-04": {
       "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-04.mp3",
@@ -168,21 +208,29 @@
     },
     "guzel-isimler-05": {
       "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-05.mp3",
-      "duration": 7.2,
+      "duration": 7.08,
       "speaker": "Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "ef7d0cccc30bd10846b511a757973d5bc947f94ce05d822c55e1eecc377a7198",
-      "sha256": "36e4ddbea9f93463d7f65c4aff486d9aca049d62ef17897dbbce81b8ffdfa295"
+      "sha256": "8c1372fbd07b0cf3e0d00bab36832ea4a0e322f45c0d85d135409eafb16b72ca",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "guzel-isimler-06": {
       "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-06.mp3",
-      "duration": 6.504,
+      "duration": 7.8,
       "speaker": "Zehra",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "f0f7dd0a8623f9c20cd2d06208d8ad6289d2d18c6fa91d5d3306d692cfa5c138",
-      "sha256": "2fbcc3059e9cb350af473be097b44bb0e69621e8e21a5e55e6bd41584e02c49e"
+      "sha256": "86b568933ecc5eb515f8e7e517a983df5ea532b6a5327368a0035eb8012fc5f2",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "guzel-isimler-07": {
       "url": "assets/audio/anlatim/guzel-isimler/guzel-isimler-07.mp3",
@@ -204,12 +252,16 @@
     },
     "ortak-01-02": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-02.mp3",
-      "duration": 8.136,
+      "duration": 10.56,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "a633f5baf192e7fa1f6506defd32314cb961abedb6ce0b019c04a97b414901f3",
-      "sha256": "b167c17d7ac3d940e034259f84be5682cd97469cc93bb697e7946465bc04c7d0"
+      "sha256": "468a208994633d9eb8b2d01f428d3af26c1d2a286a4e999cacea3fed498c72c4",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-01-03": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-03.mp3",
@@ -222,30 +274,42 @@
     },
     "ortak-01-04": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-04.mp3",
-      "duration": 8.04,
+      "duration": 8.88,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "ff70acd7f003c6038c30c583ffb99f8422527d13304be585987f7924ec7826f4",
-      "sha256": "d3d5652db82008cad6ce99a029f5a3555fc2ba0fa1e4f1756a07f87f977ff4a2"
+      "sha256": "03774f32fa223c713d012d57ecb0cf789ee06822fc905899a80a1cb4502f03c5",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-01-05": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-05.mp3",
-      "duration": 5.64,
+      "duration": 6.864,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "f447092b3d80946699ed006b899fb07b0e13788b1105c26b35df77b0566c2084",
-      "sha256": "6a4378738a8f570a7872db1855a84a041066dec3eb0096bf4aa74fe1b1155963"
+      "sha256": "4cb6a93138a1db6e60e7f32fadc8aa5ee1d7fb482bb0c3596faebf22b46b5824",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-01-06": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-06.mp3",
-      "duration": 7.704,
+      "duration": 8.88,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "60ca374dc2503874fee524a1d443d0992d088c3f146ab2c84977113364ad43fe",
-      "sha256": "afb2400d47e0af20605d28f66410c9310411ca4e9aa6bc3e0b6f71ca56f8387c"
+      "sha256": "cad89c1add5fc5b8bb6e475fed01c9dba543616745bcb819f171e16537b1105c",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-01-07": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-01-07.mp3",
@@ -267,12 +331,16 @@
     },
     "ortak-02-02": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-02-02.mp3",
-      "duration": 8.136,
+      "duration": 10.032,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "49d9f89377b0eacbafc961df405be8f7b0e7b994a6636d49b4cefcd1eca3b800",
-      "sha256": "31ed81e1314b95d0924b43e3b9aefd9aa1df86f25a9bf3fce4efc149fa2df406"
+      "sha256": "034c769c6de99eff6a955c64da4ec8bbdb555de5f3bc9b1872912de39fc02584",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-02-03": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-02-03.mp3",
@@ -285,21 +353,29 @@
     },
     "ortak-02-04": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-02-04.mp3",
-      "duration": 7.44,
+      "duration": 8.448,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "36f43adacb512de87dd57c14e25b16ef0aefd362b3add90ef2cf5a530ce9814e",
-      "sha256": "b97690cd2155e7302a4f6399faa78179ce571889c6a5a9168a1c36f151b94e87"
+      "sha256": "b2f7e7f48c88e1bf9859a0b6283246722f682da4b4794102c1693c4270d80fdf",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-02-05": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-02-05.mp3",
-      "duration": 7.176,
+      "duration": 8.424,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "0c0ef58e06311bb09bcf8605572373219df066d7cd1be7142a1fb2e818e5d64d",
-      "sha256": "537db48b478e2921b37d4276d3ca8ad7e62e9c2116b85e708123d388963cdc98"
+      "sha256": "3366cda7af6364681f344267bd5325189833f11f120a84557d0c73ee76e91c01",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-02-06": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-02-06.mp3",
@@ -339,39 +415,55 @@
     },
     "ortak-03-03": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-03-03.mp3",
-      "duration": 6.576,
+      "duration": 7.8,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "0fe4519bb93cdfed9b79723d5d47bd0e7a0ae31ce536f1d10d40c63860880a1e",
-      "sha256": "a31885824ada692035aa3086336cda5766790799242f2b30b144fcad804ef042"
+      "sha256": "de7e7ed7941cd3ecee83a07c0334b58e85fcb3c952909b1cb35a5789ba5ef7ac",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-03-04": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-03-04.mp3",
-      "duration": 8.4,
+      "duration": 10.056,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "46a30d429ce3f42170091385ba7103c851193aed5713f8c603b9f31705de1938",
-      "sha256": "076986abfa843185edaf9b722b94759b69e42c65b472546cfb0b850c066e0423"
+      "sha256": "3b3d9025cf2d1941f40de9dd333626de8069512c4aff86174072c207e2001b93",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-03-05": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-03-05.mp3",
-      "duration": 6.864,
+      "duration": 8.184,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "bbb52da24d30298bf6a60c5d97128849fe0dc51c00e795c37aa58d42d3642e48",
-      "sha256": "b5ec4cb7ca4d6df70ae6faf1ea0100176ca0c8f3f3b970ce97bbdf0cd9936505"
+      "sha256": "3524a464bda5530c853e4506f2cf52c401ea7a0c23f82301349b4472191d8200",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-03-06": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-03-06.mp3",
-      "duration": 8.52,
+      "duration": 9.384,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "55808b7a8ef3f338a41eea81bc2cd55e443781b7b002dcd00d355710ff795278",
-      "sha256": "abbb883ecc94ce926e712b2d68abfaa4e9d3764ca7bddeb719c20049d6baf296"
+      "sha256": "58e5346afcdfcc46bd9f3747c67c437969bed85aa74ff5c2d300db0f4680ab31",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-03-07": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-03-07.mp3",
@@ -402,39 +494,55 @@
     },
     "ortak-04-03": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-04-03.mp3",
-      "duration": 7.848,
+      "duration": 8.784,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "eab03f6a2d72c066c9175f94b98a74357338f36b18120a51644d3b88b8754cad",
-      "sha256": "6f4180c1b5b4765245e3faeb55320f87df2b4e7a3b01349f967780a997f1dd78"
+      "sha256": "278fd65132a450c1d5edadd7ce9f3aaa9051ca6c07274d1892111922e1c9ea49",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-04-04": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-04-04.mp3",
-      "duration": 6.96,
+      "duration": 7.896,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "5badcced440af8fc1d1fcfe9781e1fb8a7eb7bfb3aeb89927701ac09af09d751",
-      "sha256": "9a4e56dcf2be8e830253ae4eaa5590e7455b7dbf2946cc2aa5dd0e8a173fbc23"
+      "sha256": "b8216c236cdcc3778803f3f9b01eff12441f46adde503fa5cf6f18a7af329702",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-04-05": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-04-05.mp3",
-      "duration": 8.376,
+      "duration": 9.84,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "37fb7ce099e9437303c1e4dafc1c70dcaca5e26c9fce595f5e6099e83185ff7c",
-      "sha256": "8547e060081cb1dbc89577cd7d4feda3c71b98174b07a6a827f259116b95ecbd"
+      "sha256": "2bdf83e436302602455ecbe9c2631c30fd3e1491e635c8285f97b70011103583",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-04-06": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-04-06.mp3",
-      "duration": 7.368,
+      "duration": 7.8,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "ca71017ebf261117cdfc51b4d2bfb78784c30b6b1e2047d109c663d0a249ad3f",
-      "sha256": "e5271598accf4fb369839a3ccd8ac8d450692415bb048e995b94ebe038090fab"
+      "sha256": "1a06e7fb117c397ff215c4fbdab06de4820e6097781dd0f40e118a8987265892",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-04-07": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-04-07.mp3",
@@ -456,12 +564,16 @@
     },
     "ortak-05-02": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-02.mp3",
-      "duration": 6.432,
+      "duration": 8.184,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "23a42ba7256994e40bfff95d7aebf455fb1d4455c7a4247ebcbe375a667911f3",
-      "sha256": "9c5487ab17b941a835c32cf69a87c7fa253f3bf8d4c37f9bc22ee209b90ea6bb"
+      "sha256": "e9f23ead57dec6bb5d3344dec1588aa887783a2b90f71e71ef149b33ba00a210",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-05-03": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-03.mp3",
@@ -474,30 +586,42 @@
     },
     "ortak-05-04": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-04.mp3",
-      "duration": 8.496,
+      "duration": 9.72,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "15239928765755bc7dd420e32b3e7e43250f91583a05b9eb94b8a66fde93eb1b",
-      "sha256": "3d1578e523b95e041e38f36539d7051ad1d2236f1c6f7b94eb2f8c7bb94168ee"
+      "sha256": "cd1d56e757bf8db375920c1bb46be6e3d87d3a7c6fb0c30da360326c2df9e6db",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-05-05": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-05.mp3",
-      "duration": 7.56,
+      "duration": 8.688,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "b76235ea92f93bc9a89fcb371123d759bf4935a89fc7abb5acbb3c966ec291fb",
-      "sha256": "042e28fa4570ddbd9b470787e5b41eb51edbf1ed2acf6983b004cd757477cc4d"
+      "sha256": "84d6cebc5c7f60edd6f158969aa008e906a3621a1d04ae5442c51eada28a44c5",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-05-06": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-06.mp3",
-      "duration": 9.144,
+      "duration": 9.816,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "379edd8361b775ffa61c774a28e32388db4170d8db052613f3748c099739bf99",
-      "sha256": "412bd17b9458127c79eaccb128d853df1a0706f03e9301ca30bb623bbccda715"
+      "sha256": "464152760d598678c44de97c65b7a7b3e0a7e06358a5c44c56700e38e3b2d411",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-05-07": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-05-07.mp3",
@@ -519,12 +643,16 @@
     },
     "ortak-06-02": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-02.mp3",
-      "duration": 7.392,
+      "duration": 8.688,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "81e979b123057d84127014daa8f515de974201c6084a47fed7b67eba1ff19bd8",
-      "sha256": "afe5f9d62e0a5fbd75e363b80ff42ed44f8e8260ab724a1e782c0e40d217271c"
+      "sha256": "48aeb3b47737a0d183a25348ea62505b0d37f71c5b2204d079006a373cd04ab3",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-06-03": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-03.mp3",
@@ -537,30 +665,42 @@
     },
     "ortak-06-04": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-04.mp3",
-      "duration": 8.952,
+      "duration": 11.064,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "51f3b625017c1a25c08f251a31c3340019cb31ebc02bbb41d56349ee3a2a9b1a",
-      "sha256": "ab8069a4f0be08fdf45e527a2a1fb02e076d725b8c48a615970e5f0e7096af64"
+      "sha256": "ab6ee99006b5cd5be58459598909302e79aa76c7e6a954dc98cb1e1e7ee6ab86",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-06-05": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-05.mp3",
-      "duration": 6.912,
+      "duration": 8.064,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "4f3aeab9840a5f7ca2e7a0b31d76fdce852c132bfab47934fa67004678c3b6e1",
-      "sha256": "a408fe099238f8772875f471f617e9e6cb3edc31adb0cc6272e143bde590b8bc"
+      "sha256": "ea7582a589c4270710aab457211fefa396d580d6b508fae2ee913f7c2a207439",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-06-06": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-06.mp3",
-      "duration": 9.312,
+      "duration": 10.248,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "485fe3dcb578f82d78819e128f6ee5e05069fd1a0371b2749dc99643a1506a4c",
-      "sha256": "bbc521f199c00e159f2de8c2afd815efa0acedbd9dfb4f90fa9f3a81756ff8bc"
+      "sha256": "95865878903e750e70b84d52b3d2259d6222817d848e0235cab17924bdc0ce09",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-06-07": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-06-07.mp3",
@@ -591,39 +731,55 @@
     },
     "ortak-07-03": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-07-03.mp3",
-      "duration": 6.264,
+      "duration": 7.368,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "206881f4aff0e44c109080d5c0ec0b06a8d27bbd630b0e94eb593a0f90a509c0",
-      "sha256": "e2bd3af392671e768939f2a41f64ccb325165968b6cc9d71c91af6b9be3c253c"
+      "sha256": "6fa8a95882abe53c0dc10c4396f97be49db373bfbd667efb2d6650187dd1b3e8",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-07-04": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-07-04.mp3",
-      "duration": 7.512,
+      "duration": 8.376,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "227f4a6831da2fd5a1452667f3e05b7374b41c38580c8cbfdd27d508fa15d633",
-      "sha256": "cec0ff8c28444d6d4d8009dfa96d7ec5be0036c1e9216283b5b721a45fb4df63"
+      "sha256": "34314a8bd7f76098125ba82ffaaeb6f00ac4016484acdaf7f23f8928d216fcf5",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-07-05": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-07-05.mp3",
-      "duration": 6.696,
+      "duration": 8.064,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "dd6f0c73e665a6773762518588def463045041ca43e4368378f82cb4800a3b06",
-      "sha256": "06fa1b16119ab8d07401c0100badfd1f44f994288cb7f47ef669a4cd80e0ae42"
+      "sha256": "883a47312fab4c5eada0db37ab7dd76f206a271acc149fc53a9f6b003a18881a",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-07-06": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-07-06.mp3",
-      "duration": 8.28,
+      "duration": 10.416,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "3cd4c5c62ebeceb5af8a7a42af7c9ab5d1c689fec1f9d6e58bdedf9cc85b364c",
-      "sha256": "ec224f82010824c326f643e19adcb06cc83f51942be11fbd0be2ce582e0a2688"
+      "sha256": "71c3d7acf50a61e114bc3c163763645262e9c59551639ec6168409b8179d8620",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-07-07": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-07-07.mp3",
@@ -654,30 +810,42 @@
     },
     "ortak-08-03": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-08-03.mp3",
-      "duration": 8.304,
+      "duration": 9.12,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "10754bd6ddf72fc72b159000befe0f6991264d4d505fd6f274aae56b0a258927",
-      "sha256": "4f67fa50147e404881082b78288db466077b57037858eaf327ef4f76f1a64e0a"
+      "sha256": "bbacdb685b854cd45316776a9141eff9cf52b810756a9c131df8990c3acadb61",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-08-04": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-08-04.mp3",
-      "duration": 8.952,
+      "duration": 9.936,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "00336e2a6c20a2152d88e3a6f07bbf33ee0efa080c01f117d4684f7e962b01b1",
-      "sha256": "e6378ff02c229efa462686c48e5b6f2af54e7beee1a463211e0b313195b8559a"
+      "sha256": "8bf585c71639cc24a0b5329eb6c3751ef500871c4235318a394f4f7cf55c8b47",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-08-05": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-08-05.mp3",
-      "duration": 8.328,
+      "duration": 9.48,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "9b30617d09271348b78687c852b60fd5c2ec70032cf236a9f137b3a3d1710f4d",
-      "sha256": "00f0ef55a8f0bd954bb3fa9936af476a693a99fd35688a4cfe496ac941000451"
+      "sha256": "67ddfc97f7105e939b5dfbaa7d183a17804983b8eaf89e7a4c3d9221c9642246",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ortak-08-06": {
       "url": "assets/audio/anlatim/ortak-hikaye/ortak-08-06.mp3",
@@ -699,21 +867,29 @@
     },
     "ikinci-1-1": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-1.mp3",
-      "duration": 8.304,
+      "duration": 9.456,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "30c90a855364dacf50c277964fe08fd7863aebffe6434d39017b6f66c978c740",
-      "sha256": "42635453ca181a222fd4236dbe79da4477a894df3361ac53dfd8d78c674b5143"
+      "sha256": "9367734feaa7525547bf39071fad386d7ae933e62e9bc0e853b66f735d728dda",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-1-2": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-2.mp3",
-      "duration": 9.192,
+      "duration": 10.272,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "85bf73feb8c072e9925773e1f545a9d5e0b4c4aaaa9bcc88b94dc3df807d1143",
-      "sha256": "4b7b807ee4fdd11833c6503e76b6cd5617d9ee3eaafbdfdb9abe084ac5d128b2"
+      "sha256": "b76d729b70eb6b970c81f6fcd604ff96bf9b0310af85e28d1854ebbb332b45ef",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-1-3": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-3.mp3",
@@ -726,12 +902,16 @@
     },
     "ikinci-1-4": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-4.mp3",
-      "duration": 8.568,
+      "duration": 9.768,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "b306d432cbfda7ffeaa1045509d9112a09986c6404f9d5bbb0d86a9cf8e1eb69",
-      "sha256": "e9ef07c2876edb65ae90b2c7b5d9cd0699ec4daf30b052c5f73b5e0335255643"
+      "sha256": "b55de4f2ec9eec33994a3138aef433347138419c20e163993b5014e3fff7d261",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-1-5": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-5.mp3",
@@ -744,21 +924,29 @@
     },
     "ikinci-1-6": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-6.mp3",
-      "duration": 9.24,
+      "duration": 10.32,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "7aa416880df3e0c73d5225bef750ea32256582ed350ede554bd0ad9ccb0e4065",
-      "sha256": "1282dc306bb6a641cdc5a0877b878010b908e62f871270cd45019aa682f3efd1"
+      "sha256": "a9d4245afe8b3e79038858aa5e3beb61bfa05ae36a2820045ff4158910d38079",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-1-7": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-1-7.mp3",
-      "duration": 9.6,
+      "duration": 10.752,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "3561c1e9d599e8df990765d122fcead4fe01eec922897dfbeb68abf58e6582a3",
-      "sha256": "0c6dcca248b27111bf981475958ca416fb1cdde313c907ddd6b3dd8d6dfb5f04"
+      "sha256": "4cb2d452099e0bf4859c622de15353666ee7420b3047bb1c6da4d237ec6858ad",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-2-1": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-1.mp3",
@@ -771,12 +959,16 @@
     },
     "ikinci-2-2": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-2.mp3",
-      "duration": 8.136,
+      "duration": 9.384,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "323c8b6e47319323356e892a55d7684e9561a80acfc893cebc5eead443c4fa41",
-      "sha256": "fa9d61f352f3ca9c960dafa618a6505d7e409937c5555b93bc96967d122f686f"
+      "sha256": "b51748e39b0a6bc743e0b5ffc0e7e74ecc5efd2210c84593997b5d446588fcbf",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-2-3": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-3.mp3",
@@ -789,30 +981,42 @@
     },
     "ikinci-2-4": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-4.mp3",
-      "duration": 9.624,
+      "duration": 11.424,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "adc1fd20150280555601086d7476de48e358044558b74105fb5ac07c4fd112b4",
-      "sha256": "96e7e8143e07d501bf6bcce2afa6d57e84dd59f66e01db7422583de72c1799eb"
+      "sha256": "ecd4d2117a061326eb0de23c6f4a183df4f49b9fea8efacac8ec5ba9d84805a3",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-2-5": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-5.mp3",
-      "duration": 10.896,
+      "duration": 11.928,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "04c3ddc4a7c19c25776aa278de2d740df7d01704c6437a942d8fb9a998c32e92",
-      "sha256": "9a2333d523b65cf93fe71d742c1ad1a87f4738ed0b26cc3d73e6dead30ad3018"
+      "sha256": "be2b12f19d93b4b6aad476cd416fe1adda5036424e136f481159135c629c77ce",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-2-6": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-6.mp3",
-      "duration": 9.696,
+      "duration": 10.944,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "5e45b07590b18a8f31cbc620e4510f04a89f84192f9b2bdbfb47bb964f01018e",
-      "sha256": "0a157182b7d3764cc32c50cf19b9c1e7deccfbe5bd9e7c8ceeb601de780bfd18"
+      "sha256": "73e17511753fc5884b38164398f4f506f46e6d3ed4d5ebd552359262856ed903",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-2-7": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-2-7.mp3",
@@ -825,21 +1029,29 @@
     },
     "ikinci-3-1": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-1.mp3",
-      "duration": 8.64,
+      "duration": 10.176,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "1f78bc98f3d4453496b98e9875f88a404a353e45b690bb0a37ecf60226da61a9",
-      "sha256": "cf1a52454df077b4dab3c75e3cd8926d9d3662d58c7b51f3d7778486f4855a0a"
+      "sha256": "3e971d7a1e0610436546ee3eb215260022844c89820f169eade9ec4d38ba45ef",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-3-2": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-2.mp3",
-      "duration": 9.768,
+      "duration": 11.784,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "d4446fddd1ff98950e0a9708f84961a078575f05efa3857936ce08fc39d4940d",
-      "sha256": "f11f22de39f57e0bb47f52a14a8e9fcd0b0df50a887f141ca1d09b9d610ef5e3"
+      "sha256": "6baf5be8f0a756846c22b155b8203329762ab1ba87b47f77a8aef1186d6ac294",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-3-3": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-3.mp3",
@@ -852,21 +1064,29 @@
     },
     "ikinci-3-4": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-4.mp3",
-      "duration": 8.832,
+      "duration": 10.032,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "ada36742cc65bd4bd2ed8dec598478d5ff5938fd5043197ba829682fc98d2335",
-      "sha256": "b485ea333c28ec595ee7755a9f9b8e78107c2496d59c0050e0b0a42a8150757d"
+      "sha256": "cdd03d91e28b2d037a16fa94f13f0216debe619b08bf62def61d741566ceb1d0",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-3-5": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-5.mp3",
-      "duration": 11.256,
+      "duration": 11.856,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "7872fcac05f37bfe1fa17c6d0c2c8b676f39208acadf2309625e1adc7e00408e",
-      "sha256": "fd64f29da6ed78e4b7eaf6ae056ea1f5b8370879d07425abb1420adaf04d4f10"
+      "sha256": "7623984d0b8ae1ff4033f2592832a0d46cd4453c294db3765cf7b942d48cffff",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-3-6": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-6.mp3",
@@ -879,12 +1099,16 @@
     },
     "ikinci-3-7": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-3-7.mp3",
-      "duration": 8.136,
+      "duration": 9.312,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "04bc42ece59aef12af3b16c13dcba126fcd2aadbd8681f86aa56edde0ce5de2f",
-      "sha256": "d1d7ac345f3d611a4a63342bff43cd3a2ad9f2c101a97ac8a7aa066cddb8bc4a"
+      "sha256": "44207f93563ddabf8412c3cd229e5755e7f0030512a5c2a705c388d263277fce",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-4-1": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-1.mp3",
@@ -897,21 +1121,29 @@
     },
     "ikinci-4-2": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-2.mp3",
-      "duration": 11.088,
+      "duration": 12.24,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "7472b67b4a195f4ad18c132fb8c6986330439d2df5ea48d52590a5d6e1bc68c8",
-      "sha256": "fc216a4bf0e01a950170feff2a01cda5ca520a4c07d4934357175bf6702bd258"
+      "sha256": "69e318d222cdcc37a9ab2074bebc6d0182a7c2ddcb3f599287fa7b1eedef6584",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-4-3": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-3.mp3",
-      "duration": 9.456,
+      "duration": 10.92,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "fe08684aaa8d5b8fb331795fcbe750adab1f3a59a30b8d6639dab71c39e27df1",
-      "sha256": "791c248d55c191aa6e6976a0214d20983db6c715777d62eace3ba43fb189edc7"
+      "sha256": "055412f29bbfe4a132fb8957a15ff14d156fcb330868090f5916377781adbf0b",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-4-4": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-4.mp3",
@@ -924,21 +1156,29 @@
     },
     "ikinci-4-5": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-5.mp3",
-      "duration": 10.416,
+      "duration": 11.736,
       "speaker": "Derya Öğretmen",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "00eb5ce0ae1226b3638f662adb32e0073ec6c9b20d13b32f6b7a227008bf2f53",
-      "sha256": "0addc33047d2701e0f3ef182bd4d39a36c49190ce54ebbbe1b4a65da05799798"
+      "sha256": "62d383dfaf357653460fc61419f5fb94a733176e6470ce79cac4abb385c87837",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "-3%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-4-6": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-6.mp3",
-      "duration": 8.928,
+      "duration": 10.008,
       "speaker": "Elif",
-      "voice": "dfki",
-      "kind": "synthetic-demo",
+      "voice": "tr-TR-EmelNeural",
+      "kind": "synthetic-narration",
       "textSha256": "39ce286432bd2f909d54a30ba924b473523436462c1c1815c3f4dacbd045e1a2",
-      "sha256": "e888ca2e964041a0922202c230b936c7b12726fb84cc61117bc8efa01ff9a958"
+      "sha256": "15335afb4e36f409b7a82fa2d149094521c41109302b70654731a3fbb8ae1364",
+      "engine": "Microsoft Edge online neural TTS",
+      "revision": "20261029-emel",
+      "rate": "+0%",
+      "origin": "user-uploaded-generated-recording"
     },
     "ikinci-4-7": {
       "url": "assets/audio/anlatim/ikinci-hikaye/ikinci-4-7.mp3",

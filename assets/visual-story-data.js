@@ -38,9 +38,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 45
             }
           ],
-          "audioDuration": 8.304,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 9.456,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-1-2",
@@ -61,9 +61,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 52
             }
           ],
-          "audioDuration": 9.192,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.272,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-1-3",
@@ -112,9 +112,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 36
             }
           ],
-          "audioDuration": 8.568,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 9.768,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-1-5",
@@ -178,9 +178,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 14
             }
           ],
-          "audioDuration": 9.24,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.32,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-1-7",
@@ -206,9 +206,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 43
             }
           ],
-          "audioDuration": 9.6,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.752,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         }
       ]
     },
@@ -266,9 +266,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 48
             }
           ],
-          "audioDuration": 8.136,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 9.384,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-2-3",
@@ -317,9 +317,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 50
             }
           ],
-          "audioDuration": 9.624,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 11.424,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-2-5",
@@ -340,9 +340,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 14
             }
           ],
-          "audioDuration": 10.896,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 11.928,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-2-6",
@@ -363,9 +363,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 47
             }
           ],
-          "audioDuration": 9.696,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.944,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-2-7",
@@ -423,9 +423,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 47
             }
           ],
-          "audioDuration": 8.64,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.176,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-3-2",
@@ -446,9 +446,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 47
             }
           ],
-          "audioDuration": 9.768,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 11.784,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-3-3",
@@ -507,9 +507,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 67
             }
           ],
-          "audioDuration": 8.832,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.032,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-3-5",
@@ -535,9 +535,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 14
             }
           ],
-          "audioDuration": 11.256,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 11.856,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-3-6",
@@ -586,9 +586,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 36
             }
           ],
-          "audioDuration": 8.136,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 9.312,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         }
       ]
     },
@@ -646,9 +646,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 14
             }
           ],
-          "audioDuration": 11.088,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 12.24,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-4-3",
@@ -674,9 +674,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 75
             }
           ],
-          "audioDuration": 9.456,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.92,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-4-4",
@@ -735,9 +735,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 67
             }
           ],
-          "audioDuration": 10.416,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 11.736,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-4-6",
@@ -768,9 +768,9 @@ window.MERAK_VISUAL_STORY = {
               "y": 40
             }
           ],
-          "audioDuration": 8.928,
-          "audioKind": "synthetic-demo",
-          "audioVoice": "Türkçe örnek anlatım · dfki"
+          "audioDuration": 10.008,
+          "audioKind": "synthetic-narration",
+          "audioVoice": "Türkçe Emel · sentetik kadın sesi"
         },
         {
           "id": "ikinci-4-7",

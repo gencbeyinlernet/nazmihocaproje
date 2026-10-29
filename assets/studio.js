@@ -3,7 +3,7 @@
  const base=new URL('../',document.currentScript.src),productions=window.MERAK_PRODUCTIONS,url=p=>new URL(p,base).href;
  const classroom=new URLSearchParams(location.search).get('ekran')==='ogretmen';
  const teacher=new URLSearchParams(location.search).get('gorunum')==='ogretmen';document.body.dataset.view=teacher?'teacher':'student';document.body.dataset.audience='middle';
- if(teacher){const bar=document.createElement('div');bar.className='teacher-mode-bar';bar.innerHTML=`<span>Öğretmen görünümü · Senaryo ve ses araçları</span><a href="${location.pathname+location.hash}">Sesli hikâyeye dön →</a>`;document.querySelector('.studio-layout').before(bar);const script=document.createElement('script');script.src=url('assets/studio-authoring.js?v=20261028-photos');document.body.append(script);return;}
+ if(teacher){const bar=document.createElement('div');bar.className='teacher-mode-bar';bar.innerHTML=`<span>Öğretmen görünümü · Senaryo ve ses araçları</span><a href="${location.pathname+location.hash}">Sesli hikâyeye dön →</a>`;document.querySelector('.studio-layout').before(bar);const script=document.createElement('script');script.src=url('assets/studio-authoring.js?v=20261029-emel');document.body.append(script);return;}
  const root=document.querySelector('#studio-workspace'),escape=MerakNarration.escape;let production=productions[0],player=null,started=false;
  window.MerakPortal={base:base.href,gradeId:'5',escape};
  function state(){try{return JSON.parse(localStorage.getItem('merak-class-progress-v1'))||{read:{},watched:{}};}catch{return {read:{},watched:{}};}}

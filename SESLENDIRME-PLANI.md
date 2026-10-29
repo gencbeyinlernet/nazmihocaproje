@@ -1,6 +1,6 @@
 # Kayıtlı örnek sesler ve değiştirme planı
 
-Önceki **232 Türkçe MP3** korunur; yeni konu kütüphanesine **1.225 ayrı Türkçe MP3** daha eklenmiştir. Toplam **1.457 kayıt** bağlıdır. Öğrenci/öğretmen görseli açıp dinler; uzun okuma metni takip etmez. Bunlar yerel modellerle üretilen, sonradan gerçek kayıtlarla değiştirilebilen sentetik örneklerdir. Gerçek çocuk veya karakter oyuncusu sesi oldukları iddia edilmez. Kaynak/lisans: [CREDITS.md](assets/audio/CREDITS.md).
+Platformda **1.506 hikâye kaydı** ve **27 etkinlik kaydı** bağlıdır. 29 Ekim 2026 tarihinde kadın rollerindeki 60 eski kayıt, kullanıcının yüklediği Türkçe Emel sesleriyle değiştirildi. Diğer sesler yerel Piper örnekleridir. Öğrenci/öğretmen görseli açıp dinler; uzun okuma metni takip etmez. Sesler sentetiktir; gerçek çocuk veya karakter oyuncusu sesi oldukları iddia edilmez. Kaynak ve üretim bilgisi: [CREDITS.md](assets/audio/CREDITS.md).
 
 ## Eşleşmeler
 
@@ -28,4 +28,4 @@ Bu tarifler **gelecek kayıtların hedefidir**; mevcut yerel modellerin bu yaş/
 
 Öğretmen atölyesinde kendi kaydını geçici denemek mümkündür: dosya sunucuya yüklenmez, sayfa yenilenince kaldırılır. Kalıcı yayına bağlama ayrı dosya güncellemesidir.
 
-Yeni 198 hikâyenin ses listesi `ses-planlari/kutuphane-ses-metinleri.json`, kayıt özeti `assets/audio/library-manifest.json` dosyalarındadır. Her ses `kutuphane-<konu>-<örnek>-<sahne>.mp3` biçiminde eşleştirilir.
+205 hikâyelik kütüphanenin ses listesi `ses-planlari/kutuphane-ses-metinleri.json`, kayıt özeti `assets/audio/library-manifest.json` dosyalarındadır. Her ses `kutuphane-<konu>-<örnek>-<sahne>.mp3` biçiminde eşleştirilir.

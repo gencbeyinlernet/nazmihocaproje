@@ -85,9 +85,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "voiceProfileId": "zehra",
         "audioApproval": "demo",
-        "audioDuration": 5.352,
-        "audioKind": "synthetic-demo",
-        "audioVoice": "Türkçe örnek anlatım · dfki"
+        "audioDuration": 6.48,
+        "audioKind": "synthetic-narration",
+        "audioVoice": "Türkçe Emel · sentetik kadın sesi"
       },
       {
         "id": "gozlem-kulubu-03",
@@ -127,9 +127,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "voiceProfileId": "ogretmen",
         "audioApproval": "demo",
-        "audioDuration": 6.456,
-        "audioKind": "synthetic-demo",
-        "audioVoice": "Türkçe örnek anlatım · dfki"
+        "audioDuration": 7.68,
+        "audioKind": "synthetic-narration",
+        "audioVoice": "Türkçe Emel · sentetik kadın sesi"
       },
       {
         "id": "gozlem-kulubu-05",
@@ -148,9 +148,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "voiceProfileId": "zehra",
         "audioApproval": "demo",
-        "audioDuration": 5.304,
-        "audioKind": "synthetic-demo",
-        "audioVoice": "Türkçe örnek anlatım · dfki"
+        "audioDuration": 6.624,
+        "audioKind": "synthetic-narration",
+        "audioVoice": "Türkçe Emel · sentetik kadın sesi"
       },
       {
         "id": "gozlem-kulubu-06",
@@ -169,9 +169,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "voiceProfileId": "ogretmen",
         "audioApproval": "demo",
-        "audioDuration": 7.008,
-        "audioKind": "synthetic-demo",
-        "audioVoice": "Türkçe örnek anlatım · dfki"
+        "audioDuration": 8.28,
+        "audioKind": "synthetic-narration",
+        "audioVoice": "Türkçe Emel · sentetik kadın sesi"
       },
       {
         "id": "gozlem-kulubu-07",
@@ -271,9 +271,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "voiceProfileId": "ogretmen",
         "audioApproval": "demo",
-        "audioDuration": 6.36,
-        "audioKind": "synthetic-demo",
-        "audioVoice": "Türkçe örnek anlatım · dfki"
+        "audioDuration": 7.656,
+        "audioKind": "synthetic-narration",
+        "audioVoice": "Türkçe Emel · sentetik kadın sesi"
       },
       {
         "id": "birligin-anlami-04",
@@ -292,9 +292,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "voiceProfileId": "zehra",
         "audioApproval": "demo",
-        "audioDuration": 4.92,
-        "audioKind": "synthetic-demo",
-        "audioVoice": "Türkçe örnek anlatım · dfki"
+        "audioDuration": 5.328,
+        "audioKind": "synthetic-narration",
+        "audioVoice": "Türkçe Emel · sentetik kadın sesi"
       },
       {
         "id": "birligin-anlami-05",
@@ -313,9 +313,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "voiceProfileId": "ogretmen",
         "audioApproval": "demo",
-        "audioDuration": 5.832,
-        "audioKind": "synthetic-demo",
-        "audioVoice": "Türkçe örnek anlatım · dfki"
+        "audioDuration": 7.104,
+        "audioKind": "synthetic-narration",
+        "audioVoice": "Türkçe Emel · sentetik kadın sesi"
       },
       {
         "id": "birligin-anlami-06",
@@ -355,9 +355,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "voiceProfileId": "zehra",
         "audioApproval": "demo",
-        "audioDuration": 5.736,
-        "audioKind": "synthetic-demo",
-        "audioVoice": "Türkçe örnek anlatım · dfki"
+        "audioDuration": 7.224,
+        "audioKind": "synthetic-narration",
+        "audioVoice": "Türkçe Emel · sentetik kadın sesi"
       }
     ]
   },
@@ -415,9 +415,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "voiceProfileId": "zehra",
         "audioApproval": "demo",
-        "audioDuration": 5.376,
-        "audioKind": "synthetic-demo",
-        "audioVoice": "Türkçe örnek anlatım · dfki"
+        "audioDuration": 6.648,
+        "audioKind": "synthetic-narration",
+        "audioVoice": "Türkçe Emel · sentetik kadın sesi"
       },
       {
         "id": "guzel-isimler-03",
@@ -436,9 +436,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "voiceProfileId": "ogretmen",
         "audioApproval": "demo",
-        "audioDuration": 5.832,
-        "audioKind": "synthetic-demo",
-        "audioVoice": "Türkçe örnek anlatım · dfki"
+        "audioDuration": 7.032,
+        "audioKind": "synthetic-narration",
+        "audioVoice": "Türkçe Emel · sentetik kadın sesi"
       },
       {
         "id": "guzel-isimler-04",
@@ -478,9 +478,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "voiceProfileId": "ogretmen",
         "audioApproval": "demo",
-        "audioDuration": 7.2,
-        "audioKind": "synthetic-demo",
-        "audioVoice": "Türkçe örnek anlatım · dfki"
+        "audioDuration": 7.08,
+        "audioKind": "synthetic-narration",
+        "audioVoice": "Türkçe Emel · sentetik kadın sesi"
       },
       {
         "id": "guzel-isimler-06",
@@ -499,9 +499,9 @@ window.MERAK_PRODUCTIONS = [
         "videoUrl": "",
         "voiceProfileId": "zehra",
         "audioApproval": "demo",
-        "audioDuration": 6.504,
-        "audioKind": "synthetic-demo",
-        "audioVoice": "Türkçe örnek anlatım · dfki"
+        "audioDuration": 7.8,
+        "audioKind": "synthetic-narration",
+        "audioVoice": "Türkçe Emel · sentetik kadın sesi"
       },
       {
         "id": "guzel-isimler-07",
