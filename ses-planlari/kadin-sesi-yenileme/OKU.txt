@@ -1,0 +1,16 @@
+KADIN SESİNİ YENİLEME · MERAK BAHÇESİ
+
+1. ZIP dosyasını bir klasöre çıkarın.
+2. BASLAT-WINDOWS.bat dosyasına çift tıklayın. İnternet açık olsun.
+3. İşlem bitince oluşan yeni-kadin-sesleri.zip dosyasını sohbetimize yükleyin.
+
+Python 3.9+ gerekir. Bilgisayarınızda Python zaten varsa ek bir ses programı gerekmez. İlk çalıştırmada ayrı bir sanal ortama edge-tts yüklenir. Paket Microsoft Edge'in çevrim içi Türkçe Emel sesini kullanır; ayrı bir ücretli API anahtarı istemez. Servisin erişilebilirliği kendi bağlantınıza ve sağlayıcıya bağlıdır. Bu ortamdan servis erişimi engellendiği için gerçek ses üretimi burada doğrulanamamıştır.
+
+60 sahne: Zehra 6, Elif 26, Öğretmen 6, Derya Öğretmen 22.
+Hikâye metinleri aynen korunur. Çocuk rollerindeki kadın sesi yetişkin sentetik sestir; gerçek çocuk kaydı değildir. Öğretmen replikleri biraz daha sakin okunur, ses perdesi yapay olarak değiştirilmez.
+
+Bu araç yalnızca kendi klasörüne kayıt üretir. GitHub'a giriş yapmaz, web sitesini değiştirmez. Sesler geldikten sonra dinleme onayı, süre ve sahne eşleştirmesi kontrol edilerek siteye eklenir. Önceden oluşturulmuş bir ZIP varsa başarısız üretim onu değiştirmez; ekrandaki TAMAMLANDI mesajını kontrol edin.
+
+macOS/Linux: python3 -m venv .ses-ortami
+.ses-ortami/bin/pip install edge-tts==7.3.1
+.ses-ortami/bin/python URET.py

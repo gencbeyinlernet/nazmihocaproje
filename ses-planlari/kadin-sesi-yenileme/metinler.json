@@ -1,0 +1,486 @@
+{
+  "voice": "tr-TR-EmelNeural",
+  "locale": "tr-TR",
+  "jobs": [
+    {
+      "id": "gozlem-kulubu-02",
+      "text": "Bu çiçek güneş ışığıyla büyüyor. Arılar da çiçeklerle nasıl bir ilişki kuruyor?",
+      "speaker": "Zehra",
+      "group": "gozlem-kulubu",
+      "textSha256": "6d69ed47a027b6fa9b83ac5ef318f14eaac59137f48f9f1d1a7c6724bee110b5",
+      "currentAudioSha256": "8893c051af549040cd73d7cecc81738a26ee7c3f8734575edabf19d640937c02"
+    },
+    {
+      "id": "gozlem-kulubu-04",
+      "text": "Gökyüzündeki hareketlerde ve doğada düzen gözlemleriz. Bunları dikkatle inceleyebiliriz.",
+      "speaker": "Öğretmen",
+      "group": "gozlem-kulubu",
+      "textSha256": "783e73150ece00ec7fe733720ee35c1c20cefabd74f09c517a5908658b14a5b9",
+      "currentAudioSha256": "eeacf15dd718c19c24d7cf3d624a82fb905b8a3c4f9329679c286ed160caa793"
+    },
+    {
+      "id": "gozlem-kulubu-05",
+      "text": "Yağmur toprağı besliyor, bitkiler büyüyor. Birçok olay birbirini tamamlıyor.",
+      "speaker": "Zehra",
+      "group": "gozlem-kulubu",
+      "textSha256": "f1735af50bbee17165d7ca8d3bfa54ff1d5d0bf6448201931068156de4f1e26e",
+      "currentAudioSha256": "d53047a922f4dd82068695b6182bf230341bb8348db727cf883b4aed8ab1ee9b"
+    },
+    {
+      "id": "gozlem-kulubu-06",
+      "text": "İslam, evrendeki düzen üzerine düşünmemizi ister. Bu gözlemler bize Allah’ın yaratışını hatırlatır.",
+      "speaker": "Öğretmen",
+      "group": "gozlem-kulubu",
+      "textSha256": "28c520537a2ad10ec0f1a12261be8daf07718bb2d2682a38ecf6a3e27033de53",
+      "currentAudioSha256": "58f3a02b4160ab397d1b70f6aecaa1d2f9fb44d042521b35eb1f56f913832086"
+    },
+    {
+      "id": "birligin-anlami-03",
+      "text": "Allah’ın birliğine inanmak tevhit demektir. İslam’a göre Allah’ın eşi ve benzeri yoktur.",
+      "speaker": "Öğretmen",
+      "group": "birligin-anlami",
+      "textSha256": "1356bf0444ef6e5c61f26af2b34b951e50ced7822517a6d3f3801cd55ee62d45",
+      "currentAudioSha256": "d46bbc638f6b3c02e4fa60c90734fa7a3b71a0a71c23158076ad76d30fc33507"
+    },
+    {
+      "id": "birligin-anlami-04",
+      "text": "Allah’ı çevremizde gördüğümüz varlıklar gibi düşünmememiz gerektiğini anlıyorum.",
+      "speaker": "Zehra",
+      "group": "birligin-anlami",
+      "textSha256": "b876fb6a2bdccc90c791d73342b881dcdf9ed7d63032f1424c97a922357640c2",
+      "currentAudioSha256": "f4452e211906f54a6554c865bf2191e6c26cc971fbcaa361d731bc72c8798f86"
+    },
+    {
+      "id": "birligin-anlami-05",
+      "text": "Allah yaratandır. O’nu insanlara, hayvanlara veya başka bir varlığa benzetmeyiz.",
+      "speaker": "Öğretmen",
+      "group": "birligin-anlami",
+      "textSha256": "0b830afe855258fe89aea94aa4671f35d1e034b629a8524af063078d896d1ced",
+      "currentAudioSha256": "99bf3534786f80b00100d8dff91b81da276cb18aa3d4ddc441e59c3c7c46c1f5"
+    },
+    {
+      "id": "birligin-anlami-07",
+      "text": "Allah’ın birliğini öğrendik. Şimdi O’nun güzel isimlerini ve anlamlarını merak ediyorum.",
+      "speaker": "Zehra",
+      "group": "birligin-anlami",
+      "textSha256": "5fb3c64429a4869e4a5da19b95d71883096f2f5b29b5acc01af1e8bce05746d8",
+      "currentAudioSha256": "6c337f374745127ccb51cc536840645bc2705dd14e6a2300943daabe0f92882c"
+    },
+    {
+      "id": "guzel-isimler-02",
+      "text": "Allah’ın güzel isimlerine esmayıhüsna deniyor. Bu isimler bize neler anlatıyor?",
+      "speaker": "Zehra",
+      "group": "guzel-isimler",
+      "textSha256": "b76b77e3e53ab47e9b04c8e4ee208b69b2d2b15bc41a7b8eed0785c73962b81f",
+      "currentAudioSha256": "9580b2124e5b1bf0e5c24a0ccdfa1f74101d1bb797f77f45b301b4f520bdae1d"
+    },
+    {
+      "id": "guzel-isimler-03",
+      "text": "Bu isimler Allah’ı tanımamıza yardımcı olur. Her birinin anlamını dikkatle öğrenelim.",
+      "speaker": "Öğretmen",
+      "group": "guzel-isimler",
+      "textSha256": "e9cc1ebb0c3181d4c4c17c8a160bae8777e7e84f23fad584d498026e22446f9a",
+      "currentAudioSha256": "5e1c81a36affa12f1c7bdfb3d5a969fa59cd058c587fed025279f04688283723"
+    },
+    {
+      "id": "guzel-isimler-05",
+      "text": "Allah’ın merhametini, bilmesini, görmesini ve işitmesini anlatan isimleri sırayla inceleyeceğiz.",
+      "speaker": "Öğretmen",
+      "group": "guzel-isimler",
+      "textSha256": "ef7d0cccc30bd10846b511a757973d5bc947f94ce05d822c55e1eecc377a7198",
+      "currentAudioSha256": "36e4ddbea9f93463d7f65c4aff486d9aca049d62ef17897dbbce81b8ffdfa295"
+    },
+    {
+      "id": "guzel-isimler-06",
+      "text": "İsimleri yalnızca ezberlemek yerine anlamlarını öğrenmek istiyorum. Sorularımı defterime yazacağım.",
+      "speaker": "Zehra",
+      "group": "guzel-isimler",
+      "textSha256": "f0f7dd0a8623f9c20cd2d06208d8ad6289d2d18c6fa91d5d3306d692cfa5c138",
+      "currentAudioSha256": "2fbcc3059e9cb350af473be097b44bb0e69621e8e21a5e55e6bd41584e02c49e"
+    },
+    {
+      "id": "ortak-01-02",
+      "text": "Hepimiz farklı sınıflardayız. Ama aynı gökyüzüne bakıyor, aynı dünyada yaşıyoruz. Bu hikâyeyi birlikte keşfedebiliriz.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "a633f5baf192e7fa1f6506defd32314cb961abedb6ce0b019c04a97b414901f3",
+      "currentAudioSha256": "b167c17d7ac3d940e034259f84be5682cd97469cc93bb697e7946465bc04c7d0"
+    },
+    {
+      "id": "ortak-01-04",
+      "text": "Metnimiz yaratılış, amaç, sorumluluk ve rehberlik üzerine sorular soruyor. Önce ne söylendiğini dikkatle anlayalım.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "ff70acd7f003c6038c30c583ffb99f8422527d13304be585987f7924ec7826f4",
+      "currentAudioSha256": "d3d5652db82008cad6ce99a029f5a3555fc2ba0fa1e4f1756a07f87f977ff4a2"
+    },
+    {
+      "id": "ortak-01-05",
+      "text": "Bir şeyin nasıl var olduğunu merak ediyorum. Ama niçin var olduğunu da düşünmek istiyorum.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "f447092b3d80946699ed006b899fb07b0e13788b1105c26b35df77b0566c2084",
+      "currentAudioSha256": "6a4378738a8f570a7872db1855a84a041066dec3eb0096bf4aa74fe1b1155963"
+    },
+    {
+      "id": "ortak-01-06",
+      "text": "İslam inancına göre insanın hayatı anlamlıdır. Allah insanı yaratıp ilgisiz bırakmaz; ona yol gösterir.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "60ca374dc2503874fee524a1d443d0992d088c3f146ab2c84977113364ad43fe",
+      "currentAudioSha256": "afb2400d47e0af20605d28f66410c9310411ca4e9aa6bc3e0b6f71ca56f8387c"
+    },
+    {
+      "id": "ortak-02-02",
+      "text": "Burada yalnızca güzel bir bina yok. Susadığımızda su, acıktığımızda yiyecek bulabiliyoruz. İhtiyaçlarımız düşünülmüş.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "49d9f89377b0eacbafc961df405be8f7b0e7b994a6636d49b4cefcd1eca3b800",
+      "currentAudioSha256": "31ed81e1314b95d0924b43e3b9aefd9aa1df86f25a9bf3fce4efc149fa2df406"
+    },
+    {
+      "id": "ortak-02-04",
+      "text": "Bütün ekmekleri ben alırsam başkalarına kalmaz. Bir imkândan yararlanmak, onu sınırsızca tüketmek demek mi?",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "36f43adacb512de87dd57c14e25b16ef0aefd362b3add90ef2cf5a530ce9814e",
+      "currentAudioSha256": "b97690cd2155e7302a4f6399faa78179ce571889c6a5a9168a1c36f151b94e87"
+    },
+    {
+      "id": "ortak-02-05",
+      "text": "Kaynak metin bu sarayı bir benzetme olarak kuruyor. Sunulan imkânlardan, amaç ve görev sorularına geçiyor.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "0c0ef58e06311bb09bcf8605572373219df066d7cd1be7142a1fb2e818e5d64d",
+      "currentAudioSha256": "537db48b478e2921b37d4276d3ca8ad7e62e9c2116b85e708123d388963cdc98"
+    },
+    {
+      "id": "ortak-03-03",
+      "text": "İstediğim bir şeyi yapabiliyor olmam, onun doğru olduğu anlamına gelmeyebilir. Sonucunu da düşünmeliyim.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "0fe4519bb93cdfed9b79723d5d47bd0e7a0ae31ce536f1d10d40c63860880a1e",
+      "currentAudioSha256": "a31885824ada692035aa3086336cda5766790799242f2b30b144fcad804ef042"
+    },
+    {
+      "id": "ortak-03-04",
+      "text": "Amaç, niçin sorusuyla ilgilidir. Sorumluluk ise nasıl davranmamız gerektiğini düşündürür. İkisi birbirine bağlıdır.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "46a30d429ce3f42170091385ba7103c851193aed5713f8c603b9f31705de1938",
+      "currentAudioSha256": "076986abfa843185edaf9b722b94759b69e42c65b472546cfb0b850c066e0423"
+    },
+    {
+      "id": "ortak-03-05",
+      "text": "Paylaşmak, başkasının hakkını korumak ve zarar vermemek de sorumluluk. Görev yalnızca zor bir iş değil.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "bbb52da24d30298bf6a60c5d97128849fe0dc51c00e795c37aa58d42d3642e48",
+      "currentAudioSha256": "b5ec4cb7ca4d6df70ae6faf1ea0100176ca0c8f3f3b970ce97bbdf0cd9936505"
+    },
+    {
+      "id": "ortak-03-06",
+      "text": "İslam inancında insan amaçsız değildir ve seçimlerinden sorumludur. İyilik ile adalet, davranışlarımızda karşılık bulur.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "55808b7a8ef3f338a41eea81bc2cd55e443781b7b002dcd00d355710ff795278",
+      "currentAudioSha256": "abbb883ecc94ce926e712b2d68abfaa4e9d3764ca7bddeb719c20049d6baf296"
+    },
+    {
+      "id": "ortak-04-03",
+      "text": "Mesajın yalnızca söylenmesi yetmez. Neyi anlattığını dikkatle dinlemek, anlamak ve davranışıma yansıtmak isterim.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "eab03f6a2d72c066c9175f94b98a74357338f36b18120a51644d3b88b8754cad",
+      "currentAudioSha256": "6f4180c1b5b4765245e3faeb55320f87df2b4e7a3b01349f967780a997f1dd78"
+    },
+    {
+      "id": "ortak-04-04",
+      "text": "Tebliğ, bildirmek demektir. Metindeki elçi, görevi iletme bağlantısını düşünmemize yardım ediyor.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "5badcced440af8fc1d1fcfe9781e1fb8a7eb7bfb3aeb89927701ac09af09d751",
+      "currentAudioSha256": "9a4e56dcf2be8e830253ae4eaa5590e7455b7dbf2946cc2aa5dd0e8a173fbc23"
+    },
+    {
+      "id": "ortak-04-05",
+      "text": "İslam inancında Allah, peygamberler ve vahiy yoluyla insanlara rehberlik eder. Kur’an bu rehberliğin temel kaynağıdır.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "37fb7ce099e9437303c1e4dafc1c70dcaca5e26c9fce595f5e6099e83185ff7c",
+      "currentAudioSha256": "8547e060081cb1dbc89577cd7d4feda3c71b98174b07a6a827f259116b95ecbd"
+    },
+    {
+      "id": "ortak-04-06",
+      "text": "Saraydaki hayalî haberciyle, öğrendiğimiz dinî kavramları birbirine karıştırmadan aradaki bağlantıyı kurabiliriz.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "ca71017ebf261117cdfc51b4d2bfb78784c30b6b1e2047d109c663d0a249ad3f",
+      "currentAudioSha256": "e5271598accf4fb369839a3ccd8ac8d450692415bb048e995b94ebe038090fab"
+    },
+    {
+      "id": "ortak-05-02",
+      "text": "Suya ve yiyeceğe her gün ihtiyaç duyuyorum. Ama bazen bunların hayatımdaki yerini fark etmeden geçiyorum.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "23a42ba7256994e40bfff95d7aebf455fb1d4455c7a4247ebcbe375a667911f3",
+      "currentAudioSha256": "9c5487ab17b941a835c32cf69a87c7fa253f3bf8d4c37f9bc22ee209b90ea6bb"
+    },
+    {
+      "id": "ortak-05-04",
+      "text": "Bunlar benzetmelerdir. Güneş’in gerçek bir ocak olduğunu söylemiyoruz; ışığın ve ısının hayatla bağlantısını düşünüyoruz.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "15239928765755bc7dd420e32b3e7e43250f91583a05b9eb94b8a66fde93eb1b",
+      "currentAudioSha256": "3d1578e523b95e041e38f36539d7051ad1d2236f1c6f7b94eb2f8c7bb94168ee"
+    },
+    {
+      "id": "ortak-05-05",
+      "text": "Bir elmanın yanında suyu, toprağı, güneşi ve emeği de hatırlamak istiyorum. Fark etmek, davranışımı değiştirebilir.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "b76235ea92f93bc9a89fcb371123d759bf4935a89fc7abb5acbb3c966ec291fb",
+      "currentAudioSha256": "042e28fa4570ddbd9b470787e5b41eb51edbf1ed2acf6983b004cd757477cc4d"
+    },
+    {
+      "id": "ortak-05-06",
+      "text": "İslam inancında nimetleri fark etmek şükürle ilişkilidir. Şükür, paylaşmakta ve israftan kaçınmakta da karşılık bulabilir.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "379edd8361b775ffa61c774a28e32388db4170d8db052613f3748c099739bf99",
+      "currentAudioSha256": "412bd17b9458127c79eaccb128d853df1a0706f03e9301ca30bb623bbccda715"
+    },
+    {
+      "id": "ortak-06-02",
+      "text": "Bir ağacın nasıl büyüdüğünü araştırabilirim. Gözlemledikçe hem yeni bilgiler öğreniyor hem de daha çok soru soruyorum.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "81e979b123057d84127014daa8f515de974201c6084a47fed7b67eba1ff19bd8",
+      "currentAudioSha256": "afe5f9d62e0a5fbd75e363b80ff42ed44f8e8260ab724a1e782c0e40d217271c"
+    },
+    {
+      "id": "ortak-06-04",
+      "text": "Doğadaki süreçler ile ahlaki kararlar aynı türden değildir. İnsan, davranışını değerlendirebilir ve nasıl davranacağını seçebilir.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "51f3b625017c1a25c08f251a31c3340019cb31ebc02bbb41d56349ee3a2a9b1a",
+      "currentAudioSha256": "ab8069a4f0be08fdf45e527a2a1fb02e076d725b8c48a615970e5f0e7096af64"
+    },
+    {
+      "id": "ortak-06-05",
+      "text": "Yerdeki kâğıdı görmezden gelebilirdim. Çevreyi temiz tutmayı doğru bulduğum için onu kutuya atmayı seçtim.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "4f3aeab9840a5f7ca2e7a0b31d76fdce852c132bfab47934fa67004678c3b6e1",
+      "currentAudioSha256": "a408fe099238f8772875f471f617e9e6cb3edc31adb0cc6272e143bde590b8bc"
+    },
+    {
+      "id": "ortak-06-06",
+      "text": "İslam inancında insana verilen akıl ve irade, sorumlulukla ilişkilidir. Rehberlik, seçimlerimizi düşünmemize yardım eder.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "485fe3dcb578f82d78819e128f6ee5e05069fd1a0371b2749dc99643a1506a4c",
+      "currentAudioSha256": "bbc521f199c00e159f2de8c2afd815efa0acedbd9dfb4f90fa9f3a81756ff8bc"
+    },
+    {
+      "id": "ortak-07-03",
+      "text": "Bir cihaz bir işi çok hızlı yapabilir. Ama hız ile hayatın anlamını düşünmek aynı soru değil.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "206881f4aff0e44c109080d5c0ec0b06a8d27bbd630b0e94eb593a0f90a509c0",
+      "currentAudioSha256": "e2bd3af392671e768939f2a41f64ccb325165968b6cc9d71c91af6b9be3c253c"
+    },
+    {
+      "id": "ortak-07-04",
+      "text": "Metindeki robot bir benzetme örneğidir. Onu, bütün teknolojiler için yapılmış teknik bir ölçüm gibi okumayalım.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "227f4a6831da2fd5a1452667f3e05b7374b41c38580c8cbfdd27d508fa15d633",
+      "currentAudioSha256": "cec0ff8c28444d6d4d8009dfa96d7ec5be0036c1e9216283b5b721a45fb4df63"
+    },
+    {
+      "id": "ortak-07-05",
+      "text": "O hâlde hangi bağlantının anlatıldığını soralım. Benzetmenin her ayrıntısının aynı olması gerekmiyor.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "dd6f0c73e665a6773762518588def463045041ca43e4368378f82cb4800a3b06",
+      "currentAudioSha256": "06fa1b16119ab8d07401c0100badfd1f44f994288cb7f47ef669a4cd80e0ae42"
+    },
+    {
+      "id": "ortak-07-06",
+      "text": "İslam inancında Allah’ın ilmi ve kudreti insanınki gibi sınırlı değildir. Allah’ı insan veya makine gibi tasvir etmeyiz.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "3cd4c5c62ebeceb5af8a7a42af7c9ab5d1c689fec1f9d6e58bdedf9cc85b364c",
+      "currentAudioSha256": "ec224f82010824c326f643e19adcb06cc83f51942be11fbd0be2ce582e0a2688"
+    },
+    {
+      "id": "ortak-08-03",
+      "text": "Metin, insanın amaçsız ve rehbersiz bırakıldığı düşüncesini sorguluyor. Saray örneğinden başlayan sorular buraya uzanıyor.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "10754bd6ddf72fc72b159000befe0f6991264d4d505fd6f274aae56b0a258927",
+      "currentAudioSha256": "4f67fa50147e404881082b78288db466077b57037858eaf327ef4f76f1a64e0a"
+    },
+    {
+      "id": "ortak-08-04",
+      "text": "İslam inancında yaratılış hikmetlidir; insan sorumludur. Peygamberler ve vahiy, insanın hayatında ilahî rehberliği anlatır.",
+      "speaker": "Derya Öğretmen",
+      "group": "ortak-hikaye",
+      "textSha256": "00336e2a6c20a2152d88e3a6f07bbf33ee0efa080c01f117d4684f7e962b01b1",
+      "currentAudioSha256": "e6378ff02c229efa462686c48e5b6f2af54e7beee1a463211e0b313195b8559a"
+    },
+    {
+      "id": "ortak-08-05",
+      "text": "Ben de bu düşüncenin hayatımdaki karşılığını arayacağım. Suyu dikkatli kullanmak, paylaşmak ve saygıyla konuşmakla başlayabilirim.",
+      "speaker": "Elif",
+      "group": "ortak-hikaye",
+      "textSha256": "9b30617d09271348b78687c852b60fd5c2ec70032cf236a9f137b3a3d1710f4d",
+      "currentAudioSha256": "00f0ef55a8f0bd954bb3fa9936af476a693a99fd35688a4cfe496ac941000451"
+    },
+    {
+      "id": "ikinci-1-1",
+      "text": "Bir iddia duydum: “Allah düşünce ürünüdür.” Bu sözün ne anlama geldiğini ve metnin buna nasıl cevap verdiğini anlamak istiyorum.",
+      "speaker": "Elif",
+      "group": "ikinci-hikaye",
+      "textSha256": "30c90a855364dacf50c277964fe08fd7863aebffe6434d39017b6f66c978c740",
+      "currentAudioSha256": "42635453ca181a222fd4236dbe79da4477a894df3361ac53dfd8d78c674b5143"
+    },
+    {
+      "id": "ikinci-1-2",
+      "text": "Önce iddiayı anlayalım, sonra verilen örneğe bakalım. Metin bizi küçük bir iğneyle, yani insanın yaptığı bir nesneyle düşünmeye çağırıyor.",
+      "speaker": "Derya Öğretmen",
+      "group": "ikinci-hikaye",
+      "textSha256": "85bf73feb8c072e9925773e1f545a9d5e0b4c4aaaa9bcc88b94dc3df807d1143",
+      "currentAudioSha256": "4b7b807ee4fdd11833c6503e76b6cd5617d9ee3eaafbdfdb9abe084ac5d128b2"
+    },
+    {
+      "id": "ikinci-1-4",
+      "text": "Masalar, sıralar ve binalar da insanların yaptığı şeyler. Bunların tasarımında, yapımında ve kullanımında farklı işler ve emekler var.",
+      "speaker": "Elif",
+      "group": "ikinci-hikaye",
+      "textSha256": "b306d432cbfda7ffeaa1045509d9112a09986c6404f9d5bbb0d86a9cf8e1eb69",
+      "currentAudioSha256": "e9ef07c2876edb65ae90b2c7b5d9cd0699ec4daf30b052c5f73b5e0335255643"
+    },
+    {
+      "id": "ikinci-1-6",
+      "text": "Kaynak metin, insan yapımı nesnelerden insan ve kâinat üzerine düşünmeye geçiyor. İslam inancında varlıkların yaratıcısı Allah’tır.",
+      "speaker": "Derya Öğretmen",
+      "group": "ikinci-hikaye",
+      "textSha256": "7aa416880df3e0c73d5225bef750ea32256582ed350ede554bd0ad9ccb0e4065",
+      "currentAudioSha256": "1282dc306bb6a641cdc5a0877b878010b908e62f871270cd45019aa682f3efd1"
+    },
+    {
+      "id": "ikinci-1-7",
+      "text": "Öyleyse iddiayı, benzetmeyi ve sonucu ayrı ayrı not edeceğim. Farklı düşünceleri konuşurken insanları küçümsemeden, sorularımı açıkça sorabilirim.",
+      "speaker": "Elif",
+      "group": "ikinci-hikaye",
+      "textSha256": "3561c1e9d599e8df990765d122fcead4fe01eec922897dfbeb68abf58e6582a3",
+      "currentAudioSha256": "0c6dcca248b27111bf981475958ca416fb1cdde313c907ddd6b3dd8d6dfb5f04"
+    },
+    {
+      "id": "ikinci-2-2",
+      "text": "Bu trende arka vagon öndekine bağlı. Bağlantıları izledikçe bir vagondan diğerine, sonra da en öndeki lokomotife ulaşıyorum.",
+      "speaker": "Elif",
+      "group": "ikinci-hikaye",
+      "textSha256": "323c8b6e47319323356e892a55d7684e9561a80acfc893cebc5eead443c4fa41",
+      "currentAudioSha256": "fa9d61f352f3ca9c960dafa618a6505d7e409937c5555b93bc96967d122f686f"
+    },
+    {
+      "id": "ikinci-2-4",
+      "text": "Bu örnekte hareketi aktarmakla hareketi sağlamak arasında bir ayrım kuruyoruz. Sonra yazarın bu ayrımı hangi düşünce için kullandığını soruyoruz.",
+      "speaker": "Derya Öğretmen",
+      "group": "ikinci-hikaye",
+      "textSha256": "adc1fd20150280555601086d7476de48e358044558b74105fb5ac07c4fd112b4",
+      "currentAudioSha256": "96e7e8143e07d501bf6bcce2afa6d57e84dd59f66e01db7422583de72c1799eb"
+    },
+    {
+      "id": "ikinci-2-5",
+      "text": "Benzetme, her varlığı yalnızca bir önceki halkayla açıklamaya çalışırsak hangi soruyla karşılaşacağımızı düşündürüyor. İslam inancındaki yaratıcı kavramına dönüyoruz.",
+      "speaker": "Elif",
+      "group": "ikinci-hikaye",
+      "textSha256": "04c3ddc4a7c19c25776aa278de2d740df7d01704c6437a942d8fb9a998c32e92",
+      "currentAudioSha256": "9a2333d523b65cf93fe71d742c1ad1a87f4738ed0b26cc3d73e6dead30ad3018"
+    },
+    {
+      "id": "ikinci-2-6",
+      "text": "İslam inancında Allah, yaratılmış bir varlık olarak düşünülmez. Yaratmak ile yaratılmış olmak, aynı anlama gelen iki özellik değildir.",
+      "speaker": "Derya Öğretmen",
+      "group": "ikinci-hikaye",
+      "textSha256": "5e45b07590b18a8f31cbc620e4510f04a89f84192f9b2bdbfb47bb964f01018e",
+      "currentAudioSha256": "0a157182b7d3764cc32c50cf19b9c1e7deccfbe5bd9e7c8ceeb601de780bfd18"
+    },
+    {
+      "id": "ikinci-3-1",
+      "text": "Metin bir görev sırası örneği de veriyor: er, onbaşı, çavuş ve diğer sorumlular. Burada mesajın ve görevin nasıl aktarıldığı düşünülüyor.",
+      "speaker": "Elif",
+      "group": "ikinci-hikaye",
+      "textSha256": "1f78bc98f3d4453496b98e9875f88a404a353e45b690bb0a37ecf60226da61a9",
+      "currentAudioSha256": "cf1a52454df077b4dab3c75e3cd8926d9d3662d58c7b51f3d7778486f4855a0a"
+    },
+    {
+      "id": "ikinci-3-2",
+      "text": "Görev sırasını anlamak için bu şemayı kullanabiliriz. Gerçek hayatta yöneticiler de hukuka bağlıdır; örneği her ayrıntısıyla aynı saymayız.",
+      "speaker": "Derya Öğretmen",
+      "group": "ikinci-hikaye",
+      "textSha256": "d4446fddd1ff98950e0a9708f84961a078575f05efa3857936ce08fc39d4940d",
+      "currentAudioSha256": "f11f22de39f57e0bb47f52a14a8e9fcd0b0df50a887f141ca1d09b9d610ef5e3"
+    },
+    {
+      "id": "ikinci-3-4",
+      "text": "Bir narı anlamaya çalışırken yalnızca meyveye bakmıyorum. Ağacın büyümesini, suyu ve güneş ışığının bitkilerle ilişkisini de araştırabilirim.",
+      "speaker": "Elif",
+      "group": "ikinci-hikaye",
+      "textSha256": "ada36742cc65bd4bd2ed8dec598478d5ff5938fd5043197ba829682fc98d2335",
+      "currentAudioSha256": "b485ea333c28ec595ee7755a9f9b8e78107c2496d59c0050e0b0a42a8150757d"
+    },
+    {
+      "id": "ikinci-3-5",
+      "text": "Metin, bu bağlantıları “kâinat fabrikası” benzetmesiyle anlatıyor. Kâinatın gerçekten insan yapımı bir fabrika olduğunu söylemiyor; bir düşünce bağlantısı kuruyor.",
+      "speaker": "Derya Öğretmen",
+      "group": "ikinci-hikaye",
+      "textSha256": "7872fcac05f37bfe1fa17c6d0c2c8b676f39208acadf2309625e1adc7e00408e",
+      "currentAudioSha256": "fd64f29da6ed78e4b7eaf6ae056ea1f5b8370879d07425abb1420adaf04d4f10"
+    },
+    {
+      "id": "ikinci-3-7",
+      "text": "Nar, ağaç, doğa ve kâinat aynı konuşmada buluştu. Şimdi metnin yaratıcı için hangi özelliği vurguladığını anlamaya hazırım.",
+      "speaker": "Elif",
+      "group": "ikinci-hikaye",
+      "textSha256": "04bc42ece59aef12af3b16c13dcba126fcd2aadbd8681f86aa56edde0ce5de2f",
+      "currentAudioSha256": "d1d7ac345f3d611a4a63342bff43cd3a2ad9f2c101a97ac8a7aa066cddb8bc4a"
+    },
+    {
+      "id": "ikinci-4-2",
+      "text": "Allah’ın yaratılmamış olması, İslam inancında O’nun bir başlangıca ve başka bir yaratıcıya ihtiyaç duymamasıyla ilişkilidir. O’nu yaratılmışlarla aynılaştırmayız.",
+      "speaker": "Derya Öğretmen",
+      "group": "ikinci-hikaye",
+      "textSha256": "7472b67b4a195f4ad18c132fb8c6986330439d2df5ea48d52590a5d6e1bc68c8",
+      "currentAudioSha256": "fc216a4bf0e01a950170feff2a01cda5ca520a4c07d4934357175bf6702bd258"
+    },
+    {
+      "id": "ikinci-4-3",
+      "text": "Bunun için ekranda Allah’ı resmetmiyoruz. Gördüğümüz gökyüzü, Dünya ve canlılar; üzerine düşündüğümüz varlıkları temsil eden hikâye görselleri.",
+      "speaker": "Elif",
+      "group": "ikinci-hikaye",
+      "textSha256": "fe08684aaa8d5b8fb331795fcbe750adab1f3a59a30b8d6639dab71c39e27df1",
+      "currentAudioSha256": "791c248d55c191aa6e6976a0214d20983db6c715777d62eace3ba43fb189edc7"
+    },
+    {
+      "id": "ikinci-4-5",
+      "text": "Doğadaki süreçlerin nasıl işlediğini araştırabiliriz. İslam inancı çerçevesinde yaratılış ve anlam üzerine düşünmek de bu konuşmanın başka bir yönüdür.",
+      "speaker": "Derya Öğretmen",
+      "group": "ikinci-hikaye",
+      "textSha256": "00eb5ce0ae1226b3638f662adb32e0073ec6c9b20d13b32f6b7a227008bf2f53",
+      "currentAudioSha256": "0addc33047d2701e0f3ef182bd4d39a36c49190ce54ebbbe1b4a65da05799798"
+    },
+    {
+      "id": "ikinci-4-6",
+      "text": "İğne, tren, görev sırası ve nar ağacını bir haritada birleştirdim. Örnekleri, metnin sonucunu ve kendi sorularımı ayrı ayrı gösterebiliyorum.",
+      "speaker": "Elif",
+      "group": "ikinci-hikaye",
+      "textSha256": "39ce286432bd2f909d54a30ba924b473523436462c1c1815c3f4dacbd045e1a2",
+      "currentAudioSha256": "e888ca2e964041a0922202c230b936c7b12726fb84cc61117bc8efa01ff9a958"
+    }
+  ]
+}
