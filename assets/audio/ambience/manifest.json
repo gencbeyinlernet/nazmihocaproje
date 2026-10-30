@@ -1,0 +1,58 @@
+[
+  {
+    "id": "garden",
+    "seconds": 10,
+    "loop": true,
+    "peakCeilingDbfs": -27,
+    "kind": "original-synthetic-scene-effect"
+  },
+  {
+    "id": "rain",
+    "seconds": 10,
+    "loop": true,
+    "peakCeilingDbfs": -27,
+    "kind": "original-synthetic-scene-effect"
+  },
+  {
+    "id": "water",
+    "seconds": 8,
+    "loop": true,
+    "peakCeilingDbfs": -27,
+    "kind": "original-synthetic-scene-effect"
+  },
+  {
+    "id": "bee",
+    "seconds": 1.8,
+    "loop": false,
+    "peakCeilingDbfs": -27,
+    "kind": "original-synthetic-scene-effect"
+  },
+  {
+    "id": "paper",
+    "seconds": 1.1,
+    "loop": false,
+    "peakCeilingDbfs": -27,
+    "kind": "original-synthetic-scene-effect"
+  },
+  {
+    "id": "pencil",
+    "seconds": 1.5,
+    "loop": false,
+    "peakCeilingDbfs": -27,
+    "kind": "original-synthetic-scene-effect"
+  },
+  {
+    "id": "train",
+    "seconds": 8,
+    "loop": true,
+    "peakCeilingDbfs": -27,
+    "kind": "original-synthetic-scene-effect"
+  },
+  {
+    "id": "robot",
+    "seconds": 1.3,
+    "loop": false,
+    "peakCeilingDbfs": -27,
+    "kind": "original-synthetic-scene-effect"
+  }
+]

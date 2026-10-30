@@ -1,0 +1,25 @@
+const assert=require('node:assert/strict'),fs=require('fs'),crypto=require('crypto'),path=require('path'),cp=require('child_process');
+const root=path.resolve(__dirname,'..'),m=JSON.parse(fs.readFileSync(path.join(root,'assets/audio/narration-manifest.json')));
+for(const row of Object.values(m.scenes))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,row.url))).digest('hex'),row.sha256,'Speech must be unchanged');
+for(const row of JSON.parse(fs.readFileSync(path.join(root,'assets/audio/ambience/manifest.json')))){
+ const file=path.join(root,'assets/audio/ambience/'+row.id+'.mp3');cp.execFileSync('ffmpeg',['-v','error','-xerror','-i',file,'-f','null','-']);
+ const result=cp.spawnSync('ffmpeg',['-v','info','-i',file,'-af','volumedetect','-f','null','-'],{encoding:'utf8'});const peak=Number(/max_volume: ([-\d.]+) dB/.exec(result.stderr)[1]);assert(peak<=-23,'Effect too loud: '+row.id);assert(peak>-60,'Effect silent: '+row.id);
+}
+require('./helpers/audio-harness.cjs')(async({page:p,base,errors,missing})=>{
+ const playing=()=>p.waitForFunction(()=>MerakNarration.active?.playing&&MerakNarration.active.audio?.currentTime>0);
+ await p.goto(base+'sahne-atolyesi/');await p.click('#start-story');await playing();await p.waitForFunction(()=>MerakNarration.active.effects.media.currentTime>0);assert.equal(await p.evaluate(()=>MerakNarration.active.effects.key),'garden');assert.equal(await p.locator('.sound-player button:visible').count(),3);
+ await p.locator('.sound-options>summary').click();await p.uncheck('[data-sound-effects]');assert(await p.evaluate(()=>MerakNarration.active.effects.media.paused));assert(await p.evaluate(()=>MerakNarration.active.playing));await p.reload();await p.waitForFunction(()=>MerakNarration.active&&!MerakNarration.active.loading);await p.click('[data-sound=play]');await playing();await p.locator('.sound-options>summary').click();assert(!await p.locator('[data-sound-effects]').isChecked());await p.check('[data-sound-effects]');await p.waitForFunction(()=>!MerakNarration.active.effects.media.paused);
+ await p.click('[data-sound=play]');assert(await p.evaluate(()=>MerakNarration.active.effects.media.paused));await p.click('[data-sound=play]');await playing();await p.evaluate(()=>window.dispatchEvent(new Event('merak-navigation-open')));assert(await p.evaluate(()=>MerakNarration.active.effects.media.paused&&MerakNarration.active.audio.paused));
+ // No atmospheric cue for an abstract faith statement, even if its picture is a garden.
+ assert.equal(await p.evaluate(()=>MerakStorySound.cue({id:'birligin-anlami-03',text:'Allah’ın birliğine inanmak tevhit demektir.'})), '');
+ // A question leaves room for the reply; pause or disabling automatic mode cancels it.
+ await p.evaluate(()=>MerakNarration.active.select(1,true));await playing();await p.check('[data-sound-auto]');await p.evaluate(()=>{const a=MerakNarration.active.audio;a.currentTime=a.duration-.06;});await p.waitForFunction(()=>MerakNarration.active.transitioning);assert.equal(await p.evaluate(()=>MerakNarration.active.index),1);await p.click('[data-sound=play]');await p.waitForTimeout(850);assert.equal(await p.evaluate(()=>MerakNarration.active.index),1);assert(!await p.evaluate(()=>MerakNarration.active.playing||MerakNarration.active.transitioning));
+ await p.click('[data-sound=play]');await p.waitForFunction(()=>MerakNarration.active.transitioning);await p.uncheck('[data-sound-auto]');await p.waitForTimeout(850);assert.equal(await p.evaluate(()=>MerakNarration.active.index),1);
+ await p.check('[data-sound-auto]');await p.waitForFunction(()=>MerakNarration.active.index===2);await playing();
+ // Closing the player during the breathing space cannot start another scene later.
+ await p.evaluate(()=>{const a=MerakNarration.active.audio;a.currentTime=a.duration-.06;});await p.waitForFunction(()=>MerakNarration.active.transitioning);await p.evaluate(()=>{window.oldEffects=MerakNarration.active.effects;MerakNarration.destroy();});await p.waitForTimeout(850);assert(await p.evaluate(()=>MerakNarration.active===null&&oldEffects.destroyed&&oldEffects.media.paused));
+ // Missing decoration is optional: the original narrative remains playable.
+ await p.route('**/assets/audio/ambience/garden.mp3',r=>r.abort());await p.goto(base+'sahne-atolyesi/');await p.click('#start-story');await playing();assert(!await p.evaluate(()=>MerakNarration.active.audioFailed));await p.unroute('**/assets/audio/ambience/garden.mp3');
+ for(const width of [320,390,768,1440]){await p.setViewportSize({width,height:900});await p.locator('.sound-options').evaluate(e=>e.open=true);assert(!await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1));assert(await p.locator('.sound-effects').evaluate(e=>e.getBoundingClientRect().height>=44));}
+ assert.deepEqual(errors,[]);assert.deepEqual(missing,[]);console.log('PASS: unchanged speech, 8 quiet decodable cues, actual effect playback, optional persistent toggle, pause/menu cleanup, question breathing space, cancellation on pause/disable/destroy, missing-effect resilience and mobile touch layout.');
+}).catch(e=>{console.error(e);process.exitCode=1});

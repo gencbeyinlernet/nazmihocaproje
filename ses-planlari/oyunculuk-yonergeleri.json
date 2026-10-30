@@ -1,0 +1,1158 @@
+{
+  "status": "Yeni ses kaydı için yönlendirme; mevcut kayıtların oyunculuğu değiştirilmiş değildir.",
+  "scenes": [
+    {
+      "id": "gozlem-kulubu-01",
+      "story": "Gökyüzü Kulübünün İlk Buluşması",
+      "speaker": "Anlatıcı",
+      "text": "Zehra ve Ömer, Gökyüzü Kulübünün ilk gözlem gününde okul bahçesine çıkıyor.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "gozlem-kulubu-02",
+      "story": "Gökyüzü Kulübünün İlk Buluşması",
+      "speaker": "Zehra",
+      "text": "Bu çiçek güneş ışığıyla büyüyor. Arılar da çiçeklerle nasıl bir ilişki kuruyor?",
+      "intention": "Cevabı gerçekten merak ederek sor; cümle sonunu tekdüze okuma.",
+      "emphasis": [
+        "nasıl"
+      ],
+      "pauseAfterMs": 700,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "gozlem-kulubu-03",
+      "story": "Gökyüzü Kulübünün İlk Buluşması",
+      "speaker": "Ömer",
+      "text": "Arı nektar toplarken çiçekler arasında polen taşıyabiliyor. Canlılar birbirine bağlı.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "bağlı"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "gozlem-kulubu-04",
+      "story": "Gökyüzü Kulübünün İlk Buluşması",
+      "speaker": "Öğretmen",
+      "text": "Gökyüzündeki hareketlerde ve doğada düzen gözlemleriz. Bunları dikkatle inceleyebiliriz.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "düzen"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "gozlem-kulubu-05",
+      "story": "Gökyüzü Kulübünün İlk Buluşması",
+      "speaker": "Zehra",
+      "text": "Yağmur toprağı besliyor, bitkiler büyüyor. Birçok olay birbirini tamamlıyor.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "gozlem-kulubu-06",
+      "story": "Gökyüzü Kulübünün İlk Buluşması",
+      "speaker": "Öğretmen",
+      "text": "İslam, evrendeki düzen üzerine düşünmemizi ister. Bu gözlemler bize Allah’ın yaratışını hatırlatır.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "düzen"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "gozlem-kulubu-07",
+      "story": "Gökyüzü Kulübünün İlk Buluşması",
+      "speaker": "Ömer",
+      "text": "Gördüklerimizi defterimize yazalım. Sonra Allah’ın varlığı ve birliğini birlikte düşünelim.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "birlik"
+      ],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "birligin-anlami-01",
+      "story": "Birliğin Anlamını Ararken",
+      "speaker": "Anlatıcı",
+      "text": "Zehra ve Ömer, gözlemlerinin ardından Allah’ın varlığı ve birliği üzerine konuşuyor.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "birligin-anlami-02",
+      "story": "Birliğin Anlamını Ararken",
+      "speaker": "Ömer",
+      "text": "Doğadaki düzen hakkında düşündük. Peki, İslam’da Allah’ın birliğine inanmak ne demek?",
+      "intention": "Cevabı gerçekten merak ederek sor; cümle sonunu tekdüze okuma.",
+      "emphasis": [
+        "düzen"
+      ],
+      "pauseAfterMs": 700,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "birligin-anlami-03",
+      "story": "Birliğin Anlamını Ararken",
+      "speaker": "Öğretmen",
+      "text": "Allah’ın birliğine inanmak tevhit demektir. İslam’a göre Allah’ın eşi ve benzeri yoktur.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "birligin-anlami-04",
+      "story": "Birliğin Anlamını Ararken",
+      "speaker": "Zehra",
+      "text": "Allah’ı çevremizde gördüğümüz varlıklar gibi düşünmememiz gerektiğini anlıyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "birligin-anlami-05",
+      "story": "Birliğin Anlamını Ararken",
+      "speaker": "Öğretmen",
+      "text": "Allah yaratandır. O’nu insanlara, hayvanlara veya başka bir varlığa benzetmeyiz.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "birligin-anlami-06",
+      "story": "Birliğin Anlamını Ararken",
+      "speaker": "Ömer",
+      "text": "Tevhit kavramını kendi cümlelerimizle yazalım. Sorularımızı da birlikte konuşalım.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "birlik"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "birligin-anlami-07",
+      "story": "Birliğin Anlamını Ararken",
+      "speaker": "Zehra",
+      "text": "Allah’ın birliğini öğrendik. Şimdi O’nun güzel isimlerini ve anlamlarını merak ediyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "anlam",
+        "merak"
+      ],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "guzel-isimler-01",
+      "story": "İsimlerin Açtığı Pencere",
+      "speaker": "Anlatıcı",
+      "text": "Kulübün yeni buluşmasında Zehra ile Ömer, Allah’ın güzel isimlerini araştırıyor.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "guzel-isimler-02",
+      "story": "İsimlerin Açtığı Pencere",
+      "speaker": "Zehra",
+      "text": "Allah’ın güzel isimlerine esmayıhüsna deniyor. Bu isimler bize neler anlatıyor?",
+      "intention": "Cevabı gerçekten merak ederek sor; cümle sonunu tekdüze okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 700,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "guzel-isimler-03",
+      "story": "İsimlerin Açtığı Pencere",
+      "speaker": "Öğretmen",
+      "text": "Bu isimler Allah’ı tanımamıza yardımcı olur. Her birinin anlamını dikkatle öğrenelim.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "guzel-isimler-04",
+      "story": "İsimlerin Açtığı Pencere",
+      "speaker": "Ömer",
+      "text": "Bir canlının ihtiyacını fark edip yardım ettiğimizde merhamet üzerine düşünebiliriz.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "guzel-isimler-05",
+      "story": "İsimlerin Açtığı Pencere",
+      "speaker": "Öğretmen",
+      "text": "Allah’ın merhametini, bilmesini, görmesini ve işitmesini anlatan isimleri sırayla inceleyeceğiz.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "guzel-isimler-06",
+      "story": "İsimlerin Açtığı Pencere",
+      "speaker": "Zehra",
+      "text": "İsimleri yalnızca ezberlemek yerine anlamlarını öğrenmek istiyorum. Sorularımı defterime yazacağım.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "guzel-isimler-07",
+      "story": "İsimlerin Açtığı Pencere",
+      "speaker": "Anlatıcı",
+      "text": "Bir sonraki buluşmada Rahman ve Rahîm isimlerinin anlamını konuşacaklar.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-01-01",
+      "story": "Bir soruyla açılan defter",
+      "speaker": "Anlatıcı",
+      "text": "Elif ile Deniz, keşif defterinin başında buluştu. İlk sayfada büyük bir soru vardı: Hayatımızın anlamı neydi?",
+      "intention": "Cevabı gerçekten merak ederek sor; cümle sonunu tekdüze okuma.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 700,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-01-02",
+      "story": "Bir soruyla açılan defter",
+      "speaker": "Elif",
+      "text": "Hepimiz farklı sınıflardayız. Ama aynı gökyüzüne bakıyor, aynı dünyada yaşıyoruz. Bu hikâyeyi birlikte keşfedebiliriz.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "birlik"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-01-03",
+      "story": "Bir soruyla açılan defter",
+      "speaker": "Deniz",
+      "text": "Defterin başında bir saray, sonunda Dünya var. Bu iki resmin arasındaki bağlantıyı bulmak istiyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-01-04",
+      "story": "Bir soruyla açılan defter",
+      "speaker": "Derya Öğretmen",
+      "text": "Metnimiz yaratılış, amaç, sorumluluk ve rehberlik üzerine sorular soruyor. Önce ne söylendiğini dikkatle anlayalım.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "sorumluluk",
+        "rehberlik"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-01-05",
+      "story": "Bir soruyla açılan defter",
+      "speaker": "Elif",
+      "text": "Bir şeyin nasıl var olduğunu merak ediyorum. Ama niçin var olduğunu da düşünmek istiyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "nasıl",
+        "merak"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-01-06",
+      "story": "Bir soruyla açılan defter",
+      "speaker": "Derya Öğretmen",
+      "text": "İslam inancına göre insanın hayatı anlamlıdır. Allah insanı yaratıp ilgisiz bırakmaz; ona yol gösterir.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-01-07",
+      "story": "Bir soruyla açılan defter",
+      "speaker": "Anlatıcı",
+      "text": "Sorularını deftere yazdılar. Sayfa çevrildi, hayallerindeki sarayın kapısı açıldı. Yolculuk artık başlıyordu.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-02-01",
+      "story": "Sarayda hazırlanan sofra",
+      "speaker": "Anlatıcı",
+      "text": "Sarayda su, yiyecek, giyecek ve dinlenecek odalar hazırlanmıştı. Her köşede başka bir ihtiyaç düşünülmüştü.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-02-02",
+      "story": "Sarayda hazırlanan sofra",
+      "speaker": "Elif",
+      "text": "Burada yalnızca güzel bir bina yok. Susadığımızda su, acıktığımızda yiyecek bulabiliyoruz. İhtiyaçlarımız düşünülmüş.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-02-03",
+      "story": "Sarayda hazırlanan sofra",
+      "speaker": "Deniz",
+      "text": "Bahçeye bakan, sofraya yardım eden görevliler de var. Bu hazırlıkların hepsini defterimize yazalım.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-02-04",
+      "story": "Sarayda hazırlanan sofra",
+      "speaker": "Elif",
+      "text": "Bütün ekmekleri ben alırsam başkalarına kalmaz. Bir imkândan yararlanmak, onu sınırsızca tüketmek demek mi?",
+      "intention": "Cevabı gerçekten merak ederek sor; cümle sonunu tekdüze okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 700,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-02-05",
+      "story": "Sarayda hazırlanan sofra",
+      "speaker": "Derya Öğretmen",
+      "text": "Kaynak metin bu sarayı bir benzetme olarak kuruyor. Sunulan imkânlardan, amaç ve görev sorularına geçiyor.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-02-06",
+      "story": "Sarayda hazırlanan sofra",
+      "speaker": "Deniz",
+      "text": "Öyleyse yalnızca bana ne verildiğini sormayacağım. Bu imkânları nasıl kullandığımı da düşüneceğim.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "nasıl"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-02-07",
+      "story": "Sarayda hazırlanan sofra",
+      "speaker": "Anlatıcı",
+      "text": "Elif çeşmenin musluğunu kapattı. İkisi de aynı soruyu düşündü: Bu hazırlığın içinde bizim sorumluluğumuz neydi?",
+      "intention": "Cevabı gerçekten merak ederek sor; cümle sonunu tekdüze okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 700,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-03-01",
+      "story": "Amaç, görev ve özgür seçim",
+      "speaker": "Anlatıcı",
+      "text": "Bahçedeki yollar bir soruyu daha açtı. Özgürce hareket etmekle başkalarının hakkını gözetmek nasıl birlikte düşünülürdü?",
+      "intention": "Cevabı gerçekten merak ederek sor; cümle sonunu tekdüze okuma.",
+      "emphasis": [
+        "nasıl",
+        "birlik"
+      ],
+      "pauseAfterMs": 700,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-03-02",
+      "story": "Amaç, görev ve özgür seçim",
+      "speaker": "Deniz",
+      "text": "Çiçeklerin üzerine basarsam benim için kısa bir yol olur. Ama bahçenin güzelliğine başkaları da ortak.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-03-03",
+      "story": "Amaç, görev ve özgür seçim",
+      "speaker": "Elif",
+      "text": "İstediğim bir şeyi yapabiliyor olmam, onun doğru olduğu anlamına gelmeyebilir. Sonucunu da düşünmeliyim.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-03-04",
+      "story": "Amaç, görev ve özgür seçim",
+      "speaker": "Derya Öğretmen",
+      "text": "Amaç, niçin sorusuyla ilgilidir. Sorumluluk ise nasıl davranmamız gerektiğini düşündürür. İkisi birbirine bağlıdır.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "niçin",
+        "Sorumluluk"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-03-05",
+      "story": "Amaç, görev ve özgür seçim",
+      "speaker": "Elif",
+      "text": "Paylaşmak, başkasının hakkını korumak ve zarar vermemek de sorumluluk. Görev yalnızca zor bir iş değil.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "Paylaşmak",
+        "sorumluluk"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-03-06",
+      "story": "Amaç, görev ve özgür seçim",
+      "speaker": "Derya Öğretmen",
+      "text": "İslam inancında insan amaçsız değildir ve seçimlerinden sorumludur. İyilik ile adalet, davranışlarımızda karşılık bulur.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-03-07",
+      "story": "Amaç, görev ve özgür seçim",
+      "speaker": "Deniz",
+      "text": "Peki, sorumluluğumu nasıl öğreneceğim? Defterin sonraki sayfasında bu sorunun izini sürmek istiyorum.",
+      "intention": "Cevabı gerçekten merak ederek sor; cümle sonunu tekdüze okuma.",
+      "emphasis": [
+        "nasıl"
+      ],
+      "pauseAfterMs": 700,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-04-01",
+      "story": "Yol gösteren mesaj",
+      "speaker": "Anlatıcı",
+      "text": "Saraydaki görevliler yapacaklarını biliyordu. Yeni bir açıklamanın ise konuklara da duyurulması gerekiyordu.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-04-02",
+      "story": "Yol gösteren mesaj",
+      "speaker": "Deniz",
+      "text": "Bir görev varsa, onu öğrenmeye de ihtiyaç var. Konuklara hiç açıklama yapılmadığını düşünmek tuhaf geliyor.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-04-03",
+      "story": "Yol gösteren mesaj",
+      "speaker": "Elif",
+      "text": "Mesajın yalnızca söylenmesi yetmez. Neyi anlattığını dikkatle dinlemek, anlamak ve davranışıma yansıtmak isterim.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-04-04",
+      "story": "Yol gösteren mesaj",
+      "speaker": "Derya Öğretmen",
+      "text": "Tebliğ, bildirmek demektir. Metindeki elçi, görevi iletme bağlantısını düşünmemize yardım ediyor.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-04-05",
+      "story": "Yol gösteren mesaj",
+      "speaker": "Derya Öğretmen",
+      "text": "İslam inancında Allah, peygamberler ve vahiy yoluyla insanlara rehberlik eder. Kur’an bu rehberliğin temel kaynağıdır.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "rehberlik"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-04-06",
+      "story": "Yol gösteren mesaj",
+      "speaker": "Elif",
+      "text": "Saraydaki hayalî haberciyle, öğrendiğimiz dinî kavramları birbirine karıştırmadan aradaki bağlantıyı kurabiliriz.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-04-07",
+      "story": "Yol gösteren mesaj",
+      "speaker": "Anlatıcı",
+      "text": "Mesajın anlamını konuştular. Şimdi saray çiziminin yanında duran Dünya, onları daha büyük bir düşünceye çağırıyordu.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-05-01",
+      "story": "Dünya: büyük bir saray",
+      "speaker": "Anlatıcı",
+      "text": "Saray çizimi yerini Dünya’ya bıraktı. Tarlalar, ağaçlar ve su, ilk duraktaki ihtiyaç listesini yeniden hatırlattı.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-05-02",
+      "story": "Dünya: büyük bir saray",
+      "speaker": "Elif",
+      "text": "Suya ve yiyeceğe her gün ihtiyaç duyuyorum. Ama bazen bunların hayatımdaki yerini fark etmeden geçiyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-05-03",
+      "story": "Dünya: büyük bir saray",
+      "speaker": "Deniz",
+      "text": "Metin Dünya’yı saraya, ay ve yıldızları kandile benzetiyor. Güneş için de ışık ve ısı örnekleri var.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-05-04",
+      "story": "Dünya: büyük bir saray",
+      "speaker": "Derya Öğretmen",
+      "text": "Bunlar benzetmelerdir. Güneş’in gerçek bir ocak olduğunu söylemiyoruz; ışığın ve ısının hayatla bağlantısını düşünüyoruz.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-05-05",
+      "story": "Dünya: büyük bir saray",
+      "speaker": "Elif",
+      "text": "Bir elmanın yanında suyu, toprağı, güneşi ve emeği de hatırlamak istiyorum. Fark etmek, davranışımı değiştirebilir.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-05-06",
+      "story": "Dünya: büyük bir saray",
+      "speaker": "Derya Öğretmen",
+      "text": "İslam inancında nimetleri fark etmek şükürle ilişkilidir. Şükür, paylaşmakta ve israftan kaçınmakta da karşılık bulabilir.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "paylaşmak"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-05-07",
+      "story": "Dünya: büyük bir saray",
+      "speaker": "Deniz",
+      "text": "Dünya’yı bir emanet gibi düşünürsem, onu nasıl kullandığımı da sorgularım. Sorumluluk sorumuz şimdi daha büyük.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "nasıl",
+        "Sorumluluk"
+      ],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-06-01",
+      "story": "Doğanın düzeni, insanın seçimi",
+      "speaker": "Anlatıcı",
+      "text": "Gece ve gündüz, suyun yolculuğu ve ağaçların büyümesi… Defter şimdi doğayı dikkatle gözlemlemeye davet ediyordu.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-06-02",
+      "story": "Doğanın düzeni, insanın seçimi",
+      "speaker": "Elif",
+      "text": "Bir ağacın nasıl büyüdüğünü araştırabilirim. Gözlemledikçe hem yeni bilgiler öğreniyor hem de daha çok soru soruyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "nasıl"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-06-03",
+      "story": "Doğanın düzeni, insanın seçimi",
+      "speaker": "Deniz",
+      "text": "Ama ağacın büyümesiyle benim bir arkadaşıma yardım etmeyi seçmem aynı şey değil. Aradaki farkı konuşalım mı?",
+      "intention": "Cevabı gerçekten merak ederek sor; cümle sonunu tekdüze okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 700,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-06-04",
+      "story": "Doğanın düzeni, insanın seçimi",
+      "speaker": "Derya Öğretmen",
+      "text": "Doğadaki süreçler ile ahlaki kararlar aynı türden değildir. İnsan, davranışını değerlendirebilir ve nasıl davranacağını seçebilir.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "nasıl"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-06-05",
+      "story": "Doğanın düzeni, insanın seçimi",
+      "speaker": "Elif",
+      "text": "Yerdeki kâğıdı görmezden gelebilirdim. Çevreyi temiz tutmayı doğru bulduğum için onu kutuya atmayı seçtim.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-06-06",
+      "story": "Doğanın düzeni, insanın seçimi",
+      "speaker": "Derya Öğretmen",
+      "text": "İslam inancında insana verilen akıl ve irade, sorumlulukla ilişkilidir. Rehberlik, seçimlerimizi düşünmemize yardım eder.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "sorumluluk",
+        "Rehberlik"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-06-07",
+      "story": "Doğanın düzeni, insanın seçimi",
+      "speaker": "Anlatıcı",
+      "text": "Doğayı anlamakla davranışını değerlendirmeyi ayırdılar. Sonraki sayfada, insanın yaptığı küçük bir robot onları bekliyordu.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-07-01",
+      "story": "Robotun açtığı son soru",
+      "speaker": "Anlatıcı",
+      "text": "Deniz küçük robotunu masaya koydu. Robot çizgiyi izliyor, önündeki engeli fark edince duruyordu.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-07-02",
+      "story": "Robotun açtığı son soru",
+      "speaker": "Deniz",
+      "text": "Onun için komutlar yazdım, parçalarını birleştirdim. Şimdi belirli işleri nasıl yaptığını sana gösterebilirim.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "nasıl"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-07-03",
+      "story": "Robotun açtığı son soru",
+      "speaker": "Elif",
+      "text": "Bir cihaz bir işi çok hızlı yapabilir. Ama hız ile hayatın anlamını düşünmek aynı soru değil.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-07-04",
+      "story": "Robotun açtığı son soru",
+      "speaker": "Derya Öğretmen",
+      "text": "Metindeki robot bir benzetme örneğidir. Onu, bütün teknolojiler için yapılmış teknik bir ölçüm gibi okumayalım.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-07-05",
+      "story": "Robotun açtığı son soru",
+      "speaker": "Elif",
+      "text": "O hâlde hangi bağlantının anlatıldığını soralım. Benzetmenin her ayrıntısının aynı olması gerekmiyor.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-07-06",
+      "story": "Robotun açtığı son soru",
+      "speaker": "Derya Öğretmen",
+      "text": "İslam inancında Allah’ın ilmi ve kudreti insanınki gibi sınırlı değildir. Allah’ı insan veya makine gibi tasvir etmeyiz.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-07-07",
+      "story": "Robotun açtığı son soru",
+      "speaker": "Anlatıcı",
+      "text": "Robot kapandı, keşif defteri açık kaldı. Saraydan bugüne uzanan soruları tek bir haritada birleştirmenin zamanı gelmişti.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-08-01",
+      "story": "Bütün yolların buluştuğu sayfa",
+      "speaker": "Anlatıcı",
+      "text": "Keşif kartları aynı masada buluştu. Saray, amaç, mesaj, Dünya, doğa ve robot artık birbirine bağlanıyordu.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-08-02",
+      "story": "Bütün yolların buluştuğu sayfa",
+      "speaker": "Deniz",
+      "text": "İlk başta ayrı örnekler görüyordum. Şimdi metnin aynı soruyu farklı benzetmelerle adım adım açtığını fark ediyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-08-03",
+      "story": "Bütün yolların buluştuğu sayfa",
+      "speaker": "Elif",
+      "text": "Metin, insanın amaçsız ve rehbersiz bırakıldığı düşüncesini sorguluyor. Saray örneğinden başlayan sorular buraya uzanıyor.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-08-04",
+      "story": "Bütün yolların buluştuğu sayfa",
+      "speaker": "Derya Öğretmen",
+      "text": "İslam inancında yaratılış hikmetlidir; insan sorumludur. Peygamberler ve vahiy, insanın hayatında ilahî rehberliği anlatır.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-08-05",
+      "story": "Bütün yolların buluştuğu sayfa",
+      "speaker": "Elif",
+      "text": "Ben de bu düşüncenin hayatımdaki karşılığını arayacağım. Suyu dikkatli kullanmak, paylaşmak ve saygıyla konuşmakla başlayabilirim.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "paylaşmak"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-08-06",
+      "story": "Bütün yolların buluştuğu sayfa",
+      "speaker": "Deniz",
+      "text": "Bütün sorularımız bugün bitmedi. Ama sorumu nasıl soracağımı ve öğrendiğimi nasıl düşüneceğimi daha iyi biliyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "nasıl"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ortak-08-07",
+      "story": "Bütün yolların buluştuğu sayfa",
+      "speaker": "Anlatıcı",
+      "text": "Ortak hikâye tamamlandı. Kaynak metin aynen yerinde duruyor. Şimdi herkes kendi sınıfındaki öğrenme yoluna devam edebilir.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-1-1",
+      "story": "Bir iğneden başlayan soru",
+      "speaker": "Elif",
+      "text": "Bir iddia duydum: “Allah düşünce ürünüdür.” Bu sözün ne anlama geldiğini ve metnin buna nasıl cevap verdiğini anlamak istiyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "anlam",
+        "nasıl"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-1-2",
+      "story": "Bir iğneden başlayan soru",
+      "speaker": "Derya Öğretmen",
+      "text": "Önce iddiayı anlayalım, sonra verilen örneğe bakalım. Metin bizi küçük bir iğneyle, yani insanın yaptığı bir nesneyle düşünmeye çağırıyor.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-1-3",
+      "story": "Bir iğneden başlayan soru",
+      "speaker": "Deniz",
+      "text": "İğnenin biçimi, deliği ve kullanılacağı iş düşünülmüş. Bir iğnenin nasıl yapıldığını araştırabilir, ustalığını ve üretim aşamalarını öğrenebilirim.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "nasıl"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-1-4",
+      "story": "Bir iğneden başlayan soru",
+      "speaker": "Elif",
+      "text": "Masalar, sıralar ve binalar da insanların yaptığı şeyler. Bunların tasarımında, yapımında ve kullanımında farklı işler ve emekler var.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-1-5",
+      "story": "Bir iğneden başlayan soru",
+      "speaker": "Deniz",
+      "text": "Araba, tren, uçak ve robotu da bu örneklerin yanına koyuyorum. Hepsinde insanın tasarımı ve üretimi üzerine soru sorabilirim.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-1-6",
+      "story": "Bir iğneden başlayan soru",
+      "speaker": "Derya Öğretmen",
+      "text": "Kaynak metin, insan yapımı nesnelerden insan ve kâinat üzerine düşünmeye geçiyor. İslam inancında varlıkların yaratıcısı Allah’tır.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-1-7",
+      "story": "Bir iğneden başlayan soru",
+      "speaker": "Elif",
+      "text": "Öyleyse iddiayı, benzetmeyi ve sonucu ayrı ayrı not edeceğim. Farklı düşünceleri konuşurken insanları küçümsemeden, sorularımı açıkça sorabilirim.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-2-1",
+      "story": "Vagonlardan lokomotife",
+      "speaker": "Deniz",
+      "text": "Metin şimdi başka bir soru soruyor: “Her şeyi Allah yarattıysa Allah’ı kim yarattı?” Cevap için tren örneğine geçelim.",
+      "intention": "Cevabı gerçekten merak ederek sor; cümle sonunu tekdüze okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 700,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-2-2",
+      "story": "Vagonlardan lokomotife",
+      "speaker": "Elif",
+      "text": "Bu trende arka vagon öndekine bağlı. Bağlantıları izledikçe bir vagondan diğerine, sonra da en öndeki lokomotife ulaşıyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "bağlı"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-2-3",
+      "story": "Vagonlardan lokomotife",
+      "speaker": "Deniz",
+      "text": "Vagonlar hareketi birbirine aktarıyor. Ama bu trende hareketi sağlayan motorlu bölüm lokomotif; onun görevini vagonlarla aynı düşünemiyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-2-4",
+      "story": "Vagonlardan lokomotife",
+      "speaker": "Derya Öğretmen",
+      "text": "Bu örnekte hareketi aktarmakla hareketi sağlamak arasında bir ayrım kuruyoruz. Sonra yazarın bu ayrımı hangi düşünce için kullandığını soruyoruz.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-2-5",
+      "story": "Vagonlardan lokomotife",
+      "speaker": "Elif",
+      "text": "Benzetme, her varlığı yalnızca bir önceki halkayla açıklamaya çalışırsak hangi soruyla karşılaşacağımızı düşündürüyor. İslam inancındaki yaratıcı kavramına dönüyoruz.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-2-6",
+      "story": "Vagonlardan lokomotife",
+      "speaker": "Derya Öğretmen",
+      "text": "İslam inancında Allah, yaratılmış bir varlık olarak düşünülmez. Yaratmak ile yaratılmış olmak, aynı anlama gelen iki özellik değildir.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-2-7",
+      "story": "Vagonlardan lokomotife",
+      "speaker": "Deniz",
+      "text": "Tren bir örnek; Allah ise trenin bir parçası gibi tasvir edilmez. Benzetmenin anlattığı bağlantıyı ve sınırını birlikte düşünmeliyim.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "birlik"
+      ],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-3-1",
+      "story": "Görev zincirinden nar ağacına",
+      "speaker": "Elif",
+      "text": "Metin bir görev sırası örneği de veriyor: er, onbaşı, çavuş ve diğer sorumlular. Burada mesajın ve görevin nasıl aktarıldığı düşünülüyor.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "nasıl"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-3-2",
+      "story": "Görev zincirinden nar ağacına",
+      "speaker": "Derya Öğretmen",
+      "text": "Görev sırasını anlamak için bu şemayı kullanabiliriz. Gerçek hayatta yöneticiler de hukuka bağlıdır; örneği her ayrıntısıyla aynı saymayız.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "anlam",
+        "bağlı"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-3-3",
+      "story": "Görev zincirinden nar ağacına",
+      "speaker": "Deniz",
+      "text": "Şimdi narın yanına geldik. Meyveyi ağacında görüyorum; ağacın çevresinde ise toprak, su, hava ve güneş var.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-3-4",
+      "story": "Görev zincirinden nar ağacına",
+      "speaker": "Elif",
+      "text": "Bir narı anlamaya çalışırken yalnızca meyveye bakmıyorum. Ağacın büyümesini, suyu ve güneş ışığının bitkilerle ilişkisini de araştırabilirim.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-3-5",
+      "story": "Görev zincirinden nar ağacına",
+      "speaker": "Derya Öğretmen",
+      "text": "Metin, bu bağlantıları “kâinat fabrikası” benzetmesiyle anlatıyor. Kâinatın gerçekten insan yapımı bir fabrika olduğunu söylemiyor; bir düşünce bağlantısı kuruyor.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-3-6",
+      "story": "Görev zincirinden nar ağacına",
+      "speaker": "Deniz",
+      "text": "Bütün açıklamaları sürekli başka bir halkaya taşımak, başlangıç sorusunu yeniden düşündürüyor. Yazarın sonsuza giden zincirle hangi soruyu sorduğunu izliyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-3-7",
+      "story": "Görev zincirinden nar ağacına",
+      "speaker": "Elif",
+      "text": "Nar, ağaç, doğa ve kâinat aynı konuşmada buluştu. Şimdi metnin yaratıcı için hangi özelliği vurguladığını anlamaya hazırım.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [
+        "anlam"
+      ],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-4-1",
+      "story": "Yaratan, fakat yaratılmayan",
+      "speaker": "Deniz",
+      "text": "Metnin ulaştığı düşünceyi artık daha açık görüyorum: Allah, yaratan fakat kendisi yaratılmayan olarak anlatılıyor. İslam inancındaki ayrım bu.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-4-2",
+      "story": "Yaratan, fakat yaratılmayan",
+      "speaker": "Derya Öğretmen",
+      "text": "Allah’ın yaratılmamış olması, İslam inancında O’nun bir başlangıca ve başka bir yaratıcıya ihtiyaç duymamasıyla ilişkilidir. O’nu yaratılmışlarla aynılaştırmayız.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-4-3",
+      "story": "Yaratan, fakat yaratılmayan",
+      "speaker": "Elif",
+      "text": "Bunun için ekranda Allah’ı resmetmiyoruz. Gördüğümüz gökyüzü, Dünya ve canlılar; üzerine düşündüğümüz varlıkları temsil eden hikâye görselleri.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-4-4",
+      "story": "Yaratan, fakat yaratılmayan",
+      "speaker": "Deniz",
+      "text": "Kaynak metin toprak, hava, su ve güneşi de hatırlatıyor. Bu unsurların canlıların hayatındaki rollerini öğrenmek yeni sorular sormamı sağlıyor.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-4-5",
+      "story": "Yaratan, fakat yaratılmayan",
+      "speaker": "Derya Öğretmen",
+      "text": "Doğadaki süreçlerin nasıl işlediğini araştırabiliriz. İslam inancı çerçevesinde yaratılış ve anlam üzerine düşünmek de bu konuşmanın başka bir yönüdür.",
+      "intention": "Öğrenciye cevap veriyormuş gibi sakin ve içten konuş; açıklamayı ders kitabı gibi okuma.",
+      "emphasis": [
+        "nasıl",
+        "anlam"
+      ],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-4-6",
+      "story": "Yaratan, fakat yaratılmayan",
+      "speaker": "Elif",
+      "text": "İğne, tren, görev sırası ve nar ağacını bir haritada birleştirdim. Örnekleri, metnin sonucunu ve kendi sorularımı ayrı ayrı gösterebiliyorum.",
+      "intention": "Karşındaki arkadaşına yeni fark ettiğin bir şeyi anlatır gibi söyle.",
+      "emphasis": [],
+      "pauseAfterMs": 380,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    },
+    {
+      "id": "ikinci-4-7",
+      "story": "Yaratan, fakat yaratılmayan",
+      "speaker": "Anlatıcı",
+      "text": "Hikâyemiz burada tamamlanıyor. Verilen metnin tamamı aynen korunuyor. Örnekler üzerine yeniden düşünebilir, merak ettiğin soruyu eğitim ekibiyle paylaşabilirsin.",
+      "intention": "Dinleyiciyi olayın içine alan sıcak bir anlatımla, konuşur gibi söyle.",
+      "emphasis": [
+        "merak"
+      ],
+      "pauseAfterMs": 450,
+      "performance": "Tek doğal nefes akışı; ünlem ve soru vurgusu ölçülü. Yapay çocuk taklidi, fısıltı veya abartılı neşe yok."
+    }
+  ]
+}

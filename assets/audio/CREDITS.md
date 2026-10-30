@@ -36,3 +36,7 @@ Kullanıcının `yeni-kadin-sesleri.zip` dosyasındaki 60 kayıt, eski DFKI kad�
 Yüklenen MP3 dosyaları yeniden kodlanmadan korunmuştur. 60 dosyanın metin/dosya özetleri, çözümlenebilirliği ve gerçek süreleri doğrulanmıştır. Toplam süre yaklaşık 9 dakika 6 saniyedir. Erkek sesleri, özgün replikler ve görseller değişmemiştir. Yeni dosya özetine bağlı bağlantı sürümü, tarayıcının eski kadın sesini önbellekten çalmasını önler.
 
 İçe aktarma: `python scripts/import-female-audio.py <yeni-kadin-sesleri.zip>`. Betik bütün kayıtları doğrulamadan dosyaları değiştirmez. İlgili sahne veri dosyalarındaki süre/ses tanımları da manifestle birlikte güncellenmiştir. Sonraki Piper üretimi, yeni içe aktarılmış kayıtları korur.
+
+## 29 Ekim 2026 · Sahne efektleri
+
+`ambience/` altındaki sekiz efekt bu proje için `scripts/build-scene-sounds.py` ile sentezlenmiştir. Alan kaydı veya müzik değildir. Konuşma kayıtlarını değiştirmeyen, ayrı oynatılan ve kapatılabilen düşük seviyeli bir katmandır. Kaynak ve sınırlar: [HIKAYE-SES-TASARIMI.md](../../HIKAYE-SES-TASARIMI.md).

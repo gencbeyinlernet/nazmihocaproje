@@ -5,7 +5,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 root = Path(__file__).resolve().parents[1]
 files = [root / name for name in (
     "BASLAT-WINDOWS.bat", "BASLAT.py", "KAYNAKLAR.md", "KULLANIM-KOSULLARI.md",
-    "README.md", "PHOTOREAL-GORSELLER.md", "HIKAYE-SERISI-20261028.md", "VIDEO-SENARYOLARI.md", "VIDEO-URETIM-STANDARDI.md", "YEREL-TEST.md", "URETIM-ALTYAPISI.md", "SESLENDIRME-PLANI.md",
+    "README.md", "HIKAYE-SES-TASARIMI.md", "PHOTOREAL-GORSELLER.md", "HIKAYE-SERISI-20261028.md", "VIDEO-SENARYOLARI.md", "VIDEO-URETIM-STANDARDI.md", "YEREL-TEST.md", "URETIM-ALTYAPISI.md", "SESLENDIRME-PLANI.md",
     "index.html", "logo.jpg", "ORTAK-HIKAYE.md", "IKINCI-HIKAYE.md",
 )]
 for folder in ("assets", "backend", "metin-atolyesi", "siniflar", "sahne-atolyesi", "ses-planlari", "ortaokul", "lise", "universite", "ortak-hikaye", "igneden-kainata", "ders-hazirla", "hikayeler", "kesfet"):
