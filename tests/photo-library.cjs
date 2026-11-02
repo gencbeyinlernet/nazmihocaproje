@@ -7,10 +7,10 @@ for(const s of [...stories,...w.MERAK_PRODUCTIONS,...w.MERAK_COMMON_STORY.chapte
 for(const p of w.MERAK_UNIVERSITY)for(let i=0;i<p.reading.length+p.questions.length+1;i++)assert(data.photos[data.scenes[p.id+'-audio-'+i]]);
 assert.equal(data.scenes['gozlem-kulubu-03'],'bee');assert.equal(data.scenes['gozlem-kulubu-05'],'rain');assert.equal(data.scenes['ortak-07-01'],'robot');
 require('./helpers/audio-harness.cjs')(async({page,base,errors,missing})=>{
- await page.goto(base);await page.waitForSelector('.journey-image-card .story-photo');
+ await page.goto(base);await page.waitForSelector('.journey-image-card img');
  // Each source decodes; each individual viewport has a visible, accessible image.
  await page.evaluate(async()=>{for(const [key,p]of Object.entries(MERAK_PHOTOS.photos)){const h=document.createElement('div');h.style.width='600px';h.innerHTML=MerakPhotos.picture(key);document.body.append(h);const img=h.querySelector('img');await img.decode();const svg=h.querySelector('svg');if(svg.getBoundingClientRect().height<100||!svg.getAttribute('aria-label'))throw Error(key);h.remove();}});
- for(const width of [320,390,768,1440]){await page.setViewportSize({width,height:900});assert(await page.locator('.journey-image-card .story-photo').isVisible());assert(!await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1));}
+ for(const width of [320,390,768,1440]){await page.setViewportSize({width,height:900});assert(await page.locator('.journey-image-card img').isVisible());assert(!await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1));}
  await page.setViewportSize({width:390,height:844});await page.screenshot({path:'/tmp/photos-home-mobile.png'});
  await page.goto(base+'hikayeler/?sinif=6');await page.waitForSelector('[data-library-play]');await page.locator('[data-library-play]').first().click();await page.waitForFunction(()=>MerakNarration.active&&!MerakNarration.active.loading);assert(await page.locator('.sound-image .story-photo').isVisible());assert.equal(await page.locator('.sound-image .library-scene').count(),0);
  await page.evaluate(()=>MerakNarration.pause());await page.screenshot({path:'/tmp/photos-story-mobile.png'});await page.click('#close-library');

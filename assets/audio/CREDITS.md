@@ -40,3 +40,7 @@ Yüklenen MP3 dosyaları yeniden kodlanmadan korunmuştur. 60 dosyanın metin/do
 ## 29 Ekim 2026 · Sahne efektleri
 
 `ambience/` altındaki sekiz efekt bu proje için `scripts/build-scene-sounds.py` ile sentezlenmiştir. Alan kaydı veya müzik değildir. Konuşma kayıtlarını değiştirmeyen, ayrı oynatılan ve kapatılabilen düşük seviyeli bir katmandır. Kaynak ve sınırlar: [HIKAYE-SES-TASARIMI.md](../../HIKAYE-SES-TASARIMI.md).
+
+## Aspirin düşünce deneyi
+
+`aspirin/` altındaki dokuz yeni MP3, kullanıcının verdiği yeni metin için yerel Piper 1.8.0 ve yukarıda CC0 kaynağı belirtilen Fettah modeliyle üretilmiştir. Öğretmen, öğrenciler ve anlatıcı rolleri aynı sentetik erkek sesidir; gerçek oyuncu/çocuk kaydı değildir. Sahne ve dosya özetleri `video-ornekleri/aspirin/kurgu.json` içindedir. Kadın sesi veya ElevenLabs üretimi değildir.
