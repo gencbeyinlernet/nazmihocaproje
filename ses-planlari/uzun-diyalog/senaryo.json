@@ -1,0 +1,290 @@
+{
+  "id": "gozlem-kulubu-uzun-diyalog",
+  "title": "Bir Çiçekten Başlayan Keşif",
+  "grade": "5",
+  "topic": "Evrendeki Mükemmel Düzen",
+  "bookPage": 14,
+  "status": "script-ready-awaiting-new-voice-recordings",
+  "targetMinutes": "4–5",
+  "estimatedWordCount": 530,
+  "roles": [
+    "Zehra",
+    "Ömer",
+    "Öğretmen"
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "title": "Bahçedeki soru",
+      "photo": "garden",
+      "turns": [
+        {
+          "id": "uzun-gozlem-01-01",
+          "speaker": "Zehra",
+          "text": "Ömer, şu çiçeğe bak! Geçen hafta yaprakları daha canlıydı. Bugün biraz solmuş gibi görünüyor. Sence ne olmuş olabilir?",
+          "direction": "Meraklı; arkadaşına gerçekten soru soruyor.",
+          "textSha256": "faa3feca6cf9584deeceb96c7afbc26a722f8e0ea60b671ead66e08b819a9f29",
+          "pauseAfterMs": 650
+        },
+        {
+          "id": "uzun-gozlem-01-02",
+          "speaker": "Ömer",
+          "text": "Belki yeterince su almamıştır. Ama tahmin etmek yerine toprağı kontrol etsek? Parmağımızla hafifçe dokunup nemli olup olmadığına bakabiliriz.",
+          "direction": "Düşünerek, bir çözüm önermenin heyecanıyla.",
+          "textSha256": "e8ea5a1c12159e43563f285a8ef22586897400bfe21bcaa4fc7f87b9cd47b18a",
+          "pauseAfterMs": 650
+        },
+        {
+          "id": "uzun-gozlem-01-03",
+          "speaker": "Öğretmen",
+          "text": "Güzel bir başlangıç! Önce gördüğümüzü fark ediyor, sonra bir soru soruyoruz. Bugün bahçedeki canlıların birbirleriyle ve çevreleriyle ilişkilerini keşfedeceğiz.",
+          "direction": "Sıcak ve teşvik edici; ders metni okur gibi değil.",
+          "textSha256": "c59ce69867077cd7f65827991d161c31bd96a1909397d144d243d495ee9e2d30",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-01-04",
+          "speaker": "Zehra",
+          "text": "O zaman ben gözlemlerimizi yazayım. İlk sorumuz hazır: Bu çiçeğin büyümek için nelere ihtiyacı var?",
+          "direction": "Son soruyu belirgin, doğal bir yükselişle.",
+          "textSha256": "7f1419cea66f3cc6841ffe39b07525f2933da9eda2b698599654cae1d2502c43",
+          "pauseAfterMs": 650
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Bir bitkinin ihtiyacı",
+      "photo": "seedling",
+      "turns": [
+        {
+          "id": "uzun-gozlem-02-01",
+          "speaker": "Ömer",
+          "text": "Buradaki toprak kuru, yanındaki saksının toprağıysa nemli. Demek ki her saksının koşulları aynı değil. Sadece çiçeğin rengine bakmak yetmiyormuş.",
+          "direction": "Yeni bir ayrıntıyı fark etmiş gibi.",
+          "textSha256": "ab27294d9d250e3a058706b5bb7e6f4416cc1b37adc24c15850dc5a3e7a6a1ed",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-02-02",
+          "speaker": "Zehra",
+          "text": "Peki, su verince hemen düzelir mi? Yoksa güneş ışığını ve bulunduğu yeri de düşünmemiz gerekir mi?",
+          "direction": "İki olasılığı karşılaştırırken meraklı.",
+          "textSha256": "2a4d9f2944dca4af1e1979f341f5d03c2a68ab0da25d1cd3e2fc610fd6d99087",
+          "pauseAfterMs": 650
+        },
+        {
+          "id": "uzun-gozlem-02-03",
+          "speaker": "Öğretmen",
+          "text": "Su ve ışık, bitkilerin yaşamı için önemlidir. Ama gereğinden fazla su da zarar verebilir. Bakım yaparken bitkinin ihtiyacını tanımamız gerekir.",
+          "direction": "Sakin açıklama; su ve ışık sözcüklerini hafif vurgula.",
+          "textSha256": "417bd19363f462bba142093f84932280406fb19bdc8e310bc9717001ba36d631",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-02-04",
+          "speaker": "Ömer",
+          "text": "Öyleyse rastgele su dökmeyelim. Önce ihtiyacını öğrenelim, sonra uygun şekilde bakım yapalım. Böylece gözlemimiz davranışımıza da yol gösterir.",
+          "direction": "Karar vermiş, güvenli ve içten.",
+          "textSha256": "d4a22964fe92cfd468dbb1f0f8ba9159cfe595fe996e652a3a4c1ad069c359dd",
+          "pauseAfterMs": 350
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Çiçeğin küçük misafiri",
+      "photo": "bee",
+      "turns": [
+        {
+          "id": "uzun-gozlem-03-01",
+          "speaker": "Zehra",
+          "text": "Bak, bir arı geldi! Çiçeğin üzerinde dolaşıyor. Ben onu sadece bal yapan bir canlı olarak düşünüyordum; burada başka bir işi de mi var?",
+          "direction": "Şaşırmış ama abartısız; sesi yükseltmeden canlı.",
+          "textSha256": "b64dc3399f610223fbec97f964f8822eeba2be343d9267ba4eec22adaefce80c",
+          "pauseAfterMs": 650
+        },
+        {
+          "id": "uzun-gozlem-03-02",
+          "speaker": "Ömer",
+          "text": "Sanırım çiçekten bir şey topluyor. Şimdi de diğer çiçeğe geçti. Acaba iki çiçek arasında bir şey taşıyor olabilir mi?",
+          "direction": "Gözlem yapıyor; son cümlede gerçek bir soru.",
+          "textSha256": "7aac4d06ab74e855bc9a3ea15abfca094bcbca63dc3e16ac623b5c93a4fdfb4b",
+          "pauseAfterMs": 650
+        },
+        {
+          "id": "uzun-gozlem-03-03",
+          "speaker": "Öğretmen",
+          "text": "Arılar nektar toplarken bazı çiçekler arasında polen taşıyabilir. Bu da bitkilerin çoğalmasına yardımcı olabilir. Küçük bir canlı, başka canlıların yaşamıyla bağlantı kuruyor.",
+          "direction": "Anlaşılır, kısa doğal duraklarla.",
+          "textSha256": "53c206d441dbfc7f774789d397133d97e5f916d9533de0f432b5ac122e9d5712",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-03-04",
+          "speaker": "Zehra",
+          "text": "Ne güzel bir bağlantı! Onu rahatsız etmeden uzaktan izleyelim. Çiçeğe bakarken artık arıyı ve çevresini de fark edeceğim.",
+          "direction": "Keşiften duyduğu sevinç yumuşak biçimde hissedilsin.",
+          "textSha256": "adc853e1a3228d7eefdfadb54914dc43722998a28d8b9a4dd04829ca62504530",
+          "pauseAfterMs": 350
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Yağmurun izi",
+      "photo": "rain",
+      "turns": [
+        {
+          "id": "uzun-gozlem-04-01",
+          "speaker": "Ömer",
+          "text": "Dün yağmur yağmıştı. Şu yaprağın üzerinde hâlâ bir damla var. Yağmurun bitkilere nasıl yardımcı olduğunu artık daha iyi görüyorum.",
+          "direction": "Gözleminden memnun; doğal sohbet.",
+          "textSha256": "b978d9e9dcca8e7d4c55c65f2bd6601387050bcfb8d13f3d228a03e2f7394e5e",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-04-02",
+          "speaker": "Zehra",
+          "text": "Ben de suyun yalnızca yaprakta kalmadığını fark ettim. Bir kısmı toprağa geçiyor. Bitki, topraktaki sudan nasıl yararlanıyor?",
+          "direction": "Bağlantı kurarak, cevabı bekleyen merakla.",
+          "textSha256": "d52ca4203fc9c5f18deeac99b43cec30609468c9bde9dbf73219209de847268c",
+          "pauseAfterMs": 650
+        },
+        {
+          "id": "uzun-gozlem-04-03",
+          "speaker": "Öğretmen",
+          "text": "Bitkiler kökleriyle topraktaki sudan yararlanır. Yağmur, toprak ve bitki arasında bir ilişki var. Gözlem yaptıkça bu ilişkileri daha dikkatli inceleyebiliriz.",
+          "direction": "Rehberlik eden sakin yetişkin tonu.",
+          "textSha256": "7b547d0bc1d1eff9974c2cb0ce3f7499c5cdde5620f2e539814253a6c311ff4d",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-04-04",
+          "speaker": "Ömer",
+          "text": "Demek ki tek bir damlaya bakıp daha büyük bir ilişkiyi düşünebiliyoruz. Defterimize sadece nesneleri değil, aralarındaki bağlantıları da yazalım.",
+          "direction": "Farkına varma hissi; bağlantı sözcüğünü hafif vurgula.",
+          "textSha256": "2937556163ae4e5de5bedf0ec7431cc6af267af58be12b01ba3bb4426b7f4fea",
+          "pauseAfterMs": 350
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Bahçeden gökyüzüne",
+      "photo": "stars",
+      "turns": [
+        {
+          "id": "uzun-gozlem-05-01",
+          "speaker": "Zehra",
+          "text": "Bahçedeki ilişkileri gördük. Peki, gökyüzünde de gözlemleyebileceğimiz düzenler var mı? Mesela geceyle gündüzün birbirini izlemesi gibi?",
+          "direction": "Yeni bir kapı açan merak.",
+          "textSha256": "f44f123450e2ae645bed6f1812af5d5a8bf463b024983b34f9ed91368bd6e249",
+          "pauseAfterMs": 650
+        },
+        {
+          "id": "uzun-gozlem-05-02",
+          "speaker": "Ömer",
+          "text": "Dünya’nın kendi çevresinde dönmesiyle gece ve gündüzün oluştuğunu öğrenmiştik. Bahçede başladığımız sorular bizi çok daha uzaklara götürdü!",
+          "direction": "Hatırlama ve keşif; ünlemi bağırmadan söyle.",
+          "textSha256": "be24e351407b7c3bc03037af68cc6d8f6cd541621b1175608f0a31584b9d2102",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-05-03",
+          "speaker": "Öğretmen",
+          "text": "Evet. Bilim, bu olayların nasıl gerçekleştiğini araştırmamıza yardımcı olur. İslam da evreni dikkatle gözlemleyip Allah’ın yaratması üzerinde düşünmeye davet eder.",
+          "direction": "İçten, anlamlı ve ölçülü; iki cümle arasında kısa durak.",
+          "textSha256": "477ad269476a4decac8a2b5d53c0e2c75ca5be438a455f0b72c9e81b5cd7af2b",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-05-04",
+          "speaker": "Zehra",
+          "text": "O zaman hem nasıl olduğunu araştırabilir hem de gördüklerimizin bize ne düşündürdüğünü konuşabiliriz. Bu iki soruyu defterimde ayrı ayrı tutacağım.",
+          "direction": "Anladığını kendi sözleriyle anlatıyor.",
+          "textSha256": "1867a9012fc731f2428f8b7f48a0edf5c3afdbb585be9d03cff9e1f1b960669e",
+          "pauseAfterMs": 350
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Fark etmek ve özen göstermek",
+      "photo": "plant-tree",
+      "turns": [
+        {
+          "id": "uzun-gozlem-06-01",
+          "speaker": "Ömer",
+          "text": "Bir şey fark ettim: Bahçedeki ilişkileri öğrendikçe buraya daha özenli davranmak istiyorum. Bir çiçeği koparmadan önce durup düşünürüm artık.",
+          "direction": "Samimi, kişisel bir farkına varış.",
+          "textSha256": "b5e29087bdea1db0e60e276132579f6a412b230795d05de58ced7debdc280588",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-06-02",
+          "speaker": "Zehra",
+          "text": "Ben de musluğu açık bırakmamaya dikkat edeceğim. Ama herkesin aynı şeyi fark etmesi için ne yapabiliriz? Küçük bir gözlem köşesi hazırlasak?",
+          "direction": "Yardımcı olmanın heyecanı; çözüm önerirken sıcak.",
+          "textSha256": "096260d8f00772a7a96885a10c2c8457da66106acd5b4c2a258e181815d3d4cb",
+          "pauseAfterMs": 650
+        },
+        {
+          "id": "uzun-gozlem-06-03",
+          "speaker": "Öğretmen",
+          "text": "Güzel bir fikir. Gözlem notlarınızı paylaşabilir, canlılara zarar vermeden bakım yapabilirsiniz. İslam’da nimetleri fark etmek, şükretmek ve israftan kaçınmak da önemlidir.",
+          "direction": "Övgüyü doğal söyle; şükretmek ve israf sözcüklerini anlaşılır oku.",
+          "textSha256": "af6ce9e642e07be4e90db48f0e7ab1a41f88c106468dc381f41ce7bd773fea29",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-06-04",
+          "speaker": "Ömer",
+          "text": "Tamam! Ben bitkinin bakım ihtiyacını araştırayım. Zehra da gözlem köşesini düzenlesin. Öğrendiğimiz bir bilgi, küçük bir iyiliğe dönüşsün.",
+          "direction": "Kararlı ve neşeli; rol arkadaşına seslenir gibi.",
+          "textSha256": "e11998a96da2fb61839f50307f610056793bfcb5edba9e11c43ad108e91d7fa2",
+          "pauseAfterMs": 350
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Yeni keşif için bir soru",
+      "photo": "notes",
+      "turns": [
+        {
+          "id": "uzun-gozlem-07-01",
+          "speaker": "Zehra",
+          "text": "Bugün bir çiçeğin neden solduğunu sorarak başladık. Sonra suyu, ışığı, arıyı ve gökyüzünü konuştuk. Hepsine şimdi daha dikkatli bakıyorum.",
+          "direction": "Günün keşfini paylaşmanın sıcaklığı.",
+          "textSha256": "eed66953ab1cb476c3d1b94f441397b59fe2df61f7f1299d4b6e8b8979c0270f",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-07-02",
+          "speaker": "Ömer",
+          "text": "Benim aklımda şu kaldı: Bir tahminimiz varsa onu gözlemle kontrol etmeliyiz. Gördüğümüz şeyle, onun hakkında düşündüğümüz şeyi ayırmak işimizi kolaylaştırıyor.",
+          "direction": "Düşünerek, yavaşlamadan anlaşılır biçimde.",
+          "textSha256": "4284611d2db911de5ef28bad91e099a4051e7bfb3b8a96b4b56e8dce40dd2711",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-07-03",
+          "speaker": "Öğretmen",
+          "text": "İkiniz de önemli bağlantılar kurdunuz. Bir sonraki buluşmada Allah’ın varlığı ve birliği konusuna geçeceğiz. Bugünkü gözlemlerimiz yeni sorularımıza başlangıç olacak.",
+          "direction": "Sakin, güven veren bir kapanış.",
+          "textSha256": "97f11563e5d8f7fd398bac261b75180b7aee155a6ddc92f3ae0791ae560b9749",
+          "pauseAfterMs": 350
+        },
+        {
+          "id": "uzun-gozlem-07-04",
+          "speaker": "Zehra",
+          "text": "Şimdi sıra sende! Çevrende birbirine bağlı iki şeyi fark edebilir misin? Onları gözlemle ve aralarındaki ilişkiyi bir arkadaşınla konuş.",
+          "direction": "Dinleyiciye sıcakça seslen; sorudan sonra düşünme payı bırak.",
+          "textSha256": "9efd70dac3156e3f9193bab6a9e7647cebb605c946044270a2e358ae1aaa32f8",
+          "pauseAfterMs": 650
+        }
+      ]
+    }
+  ]
+}

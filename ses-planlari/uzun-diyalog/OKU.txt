@@ -1,0 +1,22 @@
+UZUN VE KARŞILIKLI DİYALOGLU HİKÂYE
+
+İlk yeni örnek: Bir Çiçekten Başlayan Keşif
+5. sınıf · Evrendeki Mükemmel Düzen · Kitap s. 14
+7 sahne, 28 karşılıklı replik, 530 kelime; doğal okuma ve duraklarla yaklaşık 4 dakika.
+Henüz yeni ses kaydı üretilmemiştir. Bu paket senaryo ve ses seçme/üretme aracıdır.
+
+1. Dosyaları klasöre çıkarıp BASLAT-WINDOWS.bat dosyasına çift tıklayın.
+2. ElevenLabs hesabınızın API Keys bölümünden aldığınız anahtarı yalnız açılan pencerede girin. Anahtarı sohbete göndermeyin. Ses listeleme ve metinden konuşma yetkileri gerekir.
+3. Sesleri listeleyin. Zehra, Ömer ve Öğretmen için üç farklı ses seçin. Öğretmen için akıcı Türkiye Türkçesi konuşan bir kadın sesi tercih edin. İsim veya cinsiyet etiketi tek başına kalite garantisi değildir.
+İstediğiniz Türkçe ses listede yoksa ElevenLabs Voice Library üzerinden hesabınıza ekleyip ses listesini yenileyin.
+
+4. Kısa örnekleri üretip klasördeki üç MP3’ü dinleyin. Ses hoşunuza gitmezse seçimi değiştirin.
+5. Hikâyeyi seslendirin. Oluşan uzun-diyalog-sesleri.zip dosyasını sohbetimize yükleyin.
+
+Önce kısa örneklerle kadın sesinin netliğini ve Türkçe telaffuzunu değerlendirin. Yazılı oyunculuk yönergeleri SESLENDIRME-METNI.txt dosyasındadır. Multilingual v2 ayarları tek başına oyunculuk garantisi vermez; son kayıt dinlenerek kontrol edilir. Gerçek çocuk sesi veya kişiye ait ses klonlaması iddia edilmez.
+
+Araç yalnız resmî https://api.elevenlabs.io adresine bağlanır. API anahtarı bellekte tutulur; dosyalara veya ZIP’e eklenmez. Ön izlemeler ve tam seslendirme ElevenLabs kotanızı kullanır. Kendi hesabınızdaki kotayı ve planı kontrol edin. Araç ödeme veya abonelik işlemi yapmaz.
+
+Python 3.9+ ve tkinter gerekir. Windows'un standart Python kurulumunda tkinter genellikle bulunur. Ek pip paketi gerekmez. İnternet kesilirse kayitlar klasörünü silmeyin; hazır dosyalar korunur. Ses seçimi değişince yalnız ilgili kayıtlar yeniden üretilir.
+
+Web sitesindeki mevcut videolar bu araçla otomatik değişmez. Yeni sesler geldikten sonra her replik ilgili sahneye bağlanır; video ve altyazı süreleri gerçek kayıtlara göre yeniden hesaplanır.
