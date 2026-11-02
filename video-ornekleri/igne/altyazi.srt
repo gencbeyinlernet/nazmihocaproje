@@ -1,0 +1,202 @@
+1
+00:00:00,000 --> 00:00:02,625
+Öğretmen: Elimde çok küçük bir dikiş iğnesi var.
+
+2
+00:00:02,625 --> 00:00:05,319
+Öğretmen: Ucuna, deliğine ve kullanımına bakalım.
+
+3
+00:00:05,319 --> 00:00:13,056
+Öğretmen: Böyle bir iğnenin nasıl üretildiğini ve kaynak metnin bu örnekten
+hangi sorulara geçtiğini birlikte inceleyelim.
+
+4
+00:00:13,667 --> 00:00:18,565
+Öğrenci: Bir iğnenin yapılmasında insanların bilgisi, araçları ve malzemeleri
+var.
+
+5
+00:00:18,565 --> 00:00:21,987
+Öğrenci: Çeliğe şekil veriliyor, ucu ve deliği hazırlanıyor.
+
+6
+00:00:21,987 --> 00:00:26,147
+Öğrenci: Bu kadar küçük bir eşya bile dikkatli bir üretim gerektiriyor.
+
+7
+00:00:26,767 --> 00:00:31,943
+Öğretmen: Atom, bir elementin kimyasal özelliklerini taşıyan en küçük birimidir.
+
+8
+00:00:31,943 --> 00:00:36,085
+Öğretmen: Ancak maddenin mutlak anlamda en küçük parçası değildir.
+
+9
+00:00:36,085 --> 00:00:43,111
+Öğretmen: Atomun içinde elektronlar ve bir çekirdek bulunur; çekirdekte de
+protonlar ve nötronlar vardır.
+
+10
+00:00:43,733 --> 00:00:48,217
+Öğrenci: Metinde bir iğnenin içinde çok büyük sayıda atom olduğu söyleniyor.
+
+11
+00:00:48,217 --> 00:00:52,233
+Öğrenci: Bütün iğnelerin ağırlığı ve içindeki atom sayısı aynı mıdır?
+
+12
+00:00:52,233 --> 00:00:54,173
+Öğrenci: Bu sayı nasıl hesaplanabilir?
+
+13
+00:00:55,000 --> 00:00:59,867
+Öğretmen: Hayır, sayı iğnenin kütlesine ve hangi maddelerden yapıldığına
+bağlıdır.
+
+14
+00:00:59,867 --> 00:01:07,167
+Öğretmen: Sıfır virgül sıfır yedi gramlık saf demir varsayarsak, yaklaşık yedi
+yüz elli beş kentilyon atom hesaplarız.
+
+15
+00:01:07,167 --> 00:01:13,792
+Öğretmen: Gerçek bir çelik iğnede başka elementler de bulunabileceği için bu
+yalnızca yaklaşık bir modeldir.
+
+16
+00:01:14,400 --> 00:01:19,479
+Öğrenci: Peki atomların birbirlerini tanıması veya görevlerini bilmesi mi
+gerekiyor?
+
+17
+00:01:19,479 --> 00:01:25,032
+Öğrenci: İğnenin biçimini ve atomların bağlanmasını aynı şey gibi düşünmemiz
+doğru olur mu?
+
+18
+00:01:25,833 --> 00:01:29,257
+Öğretmen: Atomlara insanın aklını veya niyetini yüklemeyiz.
+
+19
+00:01:29,257 --> 00:01:33,239
+Öğretmen: Atomlar fiziksel ve kimyasal etkileşimlerle bağlanabilir.
+
+20
+00:01:33,239 --> 00:01:38,619
+Öğretmen: İnsanların iğneye amaçlı bir biçim vermesi ise üretim ve tasarımla
+ilgilidir.
+
+21
+00:01:38,619 --> 00:01:41,553
+Öğretmen: Bu iki düzeyi birbirinden ayırmak gerekir.
+
+22
+00:01:42,167 --> 00:01:46,065
+Öğretmen: Kaynak metin daha sonra bir bahçe duvarını örnek veriyor.
+
+23
+00:01:46,065 --> 00:01:50,375
+Öğretmen: Duvarı ören usta, tuğlaları, harcı ve yapım bilgisini kullanır.
+
+24
+00:01:50,375 --> 00:01:53,931
+Öğretmen: Tuğlaların bilinçli olması gerektiğini söylemiyoruz.
+
+25
+00:01:53,931 --> 00:01:57,215
+Öğretmen: İnsan yapımı bir duvardaki işçiliği inceliyoruz.
+
+26
+00:01:57,833 --> 00:02:01,153
+Öğrenci: Bu örnek ustanın emeğini fark etmemizi sağlıyor.
+
+27
+00:02:01,153 --> 00:02:07,585
+Öğrenci: Ama tuğlalarla evrendeki bütün fiziksel süreçlerin aynı şekilde
+gerçekleştiğini varsayamayız.
+
+28
+00:02:07,585 --> 00:02:11,873
+Öğrenci: Benzetmenin hangi noktada yardımcı olduğunu ayrıca sormalıyız.
+
+29
+00:02:12,500 --> 00:02:15,683
+Öğretmen: Bilinen yüz on sekiz kimyasal element vardır.
+
+30
+00:02:15,683 --> 00:02:21,625
+Öğretmen: Hepsi doğada bol veya kararlı biçimde bulunmaz; bazıları laboratuvarda
+üretilmiştir.
+
+31
+00:02:21,625 --> 00:02:25,091
+Öğretmen: Elementin atomları aynı proton sayısına sahiptir.
+
+32
+00:02:25,091 --> 00:02:29,972
+Öğretmen: Suyu oluşturan hidrojen ve oksijen elementtir; su ise bir bileşiktir.
+
+33
+00:02:30,600 --> 00:02:35,884
+Öğrenci: Metin, uçağı yapan insanın bilgisini anlatırken Dünya’yı da bir uçağa
+benzetiyor.
+
+34
+00:02:35,884 --> 00:02:40,972
+Öğrenci: Bu ifadeyi gerçek bir uçak tanımı gibi değil, bir benzetme olarak
+anlamalıyız.
+
+35
+00:02:40,972 --> 00:02:43,320
+Öğrenci: Peki Dünya’nın kütlesi biliniyor mu?
+
+36
+00:02:44,133 --> 00:02:44,495
+Öğretmen: Evet.
+
+37
+00:02:44,495 --> 00:02:50,349
+Öğretmen: Dünya’nın kütlesi, kütleçekim ve yörünge hareketleri kullanılarak
+hesaplanabilir.
+
+38
+00:02:50,349 --> 00:02:53,023
+Öğretmen: Bir terazinin üstüne koymak gerekmez.
+
+39
+00:02:53,023 --> 00:02:56,853
+Öğretmen: Dünya, bir uçak gibi yolcu kapasitesiyle tanımlanmaz.
+
+40
+00:02:56,853 --> 00:03:03,213
+Öğretmen: Bu nedenle uçak modeli ve koltuk sayısı üzerinden kesin bir bilimsel
+eşitlik kurmuyoruz.
+
+41
+00:03:03,833 --> 00:03:12,155
+Öğretmen: Kaynak metnin yazarı, bir iğnede veya duvarda fark edilen emekten
+hareketle yaratılış üzerinde düşünmeye çağırıyor.
+
+42
+00:03:12,155 --> 00:03:19,608
+Öğretmen: İslam inancında Allah yaratandır; insanın bilgisi ve üretme imkânı da
+bir nimet olarak değerlendirilir.
+
+43
+00:03:19,608 --> 00:03:23,009
+Öğretmen: Bu, metnin kurduğu dinî ve felsefi bağlantıdır.
+
+44
+00:03:23,633 --> 00:03:28,350
+Öğrenci: Bir iğneye bakarken artık hem malzemeyi hem insanın emeğini
+düşünüyorum.
+
+45
+00:03:28,350 --> 00:03:35,230
+Öğrenci: Bilimsel bilgiyi, benzetmeyi ve inanç yorumunu ayırt ederek konuşmak
+sorularımızı daha anlaşılır kılıyor.
+
+46
+00:03:35,230 --> 00:03:39,881
+Öğrenci: Sen günlük yaşamında hangi eşyadan başlayarak benzer bir soru sorardın?

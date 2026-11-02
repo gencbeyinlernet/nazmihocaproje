@@ -44,3 +44,7 @@ Yüklenen MP3 dosyaları yeniden kodlanmadan korunmuştur. 60 dosyanın metin/do
 ## Aspirin düşünce deneyi
 
 `aspirin/` altındaki dokuz yeni MP3, kullanıcının verdiği yeni metin için yerel Piper 1.8.0 ve yukarıda CC0 kaynağı belirtilen Fettah modeliyle üretilmiştir. Öğretmen, öğrenciler ve anlatıcı rolleri aynı sentetik erkek sesidir; gerçek oyuncu/çocuk kaydı değildir. Sahne ve dosya özetleri `video-ornekleri/aspirin/kurgu.json` içindedir. Kadın sesi veya ElevenLabs üretimi değildir.
+
+## Güneş/UY Scuti ve İğne önizlemeleri
+
+`gunes-scuti/` ve `igne/` altında iki yeni metnin bilimsel düzeltmeli uyarlamaları için 14’er kayıt bulunur. Yerel Piper 1.8.0 ve yukarıda CC0 kaynağı verilen Fettah modeli kullanılmıştır. Öğretmen ve öğrenci rolleri tek sentetik erkek sesidir; kadın sesi veya karakter oyunculuğu eklenmiş gibi sunulmaz. Sesler tam süreleriyle videoya yerleştirilir.

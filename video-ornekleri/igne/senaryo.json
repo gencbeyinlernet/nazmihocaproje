@@ -1,0 +1,121 @@
+{
+  "id": "igne",
+  "title": "Bir İğneden Başlayan Sorular",
+  "order": 3,
+  "sourcePreserved": true,
+  "adaptation": "scientifically-corrected-faith-reflection-dialogue",
+  "scenes": [
+    {
+      "id": "igne-01",
+      "speaker": "Öğretmen",
+      "title": "Bir iğneyle başlayan soru",
+      "panel": 0,
+      "badge": "İnsan yapımı bir nesne üzerine düşünme",
+      "text": "Elimde çok küçük bir dikiş iğnesi var. Ucuna, deliğine ve kullanımına bakalım. Böyle bir iğnenin nasıl üretildiğini ve kaynak metnin bu örnekten hangi sorulara geçtiğini birlikte inceleyelim."
+    },
+    {
+      "id": "igne-02",
+      "speaker": "Öğrenci",
+      "title": "Usta, araç ve malzeme",
+      "panel": 0,
+      "badge": "Gündelik bir gözlem",
+      "text": "Bir iğnenin yapılmasında insanların bilgisi, araçları ve malzemeleri var. Çeliğe şekil veriliyor, ucu ve deliği hazırlanıyor. Bu kadar küçük bir eşya bile dikkatli bir üretim gerektiriyor."
+    },
+    {
+      "id": "igne-03",
+      "speaker": "Öğretmen",
+      "title": "Atom ne demektir?",
+      "panel": 2,
+      "badge": "Bilimsel açıklama",
+      "text": "Atom, bir elementin kimyasal özelliklerini taşıyan en küçük birimidir. Ancak maddenin mutlak anlamda en küçük parçası değildir. Atomun içinde elektronlar ve bir çekirdek bulunur; çekirdekte de protonlar ve nötronlar vardır."
+    },
+    {
+      "id": "igne-04",
+      "speaker": "Öğrenci",
+      "title": "İğnedeki atomları saymak",
+      "panel": 0,
+      "badge": "Yaklaşık hesap · Varsayıma bağlı",
+      "text": "Metinde bir iğnenin içinde çok büyük sayıda atom olduğu söyleniyor. Bütün iğnelerin ağırlığı ve içindeki atom sayısı aynı mıdır? Bu sayı nasıl hesaplanabilir?"
+    },
+    {
+      "id": "igne-05",
+      "speaker": "Öğretmen",
+      "title": "Kütle ve bileşim önemlidir",
+      "panel": 0,
+      "badge": "Yaklaşık hesap · Saf demir varsayımı",
+      "text": "Hayır, sayı iğnenin kütlesine ve hangi maddelerden yapıldığına bağlıdır. Sıfır virgül sıfır yedi gramlık saf demir varsayarsak, yaklaşık yedi yüz elli beş kentilyon atom hesaplarız. Gerçek bir çelik iğnede başka elementler de bulunabileceği için bu yalnızca yaklaşık bir modeldir."
+    },
+    {
+      "id": "igne-06",
+      "speaker": "Öğrenci",
+      "title": "Atomların aklı var mı?",
+      "panel": 2,
+      "badge": "Bilimsel soru",
+      "text": "Peki atomların birbirlerini tanıması veya görevlerini bilmesi mi gerekiyor? İğnenin biçimini ve atomların bağlanmasını aynı şey gibi düşünmemiz doğru olur mu?"
+    },
+    {
+      "id": "igne-07",
+      "speaker": "Öğretmen",
+      "title": "Fiziksel süreç ve insan tasarımı",
+      "panel": 2,
+      "badge": "Bilimsel açıklama",
+      "text": "Atomlara insanın aklını veya niyetini yüklemeyiz. Atomlar fiziksel ve kimyasal etkileşimlerle bağlanabilir. İnsanların iğneye amaçlı bir biçim vermesi ise üretim ve tasarımla ilgilidir. Bu iki düzeyi birbirinden ayırmak gerekir."
+    },
+    {
+      "id": "igne-08",
+      "speaker": "Öğretmen",
+      "title": "Bir bahçe duvarı",
+      "panel": 1,
+      "badge": "Benzetme · İnsan yapımı bir nesne",
+      "text": "Kaynak metin daha sonra bir bahçe duvarını örnek veriyor. Duvarı ören usta, tuğlaları, harcı ve yapım bilgisini kullanır. Tuğlaların bilinçli olması gerektiğini söylemiyoruz. İnsan yapımı bir duvardaki işçiliği inceliyoruz."
+    },
+    {
+      "id": "igne-09",
+      "speaker": "Öğrenci",
+      "title": "Benzetme neyi anlatıyor?",
+      "panel": 1,
+      "badge": "Benzetmenin sınırı",
+      "text": "Bu örnek ustanın emeğini fark etmemizi sağlıyor. Ama tuğlalarla evrendeki bütün fiziksel süreçlerin aynı şekilde gerçekleştiğini varsayamayız. Benzetmenin hangi noktada yardımcı olduğunu ayrıca sormalıyız."
+    },
+    {
+      "id": "igne-10",
+      "speaker": "Öğretmen",
+      "title": "Element ve bileşik",
+      "panel": 2,
+      "badge": "Bilimsel açıklama",
+      "text": "Bilinen yüz on sekiz kimyasal element vardır. Hepsi doğada bol veya kararlı biçimde bulunmaz; bazıları laboratuvarda üretilmiştir. Elementin atomları aynı proton sayısına sahiptir. Suyu oluşturan hidrojen ve oksijen elementtir; su ise bir bileşiktir."
+    },
+    {
+      "id": "igne-11",
+      "speaker": "Öğrenci",
+      "title": "Dünya bir uçak mı?",
+      "panel": 3,
+      "badge": "Benzetme · Gerçek bir uçak değildir",
+      "text": "Metin, uçağı yapan insanın bilgisini anlatırken Dünya’yı da bir uçağa benzetiyor. Bu ifadeyi gerçek bir uçak tanımı gibi değil, bir benzetme olarak anlamalıyız. Peki Dünya’nın kütlesi biliniyor mu?"
+    },
+    {
+      "id": "igne-12",
+      "speaker": "Öğretmen",
+      "title": "Ölçüm ve benzetme",
+      "panel": 3,
+      "badge": "Bilimsel açıklama",
+      "text": "Evet. Dünya’nın kütlesi, kütleçekim ve yörünge hareketleri kullanılarak hesaplanabilir. Bir terazinin üstüne koymak gerekmez. Dünya, bir uçak gibi yolcu kapasitesiyle tanımlanmaz. Bu nedenle uçak modeli ve koltuk sayısı üzerinden kesin bir bilimsel eşitlik kurmuyoruz."
+    },
+    {
+      "id": "igne-13",
+      "speaker": "Öğretmen",
+      "title": "Metnin inanç yorumu",
+      "panel": 2,
+      "badge": "İnanç yorumu",
+      "text": "Kaynak metnin yazarı, bir iğnede veya duvarda fark edilen emekten hareketle yaratılış üzerinde düşünmeye çağırıyor. İslam inancında Allah yaratandır; insanın bilgisi ve üretme imkânı da bir nimet olarak değerlendirilir. Bu, metnin kurduğu dinî ve felsefi bağlantıdır."
+    },
+    {
+      "id": "igne-14",
+      "speaker": "Öğrenci",
+      "title": "Küçük bir eşya, büyük bir soru",
+      "panel": 0,
+      "badge": "Birlikte düşünelim",
+      "text": "Bir iğneye bakarken artık hem malzemeyi hem insanın emeğini düşünüyorum. Bilimsel bilgiyi, benzetmeyi ve inanç yorumunu ayırt ederek konuşmak sorularımızı daha anlaşılır kılıyor. Sen günlük yaşamında hangi eşyadan başlayarak benzer bir soru sorardın?"
+    }
+  ]
+}

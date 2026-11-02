@@ -1,0 +1,121 @@
+{
+  "id": "gunes-scuti",
+  "title": "Güneş ve UY Scuti",
+  "order": 2,
+  "sourcePreserved": true,
+  "adaptation": "scientifically-corrected-faith-reflection-dialogue",
+  "scenes": [
+    {
+      "id": "gunes-scuti-01",
+      "speaker": "Öğretmen",
+      "title": "Bir yıldızla başlayan soru",
+      "panel": 0,
+      "badge": "İnanç ve bilim üzerine düşünme",
+      "text": "Güneş olmasaydı Dünya nasıl bir yer olurdu? Bugün bu sorudan başlayıp yıldızların büyüklüğünü, Güneş’in enerjisini ve metnimizin yaratılış inancıyla kurduğu bağlantıyı birlikte konuşacağız."
+    },
+    {
+      "id": "gunes-scuti-02",
+      "speaker": "Öğrenci",
+      "title": "Güneş ve yaşam",
+      "panel": 3,
+      "badge": "Bilimsel açıklama",
+      "text": "Çok karanlık ve soğuk bir Dünya düşünüyorum. Bitkiler güneş ışığı olmadan besin üretemezdi. Peki Güneş, yalnızca bizi ısıtan büyük bir lamba gibi mi çalışıyor?"
+    },
+    {
+      "id": "gunes-scuti-03",
+      "speaker": "Öğretmen",
+      "title": "Işık, ısı ve bitkiler",
+      "panel": 3,
+      "badge": "Bilimsel açıklama",
+      "text": "Güneş, Dünya’daki yaşamın temel enerji kaynaklarından biridir. Işığı fotosentezi destekler; enerjisi iklimi ve su döngüsünü etkiler. Metindeki soba ve ocak ifadeleri benzetmedir. Güneş gerçek bir soba değildir; meyveler de ocakta pişer gibi oluşmaz."
+    },
+    {
+      "id": "gunes-scuti-04",
+      "speaker": "Öğretmen",
+      "title": "Güneş ne kadar büyük?",
+      "panel": 0,
+      "badge": "Yaklaşık değerler · Hacim karşılaştırması",
+      "text": "Güneş’in hacmi, Dünya’nın hacminin yaklaşık bir milyon üç yüz bin katıdır. Burada ağırlığı değil, hacmi karşılaştırıyoruz. Görünür yüzeyinin sıcaklığı yaklaşık beş bin beş yüz santigrat derecedir. Çekirdeği ise yaklaşık on beş milyon dereceye ulaşır."
+    },
+    {
+      "id": "gunes-scuti-05",
+      "speaker": "Öğrenci",
+      "title": "Bu enerji nasıl oluşuyor?",
+      "panel": 0,
+      "badge": "Bilimsel soru",
+      "text": "Böyle büyük bir yıldızın enerjisi nereden geliyor? Metinde hidrojen, helyum ve çok büyük enerji miktarları anlatılıyor. Bunları nasıl anlamalıyız?"
+    },
+    {
+      "id": "gunes-scuti-06",
+      "speaker": "Öğretmen",
+      "title": "Çekirdekteki füzyon",
+      "panel": 0,
+      "badge": "Bilimsel açıklama · Nükleer füzyon",
+      "text": "Güneş’in çekirdeğinde hidrojen çekirdekleri, bir dizi füzyon tepkimesi sonunda helyuma dönüşür. Yaklaşık değerlerle, her saniye altı yüz milyon ton hidrojen işlenir. Yaklaşık dört milyon tonluk kütle farkına karşılık gelen enerji açığa çıkar. Bu, yıldızın doğal fiziksel sürecidir."
+    },
+    {
+      "id": "gunes-scuti-07",
+      "speaker": "Öğrenci",
+      "title": "Bomba benzetmesinin sınırı",
+      "panel": 0,
+      "badge": "Benzetmenin sınırı",
+      "text": "Öyleyse Güneş’in içinde insanlar tarafından yapılmış bombalar patlamıyor. Peki metindeki tüp dükkânı benzetmesi gibi, Güneş’in de bir anda tamamen patlaması gerekmez mi?"
+    },
+    {
+      "id": "gunes-scuti-08",
+      "speaker": "Öğretmen",
+      "title": "Güneş neden dengede?",
+      "panel": 0,
+      "badge": "Bilimsel açıklama · Basınç ve kütleçekim",
+      "text": "Hayır, böyle bir sonuç çıkmaz. Güneş bir tüp dükkânı değildir. İçe doğru etkileyen kütleçekim ile sıcak gazın ve ışınımın oluşturduğu dışa doğru basınç arasında yaklaşık bir denge vardır. Enerji üretiminin sıcaklığa bağlı davranışı da bu dengeye katkı sağlar. Bunun fiziksel adı hidrostatik dengedir."
+    },
+    {
+      "id": "gunes-scuti-09",
+      "speaker": "Öğretmen",
+      "title": "Yüz elli milyon kilometre",
+      "panel": 1,
+      "badge": "Yaklaşık ortalama uzaklık",
+      "text": "Güneş ile Dünya arasındaki ortalama uzaklık yaklaşık yüz elli milyon kilometredir. Saatte iki yüz kilometre hızla hiç durmadan gidilebildiğini varsaysaydık, yol yaklaşık seksen altı yıl sürerdi. Güneş yüzeyinden çıkan ışık ise Dünya’ya yaklaşık sekiz dakika yirmi saniyede ulaşır."
+    },
+    {
+      "id": "gunes-scuti-10",
+      "speaker": "Öğrenci",
+      "title": "UY Scuti ve başka dev yıldızlar",
+      "panel": 2,
+      "badge": "Temsilî görsel · Ölçekli değildir",
+      "text": "Güneş bize çok büyük görünüyor. UY Scuti ve VY Canis Majoris gibi kırmızı süperdevler ise daha da büyük olabilir. Onların içine kaç Güneş sığacağını kesin olarak söyleyebilir miyiz?"
+    },
+    {
+      "id": "gunes-scuti-11",
+      "speaker": "Öğretmen",
+      "title": "Tahminler ve belirsizlik",
+      "panel": 2,
+      "badge": "Temsilî görsel · Boyutlar belirsizdir",
+      "text": "Bu yıldızların yarıçap ve uzaklık ölçümleri belirsizlik taşır. Yayımlanan tahminler kullanılan ölçüm ve yöntemlere göre değişebilir. Bu nedenle iki milyar veya beş milyar Güneş gibi sayıları kesin değerler olarak sunmuyoruz. Ayrıca hacim ile kütlenin aynı şey olmadığını unutmuyoruz."
+    },
+    {
+      "id": "gunes-scuti-12",
+      "speaker": "Öğretmen",
+      "title": "İnançla kurulan bağlantı",
+      "panel": 3,
+      "badge": "İnanç yorumu",
+      "text": "Kaynak metnin yazarı, evrendeki bu büyüklük ve düzeni Allah’ın ilmi ve kudretiyle ilişkilendiriyor. İslam inancında tabiatı gözlemlemek, yaratılış üzerinde düşünmeye vesile olur. Bu bir inanç yorumudur; yıldızların fiziksel olarak nasıl çalıştığının açıklamasıyla aynı türden bir önerme değildir."
+    },
+    {
+      "id": "gunes-scuti-13",
+      "speaker": "Öğrenci",
+      "title": "Yeni bir bakış",
+      "panel": 1,
+      "badge": "Birlikte düşünelim",
+      "text": "Demek ki hem ölçümleri ve fiziksel süreçleri araştırabilir hem de bunların bize düşündürdüklerini konuşabiliriz. Büyük sayılar karşısında şaşırmakla yetinmeden, neyi bildiğimizi ve neyin bir yorum olduğunu ayırt etmeliyiz."
+    },
+    {
+      "id": "gunes-scuti-14",
+      "speaker": "Öğretmen",
+      "title": "Son soru",
+      "panel": 3,
+      "badge": "İnanç yorumu · Açık düşünme sorusu",
+      "text": "Evet. Metnimizin son sorusunu bu ayrımla düşünelim: Güneş’in yaşamımızdaki yeri ve evrenin büyüklüğü, yaratılış ve sorumluluk üzerine sana neler düşündürüyor? Farklı cevapları da saygıyla dinleyelim."
+    }
+  ]
+}

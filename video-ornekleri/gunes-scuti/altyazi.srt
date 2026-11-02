@@ -1,0 +1,200 @@
+1
+00:00:00,000 --> 00:00:03,107
+Öğretmen: Güneş olmasaydı Dünya nasıl bir yer olurdu?
+
+2
+00:00:03,107 --> 00:00:13,584
+Öğretmen: Bugün bu sorudan başlayıp yıldızların büyüklüğünü, Güneş’in enerjisini
+ve metnimizin yaratılış inancıyla kurduğu bağlantıyı birlikte konuşacağız.
+
+3
+00:00:14,400 --> 00:00:17,299
+Öğrenci: Çok karanlık ve soğuk bir Dünya düşünüyorum.
+
+4
+00:00:17,299 --> 00:00:20,330
+Öğrenci: Bitkiler güneş ışığı olmadan besin üretemezdi.
+
+5
+00:00:20,330 --> 00:00:24,744
+Öğrenci: Peki Güneş, yalnızca bizi ısıtan büyük bir lamba gibi mi çalışıyor?
+
+6
+00:00:25,567 --> 00:00:29,994
+Öğretmen: Güneş, Dünya’daki yaşamın temel enerji kaynaklarından biridir.
+
+7
+00:00:29,994 --> 00:00:34,922
+Öğretmen: Işığı fotosentezi destekler; enerjisi iklimi ve su döngüsünü etkiler.
+
+8
+00:00:34,922 --> 00:00:38,136
+Öğretmen: Metindeki soba ve ocak ifadeleri benzetmedir.
+
+9
+00:00:38,136 --> 00:00:43,135
+Öğretmen: Güneş gerçek bir soba değildir; meyveler de ocakta pişer gibi oluşmaz.
+
+10
+00:00:43,767 --> 00:00:48,778
+Öğretmen: Güneş’in hacmi, Dünya’nın hacminin yaklaşık bir milyon üç yüz bin
+katıdır.
+
+11
+00:00:48,778 --> 00:00:51,961
+Öğretmen: Burada ağırlığı değil, hacmi karşılaştırıyoruz.
+
+12
+00:00:51,961 --> 00:00:56,905
+Öğretmen: Görünür yüzeyinin sıcaklığı yaklaşık beş bin beş yüz santigrat
+derecedir.
+
+13
+00:00:56,905 --> 00:01:00,495
+Öğretmen: Çekirdeği ise yaklaşık on beş milyon dereceye ulaşır.
+
+14
+00:01:01,100 --> 00:01:04,467
+Öğrenci: Böyle büyük bir yıldızın enerjisi nereden geliyor?
+
+15
+00:01:04,467 --> 00:01:09,045
+Öğrenci: Metinde hidrojen, helyum ve çok büyük enerji miktarları anlatılıyor.
+
+16
+00:01:09,045 --> 00:01:10,796
+Öğrenci: Bunları nasıl anlamalıyız?
+
+17
+00:01:11,600 --> 00:01:18,301
+Öğretmen: Güneş’in çekirdeğinde hidrojen çekirdekleri, bir dizi füzyon tepkimesi
+sonunda helyuma dönüşür.
+
+18
+00:01:18,301 --> 00:01:23,167
+Öğretmen: Yaklaşık değerlerle, her saniye altı yüz milyon ton hidrojen işlenir.
+
+19
+00:01:23,167 --> 00:01:28,528
+Öğretmen: Yaklaşık dört milyon tonluk kütle farkına karşılık gelen enerji açığa
+çıkar.
+
+20
+00:01:28,528 --> 00:01:31,208
+Öğretmen: Bu, yıldızın doğal fiziksel sürecidir.
+
+21
+00:01:31,833 --> 00:01:36,797
+Öğrenci: Öyleyse Güneş’in içinde insanlar tarafından yapılmış bombalar
+patlamıyor.
+
+22
+00:01:36,797 --> 00:01:43,257
+Öğrenci: Peki metindeki tüp dükkânı benzetmesi gibi, Güneş’in de bir anda
+tamamen patlaması gerekmez mi?
+
+23
+00:01:44,067 --> 00:01:46,166
+Öğretmen: Hayır, böyle bir sonuç çıkmaz.
+
+24
+00:01:46,166 --> 00:01:48,335
+Öğretmen: Güneş bir tüp dükkânı değildir.
+
+25
+00:01:48,335 --> 00:01:57,012
+Öğretmen: İçe doğru etkileyen kütleçekim ile sıcak gazın ve ışınımın oluşturduğu
+dışa doğru basınç arasında yaklaşık bir denge vardır.
+
+26
+00:01:57,012 --> 00:02:01,980
+Öğretmen: Enerji üretiminin sıcaklığa bağlı davranışı da bu dengeye katkı
+sağlar.
+
+27
+00:02:01,980 --> 00:02:04,779
+Öğretmen: Bunun fiziksel adı hidrostatik dengedir.
+
+28
+00:02:05,400 --> 00:02:11,269
+Öğretmen: Güneş ile Dünya arasındaki ortalama uzaklık yaklaşık yüz elli milyon
+kilometredir.
+
+29
+00:02:11,269 --> 00:02:19,213
+Öğretmen: Saatte iki yüz kilometre hızla hiç durmadan gidilebildiğini
+varsaysaydık, yol yaklaşık seksen altı yıl sürerdi.
+
+30
+00:02:19,213 --> 00:02:25,296
+Öğretmen: Güneş yüzeyinden çıkan ışık ise Dünya’ya yaklaşık sekiz dakika yirmi
+saniyede ulaşır.
+
+31
+00:02:25,900 --> 00:02:27,974
+Öğrenci: Güneş bize çok büyük görünüyor.
+
+32
+00:02:27,974 --> 00:02:33,393
+Öğrenci: UY Scuti ve VY Canis Majoris gibi kırmızı süperdevler ise daha da büyük
+olabilir.
+
+33
+00:02:33,393 --> 00:02:37,876
+Öğrenci: Onların içine kaç Güneş sığacağını kesin olarak söyleyebilir miyiz?
+
+34
+00:02:38,700 --> 00:02:42,957
+Öğretmen: Bu yıldızların yarıçap ve uzaklık ölçümleri belirsizlik taşır.
+
+35
+00:02:42,957 --> 00:02:47,694
+Öğretmen: Yayımlanan tahminler kullanılan ölçüm ve yöntemlere göre değişebilir.
+
+36
+00:02:47,694 --> 00:02:53,942
+Öğretmen: Bu nedenle iki milyar veya beş milyar Güneş gibi sayıları kesin
+değerler olarak sunmuyoruz.
+
+37
+00:02:53,942 --> 00:02:57,924
+Öğretmen: Ayrıca hacim ile kütlenin aynı şey olmadığını unutmuyoruz.
+
+38
+00:02:58,533 --> 00:03:05,637
+Öğretmen: Kaynak metnin yazarı, evrendeki bu büyüklük ve düzeni Allah’ın ilmi ve
+kudretiyle ilişkilendiriyor.
+
+39
+00:03:05,637 --> 00:03:11,234
+Öğretmen: İslam inancında tabiatı gözlemlemek, yaratılış üzerinde düşünmeye
+vesile olur.
+
+40
+00:03:11,234 --> 00:03:19,629
+Öğretmen: Bu bir inanç yorumudur; yıldızların fiziksel olarak nasıl çalıştığının
+açıklamasıyla aynı türden bir önerme değildir.
+
+41
+00:03:20,233 --> 00:03:27,920
+Öğrenci: Demek ki hem ölçümleri ve fiziksel süreçleri araştırabilir hem de
+bunların bize düşündürdüklerini konuşabiliriz.
+
+42
+00:03:27,920 --> 00:03:35,401
+Öğrenci: Büyük sayılar karşısında şaşırmakla yetinmeden, neyi bildiğimizi ve
+neyin bir yorum olduğunu ayırt etmeliyiz.
+
+43
+00:03:36,033 --> 00:03:36,394
+Öğretmen: Evet.
+
+44
+00:03:36,394 --> 00:03:47,356
+Öğretmen: Metnimizin son sorusunu bu ayrımla düşünelim: Güneş’in yaşamımızdaki
+yeri ve evrenin büyüklüğü, yaratılış ve sorumluluk üzerine sana neler
+düşündürüyor?
+
+45
+00:03:47,356 --> 00:03:50,241
+Öğretmen: Farklı cevapları da saygıyla dinleyelim.
