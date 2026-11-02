@@ -5,19 +5,25 @@ from zipfile import ZIP_DEFLATED, ZipFile
 root = Path(__file__).resolve().parents[1]
 files = [root / name for name in (
     "BASLAT-WINDOWS.bat", "BASLAT.py", "KAYNAKLAR.md", "KULLANIM-KOSULLARI.md",
-    "README.md", "HIKAYE-SES-TASARIMI.md", "PHOTOREAL-GORSELLER.md", "HIKAYE-SERISI-20261028.md", "VIDEO-SENARYOLARI.md", "VIDEO-URETIM-STANDARDI.md", "YEREL-TEST.md", "URETIM-ALTYAPISI.md", "SESLENDIRME-PLANI.md",
+    "README.md", "TOPLU-VIDEO-URETIMI.md", "HIKAYE-SES-TASARIMI.md", "PHOTOREAL-GORSELLER.md", "HIKAYE-SERISI-20261028.md", "VIDEO-SENARYOLARI.md", "VIDEO-URETIM-STANDARDI.md", "YEREL-TEST.md", "URETIM-ALTYAPISI.md", "SESLENDIRME-PLANI.md",
     "index.html", "logo.jpg", "ORTAK-HIKAYE.md", "IKINCI-HIKAYE.md",
 )]
-for folder in ("assets", "backend", "metin-atolyesi", "siniflar", "sahne-atolyesi", "ses-planlari", "ortaokul", "lise", "universite", "ortak-hikaye", "igneden-kainata", "ders-hazirla", "hikayeler", "kesfet"):
-    files.extend(p for p in (root / folder).rglob("*") if p.is_file())
+for folder in ("assets", "backend", "metin-atolyesi", "siniflar", "sahne-atolyesi", "ses-planlari", "ortaokul", "lise", "universite", "ortak-hikaye", "igneden-kainata", "ders-hazirla", "hikayeler", "kesfet", "videos"):
+    files.extend(p for p in (root / folder).rglob("*") if p.is_file() and p.suffix.lower() != ".mp4" and "posters" not in p.relative_to(root).parts)
 for folder in (root / "video-ornekleri").glob("7-sahne-*"):
-    files.extend(p for p in folder.rglob("*") if p.is_file())
+    files.extend(p for p in folder.rglob("*") if p.is_file() and p.suffix.lower() != ".mp4" and "posters" not in p.relative_to(root).parts)
 
 target = root / "indir/merak-bahcesi-yerel-test.zip"
 target.parent.mkdir(exist_ok=True)
 with ZipFile(target, "w", compression=ZIP_DEFLATED) as archive:
     for file in sorted(files):
-        archive.write(file, "merak-bahcesi/" + file.relative_to(root).as_posix())
+        name = "merak-bahcesi/" + file.relative_to(root).as_posix()
+        if file == root / "assets/video-library.js":
+            archive.writestr(name, file.read_text().replace("/*LOCAL_VIDEO_PACKAGE*/false", "/*LOCAL_VIDEO_PACKAGE*/true"))
+        elif file == root / "video-ornekleri/7-sahne-gozlem-kulubu/index.html":
+            archive.writestr(name, file.read_text().replace('"gozlem-kulubu-ilk-video.mp4"', '"https://gencbeyinlernet.github.io/nazmihocaproje/video-ornekleri/7-sahne-gozlem-kulubu/gozlem-kulubu-ilk-video.mp4"'))
+        else:
+            archive.write(file, name)
 with ZipFile(target) as archive:
     assert archive.testzip() is None
     assert len([name for name in archive.namelist() if "/scenes/" in name]) == 21
@@ -25,4 +31,5 @@ with ZipFile(target) as archive:
     assert all("merak-bahcesi/" + name + "/index.html" in archive.namelist() for name in ("ortaokul", "lise", "universite", "ortak-hikaye", "igneden-kainata", "ders-hazirla"))
     assert not any(name.endswith(".wav") for name in archive.namelist())
     assert not any("/arsiv/" in name for name in archive.namelist())
+assert target.stat().st_size < 100 * 1024**2, "Split large videos out of the local package."
 print(f"Local test package: {len(files)} files, {target.stat().st_size / 1024**2:.1f} MiB")

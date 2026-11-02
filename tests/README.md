@@ -48,3 +48,5 @@ Kadın sesi yenileme testi: `CHROMIUM_PATH=/usr/bin/chromium node tests/female-a
 Hikâye ses tasarımı: `CHROMIUM_PATH=/usr/bin/chromium node tests/story-sound.cjs`. Konuşma kayıtlarının değişmediğini, efektlerin düşük seviyesini ve gerçek oynatımını, kapatma tercihinin korunmasını, soru sonrasındaki durakta duraklatma/devamı, otomatik modu kapatınca beklemenin iptalini, gezinme temizliğini ve mobil görünümü kontrol eder.
 
 İlk video: `CHROMIUM_PATH=/usr/bin/chromium node tests/first-video.cjs`. Full HD H.264/AAC dosyasını, yedi sahnenin ses ve altyazı sürelerini, gerçek tarayıcı oynatımını/ileri sarmayı, indirmeyi ve mobil düzeni doğrular.
+
+Toplu videolar: `CHROMIUM_PATH=/usr/bin/chromium node tests/video-library.cjs`. 220 dosyanın codec, boyut, süre, özet ve 1.500 altyazı/replik eşleşmesini; gerçek oynatımı, sınıf/konu filtresini, isteğe bağlı sonraki videoyu, kapatınca sesin durmasını ve mobil görünümü doğrular.

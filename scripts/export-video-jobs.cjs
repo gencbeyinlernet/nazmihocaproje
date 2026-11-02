@@ -1,0 +1,6 @@
+const fs=require('fs'),vm=require('vm'),c={window:{}};
+for(const name of ['story-library-data','common-story-data','visual-story-data','productions','university','narration-data','library-narration','photo-data'])vm.runInNewContext(fs.readFileSync('assets/'+name+'.js','utf8'),c);
+const w=c.window;
+const soundContext={window:{MerakPhotos:{keyFor:s=>w.MERAK_PHOTOS.scenes[s.id]}},document:{currentScript:{src:'https://example.org/assets/story-sound.js'}},URL};vm.runInNewContext(fs.readFileSync('assets/story-sound.js','utf8'),soundContext);
+const stories=[...w.MERAK_STORY_LIBRARY.stories,...w.MERAK_COMMON_STORY.chapters.map(s=>({...s,id:'ortak-'+s.id,grade:'common',topic:'Saraydan Dünyaya'})),...w.MERAK_VISUAL_STORY.chapters.map(s=>({...s,id:'ikinci-'+s.id,grade:'common',topic:'İğneden Kâinata'})),...w.MERAK_UNIVERSITY.map(p=>({...p,id:'universite-'+p.id,grade:'university',topic:p.category,scenes:[...p.reading,...p.questions,p.task].map((text,i)=>({id:p.id+'-audio-'+i,text,speaker:'Anlatıcı'}))}))].map(s=>({...s,scenes:s.scenes.map(scene=>({...scene,record:w.MERAK_NARRATION.scenes[scene.id],photo:w.MERAK_PHOTOS.scenes[scene.id],cue:soundContext.window.MerakStorySound.cue(scene)}))}));
+process.stdout.write(JSON.stringify({stories,photos:w.MERAK_PHOTOS.photos}));

@@ -31,3 +31,5 @@ body.guided-app *{box-sizing:border-box}.guided-app :where(button,input,select,t
 @media(prefers-reduced-motion:reduce){.guided-app *{animation:none!important;transition:none!important;scroll-behavior:auto!important}.journey-primary:hover,.journey-class-choice:hover,.journey-class-choice[aria-pressed=true],.journey-route-item:hover{transform:none}}
 
 @media(hover:hover) and (prefers-reduced-motion:no-preference){.journey-image-card>img{transition:transform .6s ease}.journey-image-card:hover>img{transform:scale(1.025)}}
+
+.journey-video-button{display:inline-flex;text-decoration:none;margin-bottom:12px;justify-content:center;min-height:54px}.journey-preview-copy:has(.journey-video-button) #journey-watch{background:#fff;color:#176654;border:1px solid #b9d4c6;box-shadow:none}

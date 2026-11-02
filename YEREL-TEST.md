@@ -38,3 +38,7 @@ Yerel sunucu açıkken `http://localhost:3000/sahne-atolyesi/#icerik=gozlem-kulu
 3. **5 soruluk sınava başla** düğmesine dokun. Soruları ve seçenekleri Dinle düğmesi okur. Her gönderilen cevabın açıklaması gösterilir; cevap aynı denemede değiştirilemez. Her doğru cevap 20 puandır.
 4. **Sonucumu gör** ile son puan, en iyi puan ve katılım rozeti görünmeli. Tekrar denemede önceki en iyi puan korunmalı. Sadece dinlemek bütün dersi bitirmiş sayılmamalı.
 5. Sayfayı yenileyince oyun/sınav ilerlemesi korunmalı, ses kendiliğinden başlamamalı. Ana öğrenci yolu ve öğretmen hikâye kütüphanesi aynı sonucu göstermeli. Paylaşım ve gizlilik alanındaki kayıt silme işlemi oyun ve sınav kayıtlarını da temizlemeli.
+
+## Video kütüphanesi
+
+Temel yerel test paketi görsel ve sesleri içerir. Toplu MP4 dosyaları paketin boyutunu artırmamak için çevrim içi kütüphaneden oynatılır; yerel video ekranı internet gerektirir. İstediğiniz videoyu “MP4 indir” ile ayrıca indirip internet olmadan izleyebilirsiniz.

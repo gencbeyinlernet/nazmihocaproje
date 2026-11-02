@@ -46,7 +46,7 @@ Yeni kaynaklar: `ses-planlari/mufredat-hikaye-tohumlari.txt`, `ses-planlari/unit
 
 ## Video üretim kılavuzu
 
-Sonraki videolar, kullanıcının 26 Ekim 2026 tarihinde verdiği eğitim videosu kılavuzuna göre hazırlanır. Kaynak sayfaları, teknik sınırlar, sahne kartı ve uygulama tercihleri [VIDEO-URETIM-STANDARDI.md](VIDEO-URETIM-STANDARDI.md) içindedir. Şimdilik görsel ve Türkçe ses oynatımı sürer.
+Sonraki videolar, kullanıcının 26 Ekim 2026 tarihinde verdiği eğitim videosu kılavuzuna göre hazırlanır. Kaynak sayfaları, teknik sınırlar, sahne kartı ve uygulama tercihleri [VIDEO-URETIM-STANDARDI.md](VIDEO-URETIM-STANDARDI.md) içindedir. Hazır 220 içerik için [MP4 video kütüphanesi](videos/) de sunulur.
 
 ## Oyun ve sınav içeren örnek ders
 
@@ -70,7 +70,7 @@ Soru, seçenek, ipucu, açıklama ve sonuçlar için **27 ek Türkçe MP3** vard
 
 Önceki 232 kayıt yaklaşık 34 dakika; yeni kütüphaneyle birlikte toplam 1.457 kayıt yaklaşık 154 dakika sürer. Her sahne hedef sekiz saniyeye zorla sıkıştırılmaz; **oynatıcı gerçek kayıt bitişini bekler**. Görsel veya ses hatasında ses durur; yeniden deneme mümkündür. Elle ilerleme modunda kayıt bitişi sahne değiştirmez. Otomatik modda kayıt bitişi sonraki sahneyi açar; öğretmenin cihaz sesiyle okunan özel metinlerinde de aynı seçim uygulanır. Eski sesi durdurmadan yenisi başlamaz. Menü açılması, başka bir pencere açılması, sayfa değişimi ve sekmenin gizlenmesi sesi durdurur. Tamamlanma için bütün sahnelerin dinlenmesi gerekir; elle modda Bitir düğmesi kullanılır, otomatik modda son kayıt bitince hikâye kendiliğinden tamamlanır; yalnızca resme bakmak yeterli değildir.
 
-İlk ortak hikâyenin 56 ayrı yeni resmi henüz yoktur: hazır saray, doğa, atölye ve kâinat görselleri ilgili bölümlerde tekrar kullanılır. İkinci hikâyede dört özgün resim ve bir görev şeması tekrar kullanılır. Diğer hazır konular sesli anlatıma eşlik eden sade konu kartlarıyla açılır. Bunlar tamamlanmış video dosyaları değildir; görsel + kayıtlı ses oynatıcısıdır. Yeni videoların yeri korunur.
+İlk ortak hikâyenin 56 ayrı yeni resmi henüz yoktur: hazır saray, doğa, atölye ve kâinat görselleri ilgili bölümlerde tekrar kullanılır. İkinci hikâyede dört özgün resim ve bir görev şeması tekrar kullanılır. Diğer hazır konular sesli anlatıma eşlik eden sade konu kartlarıyla açılır. Bu önceki görsel + ses düzenine ek olarak 220 MP4 video üretilmiştir; üretim kapsamı [toplu video notlarında](TOPLU-VIDEO-URETIMI.md) açıklanır.
 
 ## Sınıflar ve kaynaklar
 
