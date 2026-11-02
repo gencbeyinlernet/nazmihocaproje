@@ -46,3 +46,5 @@ Fotoğraf gerçekliğindeki görseller: `CHROMIUM_PATH=/usr/bin/chromium node te
 Kadın sesi yenileme testi: `CHROMIUM_PATH=/usr/bin/chromium node tests/female-audio.cjs`. 60 Emel kaydının replik ve dosya özetlerini, gerçek sürelerini, açık sahne URL’si ile manifest üzerinden önbellek sürümünü, onaylı özel kayıt önceliğini ve öğrenci/öğretmen oynatımını kontrol eder.
 
 Hikâye ses tasarımı: `CHROMIUM_PATH=/usr/bin/chromium node tests/story-sound.cjs`. Konuşma kayıtlarının değişmediğini, efektlerin düşük seviyesini ve gerçek oynatımını, kapatma tercihinin korunmasını, soru sonrasındaki durakta duraklatma/devamı, otomatik modu kapatınca beklemenin iptalini, gezinme temizliğini ve mobil görünümü kontrol eder.
+
+İlk video: `CHROMIUM_PATH=/usr/bin/chromium node tests/first-video.cjs`. Full HD H.264/AAC dosyasını, yedi sahnenin ses ve altyazı sürelerini, gerçek tarayıcı oynatımını/ileri sarmayı, indirmeyi ve mobil düzeni doğrular.

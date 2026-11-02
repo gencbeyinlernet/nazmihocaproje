@@ -26,7 +26,7 @@
 - Bir kısa içerik için hedef **7 sahne × yaklaşık 8 saniye**, yani yaklaşık 56 saniyedir. Bu, kılavuzun şartı değil, kullanıcının tercih ettiği anlatım yapısıdır.
 - Her görsel, hareket ve konuşma aynı olayı anlatır. Karakter görünümü, kıyafet, mekân ve ses kimliği korunur. Efektler anlamı destekler; konuşmadan dikkat çalmaz.
 - Kaynak metinler `assets/source.txt` ve `assets/ikinci-hikaye-kaynak.txt` içinde aynen korunur. Senaryo uyarlaması ayrı tutulur; doğrudan alıntıların sözcükleri değiştirilmez.
-- Şimdiki teslim biçimi **görsel + sahneye ait Türkçe MP3** oynatımıdır. Bu, bitmiş MP4 veya tam karakter animasyonu olarak sunulmaz. Mevcut sesler değiştirilebilir sentetik örneklerdir; kaynak ve lisansları `assets/audio/CREDITS.md` içindedir.
+- Genel teslim biçimi **görsel + sahneye ait Türkçe MP3** oynatımıdır. 2 Kasım 2026 tarihinde **Gökyüzü Kulübünün İlk Buluşması** için ayrıca ilk Full HD MP4 hazırlanmıştır: [İlk video](video-ornekleri/7-sahne-gozlem-kulubu/). Bu ilk dosya mevcut görsellerin kamera hareketiyle kurgulanmasıdır; tam karakter animasyonu değildir. Mevcut sesler değiştirilebilir sentetik örneklerdir; kaynak ve lisansları `assets/audio/CREDITS.md` içindedir.
 - Ses sekizinci saniyede kesilmez ve hedef süreye yetişmesi için anlaşılmaz biçimde hızlandırılmaz. Sesli prova sonrasında süre ve bölümleme düzenlenir. Uzun metinler bağlantılı kısa videolara ayrılır; anlam atılmaz.
 - Öğrenciye uzun okuma ekranı çıkarılmaz. Sesli anlatım ana akıştır. İsteyen kullanıcı erişilebilir altyazıyı açabilir; altyazı zamanları son ses kaydına göre hazırlanır.
 - Kullanıcının sağladığı Rize İl Millî Eğitim Müdürlüğü `logo.jpg` logosu özgün oranlarıyla kullanılır. Kurum adı, resmî içerik onayı veya EBA kabulü alındığı anlamına gelmez.
