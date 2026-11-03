@@ -1,0 +1,15 @@
+SAHNE 30 · Ece
+Hedef süre: 4 saniye · Üst sınır: 8 saniye
+
+OKUTULACAK METİN
+Askerde bir er emri onbaşıdan alır.
+
+OYUNCULUK / OKUMA YÖNERGESİ — BU KISIM OKUNMAZ
+Kaynak metindeki emir zinciri benzetmesini aktarıyor.
+
+ARKA PLAN SESİ — BU KISIM OKUNMAZ
+Hafif bahçe ambiyansı; yalnızca bir parça masaya değerse yumuşak ahşap tıkırtısı. Konuşmayı örtmesin.
+Müzik ve yüksek sesli efekt yok. Konuşma doğal, açık ve anlaşılır olsun.
+
+SÜRE KONTROLÜ
+Bu süre bir tahmindir. Son ses kaydını ölç: 8 saniyeyi aşarsa repliği yeni bir sahneye böl; konuşmayı hızlandırma veya kelime kesme.

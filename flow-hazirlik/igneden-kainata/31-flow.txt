@@ -1,0 +1,18 @@
+SAHNE 31
+Süre ayarı: 7,0 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 31-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Close view of unmarked wooden tokens of increasing height arranged in a simple chain on the wooden table; Ece light blue sleeve, no military or political symbols. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Ece
+
+TÜRKÇE SES METNİ
+Onbaşı çavuştan, çavuş üstçavuştan, iş cumhurbaşkanına kadar uzar.
+
+SES YÖNERGESİ
+Kaynak metindeki emir zinciri benzetmesini aktarıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer.
+Hafif bahçe ambiyansı; yalnızca bir parça masaya değerse yumuşak ahşap tıkırtısı. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

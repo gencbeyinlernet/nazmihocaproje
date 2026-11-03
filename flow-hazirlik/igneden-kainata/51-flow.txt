@@ -1,0 +1,18 @@
+SAHNE 51
+Süre ayarı: 5,0 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 51-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Photorealistic cutaway looking upward from ordinary leafy trees into a clear late afternoon sky, sunlight natural, no supernatural signs or text. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+Hem böyle bir Allah olmazsa ne kainat olur,
+
+SES YÖNERGESİ
+Kaynak metnin inanç yorumunu ve son sorularını aktarıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer. Sonraki sahnede süreceği için cümle sonu düşüşü yapma.
+Hafif bahçe rüzgârı, yaprak hışırtısı ve uzaktan kuşlar. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

@@ -1,0 +1,18 @@
+SAHNE 34
+Süre ayarı: 4,5 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 34-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Close view of Ece hand resting beside the final taller unmarked wooden token, the other tokens aligned behind, no crown or authority insignia. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Ece
+
+TÜRKÇE SES METNİ
+fakat kendisi emir almayan bir zat gelir.
+
+SES YÖNERGESİ
+Kaynak metindeki emir zinciri benzetmesini aktarıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer. Önceki cümle devam ediyor; yeniden giriş yapmadan sürdür.
+Hafif bahçe ambiyansı; yalnızca bir parça masaya değerse yumuşak ahşap tıkırtısı. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

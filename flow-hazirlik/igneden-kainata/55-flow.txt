@@ -1,0 +1,18 @@
+SAHNE 55
+Süre ayarı: 6,5 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 55-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Teacher close medium portrait, speaking with restrained conviction but a kind expression, courtyard background, no ridicule. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+Ha bu iddiaya inanmamız için aklımızı kaybetmemiz lazım.
+
+SES YÖNERGESİ
+Kaynak metnin inanç yorumunu ve son sorularını aktarıyor.
+Çok düşük düzeyde okul bahçesi ambiyansı; hafif yaprak hışırtısı ve uzaktan kuş sesi. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

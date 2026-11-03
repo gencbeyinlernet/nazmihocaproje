@@ -1,0 +1,18 @@
+SAHNE 39
+Süre ayarı: 5,5 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 39-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Wooden learning table with several plain nesting boxes arranged from large to small to illustrate a sequence, teacher navy sleeve, real physical objects, no text. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+ona da başka bir fabrika, ona da başka bir fabrika,
+
+SES YÖNERGESİ
+Nar ve fabrika benzetmesiyle kaynak görüşü açıklıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer. Önceki cümle devam ediyor; yeniden giriş yapmadan sürdür. Sonraki sahnede süreceği için cümle sonu düşüşü yapma.
+Hafif bahçe ambiyansı; yalnızca bir parça masaya değerse yumuşak ahşap tıkırtısı. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

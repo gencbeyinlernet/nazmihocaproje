@@ -1,0 +1,18 @@
+SAHNE 32
+Süre ayarı: 6,5 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 32-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Ece looks toward teacher with a thoughtful questioning gesture, medium eye level two shot, wooden tokens foreground, respectful conversation. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Ece
+
+TÜRKÇE SES METNİ
+Ancak cumhurbaşkanı emri kimden alır diye bir soru sorulamaz.
+
+SES YÖNERGESİ
+Kaynak metindeki emir zinciri benzetmesini aktarıyor.
+Çok düşük düzeyde okul bahçesi ambiyansı; hafif yaprak hışırtısı ve uzaktan kuş sesi. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

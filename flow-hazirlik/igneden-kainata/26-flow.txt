@@ -1,0 +1,18 @@
+SAHNE 26
+Süre ayarı: 4 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 26-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Photorealistic front three quarter of a modern locomotive at a railway station, stationary, no people on tracks, no readable branding or signs. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+İş lokomotife dayandığında
+
+SES YÖNERGESİ
+Tren benzetmesini adım adım anlatıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer. Sonraki sahnede süreceği için cümle sonu düşüşü yapma.
+Düşük istasyon ambiyansı ve uzaktan tren uğultusu. Anons veya korna yok.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

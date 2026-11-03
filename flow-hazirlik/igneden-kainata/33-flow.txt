@@ -1,0 +1,18 @@
+SAHNE 33
+Süre ayarı: 5,0 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 33-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Ece close medium portrait giving a calm explanation, blurred teacher listening at right, school courtyard afternoon. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Ece
+
+TÜRKÇE SES METNİ
+Çünkü cumhurbaşkanı denince akla emir veren
+
+SES YÖNERGESİ
+Kaynak metindeki emir zinciri benzetmesini aktarıyor. Sonraki sahnede süreceği için cümle sonu düşüşü yapma.
+Çok düşük düzeyde okul bahçesi ambiyansı; hafif yaprak hışırtısı ve uzaktan kuş sesi. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

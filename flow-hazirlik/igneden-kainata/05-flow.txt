@@ -1,0 +1,18 @@
+SAHNE 05
+Süre ayarı: 6,0 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 05-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Over shoulder of teacher at the learning table: small realistic models of a school desk, building, car and train arranged as tangible examples, Ali looking on. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+Masaların, sıraların, binaların, arabaların, trenlerin,
+
+SES YÖNERGESİ
+Sakin, soru sorarak ilerleyen açıklama; benzetmeyi anlatıyor. Sonraki sahnede süreceği için cümle sonu düşüşü yapma.
+Çok düşük düzeyde okul bahçesi ambiyansı; hafif yaprak hışırtısı ve uzaktan kuş sesi. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

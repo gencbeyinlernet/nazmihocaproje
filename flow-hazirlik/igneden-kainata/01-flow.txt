@@ -1,0 +1,18 @@
+SAHNE 01
+Süre ayarı: 6,5 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 01-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Ali opens the discussion with a thoughtful open palm. Medium wide group, teacher center, Ece and Deniz right. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Ali
+
+TÜRKÇE SES METNİ
+Allah düşünce ürünüdür. Yani insanların uydurduğu bir şeydir.
+
+SES YÖNERGESİ
+Bir iddiayı alıntılıyor; kişisel inancı hakkında hüküm kurulmaz.
+Çok düşük düzeyde okul bahçesi ambiyansı; hafif yaprak hışırtısı ve uzaktan kuş sesi. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

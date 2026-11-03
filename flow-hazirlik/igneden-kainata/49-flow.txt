@@ -1,0 +1,18 @@
+SAHNE 49
+Süre ayarı: 5,0 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 49-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Ali follows up with a question, medium closeup, teal polo and curly hair consistent, open palm, warm respectful discussion. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Ali
+
+TÜRKÇE SES METNİ
+Onu kim yarattı? Başka bir Allah, onu başka...
+
+SES YÖNERGESİ
+Kaynak metindeki soruyu ve devamındaki alıntıyı aktarıyor.
+Çok düşük düzeyde okul bahçesi ambiyansı; hafif yaprak hışırtısı ve uzaktan kuş sesi. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

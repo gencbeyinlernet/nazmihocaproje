@@ -1,0 +1,18 @@
+SAHNE 13
+Süre ayarı: 5,0 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 13-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Ali and Ece examine a model airplane and small educational robot on table while Murat explains off camera, medium candid shot. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+uçaklar, robotlar kendi kendine meydana gelmiştir.
+
+SES YÖNERGESİ
+Kaynak metindeki karşı iddiayı alıntılıyor ve değerlendirmesini aktarıyor. Önceki cümle devam ediyor; yeniden giriş yapmadan sürdür.
+Çok düşük düzeyde okul bahçesi ambiyansı; hafif yaprak hışırtısı ve uzaktan kuş sesi. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

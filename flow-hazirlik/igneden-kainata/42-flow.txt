@@ -1,0 +1,18 @@
+SAHNE 42
+Süre ayarı: 5,0 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 42-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Murat referring to the row of unmarked wooden tokens while Ece listens, over shoulder medium shot, calm discussion without political imagery. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+Nasıl ki cumhurbaşkanı denince akla emir veren
+
+SES YÖNERGESİ
+Nar ve fabrika benzetmesiyle kaynak görüşü açıklıyor. Sonraki sahnede süreceği için cümle sonu düşüşü yapma.
+Hafif bahçe ambiyansı; yalnızca bir parça masaya değerse yumuşak ahşap tıkırtısı. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

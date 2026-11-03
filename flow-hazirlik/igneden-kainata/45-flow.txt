@@ -1,0 +1,18 @@
+SAHNE 45
+Süre ayarı: 5,0 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 45-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Closeup of model locomotive at head of coupled carriages, teacher navy cardigan softly visible behind, wooden table. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+fakat kendisi çekilmeyen bir makine geliyorsa,
+
+SES YÖNERGESİ
+Nar ve fabrika benzetmesiyle kaynak görüşü açıklıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer. Önceki cümle devam ediyor; yeniden giriş yapmadan sürdür. Sonraki sahnede süreceği için cümle sonu düşüşü yapma.
+Çok düşük düzeyde okul bahçesi ambiyansı; hafif yaprak hışırtısı ve uzaktan kuş sesi. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

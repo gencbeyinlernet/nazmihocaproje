@@ -1,0 +1,18 @@
+SAHNE 29
+Süre ayarı: 5,0 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 29-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Photorealistic locomotive pulling carriages through countryside viewed from safe distant hillside, ordinary physics, no fantasy. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+fakat kendisi çekilmeyen bir makine gelir.
+
+SES YÖNERGESİ
+Tren benzetmesini adım adım anlatıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer. Önceki cümle devam ediyor; yeniden giriş yapmadan sürdür.
+Çok düşük tren tekerleği ve ray ritmi; hafif dış ortam rüzgârı. Korna yok; konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

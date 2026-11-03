@@ -1,0 +1,18 @@
+SAHNE 30
+Süre ayarı: 4 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 30-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Ece speaks thoughtfully while arranging simple unmarked wooden tokens in ascending order on table as a discussion analogy, medium portrait. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Ece
+
+TÜRKÇE SES METNİ
+Askerde bir er emri onbaşıdan alır.
+
+SES YÖNERGESİ
+Kaynak metindeki emir zinciri benzetmesini aktarıyor.
+Hafif bahçe ambiyansı; yalnızca bir parça masaya değerse yumuşak ahşap tıkırtısı. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

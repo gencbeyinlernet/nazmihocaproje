@@ -1,0 +1,18 @@
+SAHNE 24
+Süre ayarı: 5,0 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 24-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Photorealistic cutaway of the last two carriages of a passenger train on a straight rail line in a green landscape, viewed safely from outside railway fence, no text. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+Bir trende en son vagonu bir öndeki çekmekte.
+
+SES YÖNERGESİ
+Tren benzetmesini adım adım anlatıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer.
+Çok düşük tren tekerleği ve ray ritmi; hafif dış ortam rüzgârı. Korna yok; konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

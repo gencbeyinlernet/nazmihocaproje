@@ -1,0 +1,18 @@
+SAHNE 28
+Süre ayarı: 4 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 28-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Close tabletop view of teacher hand resting beside the front of a model locomotive, coupled carriages receding behind, natural daylight. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+Çünkü lokomotif denince akla çeken
+
+SES YÖNERGESİ
+Tren benzetmesini adım adım anlatıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer. Sonraki sahnede süreceği için cümle sonu düşüşü yapma.
+Çok düşük düzeyde okul bahçesi ambiyansı; hafif yaprak hışırtısı ve uzaktan kuş sesi. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

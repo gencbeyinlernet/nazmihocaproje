@@ -1,0 +1,18 @@
+SAHNE 56
+Süre ayarı: 7,5 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 56-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Close garden view of moist earth, watering can spout with a few droplets, green leaves and natural sunlight, real separate elements visible, no creation animation. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+Akılsız toprak, hava, su, güneş bir araya gelecek, akıl sahibi insanların
+
+SES YÖNERGESİ
+Kaynak metnin inanç yorumunu ve son sorularını aktarıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer. Sonraki sahnede süreceği için cümle sonu düşüşü yapma.
+Hafif bahçe rüzgârı, yaprak hışırtısı ve uzaktan kuşlar. Konuşmayı örtmesin. Görünen damlalar için çok hafif su damlama sesi.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

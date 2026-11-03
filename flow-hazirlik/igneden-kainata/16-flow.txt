@@ -1,0 +1,18 @@
+SAHNE 16
+Süre ayarı: 6,5 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 16-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Extreme closeup of a steel sewing needle threaded with blue thread on a neutral fabric square on the wooden table, real material detail. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+Ancak basit bir iğnenin dahi kendi kendine meydana geldiğini
+
+SES YÖNERGESİ
+Kaynak metindeki karşı iddiayı alıntılıyor ve değerlendirmesini aktarıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer. Sonraki sahnede süreceği için cümle sonu düşüşü yapma.
+Hafif bahçe ambiyansı; hareket varsa çok hafif kumaş hışırtısı. Abartılı metal efekti yok.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

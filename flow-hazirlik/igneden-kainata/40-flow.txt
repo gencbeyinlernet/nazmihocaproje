@@ -1,0 +1,18 @@
+SAHNE 40
+Süre ayarı: 6,0 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 40-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Long perspective along a row of plain wooden boxes on the table diminishing in size, school garden blurred behind, metaphorical prop not a literal universe factory. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+ona da başka bir fabrika iş sonsuza kadar uzar gider.
+
+SES YÖNERGESİ
+Nar ve fabrika benzetmesiyle kaynak görüşü açıklıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer. Önceki cümle devam ediyor; yeniden giriş yapmadan sürdür.
+Hafif bahçe ambiyansı; yalnızca bir parça masaya değerse yumuşak ahşap tıkırtısı. Konuşmayı örtmesin.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.

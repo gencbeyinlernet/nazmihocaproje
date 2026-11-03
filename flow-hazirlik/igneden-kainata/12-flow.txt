@@ -1,0 +1,18 @@
+SAHNE 12
+Süre ayarı: 5,5 saniye; 8 saniyeyi ASLA aşma.
+Başlangıç görseli: 12-gorsel.jpg
+
+GÖRÜNTÜ / HAREKET İSTEMİ
+Photorealistic live-action 16:9 shot. Low angle tabletop closeup of steel needle in pincushion beside small desk, building and car models, natural photographic still life. Very subtle natural camera drift, restrained facial and hand movement, maintain exact character identities and clothing, maintain realistic anatomy, no new people, no captions, no logos, no cartoon styling, no divinity depicted. No automatic dialogue or music: supplied Turkish voice will be added separately.
+
+KONUŞMACI
+Murat Öğretmen
+
+TÜRKÇE SES METNİ
+İğneler, sıralar, masalar, binalar, arabalar, trenler,
+
+SES YÖNERGESİ
+Kaynak metindeki karşı iddiayı alıntılıyor ve değerlendirmesini aktarıyor. Ara planda aynı konuşmacının sesi kesilmeden, aynı tonda sürer. Sonraki sahnede süreceği için cümle sonu düşüşü yapma.
+Hafif bahçe ambiyansı; hareket varsa çok hafif kumaş hışırtısı. Abartılı metal efekti yok.
+
+Kayıttan önce ses dosyasının süresini ölç. Gerekirse ek plan aç; 8 saniyeden uzun çıktı alma.
