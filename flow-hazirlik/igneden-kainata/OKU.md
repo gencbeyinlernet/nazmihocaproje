@@ -1,17 +1,19 @@
-# İğneden Kâinata · Flow hazırlık paketi
+# İğneden Kâinata · Görsel, metin ve sesler
 
-Bu paket video veya ses kaydı içermez. Her sahne için ayrı gerçekçi görsel ve okutulacak Türkçe metin içerir. Görseller yapay zekâ ile oluşturulmuştur; kişiler kurmacadır.
+59 sahnelik görsel planı ve 58 ayrı ElevenLabs ses kaydı hazırdır. 59. sahne konuşmasız kapanıştır; bu sahne için ses dosyası yoktur. Müzik veya ortam efekti üretilmedi.
 
-1. `index.html` dosyasını aç; sahneler arasında ileri/geri git.
-2. İlgili `NN-gorsel.jpg` dosyasını Flow’a başlangıç görseli olarak yükle.
-3. `NN-seslendirme.txt` içindeki yalnızca **OKUTULACAK METİN** bölümünü seslendir. Oyunculuk ve ortam sesi yönergeleri okunmaz.
-4. `NN-flow.txt` hareket önerisini kullan. Her plan en fazla 8 saniye olsun. Son sesi ölç; uzunsa yeni sahne aç. Kelime kesme veya konuşmayı hızlandırma.
-5. Aynı karaktere her sahnede aynı sesi ver; numara sırasıyla birleştir.
+- Görseller/metinler: `igneden-kainata-flow-sahneleri.zip`. İlk paketin HTML önizlemesi görsel ve metin içerir.
+- Hazır sesler: `igneden-kainata-elevenlabs-sesleri.zip`. 58 MP3 ve dosya/metin/süre eşleştirmeleri içerir.
+- Güncel web önizlemesinde görseli açıp sahnenin sesini dinleyebilir ve tek tek indirebilirsin.
 
-59 görsel, 59 ses metni dosyası, 59 Flow istemi, CSV/JSON/Markdown plan ve karakter listesi vardır. 59. sahne 4 saniyelik konuşmasız kapanıştır. 58 konuşmalı planın hedefleri durak payıyla 4–7,5 saniyedir; yaklaşık toplam 5 dakika 15 saniyedir. Gerçek ses kaydı olmadan kesin konuşma süresi doğrulanamaz.
+Ses dosyasının başındaki numara, görselin başındaki sahne numarasıyla eşleşir. Örneğin `01-ali.mp3`, `01-gorsel.jpg` ile kullanılır. Video düzenleme programında numara sırasıyla birleştirebilirsin; sesler ayrı dosyalardır.
 
-Referans: yüklenen tam video (yaklaşık 3 dakika 31 saniye) ve Flow-Sahneleri.zip (28 klip). Yeni plan, bazı hazır kliplerin 8 saniyeyi aşması nedeniyle söylenen cümleleri daha küçük planlara ayırır. Kaynak metin `ozgun-metin.txt` içinde korunur; konuşmaları birleştirdiğinde aynı metni elde edersin. Yalnızca boşluklar ve tek başına duran nokta satırları düzenlenmiştir.
+Bütün MP3 dosyaları ffprobe ile ölçülmüştür ve 8 saniyeden kısadır. Hızlandırma veya cümle kesme yapılmadı. Gerçek süreler `sesler/seslendirme-plani.csv` dosyasındadır. Flow görüntü süreleri ayrıca 8 saniyeyi geçmemelidir.
 
-Anlatım, kaynak yazarın inanç temelli benzetmelerini aktarır. Tren ve emir zinciri gibi örnekler benzetmedir; bilimsel veya hukuki açıklama olarak kullanılmamalıdır. Kaynak metindeki görüşler karakterlerin kurmaca konuşmalarında kaynak sırasıyla bırakılmıştır. İlahi varlık insan veya nesne şeklinde görselleştirilmemiştir.
+Metin `ozgun-metin.txt` dosyasında korunur. 58 konuşmanın metinleri birleştirildiğinde özgün kaynak sırası elde edilir; yalnızca boşluk ve tek başına duran nokta satırları düzenlenmiştir. Oyunculuk/efekt yönergeleri okutulmadı.
 
-Görsellerin oluşturulmuş olması ses veya hareketli video üretildiği anlamına gelmez. Öğretim için yayımlamadan önce kaynak ve alan incelemesi yapılmalıdır.
+Sesler ElevenLabs / Eleven v4 modelinde Türkçe dil ayarıyla oluşturuldu. Dört karakter dört ayrı hazır sentetik ses kullanır. Ses kaynağı kimlikleri anadili Türkçe etiketli değildir. Ücretsiz hesapta kütüphane seslerinin API kullanımı kapalı olduğu için hazır çok dilli sesler seçildi. Ücretli abonelik satın alınmadı.
+
+Görseller yapay zekâ ile oluşturulmuştur. Kişiler kurmacadır. Ses sağlayıcısı: https://elevenlabs.io/
+
+Kaynak metin, yazarın inanç temelli benzetmelerini aktarır. Tren ve emir zinciri gibi örnekler benzetmedir; bilimsel veya hukuki açıklama olarak sunulmamalıdır. Öğretimde kullanım öncesi alan incelemesi ve seslerin son dinleme/telaffuz kontrolü yapılmalıdır.

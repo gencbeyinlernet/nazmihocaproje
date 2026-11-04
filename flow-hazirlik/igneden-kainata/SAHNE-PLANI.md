@@ -1,6 +1,6 @@
 # İğneden Kâinata · Sahne planı
 
-59 ayrı görsel planı; 58 konuşmalı sahne ve 1 sessiz kapanış. Hedef toplam yaklaşık 5 dakika 15 saniye. Her bir sahnenin üst sınırı 8 saniyedir. Sesler henüz üretilmedi; süreler okuyuş tahminidir.
+59 ayrı görsel planı; 58 konuşmalı sahne ve 1 sessiz kapanış. Hedef toplam yaklaşık 5 dakika 15 saniye. Her bir sahnenin üst sınırı 8 saniyedir. 58 ses kaydı üretildi. Bu belgedeki plan süreleri Flow için öneridir; gerçek ses süreleri sesler/seslendirme-plani.csv dosyasındadır.
 
 Konuşma süreleri 4 hece/saniye + 0,35 saniye payla tahmin edilir. Gerçek kayıt hızı ve duraklarına bağlıdır; kayıt 8 saniyeyi aşarsa yeni sahneye bölünür, hızlandırılıp kesilmez. Görselin dosya süresi yoktur; Flow hedefi en fazla 8 saniyedir.
 

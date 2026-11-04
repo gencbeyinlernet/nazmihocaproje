@@ -1,0 +1,22 @@
+İĞNEDEN KÂİNATA · SAHNE SESLERİ
+
+58 ayrı MP3 dosyası vardır. Başındaki numara, görsel paketindeki sahne numarasıyla aynıdır.
+01-ali.mp3 dosyası 01-gorsel.jpg ile; 03-murat-ogretmen.mp3 dosyası 03-gorsel.jpg ile eşleşir.
+Video düzenleme programında numara sırasıyla kullanabilirsin. Dosyalar birleştirilmemiştir.
+
+59. sahne konuşmasız kapanıştır; bu sahne için MP3 üretilmedi. Ortam sesi veya müzik bu pakette yoktur.
+Her kaydın gerçek dosya süresi ölçülmüştür; hiçbir kayıt 8 saniyeyi aşmaz. Sesler hızlandırılmamış ve cümleler kesilmemiştir.
+Kaynak metin değiştirilmemiştir. Okuma yönergeleri seslendirmeye eklenmemiştir.
+
+Karakter sesleri:
+Murat Öğretmen: George - Warm, Captivating Storyteller
+Ali: Liam - Energetic, Social Media Creator
+Ece: Jessica - Playful, Bright, Warm
+Deniz: Will - Relaxed Optimist
+
+Üretim: ElevenLabs / Eleven v4, dil ayarı Türkçe. Bunlar dört farklı hazır sentetik sestir; gerçek oyuncu kayıtları değildir.
+Ücretsiz hesapta kütüphane seslerinin API erişimi kapalı olduğu için hazır çok dilli sesler kullanıldı.
+Süre/dosya eşleştirmeleri seslendirme-plani.csv ve sesler.json içindedir.
+Son dinleme ve telaffuz kontrolünü, öğretimde veya videoda kullanmadan önce yapabilirsin.
+
+Ses sağlayıcısı: https://elevenlabs.io/

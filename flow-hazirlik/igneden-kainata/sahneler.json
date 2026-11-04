@@ -1,8 +1,8 @@
 {
   "title": "İğneden Kâinata · Flow için sahne paketi",
-  "status": "still-images-and-text-only",
+  "status": "images-text-and-recorded-narration",
   "sourceSha256": "ea987d0f915dccde88390c207197f2ddf03f5fe6dadf0c71c8fab38afc780728",
-  "timingNote": "Konuşma süreleri 4 hece/saniye + 0,35 saniye payla tahmin edilir. Gerçek kayıt hızı ve duraklarına bağlıdır; kayıt 8 saniyeyi aşarsa yeni sahneye bölünür, hızlandırılıp kesilmez. Görselin dosya süresi yoktur; Flow hedefi en fazla 8 saniyedir.",
+  "timingNote": "Plan süreleri Flow için öneridir. audioDurationSeconds alanları teslim edilen MP3 dosyalarının ffprobe ile ölçülen gerçek süreleridir; tamamı 8 saniyeden kısadır. 59. sahne konuşmasız kapanıştır; bu sahne için ses dosyası üretilmedi.",
   "characters": {
     "Murat Öğretmen": "40 yaşlarında erkek; kısa koyu kırçıllı saç, kısa düzenli sakal, lacivert hırka, beyaz gömlek, koyu pantolon.",
     "Ali": "16 yaşlarında erkek öğrenci; kısa koyu kıvırcık saç, turkuaz polo tişört, lacivert pantolon.",
@@ -25,7 +25,10 @@
       "voiceText": "01-seslendirme.txt",
       "flowPrompt": "01-flow.txt",
       "visualDescription": "Ali, iddiayı dile getirir; grup okul bahçesinde.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/01-ali.mp3",
+      "audioDurationSeconds": 4.127347,
+      "voiceName": "Liam - Energetic, Social Media Creator"
     },
     {
       "number": 2,
@@ -42,7 +45,10 @@
       "voiceText": "02-seslendirme.txt",
       "flowPrompt": "02-flow.txt",
       "visualDescription": "Ali'nin düşünceli yakın planı.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/02-ali.mp3",
+      "audioDurationSeconds": 2.429388,
+      "voiceName": "Liam - Energetic, Social Media Creator"
     },
     {
       "number": 3,
@@ -59,7 +65,10 @@
       "voiceText": "03-seslendirme.txt",
       "flowPrompt": "03-flow.txt",
       "visualDescription": "Murat Öğretmen soruyu öğrencilere yöneltir.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/03-murat-ogretmen.mp3",
+      "audioDurationSeconds": 2.925714,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 4,
@@ -76,7 +85,10 @@
       "voiceText": "04-seslendirme.txt",
       "flowPrompt": "04-flow.txt",
       "visualDescription": "İğne ve iplik: masada güvenli bir yakın çekim.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/04-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.440816,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 5,
@@ -93,7 +105,10 @@
       "voiceText": "05-seslendirme.txt",
       "flowPrompt": "05-flow.txt",
       "visualDescription": "Sıra, bina, araba ve tren modelleri.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/05-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.597551,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 6,
@@ -110,7 +125,10 @@
       "voiceText": "06-seslendirme.txt",
       "flowPrompt": "06-flow.txt",
       "visualDescription": "Uçak ve eğitim robotu modelleri.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/06-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.754286,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 7,
@@ -127,7 +145,10 @@
       "voiceText": "07-seslendirme.txt",
       "flowPrompt": "07-flow.txt",
       "visualDescription": "Öğretmen ve Ece, ağaçlara ve gökyüzüne bakar.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/07-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.04898,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 8,
@@ -144,7 +165,10 @@
       "voiceText": "08-seslendirme.txt",
       "flowPrompt": "08-flow.txt",
       "visualDescription": "Öğretmen ile Ali'nin karşılıklı konuşması.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/08-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.989388,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 9,
@@ -161,7 +185,10 @@
       "voiceText": "09-seslendirme.txt",
       "flowPrompt": "09-flow.txt",
       "visualDescription": "Öğretmenin sakin açıklaması, yakın plan.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/09-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.91102,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 10,
@@ -178,7 +205,10 @@
       "voiceText": "10-seslendirme.txt",
       "flowPrompt": "10-flow.txt",
       "visualDescription": "Ece'nin meraklı yanıtı.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/10-ece.mp3",
+      "audioDurationSeconds": 3.474286,
+      "voiceName": "Jessica - Playful, Bright, Warm"
     },
     {
       "number": 11,
@@ -195,7 +225,10 @@
       "voiceText": "11-seslendirme.txt",
       "flowPrompt": "11-flow.txt",
       "visualDescription": "Öğretmen gruba yeni bir soru sorar.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/11-murat-ogretmen.mp3",
+      "audioDurationSeconds": 2.115918,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 12,
@@ -212,7 +245,10 @@
       "voiceText": "12-seslendirme.txt",
       "flowPrompt": "12-flow.txt",
       "visualDescription": "İğne ve gündelik nesne modelleri, masa çekimi.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/12-murat-ogretmen.mp3",
+      "audioDurationSeconds": 5.32898,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 13,
@@ -229,7 +265,10 @@
       "voiceText": "13-seslendirme.txt",
       "flowPrompt": "13-flow.txt",
       "visualDescription": "Ali ve Ece, uçak ile robot modelini inceler.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/13-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.787755,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 14,
@@ -246,7 +285,10 @@
       "voiceText": "14-seslendirme.txt",
       "flowPrompt": "14-flow.txt",
       "visualDescription": "Deniz'in düşünceli dinleyişi.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/14-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.239184,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 15,
@@ -263,7 +305,10 @@
       "voiceText": "15-seslendirme.txt",
       "flowPrompt": "15-flow.txt",
       "visualDescription": "Öğretmenin açıklaması, masa ve modeller.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/15-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.082449,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 16,
@@ -280,7 +325,10 @@
       "voiceText": "16-seslendirme.txt",
       "flowPrompt": "16-flow.txt",
       "visualDescription": "Kumaş üzerinde iğne ve mavi iplik, makro çekim.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/16-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.63102,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 17,
@@ -297,7 +345,10 @@
       "voiceText": "17-seslendirme.txt",
       "flowPrompt": "17-flow.txt",
       "visualDescription": "Öğretmenin açıklaması, yakın plan.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/17-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.63102,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 18,
@@ -314,7 +365,10 @@
       "voiceText": "18-seslendirme.txt",
       "flowPrompt": "18-flow.txt",
       "visualDescription": "Ali ile öğretmen, iğne örneğini inceler.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/18-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.970612,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 19,
@@ -331,7 +385,10 @@
       "voiceText": "19-seslendirme.txt",
       "flowPrompt": "19-flow.txt",
       "visualDescription": "Öğretmen, masadaki iğneyi işaret eder.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/19-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.082449,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 20,
@@ -348,7 +405,10 @@
       "voiceText": "20-seslendirme.txt",
       "flowPrompt": "20-flow.txt",
       "visualDescription": "Ağaçların altında grubun geniş planı.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/20-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.832653,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 21,
@@ -365,7 +425,10 @@
       "voiceText": "21-seslendirme.txt",
       "flowPrompt": "21-flow.txt",
       "visualDescription": "Ece ve Deniz'in dinlediği ikili plan.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/21-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.127347,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 22,
@@ -382,7 +445,10 @@
       "voiceText": "22-seslendirme.txt",
       "flowPrompt": "22-flow.txt",
       "visualDescription": "Bitki, çiçek ve yaprak üzerindeki kelebek.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/22-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.63102,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 23,
@@ -399,7 +465,10 @@
       "voiceText": "23-seslendirme.txt",
       "flowPrompt": "23-flow.txt",
       "visualDescription": "Deniz sorusunu yöneltir.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/23-deniz.mp3",
+      "audioDurationSeconds": 4.205714,
+      "voiceName": "Will - Relaxed Optimist"
     },
     {
       "number": 24,
@@ -416,7 +485,10 @@
       "voiceText": "24-seslendirme.txt",
       "flowPrompt": "24-flow.txt",
       "visualDescription": "Yolcu treninin son vagonları.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/24-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.317551,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 25,
@@ -433,7 +505,10 @@
       "voiceText": "25-seslendirme.txt",
       "flowPrompt": "25-flow.txt",
       "visualDescription": "Birbirine bağlanan vagonlar.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/25-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.239184,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 26,
@@ -450,7 +525,10 @@
       "voiceText": "26-seslendirme.txt",
       "flowPrompt": "26-flow.txt",
       "visualDescription": "Lokomotifin önden üç çeyrek görünümü.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/26-murat-ogretmen.mp3",
+      "audioDurationSeconds": 1.880816,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 27,
@@ -467,7 +545,10 @@
       "voiceText": "27-seslendirme.txt",
       "flowPrompt": "27-flow.txt",
       "visualDescription": "Öğretmen, Deniz'e tren modeliyle açıklama yapar.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/27-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.160816,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 28,
@@ -484,7 +565,10 @@
       "voiceText": "28-seslendirme.txt",
       "flowPrompt": "28-flow.txt",
       "visualDescription": "Masa üzerinde lokomotif ve bağlı vagonlar.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/28-murat-ogretmen.mp3",
+      "audioDurationSeconds": 2.429388,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 29,
@@ -501,7 +585,10 @@
       "voiceText": "29-seslendirme.txt",
       "flowPrompt": "29-flow.txt",
       "visualDescription": "Kırsalda ilerleyen tren, uzaktan çekim.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/29-murat-ogretmen.mp3",
+      "audioDurationSeconds": 2.76898,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 30,
@@ -518,7 +605,10 @@
       "voiceText": "30-seslendirme.txt",
       "flowPrompt": "30-flow.txt",
       "visualDescription": "Ece, sıralı ahşap parçalarla benzetmeyi anlatır.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/30-ece.mp3",
+      "audioDurationSeconds": 2.925714,
+      "voiceName": "Jessica - Playful, Bright, Warm"
     },
     {
       "number": 31,
@@ -535,7 +625,10 @@
       "voiceText": "31-seslendirme.txt",
       "flowPrompt": "31-flow.txt",
       "visualDescription": "Farklı boylardaki simgesiz ahşap parçalar.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/31-ece.mp3",
+      "audioDurationSeconds": 5.720816,
+      "voiceName": "Jessica - Playful, Bright, Warm"
     },
     {
       "number": 32,
@@ -552,7 +645,10 @@
       "voiceText": "32-seslendirme.txt",
       "flowPrompt": "32-flow.txt",
       "visualDescription": "Ece, öğretmene bakarak sorar.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/32-ece.mp3",
+      "audioDurationSeconds": 4.284082,
+      "voiceName": "Jessica - Playful, Bright, Warm"
     },
     {
       "number": 33,
@@ -569,7 +665,10 @@
       "voiceText": "33-seslendirme.txt",
       "flowPrompt": "33-flow.txt",
       "visualDescription": "Ece'nin açıklaması, yakın plan.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/33-ece.mp3",
+      "audioDurationSeconds": 3.395918,
+      "voiceName": "Jessica - Playful, Bright, Warm"
     },
     {
       "number": 34,
@@ -586,7 +685,10 @@
       "voiceText": "34-seslendirme.txt",
       "flowPrompt": "34-flow.txt",
       "visualDescription": "Dizinin sonundaki büyük ahşap parça.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/34-ece.mp3",
+      "audioDurationSeconds": 3.082449,
+      "voiceName": "Jessica - Playful, Bright, Warm"
     },
     {
       "number": 35,
@@ -603,7 +705,10 @@
       "voiceText": "35-seslendirme.txt",
       "flowPrompt": "35-flow.txt",
       "visualDescription": "Dalında nar, yakın çekim.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/35-murat-ogretmen.mp3",
+      "audioDurationSeconds": 1.724082,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 36,
@@ -620,7 +725,10 @@
       "voiceText": "36-seslendirme.txt",
       "flowPrompt": "36-flow.txt",
       "visualDescription": "Bahçede bir nar ağacı.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/36-murat-ogretmen.mp3",
+      "audioDurationSeconds": 2.507755,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 37,
@@ -637,7 +745,10 @@
       "voiceText": "37-seslendirme.txt",
       "flowPrompt": "37-flow.txt",
       "visualDescription": "Toprak, yapraklar, su damlaları ve güneş ışığı.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/37-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.970612,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 38,
@@ -654,7 +765,10 @@
       "voiceText": "38-seslendirme.txt",
       "flowPrompt": "38-flow.txt",
       "visualDescription": "Öğretmen ve Deniz, bahçe kenarında konuşur.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/38-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.082449,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 39,
@@ -671,7 +785,10 @@
       "voiceText": "39-seslendirme.txt",
       "flowPrompt": "39-flow.txt",
       "visualDescription": "Farklı boyutlardaki ahşap kutularla sıra benzetmesi.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/39-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.970612,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 40,
@@ -688,7 +805,10 @@
       "voiceText": "40-seslendirme.txt",
       "flowPrompt": "40-flow.txt",
       "visualDescription": "Perspektifte devam eden ahşap kutular.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/40-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.362449,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 41,
@@ -705,7 +825,10 @@
       "voiceText": "41-seslendirme.txt",
       "flowPrompt": "41-flow.txt",
       "visualDescription": "Öğretmen açıklamasını tamamlar.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/41-murat-ogretmen.mp3",
+      "audioDurationSeconds": 2.35102,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 42,
@@ -722,7 +845,10 @@
       "voiceText": "42-seslendirme.txt",
       "flowPrompt": "42-flow.txt",
       "visualDescription": "Ahşap parçalarla benzetmeye dönüş.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/42-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.317551,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 43,
@@ -739,7 +865,10 @@
       "voiceText": "43-seslendirme.txt",
       "flowPrompt": "43-flow.txt",
       "visualDescription": "Büyük ahşap parça ve arkasındaki dizi.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/43-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.239184,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 44,
@@ -756,7 +885,10 @@
       "voiceText": "44-seslendirme.txt",
       "flowPrompt": "44-flow.txt",
       "visualDescription": "Ali ve masadaki tren modeli.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/44-murat-ogretmen.mp3",
+      "audioDurationSeconds": 2.272653,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 45,
@@ -773,7 +905,10 @@
       "voiceText": "45-seslendirme.txt",
       "flowPrompt": "45-flow.txt",
       "visualDescription": "Lokomotif modeli, yakın çekim.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/45-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.160816,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 46,
@@ -790,7 +925,10 @@
       "voiceText": "46-seslendirme.txt",
       "flowPrompt": "46-flow.txt",
       "visualDescription": "Öğretmenin sakin anlatımı, yakın plan.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/46-murat-ogretmen.mp3",
+      "audioDurationSeconds": 2.272653,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 47,
@@ -807,7 +945,10 @@
       "voiceText": "47-seslendirme.txt",
       "flowPrompt": "47-flow.txt",
       "visualDescription": "Grubun düşünceli dinleyişi.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/47-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.395918,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 48,
@@ -824,7 +965,10 @@
       "voiceText": "48-seslendirme.txt",
       "flowPrompt": "48-flow.txt",
       "visualDescription": "Öğretmen ile Deniz'in ikili planı.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/48-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.317551,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 49,
@@ -841,7 +985,10 @@
       "voiceText": "49-seslendirme.txt",
       "flowPrompt": "49-flow.txt",
       "visualDescription": "Ali'nin devam sorusu.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/49-ali.mp3",
+      "audioDurationSeconds": 3.970612,
+      "voiceName": "Liam - Energetic, Social Media Creator"
     },
     {
       "number": 50,
@@ -858,7 +1005,10 @@
       "voiceText": "50-seslendirme.txt",
       "flowPrompt": "50-flow.txt",
       "visualDescription": "Öğretmenin kutuların yanında açıklaması.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/50-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.989388,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 51,
@@ -875,7 +1025,10 @@
       "voiceText": "51-seslendirme.txt",
       "flowPrompt": "51-flow.txt",
       "visualDescription": "Ağaçlardan gökyüzüne bakış.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/51-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.239184,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 52,
@@ -892,7 +1045,10 @@
       "voiceText": "52-seslendirme.txt",
       "flowPrompt": "52-flow.txt",
       "visualDescription": "Okul bahçesinde grubun geniş planı.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/52-murat-ogretmen.mp3",
+      "audioDurationSeconds": 2.925714,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 53,
@@ -909,7 +1065,10 @@
       "voiceText": "53-seslendirme.txt",
       "flowPrompt": "53-flow.txt",
       "visualDescription": "Saksı toprağı, bitki ve doğal gün ışığı.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/53-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.04898,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 54,
@@ -926,7 +1085,10 @@
       "voiceText": "54-seslendirme.txt",
       "flowPrompt": "54-flow.txt",
       "visualDescription": "Ali ve Deniz, bitkilerin yanında.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/54-murat-ogretmen.mp3",
+      "audioDurationSeconds": 1.802449,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 55,
@@ -943,7 +1105,10 @@
       "voiceText": "55-seslendirme.txt",
       "flowPrompt": "55-flow.txt",
       "visualDescription": "Öğretmenin sakin vurgusu, yakın plan.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/55-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.362449,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 56,
@@ -960,7 +1125,10 @@
       "voiceText": "56-seslendirme.txt",
       "flowPrompt": "56-flow.txt",
       "visualDescription": "Toprak, su damlaları, yapraklar ve güneş ışığı.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/56-murat-ogretmen.mp3",
+      "audioDurationSeconds": 5.720816,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 57,
@@ -977,7 +1145,10 @@
       "voiceText": "57-seslendirme.txt",
       "flowPrompt": "57-flow.txt",
       "visualDescription": "Masada meyve ve sebze sepeti; bahçe arka planı.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": "sesler/57-murat-ogretmen.mp3",
+      "audioDurationSeconds": 4.989388,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 58,
@@ -994,7 +1165,10 @@
       "voiceText": "58-seslendirme.txt",
       "flowPrompt": "58-flow.txt",
       "visualDescription": "Öğretmenin kapanış cümlesi; Ece ve Ali dinler.",
-      "continuation": false
+      "continuation": false,
+      "audioFile": "sesler/58-murat-ogretmen.mp3",
+      "audioDurationSeconds": 3.552653,
+      "voiceName": "George - Warm, Captivating Storyteller"
     },
     {
       "number": 59,
@@ -1011,7 +1185,9 @@
       "voiceText": "59-seslendirme.txt",
       "flowPrompt": "59-flow.txt",
       "visualDescription": "Sessiz kapanış: dört karakter okul bahçesinde.",
-      "continuation": true
+      "continuation": true,
+      "audioFile": null,
+      "audioDurationSeconds": 0
     }
   ]
 }
