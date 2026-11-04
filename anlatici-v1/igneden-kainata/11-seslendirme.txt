@@ -1,0 +1,1 @@
+hareket eder. Bu örnek, bir nedenler zincirinin başlangıcı üzerinde düşünmek için kullanılır.
