@@ -17,3 +17,7 @@ Sesler ElevenLabs / Eleven v4 modelinde Türkçe dil ayarıyla oluşturuldu. Dö
 Görseller yapay zekâ ile oluşturulmuştur. Kişiler kurmacadır. Ses sağlayıcısı: https://elevenlabs.io/
 
 Kaynak metin, yazarın inanç temelli benzetmelerini aktarır. Tren ve emir zinciri gibi örnekler benzetmedir; bilimsel veya hukuki açıklama olarak sunulmamalıdır. Öğretimde kullanım öncesi alan incelemesi ve seslerin son dinleme/telaffuz kontrolü yapılmalıdır.
+
+## Tek video
+
+59 görsel, 58 ses kaydıyla sahne numarası sırasına göre birleştirildi. `video.html` üzerinden izlenebilir; `indir/igneden-kainata-tam-video.mp4` dosyası tek MP4 olarak indirilebilir. Süresi 3 dakika 42 saniyedir; HD 1280×720, 30 fps, H.264/AAC biçimindedir. Son sahne 4 saniyelik sessiz kapanıştır. Sesler yeniden üretilmedi; mevcut ElevenLabs kayıtları kullanıldı. Konuşmalar kesilmedi veya hızlandırılmadı. Görüntü/ses eşleştirmeleri `kurgu-video.json` içinde saklıdır.
