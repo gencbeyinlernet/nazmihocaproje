@@ -1,28 +1,19 @@
 ﻿Sahne,Başlangıç,Bitiş,Konu,Anlatım,Görsel,Ses
-1,0.0,7.333333333333333,Bir iğneden başlayan düşünce,"Bir iğne, kâinatı düşünmemizi sağlayabilir mi? İncecik gövdesi, sivri ucu ve küçücük deliğiyle bu",gorseller/01-gorsel.jpg,sesler/01-anlatici.mp3
-2,7.333333333333333,14.933333333333334,Bir iğneden başlayan düşünce,"sıradan nesne, aslında dikkatle hazırlanmış bir tasarımdır. Küçük bir ayrıntıdan başlayıp büyük sorulara uzanalım.",gorseller/02-gorsel.jpg,sesler/02-anlatici.mp3
-3,14.933333333333334,21.366666666666667,Emek ve üretim,"Bir iğnenin üretilmesi; malzeme bilgisi, tasarım, araçlar ve insan emeği gerektirir.",gorseller/03-gorsel.jpg,sesler/03-anlatici.mp3
-4,21.366666666666667,28.533333333333335,Emek ve üretim,"Masalar, binalar, otomobiller, trenler ve robotlarda da benzer bir hazırlık ve üretim süreci görürüz.",gorseller/04-gorsel.jpg,sesler/04-anlatici.mp3
-5,28.533333333333335,35.63333333333333,Yaratılış üzerine düşünmek,"Kaynak metin, insanın ve kâinatın karmaşık yapısından hareketle yaratılış üzerinde düşünmeye davet eder.",gorseller/05-gorsel.jpg,sesler/05-anlatici.mp3
-6,35.63333333333333,42.8,Yaratılış üzerine düşünmek,"İslam inancında bütün varlıkların yaratıcısı Allah’tır. Bu, metnin temel inanç yaklaşımıdır.",gorseller/06-gorsel.jpg,sesler/06-anlatici.mp3
-7,42.8,48.3,Benzetmenin sınırları,"İğne ile evren arasında kurulan bağlantı bir benzetmedir. Bir benzetme, düşünmeyi",gorseller/07-gorsel.jpg,sesler/07-anlatici.mp3
-8,48.3,53.8,Benzetmenin sınırları,kolaylaştırabilir; fakat tek başına bütün bilimsel süreçleri açıklamaz. Farklı,gorseller/08-gorsel.jpg,sesler/08-anlatici.mp3
-9,53.8,59.56666666666667,Benzetmenin sınırları,görüşleri değerlendirirken gerekçeleri incelemek ve insanlara saygılı davranmak gerekir.,gorseller/09-gorsel.jpg,sesler/09-anlatici.mp3
-10,59.56666666666667,66.13333333333334,Lokomotif ve vagonlar,Şimdi hareket eden bir treni düşünün. Vagonlar birbirine bağlanır ve lokomotifin sağladığı çekişle,gorseller/10-gorsel.jpg,sesler/10-anlatici.mp3
-11,66.13333333333334,72.23333333333333,Lokomotif ve vagonlar,"hareket eder. Bu örnek, bir nedenler zincirinin başlangıcı üzerinde düşünmek için kullanılır.",gorseller/11-gorsel.jpg,sesler/11-anlatici.mp3
-12,72.23333333333333,77.4,Nedenler ve açıklamalar,"Lokomotif de enerjiye, raylara ve fizik yasalarına bağlı bir makinedir.",gorseller/12-gorsel.jpg,sesler/12-anlatici.mp3
-13,77.4,82.4,Nedenler ve açıklamalar,Bu nedenle onu Allah ile aynı özellikleri taşıyan bir varlık gibi düşünmeyiz.,gorseller/13-gorsel.jpg,sesler/13-anlatici.mp3
-14,82.4,87.6,Nedenler ve açıklamalar,"Benzetmenin amacı, yaratıcı fikrini zihnimizde canlandırmaya yardımcı olmaktır.",gorseller/14-gorsel.jpg,sesler/14-anlatici.mp3
-15,87.6,94.0,Görevler zinciri,Kaynak metindeki görev ve yönetim örneği de bir sorumluluklar zincirini anlatır. Gerçek hayatta,gorseller/15-gorsel.jpg,sesler/15-anlatici.mp3
-16,94.0,100.93333333333334,Görevler zinciri,"yöneticiler hukukla sınırlıdır. Bu benzetme, yaratıcıyı bir insanla özdeşleştirmek anlamına gelmez.",gorseller/16-gorsel.jpg,sesler/16-anlatici.mp3
-17,100.93333333333334,107.86666666666666,Nar ağacı ve hayat,"Şimdi bir nar ağacına bakalım. Toprak, su, hava ve Güneş, ağacın büyümesinde rol oynar.",gorseller/17-gorsel.jpg,sesler/17-anlatici.mp3
-18,107.86666666666666,115.43333333333334,Nar ağacı ve hayat,"Bitki ışık enerjisini kullanır; canlılık süreçleri sayesinde yapraklar, çiçekler ve meyveler gelişir.",gorseller/18-gorsel.jpg,sesler/18-anlatici.mp3
-19,115.43333333333334,122.66666666666667,Bilim ve inanç,"Bilim, bu süreçlerin nasıl gerçekleştiğini araştırır. İnanç ise varlığın anlamı ve yaratılış amacı üzerine",gorseller/19-gorsel.jpg,sesler/19-anlatici.mp3
-20,122.66666666666667,129.83333333333334,Bilim ve inanç,"düşünmeye yöneltebilir. Bir sürecin fiziksel açıklamasını öğrenmek, onun anlamını düşünmemize engel değildir.",gorseller/20-gorsel.jpg,sesler/20-anlatici.mp3
-21,129.83333333333334,135.23333333333332,Yaratılmamış yaratıcı,"İslam inancında Allah, varlığı başka bir varlığa bağlı olmayan, ezelî ve",gorseller/21-gorsel.jpg,sesler/21-anlatici.mp3
-22,135.23333333333332,140.73333333333332,Yaratılmamış yaratıcı,"yaratılmamış yaratıcıdır. Bu anlayışta Allah, yaratılmış nesnelerden biri olarak ele",gorseller/22-gorsel.jpg,sesler/22-anlatici.mp3
-23,140.73333333333332,146.43333333333334,Yaratılmamış yaratıcı,alınmaz. Kaynak metnin nedenler zinciriyle anlatmak istediği temel düşünce budur.,gorseller/23-gorsel.jpg,sesler/23-anlatici.mp3
-24,146.43333333333334,152.66666666666666,Merak ve saygı,"İnsanı, doğayı ve kâinatı incelemek; bilgi edinmek, hayret etmek ve şükretmek için",gorseller/24-gorsel.jpg,sesler/24-anlatici.mp3
-25,152.66666666666666,158.76666666666668,Merak ve saygı,"bir fırsattır. Sorularımızı açıkça sorabilir, kanıtları inceleyebilir ve farklı cevapları",gorseller/25-gorsel.jpg,sesler/25-anlatici.mp3
-26,158.76666666666668,165.16666666666666,Merak ve saygı,"saygıyla dinleyebiliriz. Küçük bir iğneyle başlayan düşünce, böylece geniş bir keşfe dönüşür.",gorseller/26-gorsel.jpg,sesler/26-anlatici.mp3
-27,165.16666666666666,167.16666666666666,Kapanış,,gorseller/27-gorsel.jpg,
+1,0.0,4.133333333333334,"Küçük bir iğne, büyük bir soru",Bir iğne. Bir delik. Koca bir soru. İncecik,gorseller/01-gorsel.jpg,sesler/01-anlatici.mp3
+2,4.133333333333334,8.4,"Küçük bir iğne, büyük bir soru","gövdesi ve küçücük deliği, belirli bir işe uygun hazırlanmıştır.",gorseller/02-gorsel.jpg,sesler/02-anlatici.mp3
+3,8.4,13.466666666666667,Bilgi ve emek,"Masalar, binalar, trenler, robotlar... Hepsi bilgi ve emekle",gorseller/03-gorsel.jpg,sesler/03-anlatici.mp3
+4,13.466666666666667,19.366666666666667,Bilgi ve emek,"üretilir. Bu düşünce, bizi insanın ve kâinatın varlığı üzerinde düşünmeye çağırır.",gorseller/04-gorsel.jpg,sesler/04-anlatici.mp3
+5,19.366666666666667,26.033333333333335,İnancın cevabı,"İslam inancında cevap açıktır: İnsanın, hayatın ve kâinatın yaratıcısı Allah’tır.",gorseller/05-gorsel.jpg,sesler/05-anlatici.mp3
+6,26.033333333333335,30.6,Benzetmeyi doğru anlamak,İğne ile kâinat aynı şey değildir. Bu benzetme tek başına bilimsel,gorseller/06-gorsel.jpg,sesler/06-anlatici.mp3
+7,30.6,35.2,Benzetmeyi doğru anlamak,"kanıt değildir. Evreni anlamak, gözlem ve araştırma gerektirir.",gorseller/07-gorsel.jpg,sesler/07-anlatici.mp3
+8,35.2,39.733333333333334,Nedenler üzerine düşünmek,Bir treni düşün. Vagonlar birbirine bağlanır; lokomotif onları,gorseller/08-gorsel.jpg,sesler/08-anlatici.mp3
+9,39.733333333333334,44.86666666666667,Nedenler üzerine düşünmek,"çeker. Bu örnek, nedenler zincirinin başlangıcını düşünmemize yardım eder.",gorseller/09-gorsel.jpg,sesler/09-anlatici.mp3
+10,44.86666666666667,52.666666666666664,Görev ve sorumluluk,Bir görev zincirinde sorumluluklar birbirine bağlanır. Ama insanın kurduğu düzeni yaratıcıyla aynı şey sanmayız.,gorseller/10-gorsel.jpg,sesler/10-anlatici.mp3
+11,52.666666666666664,58.6,Bir nar ağacına bak,"Bir nar ağacına bak. Toprak, su, hava ve Güneş... Bilim, ağacın nasıl",gorseller/11-gorsel.jpg,sesler/11-anlatici.mp3
+12,58.6,64.4,Bir nar ağacına bak,büyüdüğünü araştırır. İnanan insan da bu hayatta Allah’ın ilmini ve kudretini görür.,gorseller/12-gorsel.jpg,sesler/12-anlatici.mp3
+13,64.4,69.76666666666667,Yaratılmamış yaratıcı,"Peki, Allah’ı kim yarattı? İslam inancında Allah ezelîdir;",gorseller/13-gorsel.jpg,sesler/13-anlatici.mp3
+14,69.76666666666667,75.0,Yaratılmamış yaratıcı,"varlığı başka bir varlığa bağlı değildir. O, yaratılmamış yaratıcıdır.",gorseller/14-gorsel.jpg,sesler/14-anlatici.mp3
+15,75.0,79.5,Merakını koru,Merak etmekten vazgeçme. Sorularını açıkça sor. Gerekçeleri,gorseller/15-gorsel.jpg,sesler/15-anlatici.mp3
+16,79.5,83.43333333333334,Merakını koru,incele. Aynı düşünmediğin insana da saygı göster.,gorseller/16-gorsel.jpg,sesler/16-anlatici.mp3
+17,83.43333333333334,89.83333333333333,Yeni bir bakış,"Bugün küçük bir iğneye bak. Sonra gökyüzüne. Düşünmek, yeni bir bakışın başlangıcıdır.",gorseller/17-gorsel.jpg,sesler/17-anlatici.mp3
+18,89.83333333333333,91.83333333333333,Kapanış,,gorseller/18-gorsel.jpg,

@@ -1,11 +1,11 @@
-const assert=require('node:assert/strict');
+const assert=require('node:assert/strict'),fs=require('fs'),path=require('path'),first=JSON.parse(fs.readFileSync(path.join(__dirname,'../flow-hazirlik/igneden-kainata/sahneler.json')));
 require('./helpers/audio-harness.cjs')(async({page,base,errors,missing})=>{
  await page.goto(base);await page.waitForSelector('[data-intro-player]');
  assert.equal(await page.locator('[data-intro-player]').count(),2);assert.equal(await page.locator('[data-opening-order]').count(),2);assert.equal(await page.locator('.opening-series-grid').count(),0);
  assert.equal(await page.locator('[data-intro-player]').evaluateAll(vs=>vs.every(v=>v.preload==='none')),true);
  assert((await page.locator('#journey-intro-video source').getAttribute('src')).includes('tek-anlatici.mp4'));
  assert((await page.locator('#journey-intro-video-2 source').getAttribute('src')).includes('gunes-scuti-tam-video.mp4'));
- await page.locator('#journey-intro-video').evaluate(v=>v.play());await page.waitForFunction(()=>document.querySelector('#journey-intro-video').currentTime>.2);
+ await page.locator('#journey-intro-video').evaluate(v=>v.play());await page.waitForFunction(()=>document.querySelector('#journey-intro-video').currentTime>.2);assert(Math.abs(await page.locator('#journey-intro-video').evaluate(v=>v.duration)-first.durationSeconds)<.1);
  await page.locator('#journey-intro-video-2').evaluate(v=>v.play());await page.waitForFunction(()=>document.querySelector('#journey-intro-video-2').currentTime>.2);assert(await page.locator('#journey-intro-video').evaluate(v=>v.paused));
  await page.locator('#journey-intro-video').evaluate(v=>v.play());assert(await page.locator('#journey-intro-video-2').evaluate(v=>v.paused));
  for(const width of [320,390,768,1440]){await page.setViewportSize({width,height:1000});assert(!await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1));const boxes=await page.locator('.journey-welcome-video .journey-featured-video').evaluateAll(es=>es.map(e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width}}));assert.equal(boxes.length,2);if(width===1440)assert(Math.abs(boxes[0].y-boxes[1].y)<2);if(width===390)assert(boxes[1].y>boxes[0].y+100);}
