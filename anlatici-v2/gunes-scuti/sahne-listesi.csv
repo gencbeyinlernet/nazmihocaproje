@@ -1,0 +1,30 @@
+﻿Sahne,Başlangıç,Bitiş,Konu,Anlatım,Görsel,Ses
+1,0.0,4.9,Güneş ve yaşam,"Güneş hiç doğmasaydı, Dünya karanlık ve donmuş bir kayaya dönerdi.",gorseller/01-gorsel.jpg,sesler/01-anlatici.mp3
+2,4.9,10.033333333333333,Güneş ve yaşam,Güneş ışığıyla bitkiler besin üretir; su döngüsü de bu enerjiyle işler.,gorseller/02-gorsel.jpg,sesler/02-anlatici.mp3
+3,10.033333333333333,14.733333333333333,Güneş ve yaşam,"Yani Güneş, Dünya'daki yaşamın temel enerji kaynaklarından biridir.",gorseller/03-gorsel.jpg,sesler/03-anlatici.mp3
+4,14.733333333333333,19.233333333333334,Güneş'in büyüklüğü,"Güneş'in hacmine, yaklaşık bir milyon üç yüz bin Dünya sığar.",gorseller/04-gorsel.jpg,sesler/04-anlatici.mp3
+5,19.233333333333334,23.566666666666666,Güneş'in büyüklüğü,Görünür yüzeyinin sıcaklığı yaklaşık beş bin beş yüz derecedir.,gorseller/05-gorsel.jpg,sesler/05-anlatici.mp3
+6,23.566666666666666,29.233333333333334,Güneş'in büyüklüğü,"Çekirdekte sıcaklık on beş milyon dereceyi bulur. Yoğunluk, suyun yüz elli katıdır.",gorseller/06-gorsel.jpg,sesler/06-anlatici.mp3
+7,29.233333333333334,34.666666666666664,Çekirdekteki enerji,Bu sıcaklık ve basınçta hidrojen çekirdekleri birleşir. Buna füzyon denir.,gorseller/07-gorsel.jpg,sesler/07-anlatici.mp3
+8,34.666666666666664,39.4,Çekirdekteki enerji,"Her saniye yaklaşık altı yüz milyon ton hidrojen, helyuma dönüşür.",gorseller/08-gorsel.jpg,sesler/08-anlatici.mp3
+9,39.4,44.666666666666664,Çekirdekteki enerji,"Aradaki yaklaşık dört milyon tonluk kütle farkı, enerji olarak açığa çıkar.",gorseller/09-gorsel.jpg,sesler/09-anlatici.mp3
+10,44.666666666666664,51.06666666666667,Enerjiyi karşılaştırmak,"Hiroşima bombası ölçü alınırsa, bu enerji saniyede yaklaşık altı trilyon bombaya denktir.",gorseller/10-gorsel.jpg,sesler/10-anlatici.mp3
+11,51.06666666666667,56.43333333333333,Dünya'ya ulaşan ışık,Bu enerji her yöne yayılır. Yok olmaz; ışınım olarak yoluna devam eder.,gorseller/11-gorsel.jpg,sesler/11-anlatici.mp3
+12,56.43333333333333,61.53333333333333,Dünya'ya ulaşan ışık,Dünya'ya ise bu enerjinin yalnızca iki virgül iki milyarda biri ulaşır.,gorseller/12-gorsel.jpg,sesler/12-anlatici.mp3
+13,61.53333333333333,65.8,Tarihsel karşılaştırma,"Bin dokuz yüz altmış birde, Novaya Zemlya'da Çar Bombası denendi.",gorseller/13-gorsel.jpg,sesler/13-anlatici.mp3
+14,65.8,71.23333333333333,Tarihsel karşılaştırma,"Tarih otuz Ekim'di; saat, evrensel saatle yaklaşık sekiz buçuktu.",gorseller/14-gorsel.jpg,sesler/14-anlatici.mp3
+15,71.23333333333333,76.46666666666667,Tarihsel karşılaştırma,Gücü genellikle elli megaton diye anılır; eski tahminlerde elli yedi geçer.,gorseller/15-gorsel.jpg,sesler/15-anlatici.mp3
+16,76.46666666666667,80.73333333333333,Tarihsel karşılaştırma,"Patlama, yaklaşık dokuz yüz altmış beş kilometre öteden görülmüştü.",gorseller/16-gorsel.jpg,sesler/16-anlatici.mp3
+17,80.73333333333333,84.63333333333334,Bir uzaklık düşünelim,"Güneş, bize yaklaşık yüz elli milyon kilometre uzaklıktadır.",gorseller/17-gorsel.jpg,sesler/17-anlatici.mp3
+18,84.63333333333334,90.33333333333333,Bir uzaklık düşünelim,"Saatte iki yüz kilometreyle durmadan gitsek, bu yol yaklaşık seksen altı yıl sürerdi.",gorseller/18-gorsel.jpg,sesler/18-anlatici.mp3
+19,90.33333333333333,95.2,Bir uzaklık düşünelim,Güneş ışığı ise aynı yolu yaklaşık sekiz dakika yirmi saniyede alır.,gorseller/19-gorsel.jpg,sesler/19-anlatici.mp3
+20,95.2,99.46666666666667,Soba benzetmesi,Bir sobaya yaklaştıkça ısınırız; çok yaklaşırsak yanarız.,gorseller/20-gorsel.jpg,sesler/20-anlatici.mp3
+21,99.46666666666667,105.46666666666667,Soba benzetmesi,"Güneş ise bizi uzaktan ısıtır, aydınlatır; bitkiler onun ışığıyla meyve verir.",gorseller/21-gorsel.jpg,sesler/21-anlatici.mp3
+22,105.46666666666667,111.76666666666667,Benzetmenin sınırı,"İnsanlar bombaları biriken bilgiyle yaptı. Güneş'te ise bomba yok, doğal füzyon var.",gorseller/22-gorsel.jpg,sesler/22-anlatici.mp3
+23,111.76666666666667,117.4,Güneş neden dengede,Bir tüp patlayınca yanındakiler de patlayabilir. Peki Güneş neden patlamıyor?,gorseller/23-gorsel.jpg,sesler/23-anlatici.mp3
+24,117.4,121.7,Güneş neden dengede,"Çünkü içe çeken kütleçekimi, dışa iten basınçla dengededir.",gorseller/24-gorsel.jpg,sesler/24-anlatici.mp3
+25,121.7,128.13333333333333,Yaratılış üzerine düşünme,"İnanan insan, bu dengede ve yaşamı taşıyan ışıkta Allah'ın yaratışını görür, şükreder.",gorseller/25-gorsel.jpg,sesler/25-anlatici.mp3
+26,128.13333333333333,134.43333333333334,Dev yıldızlar,"Güneş, VY Canis Majoris ve UY Scuti gibi dev yıldızların yanında küçük kalır.",gorseller/26-gorsel.jpg,sesler/26-anlatici.mp3
+27,134.43333333333334,139.33333333333334,Dev yıldızlar,"Kaynak metne göre birine iki milyar, diğerine beş milyar Güneş sığar.",gorseller/27-gorsel.jpg,sesler/27-anlatici.mp3
+28,139.33333333333334,144.26666666666668,Dev yıldızlar,Bunlar yaklaşık hacim oranlarıdır; kütle değildir ve ölçümler değişebilir.,gorseller/28-gorsel.jpg,sesler/28-anlatici.mp3
+29,144.26666666666668,152.1,Keşfin sonunda,"İslam inancında bu düzen, Allah'ın ilmini ve kudretini düşündürür. Merak etmeye devam et.",gorseller/29-gorsel.jpg,sesler/29-anlatici.mp3

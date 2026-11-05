@@ -1,0 +1,1 @@
+Çekirdekte sıcaklık on beş milyon dereceyi bulur. Yoğunluk, suyun yüz elli katıdır.
