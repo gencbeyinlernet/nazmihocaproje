@@ -374,8 +374,8 @@
       "flowPromptFile": "18-flow.txt"
     }
   ],
-  "mediaBase": "https://raw.githubusercontent.com/gencbeyinlernet/nazmihocaproje/9cdf88debfa3164df9711c459d2397b0ddf810e3/anlatici-v2/igneden-kainata/",
+  "mediaBase": "https://raw.githubusercontent.com/gencbeyinlernet/nazmihocaproje/3bf77397aded880b25fccba0227d98ed8c10aaed/anlatici-v2/igneden-kainata/",
   "continuousNarration": true,
   "masterAudioSha256": "4afae52398caaf742ed60c5e7fecf648a839ecef6b450110d5b79b642d269d9d",
-  "videoSha256": "3fd304897b9dd6714837c090eff0a7593f6d919b4c75cb705f50a3e32967ebbf"
+  "videoSha256": "75f066056929c61efa74d4ebad76ccf678cc66c507459ccce13b6e0c31fd79b8"
 }
