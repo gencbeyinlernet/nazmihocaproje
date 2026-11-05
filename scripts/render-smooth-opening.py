@@ -11,7 +11,7 @@ MEDYA_KLASORU: gorseller/ ve anlatim.mp3 dosyasını içeren video-medya klasör
 import importlib.util, json, subprocess, sys
 from pathlib import Path
 
-spec = importlib.util.spec_from_file_location('narrator', Path(__file__).with_name('build-gunes-scuti-narrator.py'))
+spec = importlib.util.spec_from_file_location('narrator', Path(__file__).with_name('build-narrator-video.py'))
 nar = importlib.util.module_from_spec(spec); spec.loader.exec_module(nar)
 
 data_path, media, vtt, out = map(Path, sys.argv[1:5])

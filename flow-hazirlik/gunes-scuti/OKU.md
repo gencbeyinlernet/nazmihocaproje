@@ -6,7 +6,7 @@ Ses: ElevenLabs API, eleven_v4_turbo, George. Sürekli kayıt anlatim.mp3 dosyas
 
 Görseller önceki diyalog sürümünün uzay, doğa ve nesne sahnelerinden seçilmiştir; konuşan öğrenci ve öğretmen görselleri kullanılmamıştır. Her sahnenin özgün görsel numarası sahneler.json içindeki sourceScene alanındadır. Önceki dört karakterli diyalog sürümü arsiv/gunes-scuti-diyalog klasöründe korunur.
 
-Üretim: scripts/build-gunes-scuti-narrator.py. Anlatım metni anlatim-sahneleri.json dosyasındadır; metin değişirse betik --tts ile yeniden çalıştırılır.
+Üretim: scripts/build-narrator-video.py. Anlatım metni anlatim-sahneleri.json dosyasındadır; metin değişirse betik --tts ile yeniden çalıştırılır.
 
 ## Kaynak ve uyarlama
 

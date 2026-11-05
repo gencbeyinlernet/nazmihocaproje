@@ -1,0 +1,28 @@
+{
+ "meta": {
+  "id": "aspirin",
+  "title": "Bir Aspirin Bile",
+  "order": 1,
+  "videoFile": "aspirin-tek-anlatici.mp4",
+  "adaptation": "Özgün metin ayrı dosyada korunur. Öğretmen ve öğrenci konuşmaları tek anlatıcının aktardığı bir düşünce deneyine dönüştürülmüştür. Kimseyi küçümseyen genellemeler kullanılmamış; bilimsel bilgi ile İslam inancına ilişkin yorum ayrılmıştır.",
+  "message": "Bir ilaç bile bilgi, emek ve plan gerektirir; çevremizdeki düzen üzerinde düşünmek ve soru sormak akıllı bir insanın işidir."
+ },
+ "segments": [
+  {"image": "01.png", "chapter": "Bir soru", "text": "Cansız elementler, tesadüfen bir araya gelip bir aspirin yapabilir mi?"},
+  {"image": "02.png", "chapter": "Düşünce deneyi", "text": "Bir öğretmen, öğrencilerine ilginç bir hikâye anlatır."},
+  {"image": "03.png", "chapter": "Düşünce deneyi", "text": "Bir gün şiddetli bir rüzgârla laboratuvarın penceresi ardına kadar açılır."},
+  {"image": "04.png", "chapter": "Düşünce deneyi", "text": "Raflardaki kavanozlar devrilir, içindeki maddeler masaya dökülür."},
+  {"image": "05.png", "chapter": "Düşünce deneyi", "text": "Ve dökülen maddeler, kendiliğinden aspirine dönüşür. Öyle mi?"},
+  {"image": "06.png", "chapter": "Öğrencilerin itirazı", "text": "Öğrenciler gülerek itiraz eder: Hocam, böyle bir şey olur mu?"},
+  {"image": "07.png", "chapter": "İlaç nasıl yapılır?", "text": "Haklıdırlar. İlaçlar, bilim insanlarının yıllar süren çalışmalarıyla geliştirilir."},
+  {"image": "08.png", "chapter": "İlaç nasıl yapılır?", "text": "Gözlem yapılır, deneyler tekrarlanır, sonuçlar dikkatle incelenir."},
+  {"image": "09.png", "chapter": "Aspirinin hikâyesi", "text": "Aspirinin hikâyesi, söğüt kabuğuyla başlayan uzun bir araştırmaya dayanır."},
+  {"image": "10.png", "chapter": "Aspirinin hikâyesi", "text": "Doğru maddeler, doğru oranlarda ve doğru koşullarda bir araya getirilir."},
+  {"image": "11.png", "chapter": "Sorgulayan öğrenciler", "text": "Öğretmen gülümser: Aferin! Sizi sorgulayan insanlar olarak görmek istedim."},
+  {"image": "12.png", "chapter": "Bilgi ve emek", "text": "Tek bir ilaç bile binlerce insanın bilgisini ve emeğini gerektirir."},
+  {"image": "13.png", "chapter": "Ya insan?", "text": "Peki, bir aspirinden çok daha karmaşık olan insan?"},
+  {"image": "14.png", "chapter": "Ya insan?", "text": "Bedenimizde trilyonlarca hücre, uyum içinde çalışır."},
+  {"image": "15.png", "chapter": "Kâinattaki düzen", "text": "İslam inancında bu düzen, her şeyi bilen ve gücü yeten Allah'ın yaratışına işaret eder."},
+  {"image": "16.png", "chapter": "Mesaj", "text": "Bir aspirin bile tesadüfle oluşmaz. Düşün, soru sor, araştır."}
+ ]
+}

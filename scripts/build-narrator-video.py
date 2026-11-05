@@ -16,12 +16,12 @@ Kullanım:
 API anahtarı ortamdaki ağ vekili tarafından eklenir; ELEVENLABS_API_KEY
 tanımlıysa o kullanılır.
 """
+from PIL import Image
 import argparse, base64, csv, hashlib, json, os, shutil, subprocess, sys, urllib.error, urllib.request, zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'flow-hazirlik' / 'gunes-scuti'
-SEGMENTS = SITE / 'anlatim-sahneleri.json'
 VOICE_ID, VOICE_NAME, MODEL = 'JBFqnCBsd6RMkjVDRZzb', 'George', 'eleven_v4_turbo'
 FPS, W, H, MAX_SECONDS, TAIL = 30, 1280, 720, 8, 1.5
 VIDEO_NAME = 'gunes-scuti-tek-anlatici.mp4'
@@ -71,14 +71,20 @@ def tts(text, out):
 
 
 def main():
+    global SITE, VIDEO_NAME
     ap = argparse.ArgumentParser()
     ap.add_argument('--images', required=True, type=Path)
     ap.add_argument('--out', required=True, type=Path)
     ap.add_argument('--tts', action='store_true')
+    ap.add_argument('--site', type=Path, default=SITE, help='Sitedeki video klasörü (anlatim-sahneleri.json burada)')
     a = ap.parse_args()
+    SITE = a.site
+    raw = json.loads((SITE / 'anlatim-sahneleri.json').read_text())
+    meta = raw.get('meta', {}) if isinstance(raw, dict) else {}
+    segs = raw['segments'] if isinstance(raw, dict) else raw
+    VIDEO_NAME = meta.get('videoFile', VIDEO_NAME)
     out = a.out
     out.mkdir(parents=True, exist_ok=True)
-    segs = json.loads(SEGMENTS.read_text())
     text = ' '.join(s['text'] for s in segs)
     if a.tts:
         tts(text, out)
@@ -117,7 +123,8 @@ def main():
     for i, s in enumerate(segs):
         n = i + 1
         img = out / 'gorseller' / f'{n:02d}-gorsel.jpg'
-        shutil.copyfile(a.images / f"{s['sourceScene']:02d}-gorsel.jpg", img)
+        src = a.images / s['image'] if s.get('image') else a.images / f"{s['sourceScene']:02d}-gorsel.jpg"
+        Image.open(src).convert('RGB').save(img, quality=90)
         f0, f1 = frames[i], frames[i + 1]
         st, en = f0 / FPS, f1 / FPS
         count = f1 - f0
@@ -127,7 +134,7 @@ def main():
         run('ffmpeg', '-y', '-ss', f'{st:.3f}', '-to', f'{audio_end:.3f}', '-i', str(out / 'anlatim.mp3'), '-c:a', 'libmp3lame', '-b:a', '128k', str(sound))
         (out / f'{n:02d}-seslendirme.txt').write_text(s['text'] + '\n')
         scenes.append({'number': n, 'speaker': 'Anlatıcı', 'text': s['text'], 'chapter': s['chapter'],
-                       'sourceScene': s['sourceScene'], 'imageFile': f'gorseller/{n:02d}-gorsel.jpg', 'image': f'gorseller/{n:02d}-gorsel.jpg',
+                       'sourceScene': s.get('sourceScene'), 'sourceImage': s.get('image'), 'imageFile': f'gorseller/{n:02d}-gorsel.jpg', 'image': f'gorseller/{n:02d}-gorsel.jpg',
                        'audioFile': f'sesler/{n:02d}-anlatici.mp3', 'speechTextFile': f'{n:02d}-seslendirme.txt',
                        'startFrame': f0, 'endFrame': f1, 'startSeconds': st, 'endSeconds': en, 'durationSeconds': en - st,
                        'imageSha256': sha(img), 'audioDurationSeconds': duration(sound), 'maxSeconds': MAX_SECONDS})
@@ -155,8 +162,9 @@ def main():
     for name in ('ozgun-metin.txt', 'OKU.md'):
         shutil.copyfile(SITE / name, out / name)
 
-    data = {'id': 'gunes-scuti-kesif', 'title': 'Güneş ve UY Scuti', 'order': 2,
-            'adaptation': 'Özgün metin ayrı dosyada korunur. Bu tek anlatıcılı uyarlamada bütün konu başlıkları kısaltılarak işlenmiş, bilimsel düzeltmeler korunmuştur. Bilimsel açıklamalar ve İslam inancına ilişkin yorumlar ayrılır.',
+    data = {'id': meta.get('id', 'gunes-scuti-kesif'), 'title': meta.get('title', 'Güneş ve UY Scuti'), 'order': meta.get('order', 2),
+            'adaptation': meta.get('adaptation', 'Özgün metin ayrı dosyada korunur. Bu tek anlatıcılı uyarlamada bütün konu başlıkları kısaltılarak işlenmiş, bilimsel düzeltmeler korunmuştur. Bilimsel açıklamalar ve İslam inancına ilişkin yorumlar ayrılır.'),
+            'message': meta.get('message'),
             'sourceSha256': sha(SITE / 'ozgun-metin.txt'), 'voiceName': VOICE_NAME, 'model': MODEL,
             'format': 'single-narrator', 'audioMode': 'continuous', 'speaker': 'Anlatıcı',
             'fullAudioFile': 'anlatim.mp3', 'videoFile': VIDEO_NAME, 'fps': FPS, 'frameCount': frames[-1],
