@@ -4,7 +4,7 @@ require('./helpers/audio-harness.cjs')(async({page,base,errors,missing})=>{
  assert.equal(await page.locator('[data-intro-player]').count(),2);assert.equal(await page.locator('[data-opening-order]').count(),2);assert.equal(await page.locator('.opening-series-grid').count(),0);
  assert.equal(await page.locator('[data-intro-player]').evaluateAll(vs=>vs.every(v=>v.preload==='none')),true);
  assert((await page.locator('#journey-intro-video source').getAttribute('src')).includes('tek-anlatici.mp4'));
- assert((await page.locator('#journey-intro-video-2 source').getAttribute('src')).includes('gunes-scuti-tam-video.mp4'));
+ assert((await page.locator('#journey-intro-video-2 source').getAttribute('src')).includes('gunes-scuti-tek-anlatici.mp4'));
  await page.locator('#journey-intro-video').evaluate(v=>v.play());await page.waitForFunction(()=>document.querySelector('#journey-intro-video').currentTime>.2);assert(Math.abs(await page.locator('#journey-intro-video').evaluate(v=>v.duration)-first.durationSeconds)<.1);
  await page.locator('#journey-intro-video-2').evaluate(v=>v.play());await page.waitForFunction(()=>document.querySelector('#journey-intro-video-2').currentTime>.2);assert(await page.locator('#journey-intro-video').evaluate(v=>v.paused));
  await page.locator('#journey-intro-video').evaluate(v=>v.play());assert(await page.locator('#journey-intro-video-2').evaluate(v=>v.paused));

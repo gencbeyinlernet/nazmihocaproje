@@ -1,16 +1,20 @@
-# Güneş ve UY Scuti · 2. video
+# Güneş ve UY Scuti · Tek anlatıcılı sürüm
 
-74 ayrı görsel sahne; 73 konuşma ve 4 saniyelik konuşmasız kapanış. Her sahne en fazla 8 saniyedir. Görsellerdeki kişiler kurgusaldır. Görseller ve karakter sesleri yapay zekâ ile oluşturulmuştur; uzay ve yıldız karşılaştırmaları temsili görselleştirmelerdir.
+29 görsel sahne, tek ve kesintisiz anlatım. Konuşan karakter veya karşılıklı diyalog yoktur. Görseller anlatılan konuya göre değişir; hafif kamera hareketi kullanılır. Son sahnede anlatım bittikten sonra kısa bir sessiz kapanış vardır. Her sahne 8 saniyeden kısadır.
 
-## Kurgu
+Ses: ElevenLabs API, eleven_v4_turbo, George. Sürekli kayıt anlatim.mp3 dosyasıdır. Videoda bu kayıt tek parça olarak kullanılır; görsel geçişlerinde ses yeniden başlatılmaz. Sahne sınırları, ElevenLabs'ın verdiği karakter zamanlamasıyla cümle aralarına yerleştirilir. sesler klasöründeki kayıtlar, aynı sürekli kayıttan alınan sahne kesitleridir. Ek müzik kullanılmamıştır.
 
-01-gorsel.jpg → 01-seslendirme.txt → sesler/01-murat-ogretmen.mp3. Aynı numarayı taşıyan dosyalar eşleşir. Son sahnede konuşma/ses dosyası yoktur. Her kayıt kendi karakterine aittir. Seslendirme: ElevenLabs, dört ayrı hazır ses. Videoda müzik veya ek ses efekti kullanılmamıştır.
+Görseller önceki diyalog sürümünün uzay, doğa ve nesne sahnelerinden seçilmiştir; konuşan öğrenci ve öğretmen görselleri kullanılmamıştır. Her sahnenin özgün görsel numarası sahneler.json içindeki sourceScene alanındadır. Önceki dört karakterli diyalog sürümü arsiv/gunes-scuti-diyalog klasöründe korunur.
+
+Üretim: scripts/build-gunes-scuti-narrator.py. Anlatım metni anlatim-sahneleri.json dosyasındadır; metin değişirse betik --tts ile yeniden çalıştırılır.
 
 ## Kaynak ve uyarlama
 
-Yüklenen belgenin çıkarılan özgün metni ozgun-metin.txt dosyasında korunur. Bu video birebir okuma değildir: bütün konu başlıklarını kapsayan, bilimsel düzeltmeler içeren diyalog uyarlamasıdır. Paragraf-sahne eşleştirmesi kapsam.md dosyasındadır. Bilimsel açıklamalarla İslam inancına ilişkin yorumlar birbirinden ayrılmıştır. Farklı inançlardan insanlar hakkında aşağılayıcı genellemeler kullanılmamıştır.
+Yüklenen belgenin çıkarılan özgün metni ozgun-metin.txt dosyasında korunur. Bu sürüm birebir okuma değildir: bütün konu başlıklarını kısaltarak işleyen, bilimsel düzeltmeler içeren tek anlatıcılı bir uyarlamadır. Bilimsel açıklamalarla İslam inancına ilişkin yorumlar birbirinden ayrılmıştır.
 
-Güneş'te literal hidrojen bombaları yapılmaz; çekirdekte füzyon gerçekleşir. Tüp dükkânı benzetmesi Güneş'in patlamak zorunda olduğunu göstermez; kütleçekim ve basınç yaklaşık dengededir. Uzaya yayılan enerji yok olmaz. Bomba eşdeğerleri seçilen patlama enerjisine bağlıdır. Saatte 200 km ile 150 milyon km yaklaşık 85,56 yıldır (yuvarlanmış 86 yıl). Dev yıldızların hacim oranları yarıçap ölçümlerine ve belirsizliklerine bağlıdır; kesin kütle oranları değildir. Çar Bombası için kaynak metindeki 57 megaton ve yaygın yaklaşık 50 megaton tahminleri ayrıştırılır. 965 km ifadesi ateş topunun çapı olarak sunulmaz.
+Güneş'te yapılmış bombalar yoktur; çekirdekte doğal füzyon gerçekleşir. Tüp dükkânı benzetmesi Güneş'in patlamak zorunda olduğunu göstermez; kütleçekim ve basınç dengededir. Uzaya yayılan enerji yok olmaz. Kaynak metindeki "bir milyar atom bombası" ifadesi yerine, Hiroşima türü bomba ölçü alınarak saniyede yaklaşık altı trilyon bomba karşılaştırması verilir. Saatte 200 km ile 150 milyon km yaklaşık 85,6 yıldır (yuvarlanmış 86 yıl). Dev yıldızların hacim oranları yarıçap tahminlerine dayanır; kütle oranı değildir ve ölçümler değişebilir. Çar Bombası için yaygın yaklaşık 50 megaton ve eski 57 megaton tahminleri ayrıştırılır. 965 km ifadesi ateş topunun çapı olarak sunulmaz.
+
+Görseller ve ses yapay zekâ ile oluşturulmuştur. Uzay görselleri temsilidir. Seslendirme: https://elevenlabs.io/
 
 ## Başvuru bağlantıları
 
@@ -18,5 +22,3 @@ Güneş'te literal hidrojen bombaları yapılmaz; çekirdekte füzyon gerçekle�
 - OpenStax, Astronomy 2e: https://openstax.org/details/books/astronomy-2e
 - CTBTO, tarihsel nükleer test kayıtları: https://www.ctbto.org/
 - Kullanıcının belgesindeki karşılaştırma bağlantısı: https://uzay.yetkinforum.com/t167-uy-scuti
-
-Bu bağlantılar ek inceleme içindir. Forum görseli tek başına güncel ve kesin bir ölçüm kaynağı olarak kullanılmamıştır.
