@@ -1,0 +1,1 @@
+varlığı başka bir varlığa bağlı değildir. O, yaratılmamış yaratıcıdır.
