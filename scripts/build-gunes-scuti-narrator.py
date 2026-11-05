@@ -25,8 +25,8 @@ SEGMENTS = SITE / 'anlatim-sahneleri.json'
 VOICE_ID, VOICE_NAME, MODEL = 'JBFqnCBsd6RMkjVDRZzb', 'George', 'eleven_v4_turbo'
 FPS, W, H, MAX_SECONDS, TAIL = 30, 1280, 720, 8, 1.5
 VIDEO_NAME = 'gunes-scuti-tek-anlatici.mp4'
-SUB_STYLE = ('FontName=DejaVu Sans,Fontsize=15,Bold=1,PrimaryColour=&H00FFFFFF,BackColour=&H99000000,'
-             'OutlineColour=&H99000000,BorderStyle=4,Outline=6,Shadow=0,MarginV=18,MarginL=40,MarginR=40,Alignment=2')
+SUB_STYLE = ('FontName=DejaVu Sans,Fontsize=15,Bold=1,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,'
+             'BackColour=&H80000000,BorderStyle=1,Outline=1.2,Shadow=0.8,MarginV=20,MarginL=40,MarginR=40,Alignment=2')
 
 
 def sha(path):
