@@ -1,6 +1,6 @@
 # Bir Aspirin Bile · Tek anlatıcılı sürüm
 
-16 görsel sahne, tek ve kesintisiz anlatım. Konuşan karakter veya karşılıklı diyalog yoktur; öğretmen ile öğrencilerin konuşması anlatıcı tarafından aktarılır. Her sahne 8 saniyeden kısadır. Türkçe altyazı videonun üstüne yazılıdır.
+25 görsel sahne, tek ve kesintisiz anlatım. Konuşan karakter veya karşılıklı diyalog yoktur; öğretmen ile öğrencilerin konuşması anlatıcı tarafından aktarılır. Her sahne 8 saniyeden kısadır. Türkçe altyazı videonun üstüne yazılıdır.
 
 Ses: ElevenLabs API, eleven_v4_turbo, George. Görseller: Figma yapay zekâ görsel aracı ile üretilmiştir; kişiler kurgusaldır. Üretim: scripts/build-narrator-video.py --site flow-hazirlik/aspirin.
 

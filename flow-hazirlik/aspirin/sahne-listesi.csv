@@ -1,17 +1,26 @@
 ﻿Sahne,Başlangıç,Bitiş,Konu,Anlatım,Görsel,Ses
-1,0.0,4.9,Bir soru,"Cansız elementler, tesadüfen bir araya gelip bir aspirin yapabilir mi?",gorseller/01-gorsel.jpg,sesler/01-anlatici.mp3
-2,4.9,8.666666666666666,Düşünce deneyi,"Bir öğretmen, öğrencilerine ilginç bir hikâye anlatır.",gorseller/02-gorsel.jpg,sesler/02-anlatici.mp3
-3,8.666666666666666,13.566666666666666,Düşünce deneyi,Bir gün şiddetli bir rüzgârla laboratuvarın penceresi ardına kadar açılır.,gorseller/03-gorsel.jpg,sesler/03-anlatici.mp3
-4,13.566666666666666,17.966666666666665,Düşünce deneyi,"Raflardaki kavanozlar devrilir, içindeki maddeler masaya dökülür.",gorseller/04-gorsel.jpg,sesler/04-anlatici.mp3
-5,17.966666666666665,22.366666666666667,Düşünce deneyi,"Ve dökülen maddeler, kendiliğinden aspirine dönüşür. Öyle mi?",gorseller/05-gorsel.jpg,sesler/05-anlatici.mp3
-6,22.366666666666667,26.566666666666666,Öğrencilerin itirazı,"Öğrenciler gülerek itiraz eder: Hocam, böyle bir şey olur mu?",gorseller/06-gorsel.jpg,sesler/06-anlatici.mp3
-7,26.566666666666666,32.13333333333333,İlaç nasıl yapılır?,"Haklıdırlar. İlaçlar, bilim insanlarının yıllar süren çalışmalarıyla geliştirilir.",gorseller/07-gorsel.jpg,sesler/07-anlatici.mp3
-8,32.13333333333333,36.96666666666667,İlaç nasıl yapılır?,"Gözlem yapılır, deneyler tekrarlanır, sonuçlar dikkatle incelenir.",gorseller/08-gorsel.jpg,sesler/08-anlatici.mp3
-9,36.96666666666667,41.96666666666667,Aspirinin hikâyesi,"Aspirinin hikâyesi, söğüt kabuğuyla başlayan uzun bir araştırmaya dayanır.",gorseller/09-gorsel.jpg,sesler/09-anlatici.mp3
-10,41.96666666666667,46.93333333333333,Aspirinin hikâyesi,"Doğru maddeler, doğru oranlarda ve doğru koşullarda bir araya getirilir.",gorseller/10-gorsel.jpg,sesler/10-anlatici.mp3
-11,46.93333333333333,52.2,Sorgulayan öğrenciler,Öğretmen gülümser: Aferin! Sizi sorgulayan insanlar olarak görmek istedim.,gorseller/11-gorsel.jpg,sesler/11-anlatici.mp3
-12,52.2,56.8,Bilgi ve emek,Tek bir ilaç bile binlerce insanın bilgisini ve emeğini gerektirir.,gorseller/12-gorsel.jpg,sesler/12-anlatici.mp3
-13,56.8,60.56666666666667,Ya insan?,"Peki, bir aspirinden çok daha karmaşık olan insan?",gorseller/13-gorsel.jpg,sesler/13-anlatici.mp3
-14,60.56666666666667,64.33333333333333,Ya insan?,"Bedenimizde trilyonlarca hücre, uyum içinde çalışır.",gorseller/14-gorsel.jpg,sesler/14-anlatici.mp3
-15,64.33333333333333,70.2,Kâinattaki düzen,"İslam inancında bu düzen, her şeyi bilen ve gücü yeten Allah'ın yaratışına işaret eder.",gorseller/15-gorsel.jpg,sesler/15-anlatici.mp3
-16,70.2,77.03333333333333,Mesaj,"Bir aspirin bile tesadüfle oluşmaz. Düşün, soru sor, araştır.",gorseller/16-gorsel.jpg,sesler/16-anlatici.mp3
+1,0.0,5.033333333333333,Bir soru,"Cansız elementler, tesadüfen bir araya gelip bir aspirin yapabilir mi?",gorseller/01-gorsel.jpg,sesler/01-anlatici.mp3
+2,5.033333333333333,8.966666666666667,Düşünce deneyi,"Bir öğretmen, öğrencilerine ilginç bir hikâye anlatır.",gorseller/02-gorsel.jpg,sesler/02-anlatici.mp3
+3,8.966666666666667,13.8,Düşünce deneyi,Bir gün şiddetli bir rüzgârla laboratuvarın penceresi ardına kadar açılır.,gorseller/03-gorsel.jpg,sesler/03-anlatici.mp3
+4,13.8,18.266666666666666,Düşünce deneyi,"Raflardaki kavanozlar devrilir, içindeki maddeler masaya dökülür.",gorseller/04-gorsel.jpg,sesler/04-anlatici.mp3
+5,18.266666666666666,22.566666666666666,Düşünce deneyi,"Ve dökülen maddeler, kendiliğinden aspirine dönüşür. Öyle mi?",gorseller/05-gorsel.jpg,sesler/05-anlatici.mp3
+6,22.566666666666666,26.766666666666666,Öğrencilerin itirazı,"Öğrenciler gülerek itiraz eder: Hocam, böyle bir şey olur mu?",gorseller/06-gorsel.jpg,sesler/06-anlatici.mp3
+7,26.766666666666666,32.43333333333333,Öğrencilerin itirazı,"Gerçekte rastgele dökülen maddeler birbirine karışır; düzen değil, dağınıklık oluşur.",gorseller/07-gorsel.jpg,sesler/07-anlatici.mp3
+8,32.43333333333333,38.2,İlaç nasıl yapılır?,"Haklıdırlar. İlaçlar, bilim insanlarının yıllar süren çalışmalarıyla geliştirilir.",gorseller/08-gorsel.jpg,sesler/08-anlatici.mp3
+9,38.2,43.0,İlaç nasıl yapılır?,"Gözlem yapılır, deneyler tekrarlanır, sonuçlar dikkatle incelenir.",gorseller/09-gorsel.jpg,sesler/09-anlatici.mp3
+10,43.0,47.7,Aspirinin hikâyesi,İnsanlar binlerce yıl önce söğüt kabuğunu ağrıya karşı kullandı.,gorseller/10-gorsel.jpg,sesler/10-anlatici.mp3
+11,47.7,53.833333333333336,Aspirinin hikâyesi,"On dokuzuncu yüzyılın sonunda kimyagerler, bu maddeyi daha güvenli hâle getirmek için çalıştı.",gorseller/11-gorsel.jpg,sesler/11-anlatici.mp3
+12,53.833333333333336,59.63333333333333,Aspirinin hikâyesi,"Aspirin molekülünde dokuz karbon, sekiz hidrojen ve dört oksijen atomu vardır.",gorseller/12-gorsel.jpg,sesler/12-anlatici.mp3
+13,59.63333333333333,64.33333333333333,Aspirinin hikâyesi,"Bu atomların her biri, belirli bir yerde ve belirli bağlarla durmalıdır.",gorseller/13-gorsel.jpg,sesler/13-anlatici.mp3
+14,64.33333333333333,70.3,Aspirinin hikâyesi,"Doğru maddeler; doğru oranda, doğru sıcaklıkta ve doğru sürede bir araya getirilir.",gorseller/14-gorsel.jpg,sesler/14-anlatici.mp3
+15,70.3,75.66666666666667,Sorgulayan öğrenciler,Öğretmen gülümser: Aferin! Sizi sorgulayan insanlar olarak görmek istedim.,gorseller/15-gorsel.jpg,sesler/15-anlatici.mp3
+16,75.66666666666667,80.43333333333334,Bilgi ve emek,Tek bir ilaç bile binlerce insanın bilgisini ve emeğini gerektirir.,gorseller/16-gorsel.jpg,sesler/16-anlatici.mp3
+17,80.43333333333334,85.26666666666667,Bilgi ve emek,"Yeni bir ilaç, insanlara sunulmadan önce yıllar süren testlerden geçer.",gorseller/17-gorsel.jpg,sesler/17-anlatici.mp3
+18,85.26666666666667,90.9,Bilgi ve emek,"Aspirin de her ilaç gibi, doktor ya da eczacı önerisiyle kullanılmalıdır.",gorseller/18-gorsel.jpg,sesler/18-anlatici.mp3
+19,90.9,94.86666666666666,Ya insan?,"Peki, bir aspirinden çok daha karmaşık olan insan?",gorseller/19-gorsel.jpg,sesler/19-anlatici.mp3
+20,94.86666666666666,98.66666666666667,Ya insan?,"Bedenimizde trilyonlarca hücre, uyum içinde çalışır.",gorseller/20-gorsel.jpg,sesler/20-anlatici.mp3
+21,98.66666666666667,104.0,Ya insan?,"Her hücrede, bedenin nasıl kurulacağını anlatan DNA bilgisi saklıdır.",gorseller/21-gorsel.jpg,sesler/21-anlatici.mp3
+22,104.0,108.93333333333334,Ya insan?,Beynimizde yaklaşık seksen altı milyar sinir hücresi birbiriyle haberleşir.,gorseller/22-gorsel.jpg,sesler/22-anlatici.mp3
+23,108.93333333333334,113.63333333333334,Ya insan?,"Kalbimiz, biz farkında olmadan, günde yaklaşık yüz bin kez atar.",gorseller/23-gorsel.jpg,sesler/23-anlatici.mp3
+24,113.63333333333334,119.93333333333334,Kâinattaki düzen,"İslam inancında bu düzen, her şeyi bilen ve gücü yeten Allah'ın yaratışına işaret eder.",gorseller/24-gorsel.jpg,sesler/24-anlatici.mp3
+25,119.93333333333334,126.96666666666667,Mesaj,"Bir aspirin bile tesadüfle oluşmaz. Düşün, soru sor, araştır.",gorseller/25-gorsel.jpg,sesler/25-anlatici.mp3
