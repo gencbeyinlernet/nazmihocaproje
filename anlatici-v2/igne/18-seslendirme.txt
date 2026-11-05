@@ -1,0 +1,1 @@
+Bir tablo, onu yapan ressamı gösterir. Eseri görüp sanatçıyı yok sayamayız.
