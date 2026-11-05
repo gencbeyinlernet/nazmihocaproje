@@ -25,6 +25,8 @@ SEGMENTS = SITE / 'anlatim-sahneleri.json'
 VOICE_ID, VOICE_NAME, MODEL = 'JBFqnCBsd6RMkjVDRZzb', 'George', 'eleven_v4_turbo'
 FPS, W, H, MAX_SECONDS, TAIL = 30, 1280, 720, 8, 1.5
 VIDEO_NAME = 'gunes-scuti-tek-anlatici.mp4'
+SUB_STYLE = ('FontName=DejaVu Sans,Fontsize=15,Bold=1,PrimaryColour=&H00FFFFFF,BackColour=&H99000000,'
+             'OutlineColour=&H99000000,BorderStyle=4,Outline=6,Shadow=0,MarginV=18,MarginL=40,MarginR=40,Alignment=2')
 
 
 def sha(path):
@@ -37,6 +39,21 @@ def run(*cmd):
 
 def duration(path):
     return float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', str(path)]))
+
+
+def render_scene(pipe, img_path, count, zoom_in, zoom=0.06):
+    """Hafif ve yumuşak yakınlaşma: kesirli kırpma kutusu + Lanczos örnekleme."""
+    from PIL import Image
+    src = Image.open(img_path).convert('RGB')
+    sw, sh = src.size
+    for k in range(count):
+        p = k / max(count - 1, 1)
+        p = p * p * (3 - 2 * p)  # yumuşak başlayıp yumuşak biten hareket
+        z = 1 + zoom * (p if zoom_in else 1 - p)
+        cw, ch = sw / z, sh / z
+        x0, y0 = (sw - cw) / 2, (sh - ch) / 2
+        frame = src.resize((W, H), Image.Resampling.LANCZOS, box=(x0, y0, x0 + cw, y0 + ch))
+        pipe.write(frame.tobytes())
 
 
 def tts(text, out):
@@ -88,9 +105,15 @@ def main():
     if too_long:
         sys.exit(f'8 saniyeyi aşan sahneler: {too_long}. Bu cümleleri kısaltıp yeniden üretin.')
 
-    for d in ('gorseller', 'sesler', '.klipler'):
+    for d in ('gorseller', 'sesler'):
         (out / d).mkdir(exist_ok=True)
-    scenes, clips = [], []
+    video = out / VIDEO_NAME
+    silent = out / '.sessiz.mp4'
+    # Kareler Python'da piksel altı hassasiyetle hesaplanır; ffmpeg zoompan'ın
+    # tam piksele yuvarlamasından doğan titreme oluşmaz.
+    enc = subprocess.Popen(['ffmpeg', '-y', '-v', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
+                            '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', '-an', str(silent)], stdin=subprocess.PIPE)
+    scenes = []
     for i, s in enumerate(segs):
         n = i + 1
         img = out / 'gorseller' / f'{n:02d}-gorsel.jpg'
@@ -98,13 +121,7 @@ def main():
         f0, f1 = frames[i], frames[i + 1]
         st, en = f0 / FPS, f1 / FPS
         count = f1 - f0
-        # Dönüşümlü hafif yakınlaşma / uzaklaşma.
-        z = f"1+0.06*on/{count}" if n % 2 else f"1.06-0.06*on/{count}"
-        clip = out / '.klipler' / f'{n:02d}.mp4'
-        run('ffmpeg', '-y', '-loop', '1', '-framerate', str(FPS), '-i', str(img),
-            '-vf', f"scale={W*2}:{H*2},zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps={FPS},format=yuv420p",
-            '-frames:v', str(count), '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-an', str(clip))
-        clips.append(clip)
+        render_scene(enc.stdin, img, count, zoom_in=bool(n % 2))
         audio_end = min(en, audio_len)
         sound = out / 'sesler' / f'{n:02d}-anlatici.mp3'
         run('ffmpeg', '-y', '-ss', f'{st:.3f}', '-to', f'{audio_end:.3f}', '-i', str(out / 'anlatim.mp3'), '-c:a', 'libmp3lame', '-b:a', '128k', str(sound))
@@ -115,18 +132,20 @@ def main():
                        'startFrame': f0, 'endFrame': f1, 'startSeconds': st, 'endSeconds': en, 'durationSeconds': en - st,
                        'imageSha256': sha(img), 'audioDurationSeconds': duration(sound), 'maxSeconds': MAX_SECONDS})
 
-    lst = out / '.klipler' / 'liste.txt'
-    lst.write_text(''.join(f"file '{c.name}'\n" for c in clips))
-    video = out / VIDEO_NAME
-    run('ffmpeg', '-y', '-f', 'concat', '-safe', '0', '-i', str(lst), '-i', str(out / 'anlatim.mp3'),
-        '-filter_complex', f'[1:a]apad=whole_dur={total:.3f}[a]', '-map', '0:v', '-map', '[a]',
-        '-c:v', 'copy', '-c:a', 'aac', '-b:a', '128k', '-t', f'{frames[-1] / FPS:.3f}', '-movflags', '+faststart', str(video))
-    shutil.rmtree(out / '.klipler')
-
+    enc.stdin.close()
+    if enc.wait():
+        sys.exit('Video kodlanamadı')
     def ts(t):
         return f'{int(t // 3600):02d}:{int(t % 3600 // 60):02d}:{t % 60:06.3f}'
     (out / 'altyazi.vtt').write_text('WEBVTT\n\n' + '\n'.join(
         f"{s['number']}\n{ts(s['startSeconds'])} --> {ts(min(s['endSeconds'], audio_len + .3))}\n{s['text']}\n" for s in scenes))
+    # Türkçe altyazı videonun üstüne yazılır; her oynatıcıda ve indirilen dosyada görünür.
+    run('ffmpeg', '-y', '-i', str(silent), '-i', str(out / 'anlatim.mp3'),
+        '-filter_complex', f"[0:v]subtitles=f={out / 'altyazi.vtt'}:force_style='{SUB_STYLE}'[v];[1:a]apad=whole_dur={total:.3f}[a]",
+        '-map', '[v]', '-map', '[a]', '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p',
+        '-c:a', 'aac', '-b:a', '128k', '-t', f'{frames[-1] / FPS:.3f}', '-movflags', '+faststart', str(video))
+    silent.unlink()
+
     with open(out / 'sahne-listesi.csv', 'w', newline='', encoding='utf-8-sig') as f:
         w = csv.writer(f)
         w.writerow(['Sahne', 'Başlangıç', 'Bitiş', 'Konu', 'Anlatım', 'Görsel', 'Ses'])
