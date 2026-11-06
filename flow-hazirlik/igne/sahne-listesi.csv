@@ -1,24 +1,32 @@
 ﻿Sahne,Başlangıç,Bitiş,Konu,Anlatım,Görsel,Ses
-1,0.0,4.666666666666667,Bir soru,"Bir iğne, ustasız ve tesadüfen, kendi kendine oluşabilir mi?",gorseller/01-gorsel.jpg,sesler/01-anlatici.mp3
-2,4.666666666666667,10.533333333333333,Atomlar,"Her madde atomlardan oluşur. Atomlar, gözle görülemeyecek kadar küçüktür.",gorseller/02-gorsel.jpg,sesler/02-anlatici.mp3
-3,10.533333333333333,14.366666666666667,Atomlar,"Sıradan bir iğne, yalnızca yüzde yedi gram kadar gelir.",gorseller/03-gorsel.jpg,sesler/03-anlatici.mp3
-4,14.366666666666667,18.533333333333335,Atomlar,"Ama içinde, yedi yüz kentilyondan fazla demir atomu bulunur.",gorseller/04-gorsel.jpg,sesler/04-anlatici.mp3
-5,18.533333333333335,23.433333333333334,Atomlar,"Hiçbir demir atomunun aklı, bilgisi ya da bir plan kurma gücü yoktur.",gorseller/05-gorsel.jpg,sesler/05-anlatici.mp3
-6,23.433333333333334,27.3,İğneyi kim yapar?,Bu atomlar kendi kendine dizilip bir iğneye dönüşmez.,gorseller/06-gorsel.jpg,sesler/06-anlatici.mp3
-7,27.3,32.56666666666667,İğneyi kim yapar?,"İğne; bilgisi, aleti ve malzemesi olan insanlar tarafından üretilir.",gorseller/07-gorsel.jpg,sesler/07-anlatici.mp3
-8,32.56666666666667,36.56666666666667,İğneyi kim yapar?,"Aynı demirden arabalar, trenler ve uçaklar da yapılır.",gorseller/08-gorsel.jpg,sesler/08-anlatici.mp3
-9,36.56666666666667,38.833333333333336,Bahçe duvarı,Şimdi bir bahçe duvarını düşünelim.,gorseller/09-gorsel.jpg,sesler/09-anlatici.mp3
-10,38.833333333333336,43.86666666666667,Bahçe duvarı,Tuğlalar kendi yerlerini bilemez; bir anda sıçrayıp üst üste dizilemez.,gorseller/10-gorsel.jpg,sesler/10-anlatici.mp3
-11,43.86666666666667,47.666666666666664,Bahçe duvarı,"Duvar, bilgisi ve emeği olan bir ustanın eseridir.",gorseller/11-gorsel.jpg,sesler/11-anlatici.mp3
-12,47.666666666666664,53.833333333333336,Bahçe duvarı,"İslam inancında, dünyayı bitkilerle, ağaçlarla ve çiçeklerle donatan Allah'tır.",gorseller/12-gorsel.jpg,sesler/12-anlatici.mp3
-13,53.833333333333336,59.93333333333333,Elementler,"Bilinen yüz on sekiz element vardır. Demir, altın ve gümüş bunlardan bazılarıdır.",gorseller/13-gorsel.jpg,sesler/13-anlatici.mp3
-14,59.93333333333333,65.03333333333333,Elementler,Su ise element değildir; hidrojen ve oksijenin birleşmesiyle oluşur.,gorseller/14-gorsel.jpg,sesler/14-anlatici.mp3
-15,65.03333333333333,70.66666666666667,Elementler,"Dağlar, denizler, bitkiler, hayvanlar ve insanlar elementlerden oluşur.",gorseller/15-gorsel.jpg,sesler/15-anlatici.mp3
-16,70.66666666666667,74.56666666666666,Elementler,"Güneş, Ay ve yıldızlar da elementlerden meydana gelir.",gorseller/16-gorsel.jpg,sesler/16-anlatici.mp3
-17,74.56666666666666,80.8,Elementler,"Peki akıl ve bilinç sahibi insan, cansız elementlerin rastgele birleşmesi olabilir mi?",gorseller/17-gorsel.jpg,sesler/17-anlatici.mp3
-18,80.8,86.46666666666667,Sanat eseri,"Bir tablo, onu yapan ressamı gösterir. Eseri görüp sanatçıyı yok sayamayız.",gorseller/18-gorsel.jpg,sesler/18-anlatici.mp3
-19,86.46666666666667,90.46666666666667,Dünya uçağı,"Bir uçak da kendi kendine oluşmaz, kendi kendine uçmaz.",gorseller/19-gorsel.jpg,sesler/19-anlatici.mp3
-20,90.46666666666667,94.73333333333333,Dünya uçağı,En büyük yolcu uçakları bile ancak birkaç yüz yolcu taşır.,gorseller/20-gorsel.jpg,sesler/20-anlatici.mp3
-21,94.73333333333333,101.06666666666666,Dünya uçağı,Dünya ise sekiz milyardan fazla insanı ve sayısız canlıyı taşıyarak uzayda yol alır.,gorseller/21-gorsel.jpg,sesler/21-anlatici.mp3
-22,101.06666666666666,105.93333333333334,Mesaj,"İslam inancında bu düzen, Allah'ın ilmine ve kudretine işaret eder.",gorseller/22-gorsel.jpg,sesler/22-anlatici.mp3
-23,105.93333333333334,113.0,Mesaj,"Her eser bir ustayı gösterir. Küçük bir iğneden başla, düşünmeye devam et.",gorseller/23-gorsel.jpg,sesler/23-anlatici.mp3
+1,0.0,4.4,Bir soru,"Bir iğne, ustasız ve tesadüfen, kendi kendine oluşabilir mi?",gorseller/01-gorsel.jpg,sesler/01-anlatici.mp3
+2,4.4,8.766666666666667,Bir soru,İnsanlar on binlerce yıl önce bile kemikten iğneler yaptı.,gorseller/02-gorsel.jpg,sesler/02-anlatici.mp3
+3,8.766666666666667,14.166666666666666,Atomlar,"Her madde atomlardan oluşur. Atomlar, gözle görülemeyecek kadar küçüktür.",gorseller/03-gorsel.jpg,sesler/03-anlatici.mp3
+4,14.166666666666666,17.933333333333334,Atomlar,"Sıradan bir iğne, yalnızca yüzde yedi gram kadar gelir.",gorseller/04-gorsel.jpg,sesler/04-anlatici.mp3
+5,17.933333333333334,22.133333333333333,Atomlar,"Ama içinde, yedi yüz kentilyondan fazla demir atomu bulunur.",gorseller/05-gorsel.jpg,sesler/05-anlatici.mp3
+6,22.133333333333333,26.833333333333332,Atomlar,"Hiçbir demir atomunun aklı, bilgisi ya da bir plan kurma gücü yoktur.",gorseller/06-gorsel.jpg,sesler/06-anlatici.mp3
+7,26.833333333333332,30.6,İğneyi kim yapar?,Bu atomlar kendi kendine dizilip bir iğneye dönüşmez.,gorseller/07-gorsel.jpg,sesler/07-anlatici.mp3
+8,30.6,36.833333333333336,İğneyi kim yapar?,"Bugünkü iğneler çeliktendir. Çelik, demirin çok yüksek sıcaklıkta işlenmesiyle elde edilir.",gorseller/08-gorsel.jpg,sesler/08-anlatici.mp3
+9,36.833333333333336,42.13333333333333,İğneyi kim yapar?,"İğne; bilgisi, aleti ve malzemesi olan insanlar tarafından üretilir.",gorseller/09-gorsel.jpg,sesler/09-anlatici.mp3
+10,42.13333333333333,49.166666666666664,İğneyi kim yapar?,"Tel çekilir, kesilir, ucu sivriltilir, deliği açılır ve parlatılır. Her aşama bir plan ister.",gorseller/10-gorsel.jpg,sesler/10-anlatici.mp3
+11,49.166666666666664,53.2,İğneyi kim yapar?,"Aynı demirden arabalar, trenler ve uçaklar da yapılır.",gorseller/11-gorsel.jpg,sesler/11-anlatici.mp3
+12,53.2,55.43333333333333,Bahçe duvarı,Şimdi bir bahçe duvarını düşünelim.,gorseller/12-gorsel.jpg,sesler/12-anlatici.mp3
+13,55.43333333333333,60.13333333333333,Bahçe duvarı,Tuğlalar kendi yerlerini bilemez; bir anda sıçrayıp üst üste dizilemez.,gorseller/13-gorsel.jpg,sesler/13-anlatici.mp3
+14,60.13333333333333,66.73333333333333,Bahçe duvarı,"Tuğlaların ölçüsü, harcın kıvamı ve dizilişin sırası; hepsi ustanın bilgisiyle belirlenir.",gorseller/14-gorsel.jpg,sesler/14-anlatici.mp3
+15,66.73333333333333,70.63333333333334,Bahçe duvarı,"Duvar, bilgisi ve emeği olan bir ustanın eseridir.",gorseller/15-gorsel.jpg,sesler/15-anlatici.mp3
+16,70.63333333333334,76.66666666666667,Bahçe duvarı,"İslam inancında, dünyayı bitkilerle, ağaçlarla ve çiçeklerle donatan Allah'tır.",gorseller/16-gorsel.jpg,sesler/16-anlatici.mp3
+17,76.66666666666667,82.66666666666667,Elementler,"Bilinen yüz on sekiz element vardır. Demir, altın ve gümüş bunlardan bazılarıdır.",gorseller/17-gorsel.jpg,sesler/17-anlatici.mp3
+18,82.66666666666667,87.43333333333334,Elementler,Su ise element değildir; hidrojen ve oksijenin birleşmesiyle oluşur.,gorseller/18-gorsel.jpg,sesler/18-anlatici.mp3
+19,87.43333333333334,92.8,Elementler,"Dağlar, denizler, bitkiler, hayvanlar ve insanlar elementlerden oluşur.",gorseller/19-gorsel.jpg,sesler/19-anlatici.mp3
+20,92.8,99.43333333333334,Elementler,"İnsan bedeninin yaklaşık yüzde doksan altısı oksijen, karbon, hidrojen ve azottan oluşur.",gorseller/20-gorsel.jpg,sesler/20-anlatici.mp3
+21,99.43333333333334,103.4,Elementler,"Güneş, Ay ve yıldızlar da elementlerden meydana gelir.",gorseller/21-gorsel.jpg,sesler/21-anlatici.mp3
+22,103.4,109.4,Elementler,"Peki akıl ve bilinç sahibi insan, cansız elementlerin rastgele birleşmesi olabilir mi?",gorseller/22-gorsel.jpg,sesler/22-anlatici.mp3
+23,109.4,115.06666666666666,Sanat eseri,"Bir tablo, onu yapan ressamı gösterir. Eseri görüp sanatçıyı yok sayamayız.",gorseller/23-gorsel.jpg,sesler/23-anlatici.mp3
+24,115.06666666666666,119.06666666666666,Dünya uçağı,"Bir uçak da kendi kendine oluşmaz, kendi kendine uçmaz.",gorseller/24-gorsel.jpg,sesler/24-anlatici.mp3
+25,119.06666666666666,123.23333333333333,Dünya uçağı,En büyük yolcu uçakları bile ancak birkaç yüz yolcu taşır.,gorseller/25-gorsel.jpg,sesler/25-anlatici.mp3
+26,123.23333333333333,129.16666666666666,Dünya uçağı,Büyük bir yolcu uçağı milyonlarca parçadan oluşur; her parça bir mühendislik emeğidir.,gorseller/26-gorsel.jpg,sesler/26-anlatici.mp3
+27,129.16666666666666,135.33333333333334,Dünya uçağı,Dünya ise sekiz milyardan fazla insanı ve sayısız canlıyı taşıyarak uzayda yol alır.,gorseller/27-gorsel.jpg,sesler/27-anlatici.mp3
+28,135.33333333333334,140.43333333333334,Dünya uçağı,"Dünya, Güneş'in çevresinde saniyede yaklaşık otuz kilometre hızla yol alır.",gorseller/28-gorsel.jpg,sesler/28-anlatici.mp3
+29,140.43333333333334,146.66666666666666,Dünya uçağı,"Atmosfer, bu yolculukta bizi zararlı ışınlardan korur; havayı ve suyu yaşam için tutar.",gorseller/29-gorsel.jpg,sesler/29-anlatici.mp3
+30,146.66666666666666,151.56666666666666,Mesaj,"İslam inancında bu düzen, Allah'ın ilmine ve kudretine işaret eder.",gorseller/30-gorsel.jpg,sesler/30-anlatici.mp3
+31,151.56666666666666,158.33333333333334,Mesaj,"Her eser bir ustayı gösterir. Küçük bir iğneden başla, düşünmeye devam et.",gorseller/31-gorsel.jpg,sesler/31-anlatici.mp3

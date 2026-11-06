@@ -1,8 +1,8 @@
 # İğneden Kâinata · Tek anlatıcılı sürüm
 
-23 görsel sahne, tek ve kesintisiz anlatım. Konuşan karakter veya karşılıklı diyalog yoktur. Her sahne 8 saniyeden kısadır. Türkçe altyazı videonun üstüne yazılıdır.
+31 görsel sahne, tek ve kesintisiz anlatım. Konuşan karakter veya karşılıklı diyalog yoktur. Her sahne 8 saniyeden kısadır. Türkçe altyazı videonun üstüne yazılıdır.
 
-Ses: ElevenLabs API, eleven_v4_turbo, George. Görseller: 17 görsel Figma yapay zekâ görsel aracı ile üretilmiş, 6 görsel önceki İğneden Kâinata sürümünden alınmıştır; kişiler kurgusaldır. Belgedeki internet görselleri telif durumu belirsiz olduğu için kullanılmamıştır. Üretim: scripts/build-narrator-video.py --site flow-hazirlik/igne.
+Ses: ElevenLabs API, eleven_v4_turbo, George. Görseller: 25 görsel Figma yapay zekâ görsel aracı ile üretilmiş, 6 görsel önceki İğneden Kâinata sürümünden alınmıştır; kişiler kurgusaldır. Belgedeki internet görselleri telif durumu belirsiz olduğu için kullanılmamıştır. Üretim: scripts/build-narrator-video.py --site flow-hazirlik/igne.
 
 ## Kaynak ve uyarlama
 
