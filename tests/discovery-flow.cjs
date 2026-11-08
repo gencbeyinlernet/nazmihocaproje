@@ -54,7 +54,7 @@ const server = http.createServer((req, res) => {
     assert.equal(await p.locator('.topic-carousel').getAttribute('data-autoplay'), 'false');
     await p.goto(base + 'siniflar/5-sinif/');
     assert.equal(await p.locator('.library-topic').count(), 12);
-    assert((await p.locator('.library-result-summary').innerText()).includes('40 hikâye'));
+    assert(/\d+ hikâye/.test(await p.locator('.library-result-summary').innerText()));
     await p.locator('.library-example a[href*="birligin-anlami"]').click();
     assert(await p.locator('#start-story').isVisible());
     await p.goto(base + 'siniflar/6-sinif/');

@@ -1,0 +1,39 @@
+/* Sade görünüm: önceki stil katmanlarının üstüne yalnız sadeleştiren kurallar.
+   Kaldırılırsa site önceki görünümüne döner. */
+
+/* ---------- Ana sayfa ---------- */
+/* Önce başlık, sonra üç ana video; masaüstünde yan yana üç kart. */
+.journey-welcome-two-videos{grid-template-columns:1fr;min-height:0;gap:26px;padding:34px 0 20px}
+.journey-welcome-two-videos .journey-welcome-copy{text-align:center;max-width:720px;margin:0 auto}
+.journey-welcome-two-videos .journey-welcome-copy h1{margin:8px 0 12px}
+.journey-welcome-two-videos .journey-welcome-copy>p{margin:0 0 22px}
+.journey-welcome-two-videos .journey-welcome-copy>.journey-text-button{margin-inline:auto}
+.journey-welcome-two-videos .journey-welcome-video{grid-row:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding:0}
+.journey-welcome-two-videos .journey-welcome-video:before,.journey-welcome-two-videos .journey-welcome-video:after{display:none}
+.journey-featured-video{margin:0}
+.journey-featured-video-info{gap:6px}
+@media(max-width:980px){.journey-welcome-two-videos .journey-welcome-video{grid-template-columns:1fr;max-width:560px;margin:0 auto;width:100%}}
+@media(max-width:650px){.journey-welcome-two-videos{padding-top:22px}.journey-welcome-two-videos h1{font-size:34px;letter-spacing:-1px}}
+
+/* Paylaşım simgeleri kartlarda tek "Paylaş" düğmesinin altında. */
+.video-share.is-compact{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:12px 0 0}
+.video-share.is-compact .video-share-status{flex-basis:100%;min-height:0}
+.video-share.is-compact .video-share-status:empty{display:none}
+.video-share-more>summary{display:inline-flex;align-items:center;min-height:46px;padding:10px 18px;border:1px solid #cfdcd6;border-radius:13px;background:#fff;color:#176e72;font-weight:700;cursor:pointer;list-style:none}
+.video-share-more>summary::-webkit-details-marker{display:none}
+.video-share-more[open]>summary{background:#eef5f2}
+.video-share-more .video-share-social{margin-top:10px}
+
+/* ---------- Konu kartları (Hikâyeler, sınıf sayfaları) ---------- */
+/* Kartlar içeriği kadar uzun; düğmeler kartın dibine itilmez. */
+body .library-topic-list{align-items:start}
+body .library-topic .library-examples{flex:0 0 auto}
+body .library-topic .library-example{flex:0 0 auto}
+body .library-topic .library-example .button{margin-top:0}
+/* Tek ana düğme: video. "İzle ve dinle" ikincil (çerçeveli) görünür. */
+.library-topic .library-example .button.story-listen{background:#fff;color:#076b55;border:1px solid #b9d3c4;box-shadow:none}
+.library-topic .library-example .button.story-listen:hover{background:#f0f6f2}
+.library-topic .library-example .video-preparing{background:#f4f6f2;color:#6b7c63;border:1px dashed #c8d4c3;box-shadow:none}
+.video-share.is-compact .video-share-download{width:auto;flex:1 1 auto;justify-self:auto}
+.video-share.is-compact .video-share-more{flex:0 0 auto}
+.video-share.is-compact .video-share-more[open]{flex-basis:100%}
